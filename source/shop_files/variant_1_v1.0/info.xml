@@ -1,6 +1,6 @@
 <Info>
     <DefaultInclude>false</DefaultInclude>
-    <Description>Shop File (Variant 3)
+    <Description>Shop File (Variant 1)
         Modifies files for the in-game shop.
 
         Changes made by this mod:
@@ -8,13 +8,10 @@
         [*] All weapons are unlocked when player arrives in Banapur.
         [*] Unlocks the signature assault rifle ACE (signature variant of the A52) which was removed in the vanilla game.
         [*] Unlocks all available attachments for all weapons. Weapon slots are modded in a separate package.
-        [*] Reorders all weapons so that similar weapons are together i.e. all SMGs, all Shotguns, etc are grouped together.
-        [*] Weapons [b]do not[/b] unlock by liberating radio towers.
         [*] The sticky explosives and the Guns for hire token upgrades still require the 'Black Market' skill to unlock.
         [/list]
 
-        modded by LinkHero95.
-        credit to JRavens for his help.
+        Modded by JRavens. I have only packed it in the package format.
     </Description>
     <HeaderPicture1>topleft.png</HeaderPicture1>
     <HeaderPicture2>topright.png</HeaderPicture2>
