@@ -1,0 +1,283 @@
+<Info>
+    <DefaultInclude>false</DefaultInclude>
+    <Description>Weapon Base Files (Variant 2)
+        Modifies weapon properties files.
+
+        Changes made by this mod:
+        [list]
+        [*] Picking up weapons from deceased NPCs does not make them free in the shop.
+        [*] Picking up weapons from world drops does not make them free in the shop.
+        [*] The player can carry up to 2 kinds of each weapon in their inventory. For example, they can use 2 Z93s, althugh only one of them can be kitted out with attachments.
+        [*] NPC carried weapons have skightly different properties as compared to the regular weapons.
+        [*] All weapons have maximum number of attachment slots.
+        [/list]
+
+        Creator's Notes:
+        [list]
+		[*] This mod is compatible (and meant to be used) with one of the variants of the shop file. It is not necessary though.
+        [*] This mod works best when you start a new game. It has not been tested with existing save games. I do not know what will happen if this is used with an existing save game.
+        [*] This mod will clash with any mod which edits weapon files, notably any of the open world mods, or the competent weapons mod.
+        [*] This mod will also clash with any other mod which adds new files to the game via the entitylibrary.fcb file, until I figure out how to add code to the xml via the info.xml.
+        [*] This mod is [b]experimental[/b]. Some bugs may occur. If you do find anything amiss, contact me at my email linkhero95@gmail.com.
+        
+        [/list]
+
+
+        modded by LinkHero95.
+    </Description>
+    <!-- <HeaderPicture1>topleft.png</HeaderPicture1>
+    <HeaderPicture2>topright.png</HeaderPicture2> -->
+    <!-- <Dependencies>Script Loader</Dependencies> -->
+    <!-- <Category>3</Category> -->
+    <OwnCategory>Weapon Files</OwnCategory>
+    <Pairs>
+        <!-- Entity Library -->
+        <Pair>
+            <Source><![CDATA[generated/databases/generic/shoppingitems.ndb]]></Source>
+            <Target><![CDATA[generated/databases/generic/shoppingitems.ndb]]></Target>
+        </Pair>
+        <!-- Handguns -->
+        <!-- 1911 -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/02_1911_props_7602852762562.ark_converted.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/7602852762562.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+
+        <!-- SMGs -->
+        <!-- A2000 -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- BZ19 -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- Shotguns -->
+        <!-- M133 -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- Assault Rifles -->
+        <!-- AK47 -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- P416 -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- Sniper Rifles -->
+        <!-- SVD -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- Z93 -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- LMGs -->
+        <!-- PKM -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- Launchers -->
+        <!-- RPG-7 -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- Specials -->
+        <!-- Hunter Bow -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- Recurve Bow -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+        <!-- Flamethrower -->
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+        <Pair>
+            <Source><![CDATA[entityarchetypeslibrary/.fcb]]></Source>
+            <Target><![CDATA[entityarchetypeslibrary/.ark.fcb]]></Target>
+        </Pair>
+
+    </Pairs>
+</Info>
