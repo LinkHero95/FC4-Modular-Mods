@@ -1,0 +1,26 @@
+<Info>
+    <DefaultInclude>false</DefaultInclude>
+    <Description>Body Armour Durability Enhancement
+        Modifies the properties of the body armour
+
+        Changes made by this mod:
+        [list]
+        [*] Body Armour is not depleted by wild animal attacks.
+        [*] As a trade-off, body armour does not protect the player from wild animal attacks.
+        [*] The same properties apply to the knife attacks of the Royal Army Beheader.
+        [/list]
+
+		Version: 1.0 - FINAL
+        modded by LinkHero95.
+        credit to JRavens for his help.
+    </Description>
+    <!-- <Dependencies>Script Loader</Dependencies> -->
+    <!-- <Category>3</Category> -->
+    <OwnCategory>Gameplay Enhancements</OwnCategory>
+    <Pairs>
+        <Pair>
+            <Source><![CDATA[__UNKNOWN/misc/CA9404C47CCA18DE.maybe.rml]]></Source>
+            <Target><![CDATA[__UNKNOWN/misc/CA9404C47CCA18DE.maybe.rml]]></Target>
+        </Pair>
+    </Pairs>
+</Info>
