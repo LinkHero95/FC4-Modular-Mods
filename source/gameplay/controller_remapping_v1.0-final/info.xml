@@ -1,0 +1,20 @@
+<Info>
+    <DefaultInclude>false</DefaultInclude>
+    <Description>Controller Remapping
+        Changes the working of some controls in the game. All of these can be remapped to your specific configuration
+
+        Changes made by this mod:
+        [list]
+        [*] INTERACT: Press INTERACT KEY to use or pickup items. Press and hold INTERACT KEY to use grappling hook.
+        [*] RELOAD: Press RELOAD KEY to reload - press and hold RELOAD to bring up weapon wheel.
+        [*] HEAL: Press HEAL KEY to heal. Press and hold HEAL to bring up syringe wheel.
+        [*] HIDE HUD: Use the L key to hide your HUD completely (total immersion!)
+        [/list]
+
+		Version: 1.0 - FINAL
+        modded by JRavens.
+    </Description>
+    <!-- <Dependencies>Script Loader</Dependencies> -->
+    <!-- <Category>3</Category> -->
+    <OwnCategory>Gameplay Enhancements</OwnCategory>
+</Info>
