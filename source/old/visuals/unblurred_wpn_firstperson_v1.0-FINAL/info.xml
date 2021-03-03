@@ -1,0 +1,18 @@
+<Info>
+    <DefaultInclude>false</DefaultInclude>
+    <Description>Unblurred Weapon FOVs
+        This is a small file which disables blurry guns. 
+
+        modded by Dpagio1991. Converted to a3 format by LinkHero95.
+    </Description>
+    <HeaderPicture1>topleft.jpg</HeaderPicture1>
+    <!-- <Dependencies>Script Loader</Dependencies> -->
+    <!-- <Category>3</Category> -->
+    <OwnCategory>Visual Effects</OwnCategory>
+    <Pairs>
+        <Pair>
+            <Source><![CDATA[__UNKNOWN/misc/5C8CCADF9D542A47.Profile.xml]]></Source>
+            <Target><![CDATA[__UNKNOWN/misc/5C8CCADF9D542A47.Profile.xml]]></Target>
+        </Pair>
+    </Pairs>
+</Info>

@@ -1,0 +1,28 @@
+<Info>
+    <DefaultInclude>false</DefaultInclude>
+    <Description>Variable Price Changes
+	
+	Changes made by this mod:
+        [list]
+        [*] All items in the shop (buyavle or sellable) can have their prices changed.
+        [/list]
+
+		[size=1][color=lightgreen]Author: [/color][b]JRavens[/b][/size]
+		[size=1][color=lightgreen]Ported to the MI format by: [/color][b]LinkHero95.[/b][/size]
+	</Description>
+	<Options>
+		<Option name="Rope color">
+			<option name="FC4 color" value="1,0.55,0,1" />
+			<option name="Red" value="1,0,0,1" />
+			<option name="Blue" value="0,0,1,1" />
+			<option name="Green" value="0,1,0,1" />
+		</Option>
+		<Option name="Dope color">
+			<option name="FC4 color" value="1,0.55,0,1" />
+			<option name="Red" value="1,0,0,1" />
+			<option name="Blue" value="0,0,1,1" />
+			<option name="Green" value="0,1,0,1" />
+		</Option>
+	</Options>
+    <Category>3</Category>
+</Info>
