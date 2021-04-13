@@ -1,0 +1,19 @@
+<Info>
+    <DefaultInclude>true</DefaultInclude>
+    <Description>Entity Library File
+
+        This base package makes the entitylibrary.fcb able to be modified by a3 packages.
+  
+        [color=yellow]If a mod collides with this base package, then just simply disable this package, because a mod you want to use probably contains these files.[/color]
+
+        [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+    </Description>
+    <Category>10</Category>
+    <Pairs>
+        <Pair>
+            <FromDatFile>patch.fat</FromDatFile>
+            <Source><![CDATA[generated\worlds\fcc_main\entitylibrary.fcb]]></Source>
+            <Target><![CDATA[generated\worlds\fcc_main\entitylibrary.fcb]]></Target>
+        </Pair>
+    </Pairs>
+</Info>
