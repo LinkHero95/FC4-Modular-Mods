@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+    <DefaultInclude>false</DefaultInclude>
+    <Description>FC4 Open World: Signature weapon unlocker
+
+    Unlocks Signature Weapons in the shop
+
+    Changes made by this mod:
+    [list]
+    [*] All signature Weapons are available in the shop from the start.
+    [*] The LK1018 rocket launcher is available in the shop from the start.
+    [*] Neither the signature weapons nor the LK1018 is free in the shops; the player will still need to purchase these weapons from the shop to use them.
+    [/list] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/1251163][b]jvarnes[/b][/url][/size] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/71678078][b]Amichai-Oz Yannai[/b][/url][/size] [size=1][color=lightgreen]Splitting and Modularization: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+    </Description>
+    <Dependencies>BP Templates</Dependencies>>
+    <Category>3</Category>
+
+    <Replaces>
+        <Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb">
+            <object hash="589D5D0A" name="OpenWorldUnlocks">
+                <object hash="BD7D8F2A" name="UnlocksList">
+                    <!-- Shredder -->
+                    <object hash="6D48B5D9" name="Unlock" count="0">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Stinger -->
+                    <object hash="6D48B5D9" name="Unlock" count="1">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Bull -->
+                    <object hash="6D48B5D9" name="Unlock" count="2">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- '87 -->
+                    <object hash="6D48B5D9" name="Unlock" count="3">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Bushman -->
+                    <object hash="6D48B5D9" name="Unlock" count="4">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Cannon -->
+                    <object hash="6D48B5D9" name="Unlock" count="12">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Rebel -->
+                    <object hash="6D48B5D9" name="Unlock" count="13">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- HS77 -->
+                    <object hash="6D48B5D9" name="Unlock" count="14">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Trooper -->
+                    <object hash="6D48B5D9" name="Unlock" count="15">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Ripper -->
+                    <object hash="6D48B5D9" name="Unlock" count="16">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Buzzsaw -->
+                    <object hash="6D48B5D9" name="Unlock" count="17">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Predator -->
+                    <object hash="6D48B5D9" name="Unlock" count="18">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- AMR -->
+                    <object hash="6D48B5D9" name="Unlock" count="19">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Stormer -->
+                    <object hash="6D48B5D9" name="Unlock" count="106">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- Warrior -->
+                    <object hash="6D48B5D9" name="Unlock" count="107">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- LK-1018 -->
+                    <object hash="6D48B5D9" name="Unlock" count="108">
+                        <object hash="DA1B02DB" name="UnlockCondition">
+                            <!-- <field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field> -->
+                            <object hash="2BAED5E2" name="StatCondition">
+                                <field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+                            </object>
+                        </object>
+                    </object>
+
+                    <!-- testing -->
+                    <object hash="6D48B5D9" name="Unlock" count="109">
+                    </object>
+                </object>
+            </object>
+        </Replace>
+    </Replaces>
+</InfoReplace>
