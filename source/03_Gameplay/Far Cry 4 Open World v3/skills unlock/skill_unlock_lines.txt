@@ -1,71 +1,97 @@
+Tiger:
 SP_FastAimedReload
+Unlock 02
 164984
 
 SP_QuickReloadA+B
+Unlock 03
 165009
 
 SP_BetterBowHandling
+Unlock 05
 165059
 
 SP_SniperHoldBreathA
+Unlock 06
 165084
 
 SP_ReducedFallDamage
+Unlock 09
 165159
 
 SP_LongerSprintBurst
+Unlock 11
 165209
 
 SP_CoverTakedown
+Unlock 14
 165284
 
 SP_GrenadeTakedown
+Unlock 15
 165309
 
 SP_ChainTakedown
+Unlock 17
 165359
 
 SP_DrivingTakedown
+Unlock 19
 165409
 
 SP-betterarmor or something
+Unlock
 165484
 
 SP_HeavyUnitTakedown
+Unlock 23
 165509
 
+Elephant: 
 SP_AddHealthSlotC
+Unlock 02
 165618
 
 SP_AddHealthSlotD
+Unlock 03
 165643
 
 SP_IncreaseManualHealB
+Unlock 06
 165725
 
 SP_IncreaseMedkitHealB
+Unlock 07
 165750
 
 SP_KarmaBoost
+Unlock 09
 165825
 
 SP_UnlockSyringeOverdose
+Unlock 11
 165850
 
 SP_HunterSyringeUpgrade
+Unlock 14
 165918
 
 SP_TigerSyringeTimerUpgrade_b
+Unlock 15
 165950
 
 SP_StaminaSyringeUpgrade
+Unlock 18
 166025
 
 SP_ElephantSyringeTimerUpgrade_b
+Unlock 19
 166050
 
 SP_LeopardSyringeUpgrade
+Unlock 22
 166118
 
 SP_LeopardSyringeTimerUpgrade_b
+Unlock 23
 166150
