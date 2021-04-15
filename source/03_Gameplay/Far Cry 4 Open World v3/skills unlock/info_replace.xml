@@ -25,7 +25,97 @@
 
     <Replaces>
         <Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb">
+			<object hash="E6E07252" name="Single_Player">
+				<object hash="3E572127" name="Chapters">
+					<object hash="07E7DFB5" name="ChapterList">
+						<!-- Tiger Skill Tree -->
+						<object hash="3E572127" name="Chapters" count="3">
+							<object hash="3C541623" name="BasicAbilities">
+								<object hash="E8D70A41" name="SkillsList">
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
 
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+								</object>
+							</object>
+						</object>
+
+						<!-- Elephant Skill Tree -->
+						<object hash="3E572127" name="Chapters" count="4">
+							<object hash="3C541623" name="BasicAbilities">
+								<object hash="E8D70A41" name="SkillsList">
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+
+									<object hash="A920C2D1" name="AbilityType" count="0">
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
         </Replace>
     </Replaces>
 </InfoReplace>
