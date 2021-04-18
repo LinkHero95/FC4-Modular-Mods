@@ -661,8 +661,8 @@
     <ShopTypeDatas>
       <ShopTypeData shptypShopType="1" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="2" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
-      <ShopTypeData shptypShopType="4" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
-      <ShopTypeData shptypShopType="5" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="4" buyValue="1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
@@ -2567,7 +2567,9 @@
     <ShopTypeDatas>
       <ShopTypeData shptypShopType="1" buyValue="125000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866560178293" />
       <ShopTypeData shptypShopType="2" buyValue="125000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866560178293" />
-      <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="4" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+	  <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
   </Generic>
@@ -6285,6 +6287,8 @@
     <ShopTypeDatas>
       <ShopTypeData shptypShopType="1" buyValue="0" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866560178293" />
       <ShopTypeData shptypShopType="2" buyValue="0" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866560178293" />
+      <ShopTypeData shptypShopType="4" buyValue="200" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="200" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,90" vectorFullscreenCenterOffset="0,0,0" />

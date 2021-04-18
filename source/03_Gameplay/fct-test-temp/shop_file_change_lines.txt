@@ -1,529 +1,532 @@
-
+Explosive arrow
 18
 
-
+Fire arrow
 34
 
-
+Black Eagle Feather
 422
 
-
+Black Eagle Feather Cost
 430-433
 
-
+Demon Fish Skin
 454
 
-
+DLC Yeti Loot
 486
 
-
+DLC Yeti Loot Cost
 494-495
 
-
+Rare Elephant Skin Cost
 664-665
 
-
+700 Nitro
 1102
 
-
+700 Nitro Skin 6 Cost
 1207-1208
 
-
+A52
 1281
 
-
+A52 Display
 1283
 
-
+A52 Suppressor
 1477
 
-
+A52 Suppressor Cost
 1486-1489
 
-
+AK47
 1494
 
-
+AK47 Display
 1496
 
-
+AK47 Extended Magazine Cost
 1614-1617
 
-
+AK47 ACOG
 1622
 
-
+AK47 ACOG Cost
 1631-1634
 
-
+AK47 Optical
 1639
 
-
+AK47 Optical Cost
 1648-1651
 
-
+AK47 Red Dot
 1656
 
-
+AK47 Red Dot Cost
 1665-1668
 
-
+AK47 Reflex
 1673
 
-
+AK47 Reflex Cost
 1682-1685
 
-
+AK47 Suppressor
 1690
 
-
+AK47 Suppressor
 1699-1702
 
-
+F1
 1707
 
-
+F1 ACOG
 1835
 
-
+F1 ACOG Cost
 1844-1847
 
-
+F1 Optical
 1852
 
-
+F1 Optical Cost
 1861-1864
 
-
+F1 Red Dot Cost
 1880-1881
 
-
+MS16
 1920
 
-
+MS16 ACOG
 2048
 
-
+MS16 ACOG Cost
 2057-2060
 
-
+P416
 2133
 
-
+P416 Suppressor
 2329
 
-
+P416 Suppressor Cost
 2338-2341
 
-
+STG-90
 2346
 
-
+STG-90 Display
 2348
 
-
+STG-90 ACOG
 2474
 
-
+STG-90 ACOG Cost
 2483-2486
 
-
+STG-90 Optical
 2491
 
-
+STG-90 Optical
 2500-2503
 
-
+STG-90 Red Dot Cost
 2517-2520
 
-
+STG-90 Reflex
 2525
 
-
+STG-90 Reflex Cost
 2534-2537
 
-
+STG-90 Suppressor
 2542
 
-
+STG-90 Suppressor Cost
 2551-2554
 
-
+Elephant Gun
 2559
 
-
+Elephant Gun Cost
 2570-2571
 
-
+Warrior
 2576
 
-
+Warrior Display
 2578
 
-
+Ajay House Upgrade 12 Cost
 2924
 
-
+Black Market GFH Token
 2994
 
-
+GFH Token Upgrade 1
 3008
 
-
+GFH Token Upgrade 2
 3022
 
-
+GFH Token Upgrade 3
 3036
 
-
+GFH Upgrade 1
 3050
 
-
+GFH Upgrade 2
 3064
 
-
+GFH Upgrade 3 Cut
 3078
 
-
+Sticky C4 Upgrade
 3090
 
-
+Sticky Grenade Upgrade
 3104
 
-
+Sticky Mine Upgrade
 3118
 
-
+Wingsuit
 3132
 
-
+DLC Skill points
 3720-3731
 
-
+DLC 700 Nitro
 3732
 
+DLC A52
+3747
 
+DLC AK47
 3762
 
-
+DLC F1 
 3777
 
-
+DLC MS16
 3792
 
-
+DLC P416
 3807
 
-
+DLC STG-90
 3822
 
-
+DLC .44 Magnum
 3837
 
-
+DLC 6P9
 3853
 
-
+DLC A99
 3868
 
-
+DLC D50
 3883
 
-
+DLC 1911
 3898
 
-
+DLC M712
 3913
 
-
+DLC Mark IV
 3928
 
-
+DLC GL-A87
 3943
 
-
+DLC GL-94
 3958
 
-
+DLC LK1018
 3973
 
-
+DLC M79
 3988
 
-
+DLC RPG-7
 4003
 
-
+DLC MG42
 4018
 
-
+DLC MKG
 4033
 
-
+DLC PKM
 4048
 
-
+DLC U100
 4063
 
-
+DLC 1887
 4078
 
-
+DLC D2
 4093
 
-
+DLC M133
 4108
 
-
+DLC SPAS12
 4123
 
-
+DLC AMR
 4138
 
-
+DLC Bull
 4153
 
-
+DLC Buzzsaw
 4168
 
-
+DLC Cannon
 4183
 
-
+DLC Predator
 4198
 
-
+DLC Warrior
 4213
 
-
+DLC A2000
 4228
 
-
+DLC BZ19
 4243
 
-
+DLC Vector 45ACP
 4258
 
-
+DLC MP34
 4273
 
-
+DLC MP5
 4288
 
-
+DLC Skorpion
 4303
 
-
+DLC M700
 4318
 
-
+DLC SA50
 4333
 
-
+DLC SVD
 4348
 
-
+DLC Z93
 4363
 
-
+DLC Auto Cross
 4378
 
-
+DLC Flamethrower
 4393
 
-
+DLC Flare Gun
 4408
 
-
+DLC Hunter Bow
 4423
 
-
+DLC Recurve Bow
 4438
 
-
+DLC Harpoon
 4453
 
-
+DLC Sticky C4 Upgrade
 4468
 
-
+DLC Sticky Grenade Upgrade
 4482
 
-
+DLC Sticky Mine Upgrade
 4496
 
-
+DLC Wingsuit
 4510
 
-
+6P9
 4810
 
-
+A99
 4972
 
-
+A99 Iron
 5092-5095
 
-
+A99 ACOG
 5117
 
-
+A99 ACOG Cost
 5126-5129
 
-
+D50
 5202
 
-
+D50 ACOG
 5347
 
-
+D50 ACOG Cost
 5356-5359
 
-
+44 Magnum
 5415
 
-
+44 Magnum Extended Barrel Cost
 5536-5539
 
-
+44 Magnum ACOG
 5561
 
-
+44 Magnum ACOG Cost
 5570-5573
 
-
+44 Magnum Optical
 5578
 
-
+44 Magnum Optical Cost
 5587-5590
 
-
+1911
 5629
 
-
+1911 ACOG
 5774
 
-
+1911 ACOG Cost
 5783-5786
 
-
+1911 Optical
 5791
 
-
+1911 Optical Cost
 5800-5803
 
-
+1911 Red Dot
 5808
 
-
+1911 Red Dot Cost
 5817-5820
 
-
+1911 Reflex
 5825
 
-
+1911 Reflex Cost
 5834-5837
 
-
+1911 Suppressor
 5842
 
-
+1911 Suppressor Cost
 5851-5854
 
-
+M712 Skin B Cost
 5900-5901
 
-
+M712 Extended Magazine Cost
 5979-5982
 
-
+Mark IV
 6004
 
-
+Mark IV Night Cost
 6124-6127
 
-
+AJM9 Cost
 6141-6144
 
-
+Sandman
 6279
 
+Sandman Cost
+6290-6291**
 
-6290-6291
-
-
+GL-A87
 6296
 
-
+GL-94
 6407
 
-
+M79
 6518
 
-
+M79 Skin A
 6533
 
-
+LK1018
 6629
 
-
+LK1018 LCAM Cost
 6655-6656
 
-
+RPG-7
 6757
 
-
+MG42
 6844
 
-
+MKG
 7040
 
-
+PKM Extended Magazine
 7356-7359
 
-
+PKM ACOG
 7364
 
-
+PKM ACOG Cost
 7373-7376
 
-
+PKM Optical
 7381
 
-
+PKM Optical Cost
 7390-7393
 
-
+PKM Red Dot Cost
 7407-7410
 
-
+PKM Reflex
 7415
 
-
+PKM Reflex Cost
 7424-7427
 
-
+U100
 7432
 
-
+U100 ACOG
 7560
 
-
+U100 ACOG Cost
 7569-7572
 
-
+Bridge 01 Loot Item Cost
 7638-7639
 
-
+Bridge 02 Loot Item Cost
 7654-7655
 
-
+Bridge 03 Loot Item Cost
 7670-7671
 
-
+Special Sherpa 01 Loot Item Cost
 9642-9643
 
-
+1887
 11266
 
 
