@@ -13,7 +13,15 @@
     Other Information:
     [list]
     [*] This mod is part of jvarnes' Open World Mod.
-    [*] This mod is co-op friendly. [/list] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/1251163][b]jvarnes[/b][/url][/size] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/71678078][b]Amichai-Oz Yannai[/b][/url][/size] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+    [*] This mod is co-op friendly.
+	[/list]
+	
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/1251163][b]jvarnes[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/71678078][b]Amichai-Oz Yannai[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
+	[/list]
 	</Description>
 	<Dependencies>BP Templates</Dependencies>>
 	<Category>3</Category>
