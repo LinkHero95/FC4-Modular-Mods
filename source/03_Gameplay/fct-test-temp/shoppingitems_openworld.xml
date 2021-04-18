@@ -11553,6 +11553,71 @@
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
   </Generic>
+  <!--<Generic disLibItemId="7840389218670" Name="Shotguns/D2 barrel length extension" hidGUID_Legacy="{CB423913-F5DC-4DE3-8676-5033D3AD5C97}" hidSingleObject="0" bCanBeShared="1" hidName="Shotguns/D2 barrel length extension" disId="1881" locidItemNameId="82902" shpcatCategory="255" shpscataSubCategory1="255" shpscatbSubCategory2="255" shpitpeItemType="255" shpisubtpeItemSubType="255" locidDescriptionId="82908" locidBuyConditionId="819885328" locidRecommendedUse="636710512" locidLockText="496489984" bIsSingleHanded="0" locidWeaponTypeText="720312864" selAttachmentType="2" ammoAmmoType="none" iAmmoAmount="0" selGadgetType="0" arkArchetype="7793085310232" fRotationSpeed="0.2" fRotationAmplitude="0.03" sName="" fRefillAllAmmoCostMultiplier="1" iXPOnLoot="0" iKarmaOnLoot="0" iSortId="0" UnlockOnMissionComplete="" UnlockFromScript="" ecoUnlockFromShopItem="0" sUnlocksAbility="" bVisibleWhenLocked="0" bVisibleInInventory="0" bShowCurrentCount="0" sShopIconName="ExtendedBarrel" sHudIconName="" bIsLootItem="0" bIsTreasureMap="0" bIsRareItem="0" selCollectibleType="3" bIsWeaponStatistics="1" sULC_Name="" wikiItemId="4294967295" sStatStringToUpdate="">
+    <WeaponStatistics iAccuracy="1" iDammage="1" iRange="1" iFireRate="0" iHandling="0" iStarRating="0.5" iStarRatingBonus="0" />
+    <DefaultPositionOnScreen vectorDisplayDefaultPosition="-0.004,-0.263,0.289" DisplayDefaultAngles="14.43,-8.91,100.49" vectorDisplayDefaultPositionWithSilencer="0,0,0" DisplayDefaultAnglesWithSilencer="0,0,0" />
+    <CategoryPositionOnScreen bDisplayAsDefaultItem="0" vectorDisplayDefaultCategoryPosition="0,0,0" DisplayDefaultCategoryAngles="0,0,0">
+      <DefaultAttachmentsNames>
+        <DefaultAttachmentName Name="" />
+      </DefaultAttachmentsNames>
+    </CategoryPositionOnScreen>
+    <ShopTypeDatas>
+      <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+    </ShopTypeDatas>
+    <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
+  </Generic>
+  <Generic disLibItemId="7840389086561" Name="Shotguns/D2 iron sight" hidGUID_Legacy="{48157D78-9D11-4361-9DC4-8A376C8C0DEA}" hidSingleObject="0" bCanBeShared="1" hidName="Shotguns/D2 iron sight" disId="1877" locidItemNameId="82895" shpcatCategory="255" shpscataSubCategory1="255" shpscatbSubCategory2="255" shpitpeItemType="255" shpisubtpeItemSubType="255" locidDescriptionId="82910" locidBuyConditionId="1278311328" locidRecommendedUse="636725136" locidLockText="496537200" bIsSingleHanded="0" locidWeaponTypeText="720359552" selAttachmentType="1" ammoAmmoType="none" iAmmoAmount="0" selGadgetType="0" arkArchetype="7707923215031" fRotationSpeed="0.2" fRotationAmplitude="0.03" sName="" fRefillAllAmmoCostMultiplier="1" iXPOnLoot="0" iKarmaOnLoot="0" iSortId="2" UnlockOnMissionComplete="" UnlockFromScript="" ecoUnlockFromShopItem="0" sUnlocksAbility="" bVisibleWhenLocked="0" bVisibleInInventory="0" bShowCurrentCount="0" sShopIconName="NightSight" sHudIconName="" bIsLootItem="0" bIsTreasureMap="0" bIsRareItem="0" selCollectibleType="3" bIsWeaponStatistics="1" sULC_Name="" wikiItemId="4294967295" sStatStringToUpdate="">
+    <WeaponStatistics iAccuracy="0" iDammage="0" iRange="0" iFireRate="0" iHandling="0" iStarRating="0" iStarRatingBonus="0" />
+    <DefaultPositionOnScreen vectorDisplayDefaultPosition="0,0,0" DisplayDefaultAngles="0,0,0" vectorDisplayDefaultPositionWithSilencer="0,0,0" DisplayDefaultAnglesWithSilencer="0,0,0" />
+    <CategoryPositionOnScreen bDisplayAsDefaultItem="0" vectorDisplayDefaultCategoryPosition="0,0,0" DisplayDefaultCategoryAngles="0,0,0">
+      <DefaultAttachmentsNames>
+        <DefaultAttachmentName Name="" />
+      </DefaultAttachmentsNames>
+    </CategoryPositionOnScreen>
+    <ShopTypeDatas>
+      <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+    </ShopTypeDatas>
+    <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
+  </Generic>
+  <Generic disLibItemId="7840389160619" Name="Shotguns/D2 larger mag" hidGUID_Legacy="{D7552FFC-CECF-43CC-92E6-D247E8D8FC4E}" hidSingleObject="0" bCanBeShared="1" hidName="Shotguns/D2 larger mag" disId="1878" locidItemNameId="82893" shpcatCategory="255" shpscataSubCategory1="255" shpscatbSubCategory2="255" shpitpeItemType="255" shpisubtpeItemSubType="255" locidDescriptionId="82906" locidBuyConditionId="1274496576" locidRecommendedUse="636739760" locidLockText="496543456" bIsSingleHanded="0" locidWeaponTypeText="720373472" selAttachmentType="5" ammoAmmoType="none" iAmmoAmount="0" selGadgetType="0" arkArchetype="7674510304021" fRotationSpeed="0.2" fRotationAmplitude="0.03" sName="" fRefillAllAmmoCostMultiplier="1" iXPOnLoot="0" iKarmaOnLoot="0" iSortId="1" UnlockOnMissionComplete="" UnlockFromScript="" ecoUnlockFromShopItem="0" sUnlocksAbility="" bVisibleWhenLocked="0" bVisibleInInventory="0" bShowCurrentCount="0" sShopIconName="ExtendedMagazine" sHudIconName="" bIsLootItem="0" bIsTreasureMap="0" bIsRareItem="0" selCollectibleType="3" bIsWeaponStatistics="1" sULC_Name="" wikiItemId="4294967295" sStatStringToUpdate="">
+    <WeaponStatistics iAccuracy="0" iDammage="0" iRange="0" iFireRate="0" iHandling="0" iStarRating="0.5" iStarRatingBonus="0" />
+    <DefaultPositionOnScreen vectorDisplayDefaultPosition="0,0,0" DisplayDefaultAngles="0,0,0" vectorDisplayDefaultPositionWithSilencer="0,0,0" DisplayDefaultAnglesWithSilencer="0,0,0" />
+    <CategoryPositionOnScreen bDisplayAsDefaultItem="0" vectorDisplayDefaultCategoryPosition="0,0,0" DisplayDefaultCategoryAngles="0,0,0">
+      <DefaultAttachmentsNames>
+        <DefaultAttachmentName Name="" />
+      </DefaultAttachmentsNames>
+    </CategoryPositionOnScreen>
+    <ShopTypeDatas>
+      <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+    </ShopTypeDatas>
+    <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
+  </Generic>
+  <Generic disLibItemId="7840389169308" Name="Shotguns/D2 reflex A" hidGUID_Legacy="{A1C7B24C-EB0A-4A44-8908-0C03AA898DC5}" hidSingleObject="0" bCanBeShared="1" hidName="Shotguns/D2 reflex A" disId="1879" locidItemNameId="82897" shpcatCategory="255" shpscataSubCategory1="255" shpscatbSubCategory2="255" shpitpeItemType="255" shpisubtpeItemSubType="255" locidDescriptionId="82912" locidBuyConditionId="1264592944" locidRecommendedUse="636763184" locidLockText="496550416" bIsSingleHanded="0" locidWeaponTypeText="720396288" selAttachmentType="1" ammoAmmoType="none" iAmmoAmount="0" selGadgetType="0" arkArchetype="7738074021527" fRotationSpeed="0.2" fRotationAmplitude="0.03" sName="" fRefillAllAmmoCostMultiplier="1" iXPOnLoot="0" iKarmaOnLoot="0" iSortId="6" UnlockOnMissionComplete="" UnlockFromScript="" ecoUnlockFromShopItem="0" sUnlocksAbility="" bVisibleWhenLocked="0" bVisibleInInventory="0" bShowCurrentCount="0" sShopIconName="ReflexSight" sHudIconName="" bIsLootItem="0" bIsTreasureMap="0" bIsRareItem="0" selCollectibleType="3" bIsWeaponStatistics="1" sULC_Name="" wikiItemId="4294967295" sStatStringToUpdate="">
+    <WeaponStatistics iAccuracy="1" iDammage="0" iRange="0" iFireRate="0" iHandling="1" iStarRating="0.5" iStarRatingBonus="0" />
+    <DefaultPositionOnScreen vectorDisplayDefaultPosition="0,0,0" DisplayDefaultAngles="0,0,0" vectorDisplayDefaultPositionWithSilencer="0,0,0" DisplayDefaultAnglesWithSilencer="0,0,0" />
+    <CategoryPositionOnScreen bDisplayAsDefaultItem="0" vectorDisplayDefaultCategoryPosition="0,0,0" DisplayDefaultCategoryAngles="0,0,0">
+      <DefaultAttachmentsNames>
+        <DefaultAttachmentName Name="" />
+      </DefaultAttachmentsNames>
+    </CategoryPositionOnScreen>
+    <ShopTypeDatas>
+      <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+    </ShopTypeDatas>
+    <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
+  </Generic>
+  <Generic disLibItemId="7840389173980" Name="Shotguns/D2 reflex B" hidGUID_Legacy="{3D1F4E3D-2047-4CD8-BB51-317080614AFD}" hidSingleObject="0" bCanBeShared="1" hidName="Shotguns/D2 reflex B" disId="1880" locidItemNameId="82901" shpcatCategory="255" shpscataSubCategory1="255" shpscatbSubCategory2="255" shpitpeItemType="255" shpisubtpeItemSubType="255" locidDescriptionId="82913" locidBuyConditionId="1261352064" locidRecommendedUse="636802384" locidLockText="496589344" bIsSingleHanded="0" locidWeaponTypeText="720418304" selAttachmentType="1" ammoAmmoType="none" iAmmoAmount="0" selGadgetType="0" arkArchetype="7738074037280" fRotationSpeed="0.2" fRotationAmplitude="0.03" sName="" fRefillAllAmmoCostMultiplier="1" iXPOnLoot="0" iKarmaOnLoot="0" iSortId="7" UnlockOnMissionComplete="" UnlockFromScript="" ecoUnlockFromShopItem="0" sUnlocksAbility="" bVisibleWhenLocked="0" bVisibleInInventory="0" bShowCurrentCount="0" sShopIconName="HolographicSight" sHudIconName="" bIsLootItem="0" bIsTreasureMap="0" bIsRareItem="0" selCollectibleType="3" bIsWeaponStatistics="1" sULC_Name="" wikiItemId="4294967295" sStatStringToUpdate="">
+    <WeaponStatistics iAccuracy="1" iDammage="0" iRange="0" iFireRate="0" iHandling="1" iStarRating="0.5" iStarRatingBonus="0" />
+    <DefaultPositionOnScreen vectorDisplayDefaultPosition="0,0,0" DisplayDefaultAngles="0,0,0" vectorDisplayDefaultPositionWithSilencer="0,0,0" DisplayDefaultAnglesWithSilencer="0,0,0" />
+    <CategoryPositionOnScreen bDisplayAsDefaultItem="0" vectorDisplayDefaultCategoryPosition="0,0,0" DisplayDefaultCategoryAngles="0,0,0">
+      <DefaultAttachmentsNames>
+        <DefaultAttachmentName Name="" />
+      </DefaultAttachmentsNames>
+    </CategoryPositionOnScreen>
+    <ShopTypeDatas>
+      <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+    </ShopTypeDatas>
+    <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
+  </Generic>-->	
   <Generic disLibItemId="7655443768989" Name="Shotguns/M133" hidGUID_Legacy="{429994D7-B62E-4AFB-831B-6CAE8DB8BDA2}" hidSingleObject="0" bCanBeShared="1" hidName="Shotguns/M133" disId="274" locidItemNameId="43044" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="89" shpitpeItemType="66" shpisubtpeItemSubType="255" locidDescriptionId="42937" locidBuyConditionId="348159" locidRecommendedUse="636817008" locidLockText="194319" bIsSingleHanded="0" locidWeaponTypeText="283780" selAttachmentType="0" ammoAmmoType="none" iAmmoAmount="0" selGadgetType="0" arkArchetype="189158767856012825" fRotationSpeed="0.2" fRotationAmplitude="0.03" sName="" fRefillAllAmmoCostMultiplier="1" iXPOnLoot="0" iKarmaOnLoot="0" iSortId="13" UnlockOnMissionComplete="" UnlockFromScript="" ecoUnlockFromShopItem="0" sUnlocksAbility="" bVisibleWhenLocked="1" bVisibleInInventory="0" bShowCurrentCount="0" sShopIconName="M133" sHudIconName="" bIsLootItem="0" bIsTreasureMap="0" bIsRareItem="0" selCollectibleType="3" bIsWeaponStatistics="1" sULC_Name="" wikiItemId="58" sStatStringToUpdate="">
     <WeaponStatistics iAccuracy="2" iDammage="8" iRange="1" iFireRate="2" iHandling="6" iStarRating="2" iStarRatingBonus="0" />
     <DefaultPositionOnScreen vectorDisplayDefaultPosition="0.11,0.51,0.27" DisplayDefaultAngles="6.8,-5.43,110.24" vectorDisplayDefaultPositionWithSilencer="0,0,0" DisplayDefaultAnglesWithSilencer="0,0,0" />
@@ -11967,6 +12032,8 @@
     <ShopTypeDatas>
       <ShopTypeData shptypShopType="1" buyValue="0" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866560178293" />
       <ShopTypeData shptypShopType="2" buyValue="0" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866560178293" />
+      <ShopTypeData shptypShopType="4" buyValue="20" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="20" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />

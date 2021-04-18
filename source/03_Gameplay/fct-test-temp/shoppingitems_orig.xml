@@ -11772,6 +11772,10 @@
       </DefaultAttachmentsNames>
     </CategoryPositionOnScreen>
     <ShopTypeDatas>
+      <ShopTypeData shptypShopType="1" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="2" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="4" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
@@ -11785,6 +11789,10 @@
       </DefaultAttachmentsNames>
     </CategoryPositionOnScreen>
     <ShopTypeDatas>
+      <ShopTypeData shptypShopType="1" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="2" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="4" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
@@ -12362,6 +12370,10 @@
       </DefaultAttachmentsNames>
     </CategoryPositionOnScreen>
     <ShopTypeDatas>
+      <ShopTypeData shptypShopType="1" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="2" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="4" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
@@ -12375,6 +12387,10 @@
       </DefaultAttachmentsNames>
     </CategoryPositionOnScreen>
     <ShopTypeDatas>
+      <ShopTypeData shptypShopType="1" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="2" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="4" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
@@ -12567,6 +12583,10 @@
       </DefaultAttachmentsNames>
     </CategoryPositionOnScreen>
     <ShopTypeDatas>
+      <ShopTypeData shptypShopType="1" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="2" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="4" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />
@@ -12776,6 +12796,10 @@
       </DefaultAttachmentsNames>
     </CategoryPositionOnScreen>
     <ShopTypeDatas>
+      <ShopTypeData shptypShopType="1" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="2" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704" />
+      <ShopTypeData shptypShopType="4" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+      <ShopTypeData shptypShopType="5" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
       <ShopTypeData shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
     </ShopTypeDatas>
     <PositionOnFullScreen FullscreenpAngles="0,0,0" vectorFullscreenCenterOffset="0,0,0" />

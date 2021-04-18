@@ -304,7 +304,7 @@ DLC A2000
 DLC BZ19
 4243
 
-DLC Vector 45ACP
+DLC Vector
 4258
 
 DLC MP34
@@ -364,7 +364,7 @@ DLC Wingsuit
 A99
 4972
 
-A99 Iron
+A99 Night
 5092-5095
 
 A99 ACOG
@@ -529,227 +529,227 @@ Special Sherpa 01 Loot Item Cost
 1887
 11266
 
-
+D2
 11445
 
-
+D2 Attachments Data
 11556-11620**
 
-
+M133
 11621
 
-
+M133 Night 
 11741-11744
 
-
+M133 Extended Magazine
 11758-11761
 
-
+M133 Red Dot
 11766
 
-
+M133 Red Dot Cost
 11775-11778
 
-
+M133 Reflex
 11783
 
-
+M133 Reflex Cost
 11792-11795
 
-
+SPAS12
 11800
 
-
+SPAS12 Night Cost
 11922-11923
 
-
+SPAS12 Reflex Cost
 11973-11974
 
-
+Cannon
 11979
 
-
+ACE
 11994
 
-
+ACE Cost
 12003-12004
 
-
+Ripper
 12009
 
-
+Driller
 12024
 
-
+Driller Cost
 12035-12036**
 
-
+AMR
 12071
 
-
+Stormer
 12116
 
-
+Rebel
 12131
 
-
+Stinger
 12161
 
-
+Shredder
 12176
 
-
+Bushman
 12206
 
-
+Trooper
 12221
 
-
+A2000
 12236
 
-
+A2000 ACOG
 12364
 
-
+A2000 ACOG Cost
 12373-12376
 
-
+A2000 Optical
 12381
 
-
+A2000 Optical Cost	
 12390-12393
 
-
+A2000 Red Dot Cost
 12407-12410
 
-
+A2000 Suppressor Cost
 12441-12444
 
-
+BZ19
 12449
 
-
+BZ19 ACOG
 12577
 
-
+BZ19 ACOG Cost
 12586-12589
 
-
+Vector
 12662
 
-
+Vector ACOG
 12790
 
-
+Vector ACOG Cost
 12799-12802
 
-
+MP34
 12875
 
-
+MP34 Extended Magazine
 12995-12998
 
-
+MP5
 13003
 
-
+MP5 ACOG
 13131
 
-
+MP5 ACOG Cost
 13140-13143
 
-
+MP5 Optical
 13148
 
-
+MP5 Optical Cost
 13157-13160
 
-
+Skorpion
 13216
 
-
+Skorpion Extended Magazine Cost
 13336-13339
 
-
+Skorpion ACOG
 13344
 
-
+Skorpion ACOG Cost
 13353-13356
 
-
+Skorpion Optical
 13361
 
-
+Skorpion Optical Cost
 13370-13373
 
-
+Skorpion Red Dot
 13378
 
-
+Skorpion Red Dot Cost
 13387-13390
 
-
+Skorpion Reflex
 13395
 
-
+Skorpion Reflex Cost
 13404-13407
 
-
+Skorpion Suppressor Cost
 13421-13424
 
-
+SA50
 13429
 
-
+M700
 13608
 
-
+M700 Illuminated Cost
 13745-13748
 
-
+SVD
 13787
 
-
+SVD High Power Cost
 13907-13910
 
-
+SVD Illuminated
 13915
 
-
+SVD Illuminated
 13924-13927
 
-
+SVD Extended Magazine Cost
 13941-13944
 
-
+SVD Suppressor
 13949
 
-
+SVD Suppressor Cost
 13958-13961
 
-
+Z93
 13966
 
-
+Auto Cross
 14291
 
-
+Auto Cross ACOG
 14419
 
-
+Auto Cross ACOG Cost
 14428-14431
 
-
+Recurve Bow
 14487
 
-
+Hunter Bow
 14632
 
-
+Flare Gun
 14743
 
-
+Flamethrower
 14770
 
-
+Painted Pachyderms
 15075
