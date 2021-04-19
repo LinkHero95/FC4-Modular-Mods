@@ -1,0 +1,788 @@
+Handguns
+	6P9
+	4810
+
+	A99
+	4972
+
+	D50
+	5202
+
+	44 Magnum
+	5415
+
+	1911
+	5629
+
+	M712 Skin B Cost
+	5900-5901
+
+	Mark IV
+	6004
+
+	AJM9 Cost
+	6141-6144
+
+DLC Handguns
+	DLC .44 Magnum
+	3837
+
+	DLC 6P9
+	3853
+
+	DLC A99
+	3868
+
+	DLC D50
+	3883
+
+	DLC 1911
+	3898
+
+	DLC M712
+	3913
+
+	DLC Mark IV
+	3928
+
+SMGs
+	A2000
+	12236
+
+	BZ19
+	12449
+
+	Vector
+	12662
+
+	MP34
+	12875
+
+	MP5
+	13003
+
+	Skorpion
+	13216
+
+DLC SMGs
+	DLC A2000
+	4228
+
+	DLC BZ19
+	4243
+
+	DLC Vector
+	4258
+
+	DLC MP34
+	4273
+
+	DLC MP5
+	4288
+
+	DLC Skorpion
+	4303
+
+Shotguns
+	1887
+	11266
+
+	D2
+	11445
+
+	M133
+	11621
+
+	SPAS12
+	11800
+
+DLC Shotguns
+	DLC 1887
+	4078
+
+	DLC D2
+	4093
+
+	DLC M133
+	4108
+
+	DLC SPAS12
+	4123
+
+Assault Rifles
+	700 Nitro
+	1102
+
+	700 Nitro Skin 6 Cost
+	1207-1208
+
+	A52
+	1281
+
+	A52 Display
+	1283
+
+	AK47
+	1494
+
+	AK47 Display
+	1496
+
+	F1
+	1707
+
+	MS16
+	1920
+
+	P416
+	2133
+
+	STG-90
+	2346
+
+	STG-90 Display
+	2348
+
+DLC Assault Rifles
+	DLC 700 Nitro
+	3732
+
+	DLC A52
+	3747
+
+	DLC AK47
+	3762
+
+	DLC F1 
+	3777
+
+	DLC MS16
+	3792
+
+	DLC P416
+	3807
+
+	DLC STG-90
+	3822
+
+Sniper Rifles
+	SA50
+	13429
+
+	M700
+	13608
+
+	SVD
+	13787
+
+	Z93
+	13966
+
+DLC Sniper Rifles
+	DLC M700
+	4318
+
+	DLC SA50
+	4333
+
+	DLC SVD
+	4348
+
+	DLC Z93
+	4363
+
+LMGs
+	MG42
+	6844
+
+	MKG
+	7040
+
+	U100
+	7432
+
+DLC LMGs
+	DLC MG42
+	4018
+
+	DLC MKG
+	4033
+
+	DLC PKM
+	4048
+
+	DLC U100
+	4063
+
+Launchers
+	GL-A87
+	6296
+
+	GL-94
+	6407
+
+	M79
+	6518
+
+	M79 Skin A
+	6533
+
+	LK1018
+	6629
+
+	RPG-7
+	6757
+
+DLC Launchers
+	DLC GL-A87
+	3943
+
+	DLC GL-94
+	3958
+
+	DLC LK1018
+	3973
+
+	DLC M79
+	3988
+
+	DLC RPG-7
+	4003
+
+Special Weapons
+	Auto Cross
+	14291
+
+	Recurve Bow
+	14487
+
+	Hunter Bow
+	14632
+
+	Flare Gun
+	14743
+
+	Flamethrower
+	14770
+
+DLC Special Weapons
+	DLC Auto Cross
+	4378
+
+	DLC Flamethrower
+	4393
+
+	DLC Flare Gun
+	4408
+
+	DLC Hunter Bow
+	4423
+
+	DLC Recurve Bow
+	4438
+
+	DLC Harpoon
+	4453
+
+Signature Weapons
+	Elephant Gun
+	2559
+
+	Elephant Gun Cost
+	2570-2571
+
+	Warrior
+	2576
+
+	Warrior Display
+	2578
+
+	Sandman
+	6279
+
+	Sandman Cost
+	6290-6291**
+
+	Cannon
+	11979
+
+	ACE
+	11994
+
+	ACE Cost
+	12003-12004
+
+	Ripper
+	12009
+
+	Driller
+	12024
+
+	Driller Cost
+	12035-12036**
+
+	AMR
+	12071
+
+	Stormer
+	12116
+
+	Rebel
+	12131
+
+	Stinger
+	12161
+
+	Shredder
+	12176
+
+	Bushman
+	12206
+
+	Trooper
+	12221
+
+DLC Signature Weapons
+	DLC AMR
+	4138
+
+	DLC Bull
+	4153
+
+	DLC Buzzsaw
+	4168
+
+	DLC Cannon
+	4183
+
+	DLC Predator
+	4198
+
+	DLC Warrior
+	4213
+
+General
+	Black Market GFH Token
+	2994
+
+	GFH Token Upgrade 1
+	3008
+
+	GFH Token Upgrade 2
+	3022
+
+	GFH Token Upgrade 3
+	3036
+
+	GFH Upgrade 1
+	3050
+
+	GFH Upgrade 2
+	3064
+
+	GFH Upgrade 3 Cut
+	3078
+
+	Sticky C4 Upgrade
+	3090
+
+	Sticky Grenade Upgrade
+	3104
+
+	Sticky Mine Upgrade
+	3118
+
+	Wingsuit
+	3132
+
+	Painted Pachyderms
+	15075
+
+DLC General
+	DLC Skill points
+	3720-3731
+
+	DLC Sticky C4 Upgrade
+	4468
+
+	DLC Sticky Grenade Upgrade
+	4482
+
+	DLC Sticky Mine Upgrade
+	4496
+
+	DLC Wingsuit
+	4510
+
+Loot Items
+	Black Eagle Feather
+	422
+
+	Black Eagle Feather Cost
+	430-433
+
+	Demon Fish Skin
+	454
+
+	Rare Elephant Skin Cost
+	664-665
+
+	Bridge 01 Loot Item Cost
+	7638-7639
+
+	Bridge 02 Loot Item Cost
+	7654-7655
+
+	Bridge 03 Loot Item Cost
+	7670-7671
+
+	Special Sherpa 01 Loot Item Cost
+	9642-9643
+
+DLC Loot Items
+	DLC Yeti Loot
+	486
+
+	DLC Yeti Loot Cost
+	494-495
+
+Ammo
+	Explosive arrow
+	18
+
+	Fire arrow
+	34
+
+Miscellaneous
+	Ajay House Upgrade 12 Cost
+	2924
+
+Attachments
+	Handguns
+		A99 Night
+		5092-5095
+
+		A99 ACOG
+		5117
+
+		A99 ACOG Cost
+		5126-5129
+
+		D50 ACOG
+		5347
+
+		D50 ACOG Cost
+		5356-5359
+
+		44 Magnum Extended Barrel Cost
+		5536-5539
+
+		44 Magnum ACOG
+		5561
+
+		44 Magnum ACOG Cost
+		5570-5573
+
+		44 Magnum Optical
+		5578
+
+		44 Magnum Optical Cost
+		5587-5590
+
+		1911 ACOG
+		5774
+
+		1911 ACOG Cost
+		5783-5786
+
+		1911 Optical
+		5791
+
+		1911 Optical Cost
+		5800-5803
+
+		1911 Red Dot
+		5808
+
+		1911 Red Dot Cost
+		5817-5820
+
+		1911 Reflex
+		5825
+
+		1911 Reflex Cost
+		5834-5837
+
+		1911 Suppressor
+		5842
+
+		1911 Suppressor Cost
+		5851-5854
+
+		M712 Extended Magazine Cost
+		5979-5982
+
+		Mark IV Night Cost
+		6124-6127
+
+	SMGs
+		A2000 ACOG
+		12364
+
+		A2000 ACOG Cost
+		12373-12376
+
+		A2000 Optical
+		12381
+
+		A2000 Optical Cost	
+		12390-12393
+
+		A2000 Red Dot Cost
+		12407-12410
+
+		A2000 Suppressor Cost
+		12441-12444
+
+		BZ19 ACOG
+		12577
+
+		BZ19 ACOG Cost
+		12586-12589
+
+		Vector ACOG
+		12790
+
+		Vector ACOG Cost
+		12799-12802
+
+		MP34 Extended Magazine
+		12995-12998
+
+		MP5 ACOG
+		13131
+
+		MP5 ACOG Cost
+		13140-13143
+
+		MP5 Optical
+		13148
+
+		MP5 Optical Cost
+		13157-13160
+
+		Skorpion Extended Magazine Cost
+		13336-13339
+
+		Skorpion ACOG
+		13344
+
+		Skorpion ACOG Cost
+		13353-13356
+
+		Skorpion Optical
+		13361
+
+		Skorpion Optical Cost
+		13370-13373
+
+		Skorpion Red Dot
+		13378
+
+		Skorpion Red Dot Cost
+		13387-13390
+
+		Skorpion Reflex
+		13395
+
+		Skorpion Reflex Cost
+		13404-13407
+
+		Skorpion Suppressor Cost
+		13421-13424
+
+	Shotguns
+		D2 Attachments Data
+		11556-11620**
+
+		M133 Night Cost
+		11741-11744
+
+		M133 Extended Magazine Cost
+		11758-11761
+
+		M133 Red Dot
+		11766
+
+		M133 Red Dot Cost
+		11775-11778
+
+		M133 Reflex
+		11783
+
+		M133 Reflex Cost
+		11792-11795
+
+		SPAS12 Night Cost
+		11922-11923
+
+		SPAS12 Reflex Cost
+		11973-11974
+
+	Assault Rifles
+		A52 Suppressor
+		1477
+
+		A52 Suppressor Cost
+		1486-1489
+
+		AK47 Extended Magazine Cost
+		1614-1617
+
+		AK47 ACOG
+		1622
+
+		AK47 ACOG Cost
+		1631-1634
+
+		AK47 Optical
+		1639
+
+		AK47 Optical Cost
+		1648-1651
+
+		AK47 Red Dot
+		1656
+
+		AK47 Red Dot Cost
+		1665-1668
+
+		AK47 Reflex
+		1673
+
+		AK47 Reflex Cost
+		1682-1685
+
+		AK47 Suppressor
+		1690
+
+		AK47 Suppressor Cost
+		1699-1702
+
+		F1 ACOG
+		1835
+
+		F1 ACOG Cost
+		1844-1847
+
+		F1 Optical
+		1852
+
+		F1 Optical Cost
+		1861-1864
+
+		F1 Red Dot Cost
+		1880-1881
+
+		MS16 ACOG
+		2048
+
+		MS16 ACOG Cost
+		2057-2060
+
+		P416 Suppressor
+		2329
+
+		P416 Suppressor Cost
+		2338-2341
+
+		STG-90 ACOG
+		2474
+
+		STG-90 ACOG Cost
+		2483-2486
+
+		STG-90 Optical
+		2491
+
+		STG-90 Optical
+		2500-2503
+
+		STG-90 Red Dot Cost
+		2517-2520
+
+		STG-90 Reflex
+		2525
+
+		STG-90 Reflex Cost
+		2534-2537
+
+		STG-90 Suppressor
+		2542
+
+		STG-90 Suppressor Cost
+		2551-2554
+
+	Sniper Rifles
+		M700 Illuminated Cost
+		13745-13748
+
+		SVD High Power Cost
+		13907-13910
+
+		SVD Illuminated
+		13915
+
+		SVD Illuminated Cost
+		13924-13927
+
+		SVD Extended Magazine Cost
+		13941-13944
+
+		SVD Suppressor
+		13949
+
+		SVD Suppressor Cost
+		13958-13961
+
+	LMGs
+		PKM Extended Magazine
+		7356-7359
+
+		PKM ACOG
+		7364
+
+		PKM ACOG Cost
+		7373-7376
+
+		PKM Optical
+		7381
+
+		PKM Optical Cost
+		7390-7393
+
+		PKM Red Dot Cost
+		7407-7410
+
+		PKM Reflex
+		7415
+
+		PKM Reflex Cost
+		7424-7427
+
+		U100 ACOG
+		7560
+
+		U100 ACOG Cost
+		7569-7572
+
+	Launchers
+		LK1018 LCAM Cost
+		6655-6656
+
+	Special Weapons
+		Auto Cross ACOG
+		14419
+
+		Auto Cross ACOG Cost
+		14428-14431

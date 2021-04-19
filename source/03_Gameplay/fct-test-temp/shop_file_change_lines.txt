@@ -76,7 +76,7 @@ AK47 Reflex Cost
 AK47 Suppressor
 1690
 
-AK47 Suppressor
+AK47 Suppressor Cost
 1699-1702
 
 F1
