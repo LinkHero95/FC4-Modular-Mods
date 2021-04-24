@@ -1,0 +1,124 @@
+Ammo
+	Explosive arrow
+	7842422198768
+	18
+
+	Fire arrow
+	7842422204463
+	34
+
+Loot
+	Black Eagle Feather
+	7787939910167
+	422
+
+	Black Eagle Feather Cost
+	7787939910167
+	430-433
+
+	Demon Fish Skin
+	7787939945984
+	454
+
+	Rare Elephant Skin Cost
+	7787940271709
+	664-665
+
+	Bridge 01 Loot Item Cost
+	7867939896028
+	7638-7639
+
+	Bridge 02 Loot Item Cost
+	7867939902211
+	7654-7655
+
+	Bridge 03 Loot Item Cost
+	7867939908112
+	7670-7671
+
+	Special Sherpa 01 Loot Item Cost
+	7794901606488
+	9642-9643
+
+DLC Loot
+	DLC Yeti Loot
+	7884764286572
+	486
+
+	DLC Yeti Loot Cost
+	7884764286572
+	494-495
+
+Misc
+	Ajay House Upgrade 12 Cost
+	7856793900071
+	2924
+
+	Black Market GFH Token
+	disLibItemId
+	2994
+
+	GFH Token Upgrade 1
+	7868327870477
+	3008
+
+	GFH Token Upgrade 2
+	7868328272899
+	3022
+
+	GFH Token Upgrade 3
+	7868328282126
+	3036
+
+	GFH Upgrade 1
+	7852222197351
+	3050
+
+	GFH Upgrade 2
+	7852222203479
+	3064
+
+	GFH Upgrade 3 Cut
+	7852223913039
+	3078
+
+	Sticky C4 Upgrade
+	7842286350975
+	3090
+
+	Sticky Grenade Upgrade
+	7842286329906
+	3104
+
+	Sticky Mine Upgrade
+	7842286342862
+	3118
+
+	Wingsuit
+	7877179230355
+	3132
+
+	Painted Pachyderms
+	7870999440339
+	15075
+
+DLC Misc
+	DLC Skill points
+	7880673158451
+	3720-3731
+
+	DLC Sticky C4 Upgrade
+	7884518396154
+	4468
+
+	DLC Sticky Grenade Upgrade
+	7884518346689
+	4482
+
+	DLC Sticky Mine Upgrade
+	7884518221858
+	4496
+
+	DLC Wingsuit
+	7884518073560
+	4510
