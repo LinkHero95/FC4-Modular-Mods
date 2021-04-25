@@ -41,4 +41,5 @@
 			<Source><![CDATA[generated\databases\generic\shopsubcategory1.ndb]]></Source>
 			<Target><![CDATA[generated\databases\generic\shopsubcategory1.ndb]]></Target>
 		</Pair>
-	</Info>
+	</Pairs>
+</Info>

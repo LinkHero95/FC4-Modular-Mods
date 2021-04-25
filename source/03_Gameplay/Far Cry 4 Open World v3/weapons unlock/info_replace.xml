@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <InfoReplace>
 	<DefaultInclude>false</DefaultInclude>
-	<Description>FC4 Open World: Skill unlocker
+	<Description>FC4 Open World: Weapon unlocker
 
-    Unlocks All skills from the start.
+    Unlocks All weapons from the start.
 
     Changes made by this mod:
     [list]
-    [*] All signature Weapons are available in the shop from the start.
-    [*] The signature weapons are not available for free in the shops; the player will still need to purchase these weapons from the shop to use them.
+    [*] All weapons are available in the shop from the start.
+    [*] The weapons are not available for free in the shops; the player will still need to purchase these weapons from the shop to use them.
 	[*] The player can still get free weapons by liberating radio towers and/or picking them up off fallen ememies.
     [/list]
 
@@ -25,10 +25,86 @@
 	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
 	[/list]
 	</Description>
-	<Dependencies>BP Templates</Dependencies>>
+	<Dependencies>BP Shop Files</Dependencies>>
 	<Category>3</Category>
 
 	<Replaces>
+		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
+			<!-- Handguns -->
+			<!-- Mark IV and M-712 already available from start. -->
 
+			<!-- 1911 -->
+			<Generic primaryKey_disLibItemId="7655442550447" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- 6P9 -->
+			<Generic primaryKey_disLibItemId="7667798545728" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- AJM9 -->
+			<!-- TBD -->
+
+			<!-- .44 Magnum -->
+			<Generic primaryKey_disLibItemId="7667798554576" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- D50 -->
+			<Generic primaryKey_disLibItemId="7667798561609" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- A99 -->
+			<Generic primaryKey_disLibItemId="7799874237964" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- SMGs -->
+			<!-- Skorpion -->
+
+			<!-- MP34 -->
+
+			<!-- A2000 -->
+
+			<!-- MP5 -->
+
+			<!-- BZ19 -->
+
+			<!-- Vector .45ACP -->
+
+			<!-- Shotguns -->
+
+			<!-- Assault Rifles -->
+
+			<!-- Sniper Rifles -->
+
+			<!-- SA50 -->
+			<Generic primaryKey_disLibItemId="7799879221118" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- LMGs -->
+
+			<!-- Launchers -->
+
+			<!-- Special Weapons -->
+
+			<!-- Signature Weapons -->
+
+			<!-- DLC Handguns -->
+
+			<!-- DLC SMGs -->
+
+			<!-- DLC Shotguns -->
+
+			<!-- DLC Assault Rifles -->
+
+			<!-- DLC Sniper Rifles -->
+
+			<!-- DLC LMGs -->
+
+			<!-- DLC Launchers -->
+
+			<!-- DLC Special Weapons -->
+
+			<!-- DLC Signature Weapons -->
+
+		</Replace>
 	</Replaces>
 </InfoReplace>
