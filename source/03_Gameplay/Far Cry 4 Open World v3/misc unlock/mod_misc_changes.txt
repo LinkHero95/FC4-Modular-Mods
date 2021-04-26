@@ -50,6 +50,10 @@ DLC Loot
 	494-495
 
 Misc
+	AJM9 Cost
+	7860555523370
+	6141-6144
+
 	Ajay House Upgrade 12 Cost
 	7856793900071
 	2924
