@@ -234,6 +234,10 @@ Assault Rifle Attachments
 	7799878860116
 	1207-1208
 
+	A52 Display
+	7681355770983
+	1283
+
 	A52 Suppressor
 	7681356078757
 	1477
@@ -241,6 +245,10 @@ Assault Rifle Attachments
 	A52 Suppressor Cost
 	7681356078757
 	1486-1489
+
+	AK47 Display
+	7655443393041
+	1496
 
 	AK47 Extended Magazine Cost
 	7655448366736
@@ -321,6 +329,10 @@ Assault Rifle Attachments
 	P416 Suppressor Cost
 	7667952333724
 	2338-2341
+
+	STG-90 Display
+	7667812319534
+	2348
 
 	STG-90 ACOG
 	7667952416606
