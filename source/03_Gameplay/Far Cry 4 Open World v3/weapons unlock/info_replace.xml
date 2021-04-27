@@ -32,7 +32,6 @@
 		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
 			<!-- Handguns -->
 			<!-- Mark IV and M-712 already available from start. -->
-
 			<!-- 1911 -->
 			<Generic primaryKey_disLibItemId="7655442550447" UnlockOnMissionComplete="">
 			</Generic>
@@ -41,9 +40,7 @@
 			<Generic primaryKey_disLibItemId="7667798545728" UnlockOnMissionComplete="">
 			</Generic>
 
-			<!-- AJM9 -->
-			<!-- TBD -->
-
+			<!-- AJM9 is a UPlay Reward. -->
 			<!-- .44 Magnum -->
 			<Generic primaryKey_disLibItemId="7667798554576" UnlockOnMissionComplete="">
 			</Generic>
@@ -57,54 +54,247 @@
 			</Generic>
 
 			<!-- SMGs -->
-			<!-- Skorpion -->
-
-			<!-- MP34 -->
-
-			<!-- A2000 -->
-
+			<!-- Skorpion, MP34, A2000 already available from start. -->
 			<!-- MP5 -->
+			<Generic primaryKey_disLibItemId="7667814942016" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- BZ19 -->
+			<Generic primaryKey_disLibItemId="7667814936498" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- Vector .45ACP -->
+			<Generic primaryKey_disLibItemId="7667814946874" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- Shotguns -->
+			<!-- D2 -->
+			<Generic primaryKey_disLibItemId="7793449800029" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- M133 already available from start. -->
+			<!-- 1887 -->
+			<Generic primaryKey_disLibItemId="7681358432882" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- SPAS12 -->
+			<Generic primaryKey_disLibItemId="7667814507632" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- Assault Rifles -->
+			<!-- AK47 and STG-90 already available from start. -->
+			<!-- F1 -->
+			<Generic primaryKey_disLibItemId="7667812325607" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- MS16 -->
+			<Generic primaryKey_disLibItemId="7667812330301" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- P416 -->
+			<Generic primaryKey_disLibItemId="7667812340758" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- A52 -->
+			<Generic primaryKey_disLibItemId="7681355770983" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- .700 Nitro (added here bcos the shop file lists this as an assault rifle.)-->
+			<Generic primaryKey_disLibItemId="7799878801479" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- Sniper Rifles -->
+			<!-- SVD already available from start. -->
+			<!-- M700 -->
+			<Generic primaryKey_disLibItemId="7667814962322" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Z93 -->
+			<Generic primaryKey_disLibItemId="7667814970171" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- SA50 -->
 			<Generic primaryKey_disLibItemId="7799879221118" UnlockOnMissionComplete="">
 			</Generic>
 
 			<!-- LMGs -->
+			<!-- PKM already available from start. -->
+			<!-- U100 -->
+			<Generic primaryKey_disLibItemId="7667813675334" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- MKG -->
+			<Generic primaryKey_disLibItemId="7667813669984" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- MG42 -->
+			<Generic primaryKey_disLibItemId="7850613187731" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- Launchers -->
+			<!-- M79 -->
+			<Generic primaryKey_disLibItemId="7799879978881" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- GL-94 -->
+			<Generic primaryKey_disLibItemId="7667813245783" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- GL-A87 -->
+			<Generic primaryKey_disLibItemId="7793449947395" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- RPG-7 already available from start. -->
+			<!-- LK-1018 -->
+			<Generic primaryKey_disLibItemId="7799879583995" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- Special Weapons -->
+			<!-- Flare Gun -->
+			<Generic primaryKey_disLibItemId="7667815005205" UnlockOnMissionComplete="">
+			</Generic>
 
-			<!-- Signature Weapons -->
+			<!-- Auto-Cross -->
+			<Generic primaryKey_disLibItemId="7793450159827" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Hunter Bow -->
+			<Generic primaryKey_disLibItemId="7850614018794" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Recurve Bow already available from start.  -->
+			<Generic primaryKey_disLibItemId="7708930096644" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Flamethrower -->
+			<Generic primaryKey_disLibItemId="7655444308360" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Harpoon -->
+			<Generic primaryKey_disLibItemId="7799984409740" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- DLC Handguns -->
+			<!-- Mark IV, M-712 already available from start. -->
+			<!-- 1911 -->
+			<Generic primaryKey_disLibItemId="7880754915438" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- 6P9 -->
+			<Generic primaryKey_disLibItemId="7880755144002" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- .44 Magnum -->
+			<Generic primaryKey_disLibItemId="7880755321006" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- D50 -->
+			<Generic primaryKey_disLibItemId="7880755411332" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- A99 -->
+			<Generic primaryKey_disLibItemId="7880755590245" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- DLC SMGs -->
+			<!-- Skorpion -->
+			<Generic primaryKey_disLibItemId="7880757759478" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- MP34 -->
+			<Generic primaryKey_disLibItemId="7880757586060" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- A2000 -->
+			<Generic primaryKey_disLibItemId="7880757875162" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- MP5 -->
+			<Generic primaryKey_disLibItemId="7880757944868" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- BZ19 -->
+			<Generic primaryKey_disLibItemId="7880758117208" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Vector .45ACP -->
+			<Generic primaryKey_disLibItemId="7880758053894" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- DLC Shotguns -->
+			<!-- 1887 -->
+			<Generic primaryKey_disLibItemId="7880763618819" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- D2 -->
+			<Generic primaryKey_disLibItemId="7880763528075" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- M133 -->
+			<Generic primaryKey_disLibItemId="7880763376933" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- SPAS12 -->
+			<Generic primaryKey_disLibItemId="7880763821664" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- DLC Assault Rifles -->
+			<!-- AK47 -->
+			<Generic primaryKey_disLibItemId="7880767309005" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- STG-90 -->
+			<Generic primaryKey_disLibItemId="7880767396293" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- F1 -->
+			<Generic primaryKey_disLibItemId="7880770745727" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- MS16 -->
+			<Generic primaryKey_disLibItemId="7880770860929" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- P416 -->
+			<Generic primaryKey_disLibItemId="7880771069580" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- A52 -->
+			<Generic primaryKey_disLibItemId="7880771126618" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- .700 Nitro -->
+			<Generic primaryKey_disLibItemId="7880770640141" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- DLC Sniper Rifles -->
+			<!-- SVD -->
+			<Generic primaryKey_disLibItemId="7880771607589" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- M-700 -->
+			<Generic primaryKey_disLibItemId="7880771664957" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Z93 -->
+			<Generic primaryKey_disLibItemId="7880771758483" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- SA-50 -->
+			<Generic primaryKey_disLibItemId="7880771822642" UnlockOnMissionComplete="">
+			</Generic>
 
 			<!-- DLC LMGs -->
-
+			<!-- PKM -->
+			<!-- U100 -->
+			<!-- MKG -->
+			<!-- MG42 -->
 			<!-- DLC Launchers -->
-
+			<!-- Harpoon -->
 			<!-- DLC Special Weapons -->
-
+			<!-- Harpoon -->
 			<!-- DLC Signature Weapons -->
-
+			<!-- Harpoon -->
 		</Replace>
 	</Replaces>
 </InfoReplace>
