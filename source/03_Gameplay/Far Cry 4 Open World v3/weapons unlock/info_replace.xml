@@ -286,11 +286,42 @@
 
 			<!-- DLC LMGs -->
 			<!-- PKM -->
+			<Generic primaryKey_disLibItemId="7880771339158" UnlockOnMissionComplete="">
+			</Generic>
+
 			<!-- U100 -->
+			<Generic primaryKey_disLibItemId="7880771395915" UnlockOnMissionComplete="">
+			</Generic>
+
 			<!-- MKG -->
+			<Generic primaryKey_disLibItemId="7880771455129" UnlockOnMissionComplete="">
+			</Generic>
+
 			<!-- MG42 -->
+			<Generic primaryKey_disLibItemId="7880771506030" UnlockOnMissionComplete="">
+			</Generic>
+
 			<!-- DLC Launchers -->
-			<!-- Harpoon -->
+			<!-- M79 -->
+			<Generic primaryKey_disLibItemId="7880771872698" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- GL-94 -->
+			<Generic primaryKey_disLibItemId="7880771996084" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- GL-A87 -->
+			<Generic primaryKey_disLibItemId="7880772126195" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- RPG-7 -->
+			<Generic primaryKey_disLibItemId="7880771928764" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- LK-1018 -->
+			<Generic primaryKey_disLibItemId="7880772066588" UnlockOnMissionComplete="">
+			</Generic>
+
 			<!-- DLC Special Weapons -->
 			<!-- Harpoon -->
 			<!-- DLC Signature Weapons -->
