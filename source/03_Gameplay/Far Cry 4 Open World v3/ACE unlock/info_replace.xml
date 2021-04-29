@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <InfoReplace>
 	<DefaultInclude>false</DefaultInclude>
-	<Description>FC4 Open World: Skill unlocker
+	<Description>FC4 Open World: ACE unlocker
 
     Unlocks All skills from the start.
 
     Changes made by this mod:
     [list]
-    [*] All signature Weapons are available in the shop from the start.
-    [*] The signature weapons are not available for free in the shops; the player will still need to purchase these weapons from the shop to use them.
-	[*] The player can still get free weapons by liberating radio towers and/or picking them up off fallen ememies.
+    [*] The ACE signature weapon, based on the A52 assault rifle, is available in the shop.
     [/list]
 
     Other Information:
@@ -25,7 +23,7 @@
 	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
 	[/list]
 	</Description>
-	<Dependencies>BP Templates</Dependencies>>
+	<Dependencies>Shop Files</Dependencies>>
 	<Category>3</Category>
 
 	<Replaces>
