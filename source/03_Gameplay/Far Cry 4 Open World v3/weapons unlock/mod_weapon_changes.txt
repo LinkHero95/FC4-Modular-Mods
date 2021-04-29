@@ -166,6 +166,10 @@ Special Weapons
 	7655444308360
 	14770
 
+	Harpoon
+	7799984409740
+	14913
+
 Signature Weapons - Not Doing
 	Sandman
 	7851665428848
@@ -399,19 +403,19 @@ DLC Launchers
 	3973
 
 DLC Special Weapons
-		DLC Flare Gun
+	DLC Flare Gun
 	7880772594414
 	4408
 
-		DLC Auto Cross
+	DLC Auto Cross
 	7880772819402
 	4378
 
-		DLC Hunter Bow
+	DLC Hunter Bow
 	7880772688464
 	4423
 
-		DLC Recurve Bow
+	DLC Recurve Bow
 	7880772763092
 	4438
 
@@ -424,26 +428,26 @@ DLC Special Weapons
 	4453
 
 DLC Signature Weapons
-	DLC AMR
-	7885731644857
-	4138
+	DLC Cannon
+	7907866332660
+	4183
+
+	DLC Warrior
+	7907990745444
+	4213
 
 	DLC Bull
 	7907866384144
 	4153
 
-	DLC Buzzsaw
-	7880771556371
-	4168
-
-	DLC Cannon
-	7907866332660
-	4183
-
 	DLC Predator
 	7907879041344
 	4198
 
-	DLC Warrior
-	7907990745444
-	4213
+	DLC AMR
+	7885731644857
+	4138
+
+	DLC Buzzsaw
+	7880771556371
+	4168

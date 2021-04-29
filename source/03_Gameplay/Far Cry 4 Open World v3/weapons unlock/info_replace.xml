@@ -8,6 +8,7 @@
     Changes made by this mod:
     [list]
     [*] All weapons are available in the shop from the start.
+    [*] All weapons in the 'Valley of the Yetis' DLC shops are available from the start.
     [*] The weapons are not available for free in the shops; the player will still need to purchase these weapons from the shop to use them.
 	[*] The player can still get free weapons by liberating radio towers and/or picking them up off fallen ememies.
     [/list]
@@ -30,6 +31,7 @@
 
 	<Replaces>
 		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
+			<!-- Main Game weapons -->
 			<!-- Handguns -->
 			<!-- Mark IV and M-712 already available from start. -->
 			<!-- 1911 -->
@@ -174,6 +176,7 @@
 			<Generic primaryKey_disLibItemId="7799984409740" UnlockOnMissionComplete="">
 			</Generic>
 
+			<!-- DLC Weapons -->
 			<!-- DLC Handguns -->
 			<!-- Mark IV, M-712 already available from start. -->
 			<!-- 1911 -->
@@ -323,9 +326,50 @@
 			</Generic>
 
 			<!-- DLC Special Weapons -->
-			<!-- Harpoon -->
+			<!-- Flare Gun -->
+			<Generic primaryKey_disLibItemId="7880772594414" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Auto Cross -->
+			<Generic primaryKey_disLibItemId="7880772819402" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Hunter Bow -->
+			<Generic primaryKey_disLibItemId="7880772688464" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Recurve Bow -->
+			<Generic primaryKey_disLibItemId="7880772763092" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Flamethrower -->
+			<Generic primaryKey_disLibItemId="7880772879596" UnlockOnMissionComplete="">
+			</Generic>
+
 			<!-- DLC Signature Weapons -->
-			<!-- Harpoon -->
+			<!-- Cannon -->
+			<Generic primaryKey_disLibItemId="7880772879596" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Bull -->
+			<Generic primaryKey_disLibItemId="7880772879596" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Warrior -->
+			<Generic primaryKey_disLibItemId="7880772879596" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Predator -->
+			<Generic primaryKey_disLibItemId="7880772879596" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- AMR -->
+			<Generic primaryKey_disLibItemId="7880772879596" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Buzzsaw -->
+			<Generic primaryKey_disLibItemId="7880772879596" UnlockOnMissionComplete="">
+			</Generic>
 		</Replace>
 	</Replaces>
 </InfoReplace>
