@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+	<DefaultInclude>false</DefaultInclude>
+	<Description>E3-like Golden Path
+		This mod changes the uniforms used by the Golden Path.
+
+		Changes made by this mod:
+		[list]
+		[*] All Golden Path Uniforms are changed to be darker.
+		[/list]
+
+		Other Information: 
+		[list]
+		[*] This mod [b]MAY[/b] clash with any other graphics mod which changes uniforms of the Golden Path.
+		[/list]
+
+		Credits:
+		[list]
+		[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/71678078][b]Vinh1998[/b][/url][/size]
+		[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+		[/list]
+		modded by Vinh1998. Converted to a3 format by LinkHero95.
+	</Description>
+	<HeaderPicture1>topleft.jpg</HeaderPicture1>
+	<Category>8</Category>
+	<Pairs>
+		<Pair>
+			<Source><![CDATA[npc_shar_femarms01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femarms01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_femarms02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femarms02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_femhead_01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_femhead_02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_femhead_03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malearms01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malearms02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malearms03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malehead02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malehead03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malehead04.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead04.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malehead06.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead06.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malehead07.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead07.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malelhead01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malelhead01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_malelhead05.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malelhead05.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[npc_shar_maleshoes01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_maleshoes01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[rebe_fass_maleshirt_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_fass_maleshirt_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[rebe_fass_maleshirt_01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_fass_maleshirt_01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[rebe_shar_femalepants_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_femalepants_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[rebe_shar_jacket_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_jacket_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[rebe_shar_jacket_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_jacket_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[rebe_shar_shirtcollared01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_shirtcollared01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[rebe_shar_shirtcollared01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_shirtcollared01_m.xbt]]></Target>
+		</Pair>
+
+	</Pairs>
+</Info>
