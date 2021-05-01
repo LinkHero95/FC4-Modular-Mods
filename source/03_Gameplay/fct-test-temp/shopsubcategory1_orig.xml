@@ -1,0 +1,154 @@
+﻿<lib>
+  <Generic disLibItemId="7850607825125" Name="Buy/Ajay House Items" hidGUID_Legacy="{F95A9AF1-8CF1-4398-B524-DE7EC2C5442B}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Ajay House Items" disId="186" locidDescriptionId="266834" iSortId="4" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep>
+      <Link disshpitpeId="90" />
+    </ItemTypeDep>
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7868318564175" Name="Buy/Ammo" hidGUID_Legacy="{7C62EBBC-37A2-4AB9-9101-297575CA7B7D}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Ammo" disId="190" locidDescriptionId="346058" iSortId="5" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep>
+      <Link disshpitpeId="73" />
+    </ItemTypeDep>
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7851695789514" Name="Buy/Black Market" hidGUID_Legacy="{4B92802A-FF36-45B7-A678-AE2A4DBFD6AB}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Black Market" disId="188" locidDescriptionId="269920" iSortId="0" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep />
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7790060225602" Name="Buy/Items" hidGUID_Legacy="{2AD294E2-2F88-4CEF-8716-1CA49B3C7D93}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Items" disId="168" locidDescriptionId="80224" iSortId="0" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep />
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7868318521564" Name="Buy/Items2" hidGUID_Legacy="{359BDDE9-B449-44BD-A12F-7487E20AA44D}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Items2" disId="189" locidDescriptionId="346056" iSortId="1" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep>
+      <Link disshpitpeId="72" />
+      <Link disshpitpeId="73" />
+      <Link disshpitpeId="87" />
+      <Link disshpitpeId="88" />
+      <Link disshpitpeId="93" />
+    </ItemTypeDep>
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7790061946896" Name="Buy/Maps" hidGUID_Legacy="{86471FCD-5E76-4921-B30C-64B698DF4F65}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Maps" disId="182" locidDescriptionId="112343" iSortId="6" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep>
+      <Link disshpitpeId="86" />
+    </ItemTypeDep>
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7851695769462" Name="Buy/Sidearms" hidGUID_Legacy="{F0267438-E279-4951-9303-686BAD15C6A3}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Sidearms" disId="187" locidDescriptionId="269921" iSortId="2" sIconName="">
+    <SubCategory2Dep>
+      <Link disshpscatbId="73" />
+      <Link disshpscatbId="74" />
+      <Link disshpscatbId="76" />
+      <Link disshpscatbId="104" />
+      <Link disshpscatbId="154" />
+      <Link disshpscatbId="159" />
+      <Link disshpscatbId="167" />
+      <Link disshpscatbId="168" />
+      <Link disshpscatbId="184" />
+      <Link disshpscatbId="187" />
+      <Link disshpscatbId="192" />
+      <Link disshpscatbId="193" />
+      <Link disshpscatbId="197" />
+    </SubCategory2Dep>
+    <ItemTypeDep />
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7790061934673" Name="Buy/Signature_Weapons" hidGUID_Legacy="{1563085C-6D85-4C0E-802E-6AF49DCF47A1}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Signature_Weapons" disId="181" locidDescriptionId="346989" iSortId="4" sIconName="">
+    <SubCategory2Dep>
+      <Link disshpscatbId="166" />
+      <Link disshpscatbId="170" />
+      <Link disshpscatbId="171" />
+      <Link disshpscatbId="172" />
+      <Link disshpscatbId="173" />
+      <Link disshpscatbId="174" />
+      <Link disshpscatbId="175" />
+      <Link disshpscatbId="176" />
+      <Link disshpscatbId="177" />
+      <Link disshpscatbId="179" />
+      <Link disshpscatbId="180" />
+      <Link disshpscatbId="181" />
+      <Link disshpscatbId="182" />
+      <Link disshpscatbId="183" />
+      <Link disshpscatbId="190" />
+      <Link disshpscatbId="198" />
+      <Link disshpscatbId="199" />
+      <Link disshpscatbId="200" />
+      <Link disshpscatbId="201" />
+      <Link disshpscatbId="202" />
+    </SubCategory2Dep>
+    <ItemTypeDep />
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7790060231642" Name="Buy/Weapons" hidGUID_Legacy="{0E93F5DE-4977-46CD-9928-F343E10BFC70}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Weapons" disId="169" locidDescriptionId="190440" iSortId="4" sIconName="">
+    <SubCategory2Dep>
+      <Link disshpscatbId="79" />
+      <Link disshpscatbId="80" />
+      <Link disshpscatbId="81" />
+      <Link disshpscatbId="82" />
+      <Link disshpscatbId="83" />
+      <Link disshpscatbId="85" />
+      <Link disshpscatbId="87" />
+      <Link disshpscatbId="89" />
+      <Link disshpscatbId="90" />
+      <Link disshpscatbId="95" />
+      <Link disshpscatbId="96" />
+      <Link disshpscatbId="97" />
+      <Link disshpscatbId="101" />
+      <Link disshpscatbId="111" />
+      <Link disshpscatbId="113" />
+      <Link disshpscatbId="117" />
+      <Link disshpscatbId="118" />
+      <Link disshpscatbId="155" />
+      <Link disshpscatbId="156" />
+      <Link disshpscatbId="157" />
+      <Link disshpscatbId="158" />
+      <Link disshpscatbId="160" />
+      <Link disshpscatbId="161" />
+      <Link disshpscatbId="169" />
+      <Link disshpscatbId="185" />
+      <Link disshpscatbId="186" />
+      <Link disshpscatbId="188" />
+      <Link disshpscatbId="189" />
+      <Link disshpscatbId="194" />
+      <Link disshpscatbId="195" />
+      <Link disshpscatbId="196" />
+    </SubCategory2Dep>
+    <ItemTypeDep />
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7790060730312" Name="Refill/Refill_All_Ammo" hidGUID_Legacy="{6A31F7BB-8D8A-4E13-BA2A-39274F18E6CB}" hidSingleObject="0" bCanBeShared="1" hidName="Refill/Refill_All_Ammo" disId="172" locidDescriptionId="190439" iSortId="7" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep />
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7790075487624" Name="Sell/Animal_Loot" hidGUID_Legacy="{D51425FC-E37D-4B77-BCA4-16C6371536B4}" hidSingleObject="0" bCanBeShared="1" hidName="Sell/Animal_Loot" disId="183" locidDescriptionId="1237880912" iSortId="4" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep>
+      <Link disshpitpeId="76" />
+      <Link disshpitpeId="91" />
+    </ItemTypeDep>
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7790075516261" Name="Sell/NPC_Loot" hidGUID_Legacy="{FF85388E-B98F-4CC2-A627-0BAB545CD474}" hidSingleObject="0" bCanBeShared="1" hidName="Sell/NPC_Loot" disId="185" locidDescriptionId="1265957152" iSortId="5" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep>
+      <Link disshpitpeId="78" />
+      <Link disshpitpeId="92" />
+    </ItemTypeDep>
+    <ItemSubTypeDep />
+  </Generic>
+  <Generic disLibItemId="7790075498774" Name="Sell/Plant_Loot" hidGUID_Legacy="{501549EC-F9CC-4DE0-B80F-6D04342ED202}" hidSingleObject="0" bCanBeShared="1" hidName="Sell/Plant_Loot" disId="184" locidDescriptionId="1265574496" iSortId="6" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep>
+      <Link disshpitpeId="77" />
+    </ItemTypeDep>
+    <ItemSubTypeDep />
+  </Generic>
+</lib>

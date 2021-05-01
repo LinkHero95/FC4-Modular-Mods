@@ -1,0 +1,2322 @@
+﻿<Generic disLibItemId="9014915644816849" Name="Default" hidGUID_Legacy="{0B77F6E2-BFA9-4BD4-BEF1-5C5328D9D2CF}" hidSingleObject="1" bCanBeShared="1" hidName="Default" hidKey="753088835" iDelayBetweenSameAreaMessages="1" iDelayForMissionStart="6">
+  <HUDEvents>
+    <Crafting iPriority="80" fTimer="12">
+      <Conditions>
+        <Condition selConditionType="0" fConditionValue="30" MissionName="" />
+        <Condition selConditionType="2" fConditionValue="0" MissionName="jas_080_main" />
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </Crafting>
+    <Collectible iPriority="20" fTimer="12">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </Collectible>
+    <BlockingTutorial iPriority="10" fTimer="30">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </BlockingTutorial>
+    <HintBox iPriority="11" fTimer="-1">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </HintBox>
+    <MissionStart iPriority="10" fTimer="4">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </MissionStart>
+    <ObjectiveUpdate iPriority="20" fTimer="20">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </ObjectiveUpdate>
+    <HostageObjectiveUpdate iPriority="10" fTimer="-1">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </HostageObjectiveUpdate>
+    <ObjectiveReminderUpdate iPriority="20" fTimer="12">
+      <Conditions>
+        <Condition selConditionType="0" fConditionValue="90" MissionName="" />
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </ObjectiveReminderUpdate>
+    <ObjectiveProgressUpdate iPriority="20" fTimer="0">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </ObjectiveProgressUpdate>
+    <MissionComplete iPriority="1" fTimer="4">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </MissionComplete>
+    <MissionFail iPriority="0" fTimer="4">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </MissionFail>
+    <MissionExit iPriority="10" fTimer="4">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </MissionExit>
+    <XP iPriority="4" fTimer="0.5">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </XP>
+    <SkillPoint iPriority="10" fTimer="6">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </SkillPoint>
+    <Money iPriority="40" fTimer="3">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </Money>
+    <Prompt iPriority="10" fTimer="12">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </Prompt>
+    <UnlockXP iPriority="90" fTimer="0">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </UnlockXP>
+    <WikiUpdate iPriority="80" fTimer="8">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </WikiUpdate>
+    <VideoTablet iPriority="90" fTimer="0">
+      <Conditions>
+        <Condition selConditionType="3" fConditionValue="0" MissionName="" />
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </VideoTablet>
+    <Loot iPriority="3" fTimer="0">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </Loot>
+    <KillXP iPriority="0" fTimer="0.5">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </KillXP>
+    <OpenworldComplete iPriority="2" fTimer="12">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </OpenworldComplete>
+    <IncomingOutgoingCall iPriority="90" fTimer="4">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </IncomingOutgoingCall>
+    <LockedContentUpdate iPriority="11" fTimer="0">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </LockedContentUpdate>
+    <LocationDiscovery iPriority="10" fTimer="6">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </LocationDiscovery>
+    <TowerReveal iPriority="41" fTimer="3">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </TowerReveal>
+    <RoundStart iPriority="0" fTimer="3">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </RoundStart>
+    <TimeBar iPriority="0" fTimer="1.5">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </TimeBar>
+  </HUDEvents>
+  <HUDEventsMiscData fTimeOpenWorldUpdateBlock1="2" fTimeMultiplierOpenWorldUpdateBlock2="4" fTimeOpenWorldShowNewActivity="4" fTimePvPOpenWorldUpdateDuration="5" fTimePvPOpenWorldUpdateBlock1="5" />
+  <UnlockEntitiesPopups>
+    <Entities>
+      <Entity sDescription="Radio tower D4" entEntityId="2075713954344080173">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQCF_D4_MAIN" entEntityId="2081697846540637408" locidHeaderId="-1" locidMessageId="191583" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost D4_01" entEntityId="2082316061042022917">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_D4A_MAIN" entEntityId="2081521125688396838" locidHeaderId="-1" locidMessageId="191586" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="196241" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="196242" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost D3_02" entEntityId="2082315825259224287">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_D3A_MAIN" entEntityId="2081521475306655187" locidHeaderId="-1" locidMessageId="191584" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_D4A_MAIN" entEntityId="2081518883577007160" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower D3" entEntityId="2073747198411027337">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQS_D3_MAIN" entEntityId="2083740834762596054" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower E2" entEntityId="2082415344705604071">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQS_E2_MAIN" entEntityId="2083823013542768464" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower E3" entEntityId="2083148573513364241">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="2083728131094489904" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower E4" entEntityId="2083256594532959822">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQCF_E4_MAIN" entEntityId="2083663058128871748" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower F2" entEntityId="2083382159537616245">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower F3" entEntityId="2083658933846677370">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQCF_F3_MAIN" entEntityId="2083755791375931561" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower F4" entEntityId="2083659988493931965">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQS_F4_MAIN" entEntityId="2083768234571470856" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower G3" entEntityId="2083670786857504697">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQCF_G3_MAIN" entEntityId="2083717404570949052" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower G4" entEntityId="2083671052912694643">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQS_G4_MAIN" entEntityId="2083755411833368589" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower G5" entEntityId="2083671301242754684">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQCF_G5_MAIN" entEntityId="2083729955046301068" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower G6" entEntityId="2083671572870074258">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQS_G6_MAIN" entEntityId="2083759379068228972" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower G7" entEntityId="2083672374477066355">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQCF_G7_MAIN" entEntityId="2083824644181207941" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower H4" entEntityId="2083672710579229004">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQCF_H4_MAIN" entEntityId="2083812550765452026" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower H5" entEntityId="2083672919277310815">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQS_H5_MAIN" entEntityId="2083757832408144385" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower H6" entEntityId="2083673832429719348">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQCF_H6_MAIN" entEntityId="2083823473074902368" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Radio tower H7" entEntityId="2083674311347935664">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQS_H7_MAIN" entEntityId="2083758675849125403" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost D3_01" entEntityId="2082315854703238369">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_D3A_MAIN" entEntityId="2086246937236896408" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_D3A_MAIN" entEntityId="2081685328059438034" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost E2_01" entEntityId="2082471792185711551">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost E3_01" entEntityId="2083039527345071527">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_E3A_MAIN" entEntityId="2083164563580131474" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost E4_01" entEntityId="2082966436841536527">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_E4A_MAIN" entEntityId="2083174743709588648" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost E4_02" entEntityId="2082966436810079209">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_E4A_MAIN" entEntityId="2083174495234825370" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_E4B_MAIN" entEntityId="2086247511145593698" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="326746" locidMessageId="326746" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost F2_01" entEntityId="2083246573654909245">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_F2A_MAIN" entEntityId="2083175264585519600" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost F2_02" entEntityId="2083247437851417345">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_F2A_MAIN" entEntityId="2083175125886177759" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_F2B_MAIN" entEntityId="2086208245682170458" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="326746" locidMessageId="326746" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost F3_01" entEntityId="2083077976479510402">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_F3A_MAIN" entEntityId="2083175446528136009" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost F4_01" entEntityId="2083093817975640726">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_F4A_MAIN" entEntityId="2083175506940795404" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_F4A_MAIN" entEntityId="2086260555540087048" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost F5_01" entEntityId="2082967048849208458">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_F5A_MAIN" entEntityId="2083178217966937398" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="326746" locidMessageId="326746" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost F5_02" entEntityId="2083260916725452833">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_F5A_MAIN" entEntityId="2083178180620854568" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost F7_01" entEntityId="2083261194482750115">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_F7A_MAIN" entEntityId="2083176127028804717" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost G3_01" entEntityId="2083064318296858753">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_G3A_MAIN" entEntityId="2084696300363718141" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_G3A_MAIN" entEntityId="2083162309441630821" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost G3_02" entEntityId="2083062565010673807">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_G3A_MAIN" entEntityId="2083163688832898876" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost G4_01" entEntityId="2082981031356409429">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_G4A_MAIN" entEntityId="2083161904708076436" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_G4A_MAIN" entEntityId="2084777957112426582" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost G5_01" entEntityId="2082996946967988588">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_G5A_MAIN" entEntityId="2083175793598410429" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_G5A_MAIN" entEntityId="2085709060753077559" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost G6_01" entEntityId="2083243996833926514">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_G6A_MAIN" entEntityId="2084587643565253459" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_G6A_MAIN" entEntityId="2083288243903671049" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost G6_02" entEntityId="2083244432529821094">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_G6A_MAIN" entEntityId="2083175853813936708" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_G6B_MAIN" entEntityId="2085710100802059415" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost G7_01" entEntityId="2083261299080302764">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_G7A_MAIN" entEntityId="2085955566911367408" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_G7A_MAIN" entEntityId="2086260657941922090" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost H4_01" entEntityId="2082969086347710189">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_H4A_MAIN" entEntityId="2083176438594290657" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_H4A_MAIN" entEntityId="2084712287941172381" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost H4_02" entEntityId="2082969042290739697">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_H4A_MAIN" entEntityId="2083176406048588755" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_H4B_MAIN" entEntityId="2084798153650870376" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost H5_01" entEntityId="2082967154723919448">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_H5A_MAIN" entEntityId="2083176515847081335" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost H5_02" entEntityId="2082968735406101370">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_H5A_MAIN" entEntityId="2083176552977157509" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost H6_01" entEntityId="2083258685487846563">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_H6A_MAIN" entEntityId="2083176601582850335" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost H7_01" entEntityId="2083257116738457253">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQW_H7A_MAIN" entEntityId="2083176679078909987" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="Outpost H7_02" entEntityId="2082940285777610530">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="SQO_H7A_MAIN" entEntityId="2083176654795986967" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="SQA_H7B_MAIN" entEntityId="2084875648343491556" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="326746" locidMessageId="326746" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity sDescription="" entEntityId="18446744073709551615">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+    </Entities>
+  </UnlockEntitiesPopups>
+  <TowerEntitiesPopups>
+    <Entities>
+      <Entity iTowerIdx="1">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="150712" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="2">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="354041" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="3">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="324130" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="4">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="324129" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="5">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="150716" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="6">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="154306" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="7">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="150715" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="8">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="324158" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="9">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="195458" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="10">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="150723" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="11">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="150713" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="12">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="150722" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="13">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="346306" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="14">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="150720" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="15">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="201045" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="16">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="150717" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="17">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="201046" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity iTowerIdx="0">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+    </Entities>
+  </TowerEntitiesPopups>
+  <MissionEntitiesPopups>
+    <Entities>
+      <Entity missionScriptName="SLA_010_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="282183" locidMessageId="282183" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="283263" locidMessageId="283263" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="344001" locidMessageId="344001" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="SLA_020_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="276631" locidMessageId="276631" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="MIS_150_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="346307" locidMessageId="346307" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="MIS_270_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="346308" locidMessageId="346308" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="348747" locidMessageId="348747" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="SQYR_010_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="348744" locidMessageId="348744" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="MIS_310_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="276650" locidMessageId="276650" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="347149" locidMessageId="347149" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="SQT_E3_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="276649" locidMessageId="276649" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="MIS_250_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="276651" locidMessageId="276651" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="348830" locidMessageId="348830" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="MIS_160_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="346308" locidMessageId="346308" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+    </Entities>
+  </MissionEntitiesPopups>
+  <TutorialPaths>
+    <TutorialPath>
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\01_Alarm_Disabling.bik" locidTutorial="110906" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\02_Body_Armor.bik" locidTutorial="127394" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\03_Takedown.bik" locidTutorial="156514" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\04_Chain_Takedown.bik" locidTutorial="111799" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\05_Double_death_From_Above.bik" locidTutorial="111796" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\06_Death_From_Above_Single.bik" locidTutorial="111790" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\07_Double_Death_From_Below.bik" locidTutorial="111795" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\08_Death_From_Below_Single.bik" locidTutorial="111793" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\09_Takedown_Drag_Back.bik" locidTutorial="111801" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\11_Grenade_Take_Down.bik" locidTutorial="111797" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\12_Healing.bik" locidTutorial="146706" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\13_Heavy_Takedown.bik" locidTutorial="111794" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\14_Knife_Takedown.bik" locidTutorial="111803" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\15_Pistol_Takedown.bik" locidTutorial="111798" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\16_Health_Regeneration.bik" locidTutorial="93352" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\17_Collectibles.bik" locidTutorial="110890" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\18_Social_Challenge.bik" locidTutorial="132242" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\19_Weapon_Swap.bik" locidTutorial="110708" />
+      <Tutorial sTutorialPath="UI\\Singleplayer\\Video\\Tutorial\\20_Detection_Meter.bik" locidTutorial="163705" />
+      <Tutorial sTutorialPath="" locidTutorial="-1" />
+    </TutorialPath>
+  </TutorialPaths>
+  <TutorialTimer fDemonMaskHintTutorialTimer="12" fPropagandaPosterHintTutorialTimer="12" fBowHintTutorialTimer="12" fStickyExplosiveHintTutorialTimer="12" fCraftingRecipeDescriptionTimer="12" fGfhHintTutorialTimer="12" fCoopMsgHintTutorialTimer="12" />
+  <ShangriLa fHealthbarGainTierFeedbackTimer="20" />
+  <LoadingScreenTips fRegularToNarrativeTipRatio="1">
+    <NarrativeMissions>
+      <NarrativeMission Mission="" />
+    </NarrativeMissions>
+    <TipPools>
+      <Pool selTipType="0" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="195646" />
+          <Tip locidTip="195647" />
+          <Tip locidTip="195648" />
+          <Tip locidTip="195649" />
+          <Tip locidTip="195650" />
+          <Tip locidTip="195651" />
+          <Tip locidTip="195652" />
+          <Tip locidTip="195654" />
+          <Tip locidTip="275355" />
+          <Tip locidTip="275361" />
+          <Tip locidTip="275362" />
+          <Tip locidTip="275363" />
+          <Tip locidTip="275364" />
+          <Tip locidTip="275365" />
+          <Tip locidTip="275366" />
+          <Tip locidTip="275367" />
+          <Tip locidTip="275368" />
+          <Tip locidTip="275369" />
+          <Tip locidTip="275370" />
+          <Tip locidTip="275371" />
+          <Tip locidTip="275372" />
+          <Tip locidTip="275373" />
+          <Tip locidTip="275375" />
+          <Tip locidTip="275376" />
+          <Tip locidTip="275377" />
+          <Tip locidTip="275378" />
+          <Tip locidTip="275379" />
+          <Tip locidTip="275380" />
+          <Tip locidTip="275381" />
+          <Tip locidTip="275382" />
+          <Tip locidTip="275383" />
+          <Tip locidTip="275384" />
+          <Tip locidTip="275385" />
+          <Tip locidTip="275386" />
+          <Tip locidTip="275387" />
+          <Tip locidTip="275388" />
+          <Tip locidTip="275389" />
+          <Tip locidTip="275390" />
+          <Tip locidTip="275391" />
+          <Tip locidTip="275392" />
+          <Tip locidTip="275393" />
+          <Tip locidTip="275394" />
+          <Tip locidTip="275395" />
+          <Tip locidTip="275396" />
+          <Tip locidTip="275397" />
+          <Tip locidTip="275398" />
+          <Tip locidTip="275399" />
+          <Tip locidTip="275400" />
+          <Tip locidTip="275401" />
+          <Tip locidTip="275402" />
+          <Tip locidTip="275403" />
+          <Tip locidTip="275404" />
+          <Tip locidTip="275405" />
+          <Tip locidTip="275407" />
+          <Tip locidTip="195653" />
+          <Tip locidTip="275352" />
+          <Tip locidTip="275353" />
+          <Tip locidTip="275354" />
+          <Tip locidTip="275356" />
+          <Tip locidTip="275357" />
+          <Tip locidTip="275358" />
+          <Tip locidTip="275359" />
+          <Tip locidTip="275401" />
+          <Tip locidTip="275374" />
+          <Tip locidTip="275406" />
+          <Tip locidTip="344279" />
+          <Tip locidTip="275360" />
+          <Tip locidTip="346789" />
+          <Tip locidTip="347179" />
+          <Tip locidTip="351989" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="4" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="195487" />
+          <Tip locidTip="195488" />
+          <Tip locidTip="195489" />
+          <Tip locidTip="195560" />
+          <Tip locidTip="195561" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="5" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="195565" />
+          <Tip locidTip="195566" />
+          <Tip locidTip="195567" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="6" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="195562" />
+          <Tip locidTip="195563" />
+          <Tip locidTip="195564" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="7" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="195568" />
+          <Tip locidTip="195569" />
+          <Tip locidTip="195570" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="8" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="195571" />
+          <Tip locidTip="195572" />
+          <Tip locidTip="195573" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="10" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="195574" />
+          <Tip locidTip="195575" />
+          <Tip locidTip="195576" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="1" selMissionType="11" missionScriptName="sla_020_main" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="266295" />
+          <Tip locidTip="266299" />
+          <Tip locidTip="266301" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="1" selMissionType="11" missionScriptName="sla_030_main" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="266295" />
+          <Tip locidTip="266299" />
+          <Tip locidTip="266301" />
+          <Tip locidTip="266303" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="1" selMissionType="11" missionScriptName="sla_050_main" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="266295" />
+          <Tip locidTip="266299" />
+          <Tip locidTip="266301" />
+          <Tip locidTip="266303" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="1" selMissionType="11" missionScriptName="sla_060_main" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="266295" />
+          <Tip locidTip="266299" />
+          <Tip locidTip="266301" />
+          <Tip locidTip="266303" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="16" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="266290" />
+          <Tip locidTip="266291" />
+          <Tip locidTip="266292" />
+          <Tip locidTip="266293" />
+          <Tip locidTip="266294" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="11" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="275464" />
+          <Tip locidTip="275465" />
+          <Tip locidTip="275432" />
+          <Tip locidTip="275434" />
+          <Tip locidTip="275435" />
+          <Tip locidTip="275436" />
+          <Tip locidTip="275437" />
+          <Tip locidTip="275438" />
+          <Tip locidTip="275439" />
+          <Tip locidTip="340907" />
+          <Tip locidTip="275430" />
+          <Tip locidTip="275433" />
+          <Tip locidTip="275463" />
+          <Tip locidTip="275467" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="12" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="275350" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="14" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="275351" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="17" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="305867" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="18" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="344063" />
+          <Tip locidTip="344262" />
+          <Tip locidTip="344263" />
+          <Tip locidTip="344264" />
+          <Tip locidTip="344265" />
+          <Tip locidTip="344266" />
+          <Tip locidTip="344267" />
+          <Tip locidTip="344268" />
+          <Tip locidTip="344269" />
+          <Tip locidTip="344270" />
+          <Tip locidTip="344271" />
+          <Tip locidTip="344272" />
+          <Tip locidTip="344273" />
+          <Tip locidTip="344274" />
+          <Tip locidTip="344275" />
+          <Tip locidTip="344276" />
+          <Tip locidTip="344277" />
+          <Tip locidTip="344281" />
+          <Tip locidTip="344282" />
+          <Tip locidTip="344283" />
+          <Tip locidTip="344284" />
+          <Tip locidTip="344285" />
+          <Tip locidTip="344286" />
+          <Tip locidTip="344287" />
+          <Tip locidTip="344288" />
+          <Tip locidTip="344289" />
+          <Tip locidTip="344290" />
+          <Tip locidTip="344291" />
+          <Tip locidTip="344292" />
+          <Tip locidTip="344293" />
+          <Tip locidTip="344294" />
+          <Tip locidTip="344295" />
+          <Tip locidTip="344296" />
+          <Tip locidTip="344297" />
+          <Tip locidTip="344298" />
+          <Tip locidTip="344299" />
+          <Tip locidTip="344300" />
+          <Tip locidTip="344301" />
+          <Tip locidTip="344302" />
+          <Tip locidTip="344303" />
+          <Tip locidTip="344304" />
+          <Tip locidTip="344305" />
+          <Tip locidTip="344306" />
+          <Tip locidTip="344307" />
+          <Tip locidTip="344308" />
+          <Tip locidTip="344309" />
+          <Tip locidTip="344310" />
+          <Tip locidTip="344311" />
+          <Tip locidTip="344312" />
+          <Tip locidTip="344313" />
+          <Tip locidTip="344314" />
+          <Tip locidTip="344315" />
+          <Tip locidTip="344316" />
+          <Tip locidTip="344317" />
+          <Tip locidTip="344318" />
+          <Tip locidTip="344319" />
+          <Tip locidTip="344320" />
+          <Tip locidTip="344321" />
+          <Tip locidTip="344322" />
+          <Tip locidTip="344323" />
+          <Tip locidTip="344324" />
+          <Tip locidTip="344325" />
+          <Tip locidTip="344326" />
+          <Tip locidTip="344327" />
+          <Tip locidTip="344328" />
+          <Tip locidTip="344329" />
+          <Tip locidTip="344330" />
+          <Tip locidTip="344331" />
+          <Tip locidTip="344332" />
+          <Tip locidTip="344333" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="19" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="346899" />
+          <Tip locidTip="346903" />
+          <Tip locidTip="346907" />
+          <Tip locidTip="346909" />
+          <Tip locidTip="346911" />
+          <Tip locidTip="346875" />
+          <Tip locidTip="346935" />
+          <Tip locidTip="346927" />
+          <Tip locidTip="346921" />
+          <Tip locidTip="346945" />
+          <Tip locidTip="346893" />
+          <Tip locidTip="346923" />
+          <Tip locidTip="346897" />
+          <Tip locidTip="346929" />
+          <Tip locidTip="346910" />
+          <Tip locidTip="346873" />
+          <Tip locidTip="346933" />
+          <Tip locidTip="346939" />
+          <Tip locidTip="346913" />
+          <Tip locidTip="346992" />
+          <Tip locidTip="346891" />
+          <Tip locidTip="346915" />
+          <Tip locidTip="346919" />
+          <Tip locidTip="346917" />
+          <Tip locidTip="346931" />
+          <Tip locidTip="346905" />
+          <Tip locidTip="346889" />
+          <Tip locidTip="346943" />
+          <Tip locidTip="346901" />
+          <Tip locidTip="346881" />
+          <Tip locidTip="346941" />
+          <Tip locidTip="346885" />
+          <Tip locidTip="346925" />
+          <Tip locidTip="346887" />
+          <Tip locidTip="346937" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="20" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="355420" />
+          <Tip locidTip="355422" />
+          <Tip locidTip="355804" />
+          <Tip locidTip="355805" />
+          <Tip locidTip="355806" />
+          <Tip locidTip="355807" />
+          <Tip locidTip="355808" />
+          <Tip locidTip="355809" />
+          <Tip locidTip="355810" />
+          <Tip locidTip="355811" />
+          <Tip locidTip="355812" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="-1" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+    </TipPools>
+  </LoadingScreenTips>
+  <BackgroundToolData>
+    <bgProfiles>
+      <Profile sProfileName="BigText" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="0" iHPadding="15" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.35" fBoderAlpha="0" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0,0,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="WhiteBorderTitle" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="15" fHPaddingMultiplier="0.07" fVPaddingMultiplier="0.1" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0,0,0" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="WhiteBorderAct" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="15" fHPaddingMultiplier="0.07" fVPaddingMultiplier="0.1" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0,0,0" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="WhiteBorderWeaponShop" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="6" iVPadding="5" fHPaddingMultiplier="0.02" fVPaddingMultiplier="0.05" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0,0,0" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="Default" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="0" iHPadding="8" iVPadding="5" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.4" fBoderAlpha="0" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0,0,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="Underline" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="4" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.4" fBoderAlpha="0" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.019608,0.019608,0.019608" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="Upperline" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="2" selBordeType="2" iHPadding="6" iVPadding="4" fHPaddingMultiplier="0.01" fVPaddingMultiplier="0.01" fBackgroundAlpha="0.35" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.956863,0.831373,0.011765" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="CraftingHighlight" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="7" iHPadding="8" iVPadding="8" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.35" fBoderAlpha="0.65" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.929412,0.894118,0.219608" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="Warning" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="2" selBordeType="2" iHPadding="14" iVPadding="4" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.94902,0.054902,0.054902" clrExtraLeftTextureColor="0.019608,0.019608,0.019608" />
+      <Profile sProfileName="Subtitles" bUseMultiline="1" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="0" iHPadding="4" iVPadding="1" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.4" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0,0,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="TutorialsBackground" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="6" iHPadding="20" iVPadding="10" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.937255,0.494118,0.176471" clrExtraLeftTextureColor="0.54902,0.290196,0.109804" />
+      <Profile sProfileName="HintsBackground" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="1" iHPadding="20" iVPadding="10" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.929412,0.490196,0.176471" clrExtraLeftTextureColor="0.54902,0.290196,0.109804" />
+      <Profile sProfileName="SkillsPageElephant" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="4" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.223529,0.639216,0.976471" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="SkillsPageTiger" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="4" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,0.584314,0.196078" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="MainMenuTitle" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="30" iVPadding="12" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="ObjectiveBackground" bUseMultiline="0" bUseExtraLeftTexture="1" iBorderSize="2" selBordeType="1" iHPadding="20" iVPadding="9" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,0.933333,0" clrExtraLeftTextureColor="0.768628,0.701961,0" />
+      <Profile sProfileName="FloatingMsgBox" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="2" selBordeType="5" iHPadding="10" iVPadding="10" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.65" fBoderAlpha="0.65" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="KarmaBackground" bUseMultiline="0" bUseExtraLeftTexture="1" iBorderSize="2" selBordeType="1" iHPadding="20" iVPadding="9" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.7" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.588235,0.4,1" clrExtraLeftTextureColor="0.337255,0.262745,0.509804" />
+      <Profile sProfileName="UnlocksBorderAnim" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="7" iHPadding="20" iVPadding="15" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0" fBoderAlpha="0.95" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.937255,0.835294,0.262745" clrExtraLeftTextureColor="0,0,0" />
+      <Profile sProfileName="CoopMessages" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="1" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.2,0.6,0.8" clrExtraLeftTextureColor="0.019608,0.019608,0.019608" />
+      <Profile sProfileName="DefaultHighlighted" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="7" iHPadding="10" iVPadding="8" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.4" fBoderAlpha="0.65" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.937255,0.835294,0.262745" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="MessageBoxTitle" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="7" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0" fBoderAlpha="0.65" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="YellowBorderTitle" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="4" selBordeType="5" iHPadding="12" iVPadding="8" fHPaddingMultiplier="0.1" fVPaddingMultiplier="0.1" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.996078,0.819608,0.015686" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="GreenBorderTitle" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="15" fHPaddingMultiplier="0.07" fVPaddingMultiplier="0.1" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.6,1,0.8" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="BlueBorderTitle" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="15" fHPaddingMultiplier="0.07" fVPaddingMultiplier="0.1" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.4,0.8,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="GoldFrame" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="15" fHPaddingMultiplier="0.07" fVPaddingMultiplier="0.1" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.996078,0.819608,0.015686" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="TheKingIsDead" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="4" selBordeType="5" iHPadding="12" iVPadding="15" fHPaddingMultiplier="0.07" fVPaddingMultiplier="0.1" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,0.203922,0.423529" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="TopLeftBottom" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="4" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.4" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.019608,0.019608,0.019608" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="ActivitieBG" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="1" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.4,0.8,1" clrExtraLeftTextureColor="0.019608,0.019608,0.019608" />
+      <Profile sProfileName="ObjectiveNoIcon" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="1" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,0.933333,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="CoopWaitingMSG" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="0" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0,0,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="RegularTimer" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="5" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.15" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="BonusTime" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="4" selBordeType="7" iHPadding="12" iVPadding="5" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.15" fBoderAlpha="0.65" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.588235,1,0.552941" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="TimeRunningOut" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="4" selBordeType="7" iHPadding="12" iVPadding="5" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.15" fBoderAlpha="0.65" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.792157,0.2,0.207843" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="0" iHPadding="6" iVPadding="4" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.25" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0,0,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+    </bgProfiles>
+    <BordersAnimation fStartUpdatingTop="20" fStartUpdatingRight="90" fStartUpdatingBottom="60" fStopUpdatingAlpha="65" fEffectDuration="1.5" />
+    <HighlightAnimation fSpeedMultiplier="1" />
+  </BackgroundToolData>
+  <XPTierData>
+    <Tier0 fTiming="2.5" iBonusFontSize="18" iXPGainedFontSize="18" />
+    <Tier1 fTiming="2.5" iBonusFontSize="20" iXPGainedFontSize="18" />
+    <Tier2 fTiming="2.5" iBonusFontSize="24" iXPGainedFontSize="18" />
+    <Tier3 fTiming="2.5" iBonusFontSize="28" iXPGainedFontSize="18" />
+  </XPTierData>
+  <PointTierData>
+    <Tier0 fTiming="0" iBonusFontSize="0" iXPGainedFontSize="0" />
+    <Tier1 fTiming="0" iBonusFontSize="0" iXPGainedFontSize="0" />
+    <Tier2 fTiming="0" iBonusFontSize="0" iXPGainedFontSize="0" />
+    <Tier3 fTiming="0" iBonusFontSize="0" iXPGainedFontSize="0" />
+  </PointTierData>
+  <GameTimerData fWarningTimeRatio="0.2" iWarningTimeMax="30" iBuzzerTimeValue="10" />
+  <TutorialData CraftingHintDisplayNumber="3" SafeHouseFirstVisitHintDisplayNumber="3" />
+  <ControlPromptDuration>
+    <fWheeled fDisplayTime="0" iDisplayCount="0" />
+    <fBuzzer fDisplayTime="0" iDisplayCount="0" />
+    <fElephant fDisplayTime="0" iDisplayCount="0" />
+    <fGrapple fDisplayTime="20" iDisplayCount="10" />
+    <fMortar fDisplayTime="20" iDisplayCount="10" />
+    <fGrappleNoDetach fDisplayTime="25" iDisplayCount="10" />
+    <fGlider fDisplayTime="0" iDisplayCount="0" />
+    <fWheeledNoBrake fDisplayTime="20" iDisplayCount="10" />
+    <fMine fDisplayTime="20" iDisplayCount="10" />
+    <fIED fDisplayTime="20" iDisplayCount="10" />
+  </ControlPromptDuration>
+  <WeaponAttachmentsInfo>
+    <WeaponAttachmentsInfo>
+      <Weapons arkWeapon="7679090023493">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7738074021527" sUIIconName="ReflexA" fAttchamentPosX="0" fAttchamentPosY="-20" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7738074037280" sUIIconName="ACOG" fAttchamentPosX="0" fAttchamentPosY="-20" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473569587" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M1887Mag" fAttchamentPosX="-2" fAttchamentPosY="-4" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="IronsightUpgrade" fAttchamentPosX="-5" fAttchamentPosY="-15" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="396324350715055641">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7646733255608" sUIIconName="Silencer" fAttchamentPosX="47" fAttchamentPosY="-15" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="6P9Mag" fAttchamentPosX="-17" fAttchamentPosY="7" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="IronsightUpgrade" fAttchamentPosX="-22" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7639738883482">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473493239" sUIIconName="Silencer" fAttchamentPosX="54" fAttchamentPosY="-17" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="-5" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-5" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205225130" sUIIconName="ReflexB" fAttchamentPosX="-5" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="A2000Mag" fAttchamentPosX="3" fAttchamentPosY="12" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205366872" sUIIconName="Optical" fAttchamentPosX="-5" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7681075439447">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473538432" sUIIconName="Silencer" fAttchamentPosX="75" fAttchamentPosY="-9.5" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="Ace56Mag" fAttchamentPosX="-16" fAttchamentPosY="9" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708623574868" sUIIconName="Optical" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="216180365620235801">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473538432" sUIIconName="Silencer" fAttchamentPosX="83" fAttchamentPosY="-11" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="AK47Mag" fAttchamentPosX="-3" fAttchamentPosY="6" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708623574868" sUIIconName="Optical" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7676407210732">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707254510115" sUIIconName="" fAttchamentPosX="3" fAttchamentPosY="-26" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707254776484" sUIIconName="BowReflexA" fAttchamentPosX="3" fAttchamentPosY="-26" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707254749657" sUIIconName="BowReflexB" fAttchamentPosX="3" fAttchamentPosY="-26" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7673157991956">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473493239" sUIIconName="Silencer" fAttchamentPosX="80" fAttchamentPosY="-7" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="8" fAttchamentPosY="-23" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="8" fAttchamentPosY="-23" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205225130" sUIIconName="ReflexB" fAttchamentPosX="8" fAttchamentPosY="-23" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205366872" sUIIconName="OPTICAL" fAttchamentPosX="8" fAttchamentPosY="-23" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="BZ19Mag" fAttchamentPosX="23" fAttchamentPosY="1" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7676525258612">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="DesertEagleMag" fAttchamentPosX="-20" fAttchamentPosY="8" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205334127" sUIIconName="Optical" fAttchamentPosX="10" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="Ironsightupgrade" fAttchamentPosX="-19" fAttchamentPosY="-26" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="10" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734188296" sUIIconName="ReflexA" fAttchamentPosX="10" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="10" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7656527669248">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="-1" fAttchamentPosY="-32" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-1" fAttchamentPosY="-32" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-1" fAttchamentPosY="-32" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473538432" sUIIconName="Silencer" fAttchamentPosX="84" fAttchamentPosY="-6" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="FlamasMag" fAttchamentPosX="-28" fAttchamentPosY="17" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708623574868" sUIIconName="Optical" fAttchamentPosX="0" fAttchamentPosY="-29" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7659620898856">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7659623041097" sUIIconName="BarrelUpgrade" fAttchamentPosX="34" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7659622892315" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205334127" sUIIconName="Optical" fAttchamentPosX="-8" fAttchamentPosY="-31" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="Ironsightupgrade" fAttchamentPosX="-7" fAttchamentPosY="-26" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-8" fAttchamentPosY="-31" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734188296" sUIIconName="ReflexA" fAttchamentPosX="-8" fAttchamentPosY="-31" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="-8" fAttchamentPosY="-31" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7635867338492">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473493239" sUIIconName="Silencer" fAttchamentPosX="63" fAttchamentPosY="-15" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="14" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="14" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205225130" sUIIconName="ReflexB" fAttchamentPosX="14" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="KSVMag" fAttchamentPosX="11" fAttchamentPosY="17" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205366872" sUIIconName="Optical" fAttchamentPosX="14" fAttchamentPosY="-28" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7602852352217">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7646733255608" sUIIconName="Silencer" fAttchamentPosX="55" fAttchamentPosY="-16" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="KimberMAG" fAttchamentPosX="-24" fAttchamentPosY="7" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205334127" sUIIconName="Optical" fAttchamentPosX="-5" fAttchamentPosY="-26" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="IronsightUpgrade" fAttchamentPosX="-20" fAttchamentPosY="-23" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734188296" sUIIconName="ReflexA" fAttchamentPosX="-5" fAttchamentPosY="-26" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="-5" fAttchamentPosY="-26" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-5" fAttchamentPosY="-26" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7653034129031">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="FlameThrowerMag" fAttchamentPosX="5" fAttchamentPosY="7" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="189158767856012825">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473569587" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7738074021527" sUIIconName="ReflexA" fAttchamentPosX="0" fAttchamentPosY="-20" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7738074037280" sUIIconName="ACOG" fAttchamentPosX="0" fAttchamentPosY="-20" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M133Mag" fAttchamentPosX="6" fAttchamentPosY="-8" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="IronsightUpgrade" fAttchamentPosX="-9" fAttchamentPosY="-18" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7662973330456">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473538432" sUIIconName="Silencer" fAttchamentPosX="96" fAttchamentPosY="-11" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="Mk16Mag" fAttchamentPosX="2" fAttchamentPosY="7" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708623574868" sUIIconName="Optical" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7677582910076">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7723385677420" sUIIconName="ReflexA" fAttchamentPosX="-11" fAttchamentPosY="-30" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7723385704509" sUIIconName="ACOG" fAttchamentPosX="-11" fAttchamentPosY="-30" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205260853" sUIIconName="ReflexB" fAttchamentPosX="-11" fAttchamentPosY="-30" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M249Mag" fAttchamentPosX="-3" fAttchamentPosY="8" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7722692876924" sUIIconName="Optical" fAttchamentPosX="-11" fAttchamentPosY="-30" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7660420109553">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473493239" sUIIconName="Silencer" fAttchamentPosX="71" fAttchamentPosY="-13" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="-6" fAttchamentPosY="-30" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-6" fAttchamentPosY="-30" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205225130" sUIIconName="ReflexB" fAttchamentPosX="-6" fAttchamentPosY="-30" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="MP5Mag" fAttchamentPosX="9" fAttchamentPosY="7" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205366872" sUIIconName="Optical" fAttchamentPosX="-6" fAttchamentPosY="-30" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7679073997199">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="-18" fAttchamentPosY="-27" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-18" fAttchamentPosY="-27" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-18" fAttchamentPosY="-27" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473538432" sUIIconName="Silencer" fAttchamentPosX="80" fAttchamentPosY="-12" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="P416Mag" fAttchamentPosX="1" fAttchamentPosY="15" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708623574868" sUIIconName="Optical" fAttchamentPosX="-18" fAttchamentPosY="-27" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="378309952205573657">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7723385677420" sUIIconName="ReflexA" fAttchamentPosX="-20" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7723385704509" sUIIconName="ACOG" fAttchamentPosX="-20" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205260853" sUIIconName="ReflexB" fAttchamentPosX="-20" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="PKMMag" fAttchamentPosX="1" fAttchamentPosY="7" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7722692876924" sUIIconName="Optical" fAttchamentPosX="-20" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="144122771582307865">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473669635" sUIIconName="Silencer" fAttchamentPosX="70" fAttchamentPosY="-7" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M-700Mag" fAttchamentPosX="-11" fAttchamentPosY="1" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707382671690" sUIIconName="HighPowerScope" fAttchamentPosX="-10" fAttchamentPosY="-16" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707382639531" sUIIconName="IlluminatedScope" fAttchamentPosX="-10" fAttchamentPosY="-16" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7663918548096">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473569587" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7738074021527" sUIIconName="ReflexA" fAttchamentPosX="-11" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7738074037280" sUIIconName="ACOG" fAttchamentPosX="-11" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="SPASMag" fAttchamentPosX="-22" fAttchamentPosY="-3" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="IronsightUpgrade" fAttchamentPosX="-13" fAttchamentPosY="-16" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7598204629182">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="0" fAttchamentPosY="-27" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="0" fAttchamentPosY="-27" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="0" fAttchamentPosY="-27" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473538432" sUIIconName="Silencer" fAttchamentPosX="65" fAttchamentPosY="-8" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="STGWMag" fAttchamentPosX="13" fAttchamentPosY="10" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708623574868" sUIIconName="Optical" fAttchamentPosX="0" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7643219808021">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473669635" sUIIconName="Silencer" fAttchamentPosX="95" fAttchamentPosY="-5" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7705370039467" sUIIconName="HighPowerScope" fAttchamentPosX="-11" fAttchamentPosY="-15" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7705370388939" sUIIconName="IlluminatedScope" fAttchamentPosX="-11" fAttchamentPosY="-15" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="SVDMag" fAttchamentPosX="-3" fAttchamentPosY="8" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7656527520569">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7723385677420" sUIIconName="ReflexA" fAttchamentPosX="-29" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7723385704509" sUIIconName="ACOG" fAttchamentPosX="-29" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205260853" sUIIconName="ReflexB" fAttchamentPosX="-29" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="U100Mag" fAttchamentPosX="-18" fAttchamentPosY="9" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7722692876924" sUIIconName="Optical" fAttchamentPosX="-29" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="495403542517206553">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473493239" sUIIconName="Silencer" fAttchamentPosX="49" fAttchamentPosY="-11" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="-10" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-10" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="VZ61Mag" fAttchamentPosX="5" fAttchamentPosY="6" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205366872" sUIIconName="Optical" fAttchamentPosX="-10" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205225130" sUIIconName="ReflexB" fAttchamentPosX="-10" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7671716426589">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473669635" sUIIconName="Silencer" fAttchamentPosX="93" fAttchamentPosY="-5" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7703373589865" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M93Mag" fAttchamentPosX="-20" fAttchamentPosY="7" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707382589914" sUIIconName="HighPowerScope" fAttchamentPosX="-13" fAttchamentPosY="-13" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707382617869" sUIIconName="IlluminatedScope" fAttchamentPosX="-17" fAttchamentPosY="-13" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7811421549439">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473493239" sUIIconName="Silencer" fAttchamentPosX="56" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7854228547482" sUIIconName="A99Mag" fAttchamentPosX="-3" fAttchamentPosY="17" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205334127" sUIIconName="Optical" fAttchamentPosX="-15" fAttchamentPosY="-34" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734188296" sUIIconName="ReflexA" fAttchamentPosX="-15" fAttchamentPosY="-34" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-15" fAttchamentPosY="-34" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="-15" fAttchamentPosY="-34" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7845903257979">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666473669635" sUIIconName="Silencer" fAttchamentPosX="71" fAttchamentPosY="-4" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7857186318141" sUIIconName="HighPowerScope" fAttchamentPosX="0" fAttchamentPosY="-18" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="SA50Mag" fAttchamentPosX="-28" fAttchamentPosY="11" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7857186575552" sUIIconName="IlluminatedScope" fAttchamentPosX="5" fAttchamentPosY="-18" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7839486645465">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="MG42Mag" fAttchamentPosX="-29" fAttchamentPosY="2" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7722692876924" sUIIconName="Optical" fAttchamentPosX="-18" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7723385677420" sUIIconName="ReflexA" fAttchamentPosX="-18" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7723385704509" sUIIconName="ACOG" fAttchamentPosX="-18" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205260853" sUIIconName="ReflexB" fAttchamentPosX="-18" fAttchamentPosY="-21" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7856261995015">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="AJM9Mag" fAttchamentPosX="-27" fAttchamentPosY="8" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7856395426596" sUIIconName="BarrelUpgrade" fAttchamentPosX="35" fAttchamentPosY="-13" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7843642502041">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M712Mag" fAttchamentPosX="-3" fAttchamentPosY="8" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="IronsightUpgrade" fAttchamentPosX="-20" fAttchamentPosY="-22" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7792905702112">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205334127" sUIIconName="Optical" fAttchamentPosX="-18" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734188296" sUIIconName="ReflexA" fAttchamentPosX="-18" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="-18" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-18" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M1887Mag" fAttchamentPosX="2" fAttchamentPosY="-3" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7817179184557">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="IronsightUpgrade" fAttchamentPosX="-10" fAttchamentPosY="-24" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7839192283170">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M1887Mag" fAttchamentPosX="-4" fAttchamentPosY="-3" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7793085630390">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7647656694902" sUIIconName="ReflexA" fAttchamentPosX="-10" fAttchamentPosY="-20" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-10" fAttchamentPosY="-20" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7707923215031" sUIIconName="IronsightUpgrade" fAttchamentPosX="-18" fAttchamentPosY="-15" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-10" fAttchamentPosY="-20" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7708623574868" sUIIconName="Optical" fAttchamentPosX="-10" fAttchamentPosY="-20" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="7811536824040">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="7852468676075" sUIIconName="Optical" fAttchamentPosX="-20" fAttchamentPosY="-20" />
+          </Attachments>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+      <Weapons arkWeapon="0">
+        <AttachmentsInfo>
+          <Attachments>
+            <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+          </Attachments>
+        </AttachmentsInfo>
+      </Weapons>
+    </WeaponAttachmentsInfo>
+  </WeaponAttachmentsInfo>
+  <CoopWheelProperties>
+    <CoopWheelProperties fDefaultScale="0.9" fHighlightedScale="1" fDefaultAlpha="0.7" fHighlightedAlpha="1" fUsableAlpha="1" fUnusableAlpha="0.5" iSpamMaxCount="10" fSpamCountTime="15" fSpamPenaltyTime="30">
+      <SoloSlots>
+        <SlotUp locidTitle="269638" sSlotFrameLabel="InviteFriend" selSlotType="0" locidTitleAlternate="-1" sSlotFrameLabelAlternate="Empty" />
+        <SlotUpRight locidTitle="-1" sSlotFrameLabel="Empty" selSlotType="0" locidTitleAlternate="-1" sSlotFrameLabelAlternate="Empty" />
+        <SlotRight locidTitle="262453" sSlotFrameLabel="GetHelp" selSlotType="2" locidTitleAlternate="262457" sSlotFrameLabelAlternate="Cancel" />
+        <SlotDownRight locidTitle="-1" sSlotFrameLabel="Empty" selSlotType="0" locidTitleAlternate="-1" sSlotFrameLabelAlternate="Empty" />
+        <SlotDown locidTitle="271140" sSlotFrameLabel="GunsForHire" selSlotType="1" locidTitleAlternate="-1" sSlotFrameLabelAlternate="Empty" />
+        <SlotDownLeft locidTitle="-1" sSlotFrameLabel="Empty" selSlotType="0" locidTitleAlternate="-1" sSlotFrameLabelAlternate="Empty" />
+        <SlotLeft locidTitle="262454" sSlotFrameLabel="OfferHelp" selSlotType="2" locidTitleAlternate="262457" sSlotFrameLabelAlternate="Cancel" />
+        <SlotUpLeft locidTitle="-1" sSlotFrameLabel="Empty" selSlotType="0" locidTitleAlternate="-1" sSlotFrameLabelAlternate="Empty" />
+      </SoloSlots>
+      <CoopSlots>
+        <SlotUp locidTitle="353754" sSlotFrameLabel="Com_0" selSlotType="0" locidTitleAlternate="353872" sSlotFrameLabelAlternate="Empty" />
+        <SlotUpRight locidTitle="260731" sSlotFrameLabel="Com_1" selSlotType="0" locidTitleAlternate="260731" sSlotFrameLabelAlternate="Empty" />
+        <SlotRight locidTitle="353773" sSlotFrameLabel="Com_2" selSlotType="0" locidTitleAlternate="260733" sSlotFrameLabelAlternate="Empty" />
+        <SlotDownRight locidTitle="260734" sSlotFrameLabel="Com_3" selSlotType="0" locidTitleAlternate="260734" sSlotFrameLabelAlternate="Empty" />
+        <SlotDown locidTitle="353753" sSlotFrameLabel="Com_4" selSlotType="0" locidTitleAlternate="353871" sSlotFrameLabelAlternate="Empty" />
+        <SlotDownLeft locidTitle="260736" sSlotFrameLabel="Com_5" selSlotType="0" locidTitleAlternate="260736" sSlotFrameLabelAlternate="Empty" />
+        <SlotLeft locidTitle="353774" sSlotFrameLabel="Com_6" selSlotType="0" locidTitleAlternate="260737" sSlotFrameLabelAlternate="Empty" />
+        <SlotUpLeft locidTitle="260738" sSlotFrameLabel="Com_7" selSlotType="0" locidTitleAlternate="260738" sSlotFrameLabelAlternate="Empty" />
+      </CoopSlots>
+    </CoopWheelProperties>
+  </CoopWheelProperties>
+  <CraftingWheelProperties>
+    <CraftingWheelProperties fDefaultScale="0.7" fHighlightedScale="1" fDefaultAlpha="0.8" fHighlightedAlpha="1" fUsableAlpha="1" fUnusableAlpha="0.7" fAlignmentOffsetLockedX="0" fAlignmentOffsetLockedY="3" />
+  </CraftingWheelProperties>
+  <WeaponWheelProperties>
+    <WeaponWheelProperties fDefaultScale="0.7" fHighlightedScale="1" fDefaultAlpha="0.8" fHighlightedAlpha="1" fUsableAlpha="1" fUnusableAlpha="0.5" fAlignmentOffsetX="119" fAlignmentOffsetLockedX="150" arkFireArrow="7682173231340" arkExplosiveArrow="7682173203845" />
+  </WeaponWheelProperties>
+  <InteractionProperties fWeaponWheelTouchDelay="0.165">
+    <Interactions>
+      <Interaction selInteractionType="1" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="2" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="3" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="4" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="5" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="6" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="7" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="8" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="9" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="10" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="11" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="12" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="13" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="14" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="15" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="16" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="17" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="18" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="19" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="20" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="21" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="22" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="23" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="24" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="25" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="26" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="27" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="28" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="29" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="30" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="31" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="32" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="33" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="34" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="35" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="36" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="37" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="38" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="39" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="40" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="41" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="42" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="43" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="44" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="45" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="46" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="47" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="48" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="49" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="50" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="51" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="52" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="53" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="54" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="55" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="56" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="57" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="58" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="59" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="60" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="61" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="62" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="63" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="66" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="67" bIsHoldInteraction="0" />
+      <Interaction selInteractionType="68" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="69" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="70" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="71" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="72" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="73" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="74" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="75" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="78" bIsHoldInteraction="1" />
+      <Interaction selInteractionType="0" bIsHoldInteraction="1" />
+    </Interactions>
+  </InteractionProperties>
+  <BowHintProperties>
+    <BowHintProperties fPluckPrimePercent="0.25" iPluckCountMax="5">
+      <HintProperties>
+        <Hint locidHint="341262" fDisplayTime="10" />
+      </HintProperties>
+    </BowHintProperties>
+  </BowHintProperties>
+  <MineHintProperties>
+    <MineHintProperties locidHint="167712" fDisplayTime="10" />
+  </MineHintProperties>
+  <SafehouseHintProperties>
+    <SafehouseHintProperties locidHint="342815" fDisplayTime="10" />
+  </SafehouseHintProperties>
+  <AutocraftHintProperties>
+    <AutocraftHintProperties locidHint="342070" fDisplayTime="10" />
+  </AutocraftHintProperties>
+  <HintProperties>
+    <ViewSyringe locidHint="342547" fDisplayTime="10" />
+    <DestroyConvoy locidHint="208767" fDisplayTime="10" />
+    <ThrowGrenade locidHint="344685" fDisplayTime="10" />
+    <DriveControl locidHint="167712" fDisplayTime="10" />
+    <SpendGFHToken locidHint="348759" fDisplayTime="10" />
+    <GetGFHToken locidHint="348760" fDisplayTime="10" />
+    <FullGFHToken locidHint="348761" fDisplayTime="10" />
+    <PlantAndCraft locidHint="347169" fDisplayTime="10" />
+  </HintProperties>
+  <PlantCountToDisplayHint>
+    <Counts>
+      <Count Count="4" />
+      <Count Count="10" />
+      <Count Count="20" />
+      <Count Count="0" />
+    </Counts>
+  </PlantCountToDisplayHint>
+  <UnlockSyringeAbilities>
+    <UnlockSyringAbility StringID="SP_UnlockSyringeLeopard" />
+    <UnlockSyringAbility StringID="SP_UnlockSyringeElephant" />
+    <UnlockSyringAbility StringID="SP_UnlockSyringeOverdose" />
+    <UnlockSyringAbility StringID="SP_UnlockSyringeTiger" />
+    <UnlockSyringAbility StringID="" />
+  </UnlockSyringeAbilities>
+  <MinimapOpacity Off="0" Low="0.35" Default="0.6" High="1" />
+</Generic>
