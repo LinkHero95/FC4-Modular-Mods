@@ -29,11 +29,19 @@
 
 	<Replaces>
 		<!-- Template -->
-		<!-- <Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb">
+		<!-- <Replace RequiredFile="entityarchetypeslibrary/nomadobjecttemplates_rt.ark.fcb">
 		</Replace> -->
 
 		<!-- weapon archetype files -->
 		<!-- Handguns -->
+		<Replace RequiredFile="entityarchetypeslibrary/7817179374877.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="1" type="BinHex">01000000</field>
+				</object>
+			</object>
+		</Replace>
+
 		<!-- Mark IV -->
 		<!-- M-712 -->
 		<!-- 1911 -->
@@ -57,7 +65,23 @@
 		<!-- F1 -->
 		<!-- MS16 -->
 		<!-- P416 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7679076076980.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
 		<!-- A52 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7681075852019.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
 		<!-- .700 Nitro -->
 		<!-- Sniper Rifles -->
 		<!-- SVD -->
