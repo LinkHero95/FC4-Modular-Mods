@@ -12,6 +12,7 @@
 <a name="disclaimer"></a>
 ##	Disclaimer and Permissions
 - This is a mod in progress, and in no way finished. Usage of this mod may cause game to crash.
+- Permission in writing was obtained from the respective authors before porting their mods to the Mod Installer format.
 
 <a name="overview"></a>
 ##	Overview
@@ -26,33 +27,26 @@
 <a name="otherinfo"></a>
 ##	Other Information
 - **Mods completed:**<br>
-    None
+    1. *Base Files:*
+        1. BP Entitylibrary File v1.0
+        1. BP Shop Files v1.0
+
 - **Mods in testing:**<br>
-    1. *Handguns:*
-        1. 1911
-    1. *SMGs:*
-        1. A2000
-        1. BZ19
-    1. *Shotguns:*
-        1. M133
-    1. *Assault Rifles:*
-        1. AK47
-        1. P416
-    1. *Sniper Rifles:*
-        1. SVD
-        1. Z93
-    1. *LMGs:*
-        1. PKM
-    1. *Launchers:*
-        1. RPG-7
-    1. *Specials:*
-        1. Hunter Bow (Bow_Primitive)
-        1. Recurve Bow (Bow)
-        1. Flamethrower
+    1. *Gameplay:*
+        1. FC4 Open World Skills unlock
+        1. FC4 Open World Signature weapons unlock
+        1. FC4 Open World Weapons unlock
+        1. Ceano's alternate sights
+        1. Vinh1998's alternate Golden Path outfits
+
 - **Mods in development:**<br>
-    None
+    1. *Gameplay:*
+        1. FC4 Open World Attachments unlock
+
 - **Mods to be started:**<br>
-    None
+    1. *Gameplay:*
+        1. Higher Shop Prices
+
 
 <a name="contact"></a>
 ##	Contact details
