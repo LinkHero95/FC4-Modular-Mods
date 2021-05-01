@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<DefaultInclude>false</DefaultInclude>
+	<Description>FC4 Open World: Weapon unlocker
+
+    Unlocks All weapons from the start.
+
+    Changes made by this mod:
+    [list]
+    [*] Attachments for weapons are available in the shop from the start.
+    [*] The number of attachment slots for weapons has been increased to the maximum amount of attachments that can be simultaneously applied e.g. shotguns and machine guns have two slots, while rifles and SMGs have 3.
+    [/list]
+
+    Other Information:
+    [list]
+    [*] This mod is part of jvarnes' Open World Mod.
+    [*] This mod is co-op friendly.
+	[/list]
+	
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/1251163][b]jvarnes[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/71678078][b]Amichai-Oz Yannai[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
+	[/list]
+	</Description>
+	<Dependencies>Shop Files</Dependencies>>
+	<Category>3</Category>
+
+	<Replaces>
+		<!-- Template -->
+		<!-- <Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb">
+		</Replace> -->
+
+		<!-- weapon archetype files -->
+		<!-- Handguns -->
+		<!-- Mark IV -->
+		<!-- M-712 -->
+		<!-- 1911 -->
+		<!-- 6P9 -->
+		<!-- .44 Magnum -->
+		<!-- D50 -->
+		<!-- A99 -->
+		<!-- SMGs -->
+		<!-- Skorpion -->
+		<!-- MP34 -->
+		<!-- A2000 -->
+		<!-- MP5 -->
+		<!-- Shotguns -->
+		<!-- D2 -->
+		<!-- M133 -->
+		<!-- 1887 -->
+		<!-- SPAS-12 -->
+		<!-- Assault Rifles -->
+		<!-- AK47 -->
+		<!-- STG-90 -->
+		<!-- F1 -->
+		<!-- MS16 -->
+		<!-- P416 -->
+		<!-- A52 -->
+		<!-- .700 Nitro -->
+		<!-- Sniper Rifles -->
+		<!-- SVD -->
+		<!-- M-700 -->
+		<!-- LMGs -->
+		<!-- PKM -->
+		<!-- U100 -->
+		<!-- MKG -->
+		<!-- MG42 -->
+
+		<!-- shop files -->
+		<!-- hudproperties files -->
+	</Replaces>
+</InfoReplace>
