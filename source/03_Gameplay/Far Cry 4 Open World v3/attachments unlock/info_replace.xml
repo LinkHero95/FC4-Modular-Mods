@@ -28,12 +28,9 @@
 	<Category>3</Category>
 
 	<Replaces>
-		<!-- Template -->
-		<!-- <Replace RequiredFile="entityarchetypeslibrary/nomadobjecttemplates_rt.ark.fcb">
-		</Replace> -->
-
-		<!-- weapon archetype files -->
+		<!-- Weapon archetype files -->
 		<!-- Handguns -->
+		<!-- Mark IV -->
 		<Replace RequiredFile="entityarchetypeslibrary/7817179374877.ark.fcb">
 			<object hash="FC33DE57" name="CommonProperties">
 				<object hash="C1587501" name="Attachments">
@@ -42,7 +39,6 @@
 			</object>
 		</Replace>
 
-		<!-- Mark IV -->
 		<!-- M-712 -->
 		<!-- 1911 -->
 		<!-- 6P9 -->
@@ -56,6 +52,8 @@
 		<!-- MP5 -->
 		<!-- Shotguns -->
 		<!-- D2 -->
+		<!-- will decide what to do later -->
+
 		<!-- M133 -->
 		<!-- 1887 -->
 		<!-- SPAS-12 -->
