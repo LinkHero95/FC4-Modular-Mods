@@ -90,7 +90,20 @@
 		<!-- MKG -->
 		<!-- MG42 -->
 
-		<!-- shop files -->
-		<!-- hudproperties files -->
+		<!-- Weapon attachments data -->
+		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
+			<!-- Template -->
+			<!-- <Generic primaryKey_disLibItemId="1">
+			</Generic> -->
+			<!-- Handgun Attachments -->
+			<!-- SMG Attachments -->
+			<!-- Shotgun Attachments -->
+			<!-- Assault Rifle Attachments -->
+			<!-- Sniper Rifle Attachments -->
+			<!-- LMG Attachments -->
+			<!-- Launcher Attachments -->
+			<!-- Special Weapon Attachments -->
+		</Replace>
+		<!-- attachment hud positions -->
 	</Replaces>
 </InfoReplace>
