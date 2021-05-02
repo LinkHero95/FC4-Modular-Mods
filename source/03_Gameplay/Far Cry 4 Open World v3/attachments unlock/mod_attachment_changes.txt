@@ -3,7 +3,7 @@ Handgun Attachments
 	7856643211447
 	6124-6127
 
-	M712 Skin B Cost
+	M712 Skin B Cost - Skipped
 	7873003930071
 	5900-5901
 
@@ -79,7 +79,7 @@ Handgun Attachments
 	7728889116873
 	5356-5359
 
-	A99 Night
+	A99 Night Cost
 	7840385032300
 	5092-5095
 
