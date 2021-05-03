@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object name="EntityPrototype" def="ark">
+  <field name="disLibItemId" type="Id64">162137170091789842</field>
+  <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\162137170091789842.ark.fcb</field>
+  <field name="hidArchetypeResId" type="Hash64">31F467594C832994</field>
+  <field name="Name" type="String">IED_Remote</field>
+  <field name="ArchetypeName" type="String">fcc_interactive:pickups:weapons:ied_remote</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FCC_Interactive:Pickups:Weapons:IED_Remote</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">8</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\162137170091789842.ark.fcb</field>
+    <field name="hidArchetypeResId" type="Hash64">31F467594C832994</field>
+    <object name="Components">
+      <object name="CPickupWeapon">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bEnable" type="Boolean">True</field>
+        <field name="fRespawnTime" type="Float32">0</field>
+        <field name="bCustomBoundingBox" type="Boolean">True</field>
+        <field name="vectorBoundingBoxSize" type="Vector3">0.5,0.5,0.5</field>
+        <field name="vectorBoundingBoxOffset" type="Vector3">0,0,0</field>
+        <field name="vectorMaxSpawningAngularVelocity" type="BinHex">000000000000000000000000</field>
+        <field name="bAffectedLightPickup" type="Boolean">True</field>
+        <field name="bPickable" type="Boolean">False</field>
+        <field name="sUsageString" type="String">switchweapon</field>
+        <field name="locidDisplayString" type="BinHex">00000000</field>
+        <field name="fileGeometryPreload" type="BinHex">00</field>
+        <field name="Priority" type="UInt32">0</field>
+        <field name="bCanBeScouted" type="Boolean">False</field>
+        <field name="bDisableOnPick" type="BinHex">01</field>
+        <field name="bInstantPickup" type="BinHex">00</field>
+        <field name="bInstantPickupExtended" type="Boolean">False</field>
+        <field name="bPickUpOnDestroy" type="Boolean">False</field>
+        <field name="bPickUpOnAnyDamage" type="BinHex">00</field>
+        <field name="bPickUpOnBurn" type="BinHex">00</field>
+        <field name="bPickUpOnMolotovExplosion" type="BinHex">00</field>
+        <field name="bIsProp" type="BinHex">00</field>
+        <field name="bIsProjectilePickup" type="BinHex">00</field>
+        <field name="text_fileAnimationOnPickup" type="String"></field>
+        <field name="fileAnimationOnPickup" type="BinHex">FFFFFFFFFFFFFFFF</field>
+        <field name="arkWeapon" type="Id64">297245158912904729</field>
+        <field name="iMinAmmo" type="Int32">20</field>
+        <field name="iMaxAmmo" type="Int32">50</field>
+        <field name="iMinAmmoNeededInClip" type="Int32">0</field>
+        <field name="iMaxAmmoNeededInClip" type="Int32">0</field>
+        <object name="Sounds">
+          <field name="sndPickupGrabSound_1st" type="String">0x004554FA</field>
+          <field name="sndtpPickupGrabSoundType_1st" type="Int32">15</field>
+          <field name="sndPickupGrabSound_3rd" type="String">0x004F012D</field>
+          <field name="sndtpPickupGrabSoundType_3rd" type="Int32">14</field>
+          <field name="sndPickupEquipSound_1st" type="String">0xFFFFFFFF</field>
+          <field name="sndtpPickupEquipSoundType_1st" type="Int32">-1</field>
+          <field name="sndPickupEquipSound_3rd" type="String">0xFFFFFFFF</field>
+          <field name="sndtpPickupEquipSoundType_3rd" type="Int32">-1</field>
+          <field name="mpbarkBarkId" type="String"></field>
+        </object>
+        <object name="SoundsWeapon">
+          <field name="sndPickAmmo" type="String">0x004554F1</field>
+          <field name="sndtpPickAmmoSoundType" type="Int32">15</field>
+        </object>
+        <object name="Attachments">
+          <object name="Attachment">
+            <field name="text_Attachment" type="String"></field>
+            <field name="Attachment" type="BinHex">FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="Hash64">00000000FFFFFFFF</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\_common\weapons\ied\ied_c4_remote.xml</field>
+        <field name="fileName" type="Hash64">BB65F96B36CF5C0F</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.0447208,-0.0741703,-0.0334035" bboxMax="0.0406049,0.056045,0.0161745" />
+                <object index="1" meshName="FLIPSWITCH" boneName="FLIPSWITCH" bboxMin="-0.0122397,-0.0347725,-0.00192179" bboxMax="0.00822056,0.00255031,0.00783963" />
+                <object index="2" meshName="ANTENNA_WIGGLE" boneName="ANTENNA_WIGGLE" bboxMin="-0.00322845,-0.00752538,-0.00817517" bboxMax="0.011873,0.0809682,0.00611558" />
+                <object index="3" meshName="LightOn_01" boneName="LightOn_01" bboxMin="-0.00230425,-0.00211589,-2.7405e-005" bboxMax="0.00206169,0.00225015,0.000466129" />
+                <object index="4" meshName="LightOn_02" boneName="LightOn_02" bboxMin="-0.00232638,-0.00211589,-7.2571e-005" bboxMax="0.00203956,0.00225015,0.000420963" />
+                <object index="5" meshName="LightOn_03" boneName="LightOn_03" bboxMin="-0.00218615,-0.00218101,1.44696e-005" bboxMax="0.00217979,0.00218503,0.000508003" />
+                <resource fileName="graphics\_Common\Weapons\IED\IED_C4_REMOTE.xbg" bboxMin="-0.0447208,-0.0741703,-0.0334035" bboxMax="0.0406049,0.119846,0.0222534" />
+                <skeleton_reference_list>
+                  <skeleton name="IED_C4_REMOTE" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="FRAME" pos="0,0,0" rot="1,0,0,0" />
+                    <bone name="FLIPSWITCH" pos="0,0.01636,0.014251" rot="0.999976,-0.00685787,0,0" />
+                    <bone name="ANTENNA_WIGGLE" pos="0.022106,0.038878,-0.024074" rot="1,0,0,0" />
+                    <bone name="LightOn_01" pos="-0.009704,0.031618,0.012471" rot="1,0,0,0" />
+                    <bone name="LightOn_02" pos="0.005773,0.031618,0.012471" rot="1,0,0,0" />
+                    <bone name="LightOn_03" pos="0.021153,0.031683,0.012384" rot="1,0,0,0" />
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="IED_C4_Lights_On" shader_name="Unlit" ref_shader_id="grassam-M-2106201155751724" hd="0" />
+                  <material name="IED_C4_POWERLED" shader_name="Unlit" ref_shader_id="grassam-M-0607201269092094" hd="0" />
+                  <material name="IED_C4_Metal" shader_name="Metal" ref_shader_id="grassam-M-0905201154813212" hd="0" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="RigidPhysComponent">
+                <resource fileName="graphics\_Common\Weapons\IED\IED_C4_REMOTE.hkx" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">257</field>
+        <field name="bShowInReflection" type="Boolean">False</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String">graphics\_materials\jprajotte-M-20100916104744.material.xml</field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bDisableMip0ResourceLoading" type="BinHex">00</field>
+        <field hash="F41DCC4F" type="BinHex">0000000000000000</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <field name="hidSharedDataHandlerHash" type="Hash64">401A126277AA4ED4</field>
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0607201269092094.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">4BEE73771F74583D</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0905201154813212.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">9CD9F60900D33187</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-2106201155751724.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">E9DB4028890C8E4C</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <field name="hidSharedDataHandlerHash" type="Hash64">EE79B484D4D6CD0B</field>
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0607201269092094.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">4BEE73771F74583D</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0905201154813212.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">9CD9F60900D33187</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-2106201155751724.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">E9DB4028890C8E4C</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <field name="hidSharedDataHandlerHash" type="Hash64">1A9641302CFD8B37</field>
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\_common\weapons\ied\ied_c4_remote.xbg</field>
+          <field name="fileModel" type="Hash64">B43C696B36CF5C0F</field>
+          <field name="hidMeshName" type="String">FRAME</field>
+          <field name="text_hidNodeName" type="String">FRAME</field>
+          <field name="hidNodeName" type="Hash32">42ACFE7D</field>
+          <field name="text_hidNodeNameLOD0" type="String">FRAME_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">117FF4BB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String">graphics\_common\weapons\ied\ied_c4_remote.xbg</field>
+          <field name="fileModel" type="Hash64">B43C696B36CF5C0F</field>
+          <field name="hidMeshName" type="String">FLIPSWITCH</field>
+          <field name="text_hidNodeName" type="String">FLIPSWITCH</field>
+          <field name="hidNodeName" type="Hash32">735CF2CE</field>
+          <field name="text_hidNodeNameLOD0" type="String">FLIPSWITCH_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">7F574DA5</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">2</field>
+          <field name="text_fileModel" type="String">graphics\_common\weapons\ied\ied_c4_remote.xbg</field>
+          <field name="fileModel" type="Hash64">B43C696B36CF5C0F</field>
+          <field name="hidMeshName" type="String">ANTENNA_WIGGLE</field>
+          <field name="text_hidNodeName" type="String">ANTENNA_WIGGLE</field>
+          <field name="hidNodeName" type="Hash32">1989DE8E</field>
+          <field name="text_hidNodeNameLOD0" type="String">ANTENNA_WIGGLE_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">D910719C</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">3</field>
+          <field name="text_fileModel" type="String">graphics\_common\weapons\ied\ied_c4_remote.xbg</field>
+          <field name="fileModel" type="Hash64">B43C696B36CF5C0F</field>
+          <field name="hidMeshName" type="String">LightOn_01</field>
+          <field name="text_hidNodeName" type="String">LightOn_01</field>
+          <field name="hidNodeName" type="Hash32">8D2A4CBC</field>
+          <field name="text_hidNodeNameLOD0" type="String">LightOn_01_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">DBAB1F72</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">4</field>
+          <field name="text_fileModel" type="String">graphics\_common\weapons\ied\ied_c4_remote.xbg</field>
+          <field name="fileModel" type="Hash64">B43C696B36CF5C0F</field>
+          <field name="hidMeshName" type="String">LightOn_02</field>
+          <field name="text_hidNodeName" type="String">LightOn_02</field>
+          <field name="hidNodeName" type="Hash32">14231D06</field>
+          <field name="text_hidNodeNameLOD0" type="String">LightOn_02_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">5D3F6DDC</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">5</field>
+          <field name="text_fileModel" type="String">graphics\_common\weapons\ied\ied_c4_remote.xbg</field>
+          <field name="fileModel" type="Hash64">B43C696B36CF5C0F</field>
+          <field name="hidMeshName" type="String">LightOn_03</field>
+          <field name="text_hidNodeName" type="String">LightOn_03</field>
+          <field name="hidNodeName" type="Hash32">63242D90</field>
+          <field name="text_hidNodeNameLOD0" type="String">LightOn_03_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">9663BE79</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">6</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String"></field>
+          <field name="hidNodeName" type="Hash32">FFFFFFFF</field>
+          <field name="text_hidNodeNameLOD0" type="String"></field>
+          <field name="hidNodeNameLOD0" type="Hash32">FFFFFFFF</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="hidSharedDescriptors">
+          <field name="hidSharedDataHandlerHash" type="Hash64">E49EFB13C8685B13</field>
+        </object>
+      </object>
+      <object name="CRigidPhysComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_hidResourceId" type="String">graphics\_common\weapons\ied\ied_c4_remote.hkx</field>
+        <field name="hidResourceId" type="Hash64">A6A0426B36CF5C0F</field>
+        <field hash="C784A41F" type="BinHex">01</field>
+        <field name="bDisabledAtStart" type="Boolean">False</field>
+        <field name="bAlwaysStatic" type="Boolean">False</field>
+        <field name="bCreateAsStatic" type="Boolean">False</field>
+        <field name="bAnimateableAlwaysKeyFrame" type="Boolean">False</field>
+        <field name="bEaseAddToWorld" type="BinHex">01</field>
+        <field name="bUseFastCollision" type="Boolean">False</field>
+        <field name="bDisappearOnDeath" type="Boolean">False</field>
+        <field name="bUseMaxTerrainSlope" type="Boolean">False</field>
+        <field name="fHealth" type="Float32">100</field>
+        <field name="fMinimumSpeedForDamageStim" type="Float32">6</field>
+        <field name="fSelfCollOverrideSpeed" type="Float32">200</field>
+        <field name="selCollisionLayer" type="BinHex">02000000</field>
+        <field name="ResourceIndex" type="UInt32">0</field>
+        <field name="fMass" type="Float32">-1</field>
+        <field name="fAngularDamp" type="Float32">-1</field>
+        <field name="fRestitutionFactor" type="Float32">1</field>
+        <field name="fPierceImpulseFactor" type="Float32">1</field>
+        <field name="vectorCenterOfMassOffset" type="Vector3">0,0,0</field>
+        <field name="fFloatingScale" type="Float32">0.7</field>
+        <field name="fWaterFriction" type="Float32">0.5</field>
+        <field name="fWaterForceFactor" type="Float32">0.85</field>
+        <field name="sndDestructionSound" type="String">0xFFFFFFFF</field>
+        <field name="sndtpDestructionSoundType" type="Int32">-1</field>
+        <field name="bSupportExternalConstraint" type="Boolean">False</field>
+        <field name="bLockPosXY" type="BinHex">00</field>
+        <field name="bActivateOnCreate" type="BinHex">00</field>
+        <object name="LogicMaterialOverrides" />
+        <object name="hidTheSharedMap">
+          <field name="hidSharedDataHandlerHash" type="Hash64">86B8C40898DE0042</field>
+        </object>
+        <object name="hidEffectBones" />
+        <object name="Stim">
+          <field name="bPierceStim" type="Boolean">True</field>
+          <field name="bCrushStim" type="Boolean">True</field>
+          <field name="bBurnStim" type="Boolean">True</field>
+          <field name="bExplosionStim" type="Boolean">True</field>
+          <field name="bExplosionGrenadeStim" type="Boolean">True</field>
+          <field name="bExplosionRPGStim" type="Boolean">True</field>
+          <field name="bExplosionIEDStim" type="Boolean">True</field>
+          <field name="bExplosionSplashStim" type="Boolean">False</field>
+          <field name="bArrowStim" type="Boolean">True</field>
+          <field name="bCutStim" type="Boolean">True</field>
+          <field name="bAnimalCrushStim" type="BinHex">01</field>
+          <field name="bRiddenAnimalAttackStim" type="BinHex">01</field>
+          <field name="bRiddenAnimalImpulseAtPos" type="BinHex">01</field>
+          <field name="bKickingStim" type="BinHex">01</field>
+          <field name="fPierceDamageMultiplier" type="Float32">1</field>
+          <field name="fCrushDamageMultiplier" type="Float32">1</field>
+          <field name="fBurnDamageMultiplier" type="Float32">1</field>
+          <field name="fExplosionDamageMultiplier" type="Float32">1</field>
+          <field name="fExplosionGrenadeDamageMultiplier" type="Float32">1</field>
+          <field name="fExplosionRPGDamageMultiplier" type="Float32">1</field>
+          <field name="fExplosionIEDDamageMultiplier" type="Float32">1</field>
+          <field name="fExplosionSplashDamageMultiplier" type="Float32">1</field>
+          <field name="fArrowDamageMultiplier" type="Float32">1</field>
+          <field name="fCutDamageMultiplier" type="Float32">1</field>
+          <field name="fAnimalCrushDamageMultiplier" type="Float32">1</field>
+          <field name="fRiddenAnimalAttackDamageMultiplier" type="Float32">1</field>
+          <field name="fKickingDamageMultiplier" type="Float32">1</field>
+          <field name="fBulletImpulseScale" type="Float32">1</field>
+          <field name="fExplosionImpulseScale" type="Float32">1</field>
+          <field name="fRiddenAnimalAttackImpulseScale" type="Float32">1</field>
+          <field name="fAnimalCrushStimImpulseScale" type="Float32">1</field>
+          <field name="fAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+          <field name="fRiddenAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+          <field name="fKickingImpulseScale" type="Float32">1</field>
+          <field name="fCutImpulseScale" type="Float32">1</field>
+          <field name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" type="BinHex">000000000000000000000000</field>
+        </object>
+      </object>
+      <object name="CPickupNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bShouldBeDiscovered" type="BinHex">01</field>
+      </object>
+      <object name="CObjectSoundAndFXComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <object name="Impact">
+          <field name="matimpDropImpact" type="BinHex">CC579AAA00000000</field>
+          <field name="fSpeedForMaxDropImpactVolume" type="Float32">0</field>
+          <field name="fMinimalCollisionSpeed" type="Float32">1</field>
+          <field name="bIsSingleDropImpactObject" type="Boolean">False</field>
+          <object name="MovementSound">
+            <field name="sndRollingSound" type="String">0xFFFFFFFF</field>
+            <field name="sndRollingSoundEnd" type="String">0xFFFFFFFF</field>
+            <field name="sndtpRollingSoundType" type="Int32">-1</field>
+            <field name="sndSlidingSound" type="String">0xFFFFFFFF</field>
+            <field name="sndSlidingSoundEnd" type="String">0xFFFFFFFF</field>
+            <field name="sndtpSlidingSoundType" type="Int32">-1</field>
+            <field name="sndmlObjectMovementMultilayer" type="BinHex">FFFFFFFF</field>
+          </object>
+        </object>
+        <object name="Falling">
+          <field name="bAllowAfterCollision" type="Boolean">False</field>
+          <field name="sndFallingSound" type="String">0xFFFFFFFF</field>
+          <field name="sndtpFallingType" type="Int32">-1</field>
+          <field name="fSpeedToPlayFallingSound" type="Float32">0</field>
+          <field name="FallingSoundTimeTrigger" type="BinHex">00000000</field>
+        </object>
+        <object name="Water">
+          <field name="fZMinSpeedToTriggerSplash" type="Float32">1</field>
+          <field name="fZMaxSpeedToTriggerSplash" type="Float32">5</field>
+          <field name="fZMinSplashScale" type="Float32">1</field>
+          <field name="fZMaxSplashScale" type="Float32">1.2</field>
+          <field name="fZSpeedForMaxSplashVolume" type="Float32">0</field>
+        </object>
+        <object name="WaterWave">
+          <field name="zSpeedToTriggerWaterWave" type="Float32">1</field>
+          <field name="zMaxSpeedToTriggerWaterWave" type="Float32">5</field>
+          <field name="minWaterWavePressure" type="Float32">0.2</field>
+          <field name="maxWaterWavePressure" type="Float32">1</field>
+          <field name="minWaterWaveSpeed" type="Float32">1</field>
+          <field name="maxWaterWaveSpeed" type="Float32">1.5</field>
+          <field name="minWaterWaveWaveLength" type="Float32">0.2</field>
+          <field name="maxWaterWaveWaveLength" type="Float32">0.4</field>
+          <field name="minWaterWaveDuration" type="Float32">0.5</field>
+          <field name="maxWaterWaveDuration" type="Float32">1.5</field>
+          <field name="minWaterWaveStartTime" type="Float32">0</field>
+          <field name="maxWaterWaveStartTime" type="Float32">0.2</field>
+          <field name="minWaterWaveTimeExponent" type="Float32">1</field>
+          <field name="maxWaterWaveTimeExponent" type="Float32">1</field>
+        </object>
+      </object>
+    </object>
+  </object>
+  <object name="ResPack">
+    <field name="Count" type="BinHex">12000000</field>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">3AE88EFD</field>
+      <field name="ResIds" type="BinHex">010000000F5CCF366B42A0A6</field>
+    </object>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">44601C12</field>
+      <field name="ResIds" type="BinHex">0A000000DB9118164D72252BBCF21B16085BC86308B3101608D1E272983A1D164DC4E772211FB9D19533987BCD551E164D37619E7D341D16085B6A9E7AF41B16081EF5D82A3BABB99E5CB1D9735F764CFF694DF0</field>
+    </object>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">63F450D8</field>
+      <field name="ResIds" type="BinHex">04000000236C81B99CC74A7A236C81CE9CC74A7A54AB80BE9CC7957D926A91CD9C964ACF</field>
+    </object>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">86E8E8BE</field>
+      <field name="ResIds" type="BinHex">010000000F5CCF366B693CB4</field>
+    </object>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">9E2FD219</field>
+      <field name="ResIds" type="BinHex">010000006A7E15DCA1123C30</field>
+    </object>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">BC825377</field>
+      <field name="ResIds" type="BinHex">01000000EF8C37C1FBF3B619</field>
+    </object>
+  </object>
+</object>

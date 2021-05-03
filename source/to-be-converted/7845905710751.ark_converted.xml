@@ -1,0 +1,2352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object name="EntityPrototype" def="ark">
+  <field name="disLibItemId" type="Id64">7845905710751</field>
+  <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\7845905710751.ark.fcb</field>
+  <field name="hidArchetypeResId" type="Hash64">BC8B85709C74CB35</field>
+  <field name="Name" type="String">FC3/SA50</field>
+  <field name="ArchetypeName" type="String">weaponproperties:fc3/sa50</field>
+  <object name="Entity">
+    <field name="hidName" type="String">WeaponProperties:FC3/SA50</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">0</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\7845905710751.ark.fcb</field>
+    <field name="hidArchetypeResId" type="Hash64">BC8B85709C74CB35</field>
+    <object name="Components">
+      <object name="CWeaponProperties">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <object name="CommonProperties">
+          <field name="sName" type="String">SA50</field>
+          <field name="sIconName" type="String">SA50</field>
+          <field name="locidDisplayName" type="Int32">195236</field>
+          <field name="text_sUniquePickupName" type="String">sa50</field>
+          <field name="sUniquePickupName" type="Hash32">95338363</field>
+          <field name="bPlayAllAnimLayersInReload" type="Boolean">True</field>
+          <field name="fSprintToFireTime" type="Float32">0.5</field>
+          <field name="fSprintToIronSightTime" type="Float32">0.15</field>
+          <field name="fDrawTime" type="Float32">1.4</field>
+          <field name="fHolsterTime" type="Float32">0.4</field>
+          <field name="fThrowableHolsterTime" type="Float32">0.25</field>
+          <field name="fHolsterTakedownAboveTime" type="Float32">0.01</field>
+          <field name="fSwitchToMacheteTime" type="Float32">0.25</field>
+          <field name="bAutoReload" type="Boolean">True</field>
+          <field name="bAutoReloadInIronsight" type="Boolean">True</field>
+          <field name="bForceLoadWhenFiring" type="BinHex">00</field>
+          <field name="bIsSilent" type="Boolean">False</field>
+          <field name="bVisibleHolstered" type="Boolean">True</field>
+          <field name="bEmitLight" type="Boolean">False</field>
+          <field name="fFireTriggerPressThreshold" type="Float32">0.05</field>
+          <field name="fNearFovDegrees" type="Float32">75</field>
+          <field name="fNearFovDegreesSplitscreen" type="Float32">0</field>
+          <field name="bIsScopeAttached" type="Boolean">True</field>
+          <field name="selReloadType" type="Enum">0</field>
+          <field name="selWeaponClass" type="Enum">5</field>
+          <field name="selFireStrategy" type="Enum">0</field>
+          <field name="selReticleType" type="BinHex">01000000</field>
+          <field name="selReticleTypeIronSight" type="BinHex">FFFFFFFF</field>
+          <field name="fIronsightReticleTypeTransitionPercent" type="Float32">0.3</field>
+          <field name="selBulletType" type="BinHex">03000000</field>
+          <field name="crosshairMagmaAreaName" type="String"></field>
+          <field name="fRange" type="Float32">170</field>
+          <field name="vectorEffectiveRange" type="Vector2">60,80</field>
+          <field name="vectorEffectiveRangeIS" type="Vector2">80,100</field>
+          <field name="fMinReticleTargettingRange" type="Float32">0</field>
+          <field name="fMaxReticleTargettingRange" type="Float32">100</field>
+          <field name="fMaxReticleTargettingRangeInBlizzard" type="Float32">20</field>
+          <field name="fTagRange" type="Float32">150</field>
+          <field name="fTagRangeBlizzard" type="Float32">20</field>
+          <field name="fTagTime" type="Float32">1</field>
+          <field name="fTagRadius" type="Float32">1</field>
+          <field name="fUnjamTime" type="Float32">1</field>
+          <field name="selJamType" type="Enum">0</field>
+          <field name="iClipsForSelfDestruct" type="Int32">240</field>
+          <field name="bIsIndestructible" type="Boolean">True</field>
+          <field name="bIsBreakable" type="Boolean">False</field>
+          <field name="fLookSensitivityFactor" type="Float32">1</field>
+          <field name="fLookSensitivityHipFireFactor" type="Float32">1</field>
+          <field name="fLookSensitivityHipFireMouseFactor" type="Float32">1</field>
+          <field name="fMouseLookSensitivityMultiplier" type="Float32">1</field>
+          <field name="fMoveSpeedFactor" type="Float32">1</field>
+          <field name="fMoveSpeedFactorShooting" type="Float32">1</field>
+          <field name="fCoverMoveSpeedMultiplier" type="Float32">1</field>
+          <field name="fCoverLookSpeedMultiplier" type="Float32">1</field>
+          <field name="fForcedReliability" type="Float32">0</field>
+          <field name="fInitialJamCounter" type="Float32">0</field>
+          <field name="iJamBulletThreshold" type="Int32">0</field>
+          <field name="iDudBulletThreshold" type="Int32">0</field>
+          <field name="iSafeClipsAfterUnjam" type="Int32">1</field>
+          <field name="arkPickupArchetype" type="Id64">7845905656688</field>
+          <field name="fShootingAngle" type="Float32">40</field>
+          <field name="fShootingIronsightAngle" type="Float32">70</field>
+          <field name="selCategory" type="Enum">1</field>
+          <field name="text_HolsterHandle" type="String">holster_rifle</field>
+          <field name="HolsterHandle" type="Hash32">886FCC42</field>
+          <field name="text_RightHandHandle" type="String">righthand_rifles</field>
+          <field name="RightHandHandle" type="Hash32">87FCF0E1</field>
+          <field name="fRumbleMultiplier" type="Float32">1</field>
+          <field name="fRumbleMultiplierIronsight" type="Float32">1</field>
+          <field name="muzzleFlashColor" type="Vector3">0,0,0</field>
+          <field name="fMuzzleFlashIntensity" type="Float32">0</field>
+          <field name="text_GraphicKitHolsterTag" type="String"></field>
+          <field name="GraphicKitHolsterTag" type="Hash32">FFFFFFFF</field>
+          <field name="text_MeshToHide" type="String">MUZZLE_REVEAL</field>
+          <field name="MeshToHide" type="Hash32">3606BEC1</field>
+          <field name="bIsMountedWeapon" type="Boolean">False</field>
+          <field name="bHasAmmoCounter" type="BinHex">01</field>
+          <field name="bHasInfiniteAmmo" type="BinHex">00</field>
+          <object name="Reloading">
+            <field name="fReloadTimeNormal" type="Float32">2.85</field>
+            <field name="fReloadTimeForced" type="Float32">3.7</field>
+            <field name="fReloadTimeSingleBegin" type="Float32">0</field>
+            <field name="fReloadTimeSingleEnd" type="Float32">0</field>
+            <field name="fReloadTimeForcedSingleBegin" type="Float32">0</field>
+            <field name="fReloadTimeIronsight" type="Float32">0</field>
+          </object>
+          <object name="DriveAndShoot">
+            <field name="bDriveAndShootFullClipOnDraw" type="BinHex">00</field>
+            <field name="fDriveAndShootFullClipDelay" type="Float32">10</field>
+            <field name="fDriveAndShootNearFOVDegrees" type="Float32">65</field>
+            <field name="fDriveAndShootIronsightNearFOVDegrees" type="Float32">65</field>
+            <field name="fIronsightFOVMultiplier" type="Float32">1</field>
+            <field name="fDriveAndShootDrawTime" type="Float32">0.5</field>
+            <field name="fDriveAndShootHolsterTime" type="Float32">0.5</field>
+            <field name="fDriveAndShootMarksmanMinDistance" type="BinHex">00002041</field>
+            <field name="fDriveAndShootMarksmanMaxDistance" type="Float32">25</field>
+            <field name="fDriveAndShootMarksmanMaxAngle" type="BinHex">0000C841</field>
+          </object>
+          <object name="DOF">
+            <field name="fDofBlendRate" type="Float32">30</field>
+            <field name="fDofMaxMoveSpeed" type="Float32">4</field>
+            <object name="hipDof">
+              <field name="fBlur" type="Float32">0</field>
+              <field name="fBlurFactor" type="Float32">0</field>
+              <field name="fFocusDistance" type="Float32">0</field>
+              <field name="fAlphaRamp" type="Float32">0</field>
+              <object name="HDDOF">
+                <field name="fFocusDistance" type="Float32">1</field>
+                <field name="fNearDistance" type="Float32">0.025</field>
+                <field name="fFarDistance" type="Float32">10000</field>
+                <field name="fCircleOfConfusion" type="Float32">0.4</field>
+              </object>
+            </object>
+            <object name="movingDof">
+              <field name="fBlur" type="Float32">0</field>
+              <field name="fBlurFactor" type="Float32">0</field>
+              <field name="fFocusDistance" type="Float32">0</field>
+              <field name="fAlphaRamp" type="Float32">0</field>
+              <object name="HDDOF">
+                <field name="fFocusDistance" type="Float32">1</field>
+                <field name="fNearDistance" type="Float32">0.025</field>
+                <field name="fFarDistance" type="Float32">10000</field>
+                <field name="fCircleOfConfusion" type="Float32">0.4</field>
+              </object>
+            </object>
+            <object name="shootingDof">
+              <field name="fBlur" type="Float32">1.25</field>
+              <field name="fBlurFactor" type="Float32">0</field>
+              <field name="fFocusDistance" type="Float32">0.55</field>
+              <field name="fAlphaRamp" type="Float32">0.55</field>
+              <object name="HDDOF">
+                <field name="fFocusDistance" type="Float32">1</field>
+                <field name="fNearDistance" type="Float32">0.65</field>
+                <field name="fFarDistance" type="Float32">10000</field>
+                <field name="fCircleOfConfusion" type="Float32">0.55</field>
+              </object>
+            </object>
+            <object name="coverDof">
+              <field name="fBlur" type="Float32">0</field>
+              <field name="fBlurFactor" type="Float32">0</field>
+              <field name="fFocusDistance" type="Float32">0</field>
+              <field name="fAlphaRamp" type="Float32">0</field>
+              <object name="HDDOF">
+                <field name="fFocusDistance" type="Float32">1</field>
+                <field name="fNearDistance" type="Float32">0.025</field>
+                <field name="fFarDistance" type="Float32">10000</field>
+                <field name="fCircleOfConfusion" type="Float32">0.4</field>
+              </object>
+            </object>
+            <object name="blindfireDof">
+              <field name="fBlur" type="Float32">1.25</field>
+              <field name="fBlurFactor" type="Float32">0</field>
+              <field name="fFocusDistance" type="Float32">0.4</field>
+              <field name="fAlphaRamp" type="Float32">0.3</field>
+              <object name="HDDOF">
+                <field name="fFocusDistance" type="Float32">1</field>
+                <field name="fNearDistance" type="Float32">0.65</field>
+                <field name="fFarDistance" type="Float32">10000</field>
+                <field name="fCircleOfConfusion" type="Float32">0.65</field>
+              </object>
+            </object>
+            <object name="crouchSlideDof">
+              <field name="fBlur" type="Float32">0</field>
+              <field name="fBlurFactor" type="Float32">0</field>
+              <field name="fFocusDistance" type="Float32">0</field>
+              <field name="fAlphaRamp" type="Float32">0</field>
+              <object name="HDDOF">
+                <field name="fFocusDistance" type="Float32">1</field>
+                <field name="fNearDistance" type="Float32">0.65</field>
+                <field name="fFarDistance" type="Float32">10000</field>
+                <field name="fCircleOfConfusion" type="Float32">0.6</field>
+              </object>
+            </object>
+            <object name="meleeDof">
+              <field name="fBlur" type="Float32">0</field>
+              <field name="fBlurFactor" type="Float32">0</field>
+              <field name="fFocusDistance" type="Float32">0</field>
+              <field name="fAlphaRamp" type="Float32">0</field>
+              <object name="HDDOF">
+                <field name="fFocusDistance" type="Float32">0</field>
+                <field name="fNearDistance" type="Float32">0</field>
+                <field name="fFarDistance" type="Float32">10000</field>
+                <field name="fCircleOfConfusion" type="Float32">0</field>
+              </object>
+            </object>
+            <object name="reloadDof">
+              <field name="fBlur" type="Float32">4</field>
+              <field name="fBlurFactor" type="Float32">0</field>
+              <field name="fFocusDistance" type="Float32">0.27</field>
+              <field name="fAlphaRamp" type="Float32">0</field>
+              <object name="HDDOF">
+                <field name="fFocusDistance" type="Float32">1</field>
+                <field name="fNearDistance" type="Float32">0.025</field>
+                <field name="fFarDistance" type="Float32">10000</field>
+                <field name="fCircleOfConfusion" type="Float32">0.4</field>
+              </object>
+            </object>
+          </object>
+          <object name="OffscreenRenderPropoerties">
+            <field name="fMinFullScreenZoom" type="Float32">1.1</field>
+            <field name="fMaxFullScreenZoom" type="Float32">1.7</field>
+            <field name="fDefaultFullScreenZoom" type="Float32">1.4</field>
+            <object name="OffScreenRenderParams">
+              <field name="vectorPos" type="Vector3">0,-0.24,0.18</field>
+              <field name="vectorAngles" type="Vector3">17.7,0,113.5</field>
+            </object>
+          </object>
+          <object name="FireRate">
+            <field name="fBusyDuration" type="Float32">0</field>
+            <field name="iFireRate" type="Float32">180</field>
+            <field name="bControlsSpeedOfShootAnims" type="Boolean">True</field>
+            <field name="selFireRateMode" type="Enum">0</field>
+            <field name="fPrepareShotTime" type="Float32">1.5</field>
+            <field name="iMeleeSwingRate" type="Float32">45</field>
+          </object>
+          <object name="Ammo">
+            <field name="text_ammoAmmoType" type="String">sniper</field>
+            <field name="ammoAmmoType" type="Hash32">AE2848CB</field>
+            <field name="iAmmoInClip" type="Int32">6</field>
+            <field name="AmmoUsedPerShot" type="BinHex">01000000</field>
+            <field name="bUsesClips" type="Boolean">True</field>
+            <field name="bIsAmmoVisible" type="Boolean">False</field>
+            <field name="fAmmoRemainingRatioForReloadPrompt" type="Float32">0.3</field>
+            <field name="iShopAmmoOverride" type="Int32">50</field>
+            <object name="RespawnMinAmmo">
+              <field name="iRespawnMinimumAmmoInPouchCasual" type="BinHex">04000000</field>
+              <field name="iRespawnMinimumAmmoInPouchExperimented" type="BinHex">04000000</field>
+              <field name="iRespawnMinimumAmmoInPouchHardcore" type="BinHex">01000000</field>
+              <field name="iRespawnMinimumAmmoInPouchInfamous" type="BinHex">01000000</field>
+            </object>
+          </object>
+          <object name="Recoil">
+            <field name="fRecoilRecoveryTime" type="Float32">0.36</field>
+            <field name="fRecoilAchieveTime" type="Float32">0.25</field>
+            <field name="fRecoilAnimationWeight" type="Float32">0</field>
+            <field name="fRecoilMaxPitch" type="Float32">45</field>
+            <field name="fRecoilMaxYaw" type="Float32">45</field>
+            <field name="fRecoilWeaponOffsetYawBlend" type="Float32">0</field>
+            <field name="fRecoilWeaponOffsetPitchBlend" type="Float32">0</field>
+            <field name="fLeftRecoilPerShot" type="Float32">1.7</field>
+            <field name="fRightRecoilPerShot" type="Float32">1.7</field>
+            <field name="fVerticalRecoilPerShot" type="Float32">1.7</field>
+            <field name="fLeftRollPerShot" type="Float32">2</field>
+            <field name="fRightRollPerShot" type="Float32">2</field>
+            <field name="arkRollCurve" type="Id64">7647929476821</field>
+            <field name="arkAchieveCurve" type="Id64">765619520007696018</field>
+            <field name="arkRecoveryCurve" type="Id64">7708884959476</field>
+            <field name="fRollCurveDuration" type="Float32">0.4</field>
+            <field name="fMaxYOffset" type="Float32">0.045</field>
+            <field name="fYOffsetPerShot" type="Float32">-0.005</field>
+            <field name="fIronsightMaxYOffset" type="Float32">0.005</field>
+            <field name="fIronsightYOffsetPerShot" type="Float32">-0.0015</field>
+            <field name="fRecoilYOffsetRecoveryTime" type="Float32">0.3</field>
+            <field name="arkYOffsetRecoveryCurve" type="Id64">7719076484175</field>
+            <field name="arkYOffsetCurve" type="BinHex">0000000000000000</field>
+            <field name="arkYOffsetIronsightCurve" type="BinHex">0000000000000000</field>
+            <object name="RecoilIK">
+              <field name="fIKRecoilBurstSpeedIn" type="Float32">0</field>
+              <field name="fIKRecoilBurstPitchRandom" type="Float32">0</field>
+              <field name="fIKRecoilBurstSpeedOut" type="Float32">0</field>
+              <field name="fIKRecoilBurstPitchRate" type="Float32">0</field>
+              <field name="vIKRecoilBurstOffset" type="Vector3">0,0,0</field>
+            </object>
+          </object>
+          <object name="Sway">
+            <field name="fSway_data_blendTime" type="Float32">0.25</field>
+            <field name="bCanHoldBreath" type="Boolean">True</field>
+            <field name="fSwayReductionModifier" type="Float32">0</field>
+            <field name="fWeaponSwayCoverMultiplier" type="Float32">1</field>
+            <field name="bUseAngularSpeedSwayReduction" type="Boolean">False</field>
+            <field name="FlickSwayCalmTime" type="Float32">1</field>
+            <field name="FlickSwayGoingOutTime" type="Float32">0.25</field>
+            <field name="arkSwayHorizCurve" type="Id64">7634265959773</field>
+            <field name="arkSwayVertCurve" type="Id64">7634265988141</field>
+            <field name="arkSwayMovingHorizCurve" type="Id64">7681012503986</field>
+            <field name="arkSwayMovingVertCurve" type="Id64">7681012523106</field>
+            <field name="fSwayCurveBlendRate" type="Float32">0.6</field>
+            <object name="Sway_default">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_crouch">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_ironSight">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0.3</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0.3</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0.11</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0.22</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_crouchMoving">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_crouchIronSight">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0.275</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0.275</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0.11</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0.22</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_crouchMovingIronSight">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0.5</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0.3</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0.34</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0.68</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">0.4</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_jump">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_moving">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_movingIronSight">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0.15</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0.4</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0.5</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">1.375</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_revive">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">1</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">1.1</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0.28</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0.56</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">2.5</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">1.25</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">5C8FC23E</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0.75</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_reviveMoving">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">1.4</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0.7</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0.28</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0.56</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">1.4</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0.7</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">6666E63E</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0.9</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1.75</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_reviveMovingIronSight">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0.5</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0.3</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0.34</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0.68</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">0.4</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+            <object name="Sway_reviveIronSight">
+              <field name="fWeaponSwayHSizeMultiplier" type="Float32">0.275</field>
+              <field name="fWeaponSwayVSizeMultiplier" type="Float32">0.275</field>
+              <field name="fWeaponSwayHSpeedMultiplier" type="Float32">0.11</field>
+              <field name="fWeaponSwayVSpeedMultiplier" type="Float32">0.22</field>
+              <field name="fWeaponHandsSwayHSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayVSizeMultiplier" type="Float32">0</field>
+              <field name="fWeaponHandsSwayHSpeedMultiplier" type="BinHex">00000000</field>
+              <field name="fWeaponHandsSwayVSpeedMultiplier" type="Float32">0</field>
+              <field name="fMaxPawnMoveSpeedForMaxSway" type="Float32">1</field>
+              <field name="fMaxAngularSpeedForSwayReduction" type="Float32">45</field>
+              <field name="bApplySwayOnCamera" type="BinHex">01</field>
+              <field name="bApplySwayOnHands" type="BinHex">01</field>
+            </object>
+          </object>
+          <object name="WeaponOffset">
+            <field name="fWeaponOffsetHorizontalSpeedDamping" type="Float32">0.2</field>
+            <field name="fWeaponOffsetVerticalSpeedDamping" type="Float32">0.2</field>
+            <field name="fWeaponOffsetHorizontalSpeedDampingMouse" type="Float32">0.5</field>
+            <field name="fWeaponOffsetVerticalSpeedDampingMouse" type="Float32">0.3</field>
+            <field name="fWeaponOffsetStrafeDamping" type="Float32">0.2</field>
+            <field name="fMovementSwayHorizontalOffsetFactor" type="Float32">0</field>
+            <field name="fMovementSwayVerticalOffsetFactor" type="BinHex">00000000</field>
+            <field name="fWeaponSwayHorizontalOffsetFactor" type="Float32">0</field>
+            <field name="fWeaponSwayVerticalOffsetFactor" type="Float32">0</field>
+            <field name="bIsRightHanded" type="Boolean">False</field>
+            <field name="fBlendRate" type="Float32">2</field>
+            <field name="arkPitchBasedOffsetCurve" type="BinHex">63A6239023070000</field>
+            <field name="arkDriveAndShootYawBasedOffsetCurve" type="BinHex">0000000000000000</field>
+            <field name="fWeaponOffsetPassengerIronSightMultiplier" type="BinHex">0000803F</field>
+            <field name="fYawSpeedLimit" type="Float32">480</field>
+            <field name="fPitchSpeedLimit" type="Float32">90</field>
+            <field name="fReticleScalarHoriz" type="Float32">10</field>
+            <field name="fReticleScalarVert" type="Float32">10</field>
+            <field name="bHorizOffsetsMirrorY" type="Boolean">True</field>
+            <field name="bHorizOffsetsMirrorZ" type="Boolean">False</field>
+            <field name="bVertOffsetsMirrorY" type="Boolean">True</field>
+            <field name="bVertOffsetsMirrorZ" type="Boolean">False</field>
+            <field name="bStrafeOffsetsMirrorY" type="Boolean">True</field>
+            <field name="bStrafeOffsetsMirrorZ" type="Boolean">False</field>
+            <object name="default">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">3</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">2</field>
+                <field name="fMaxX" type="Float32">0.015</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">3</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.015</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">5</field>
+                <field name="fMaxX" type="Float32">-0.002</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">-0.005</field>
+                <field name="fMaxY" type="Float32">0.025</field>
+                <field name="fMaxZ" type="Float32">-0.001</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">-0.05</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.05</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0.9999999</field>
+                <field name="fMaxPitch" type="Float32">2</field>
+                <field name="fMaxRoll" type="Float32">-15</field>
+                <field name="fMaxX" type="Float32">0.05</field>
+                <field name="fMaxY" type="Float32">-0.17</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+            </object>
+            <object name="driveAndShootDefault">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingLeftOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingRightOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+            </object>
+            <object name="driveAndShootMarksman">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingLeftOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingRightOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+            </object>
+            <object name="crouched">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">3</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">2</field>
+                <field name="fMaxX" type="Float32">0.015</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">3</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.015</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">5</field>
+                <field name="fMaxX" type="Float32">-0.002</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">-0.05</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.075</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">2</field>
+                <field name="fMaxRoll" type="Float32">15</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">-0.1</field>
+                <field name="fMaxZ" type="Float32">-0.03</field>
+              </object>
+            </object>
+            <object name="sprinting">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">6</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">4</field>
+                <field name="fMaxX" type="Float32">0.1</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">4</field>
+                <field name="fMaxPitch" type="Float32">4</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.01</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.35</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">-0.05</field>
+                <field name="fMaxZ" type="Float32">0.005</field>
+              </object>
+            </object>
+            <object name="ironsight">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">-0.0008</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0.0004</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">2</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+            </object>
+            <object name="driveAndShootIronsight">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingLeftOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingRightOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+            </object>
+            <object name="marksman">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+            </object>
+            <object name="animalRiding">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">3</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">2</field>
+                <field name="fMaxX" type="Float32">0.015</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">3</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.015</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">5</field>
+                <field name="fMaxX" type="Float32">-0.002</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">-0.03</field>
+                <field name="fMaxZ" type="Float32">-0.04</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">-0.05</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.075</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">2</field>
+                <field name="fMaxRoll" type="Float32">15</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">-0.6</field>
+                <field name="fMaxZ" type="Float32">0.04</field>
+              </object>
+            </object>
+            <object name="Revive">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+            </object>
+            <object name="VehiclePassenger">
+              <object name="HorizAimOffsets">
+                <field name="fMaxYaw" type="Float32">3</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">2</field>
+                <field name="fMaxX" type="Float32">0.015</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="VertAimOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">3</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">0</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.015</field>
+              </object>
+              <object name="StrafeOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">5</field>
+                <field name="fMaxX" type="Float32">-0.002</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+              <object name="BaseOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">-0.005</field>
+                <field name="fMaxY" type="Float32">0.025</field>
+                <field name="fMaxZ" type="Float32">-0.001</field>
+              </object>
+              <object name="AimingUpOffsets">
+                <field name="fMaxYaw" type="Float32">0</field>
+                <field name="fMaxPitch" type="Float32">0</field>
+                <field name="fMaxRoll" type="Float32">0</field>
+                <field name="fMaxX" type="Float32">-0.05</field>
+                <field name="fMaxY" type="Float32">0</field>
+                <field name="fMaxZ" type="Float32">-0.05</field>
+              </object>
+              <object name="AimingDownOffsets">
+                <field name="fMaxYaw" type="Float32">0.9999999</field>
+                <field name="fMaxPitch" type="Float32">2</field>
+                <field name="fMaxRoll" type="Float32">-15</field>
+                <field name="fMaxX" type="Float32">0.05</field>
+                <field name="fMaxY" type="Float32">-0.17</field>
+                <field name="fMaxZ" type="Float32">0</field>
+              </object>
+            </object>
+            <object name="AnimalRiding">
+              <field name="fBlendRateMult" type="Float32">1</field>
+            </object>
+          </object>
+          <object name="Cover">
+            <field name="fCover_PeekOut_Transition_Time" type="Float32">0.33</field>
+            <field name="fAfterShotOutOfCoverTime" type="Float32">0.2</field>
+            <object name="CoverGenericRumble">
+              <field name="hidEventName" type="String">CameraShakeAndPadRumbleEvent</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sEffectName" type="String">noeffect</field>
+              <field name="sEffectName" type="Hash32">DA1F61BD</field>
+              <field name="fStartDelay" type="Float32">0</field>
+              <field name="fIntensityModifierLow" type="Float32">1</field>
+              <field name="fIntensityModifierHigh" type="Float32">1</field>
+              <field name="fIntensityModifierTrigger" type="Float32">1</field>
+              <field name="fIntensityModifierCam" type="Float32">1</field>
+              <field name="bCanQueueWhenEventPlaying" type="Boolean">True</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">True</field>
+                <field name="bPvP" type="Boolean">True</field>
+                <field name="bCoop" type="Boolean">True</field>
+                <field name="bShangriLa" type="Boolean">True</field>
+                <field name="bArena" type="Boolean">True</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+          </object>
+          <object name="Ziplines">
+            <field name="bUsableInSinglePlayer" type="Boolean">False</field>
+            <field name="bUsableInMultiPlayer" type="Boolean">False</field>
+          </object>
+          <object name="Melee">
+            <field name="bMeleeInterruptsSprint" type="Boolean">True</field>
+            <field name="bMeleeUsingWeapon" type="Boolean">True</field>
+            <field name="bStealthTakedownUsingWeapon" type="Boolean">False</field>
+            <field name="bMeleeUsingMachete" type="Boolean">False</field>
+            <field name="sndtpMeleeHitSoundType" type="Hash32">FFFFFFFF</field>
+            <field name="sndMeleeHitSoundID" type="String">0xFFFFFFFF</field>
+          </object>
+          <object name="Running">
+            <field name="bCanUseWhenRunning" type="Boolean">False</field>
+          </object>
+          <object name="Attachments">
+            <field name="iMaxNumAttachments" type="Int32">3</field>
+            <object name="ModelsForLoad">
+              <field name="Count" type="BinHex">06000000</field>
+              <object name="Attachments_1cf9ad23c980034d">
+                <field name="hid_VTHandler_ElementId" type="String">Attachments_1cf9ad23c980034d</field>
+                <field name="arkAttachmentArchetypeName" type="Id64">7666473669635</field>
+                <field name="bIsIlluminatedSight" type="Boolean">False</field>
+                <field name="text_attachmentAttachmentType" type="String">silencersniper</field>
+                <field name="attachmentAttachmentType" type="Hash32">94DE2B0B</field>
+                <field name="text_sName" type="String">sa50_silencer</field>
+                <field name="sName" type="Hash32">02644F8C</field>
+                <field name="locAttachmentNameId" type="Int32">82892</field>
+                <field name="bAttachAtStart" type="Boolean">False</field>
+                <field name="bHasWeaponOffset" type="Boolean">False</field>
+                <field name="bWeaponOffsetOnlyInIronsight" type="Boolean">True</field>
+                <field name="arkIronsightOffsetCurve" type="Id64">0</field>
+                <field name="bTriggersFoldingSights" type="Boolean">False</field>
+                <field name="bRevealsHiddenMesh" type="Boolean">False</field>
+                <field name="magazineUpgradeReplacement" type="Int32">0</field>
+                <field name="bNotAnAttachment" type="Boolean">False</field>
+                <field name="fReticleParticleScale" type="Float32">1</field>
+                <object name="weaponOffset">
+                  <field name="fMaxYaw" type="Float32">0</field>
+                  <field name="fMaxPitch" type="Float32">0</field>
+                  <field name="fMaxRoll" type="Float32">0</field>
+                  <field name="fMaxX" type="Float32">0</field>
+                  <field name="fMaxY" type="Float32">0</field>
+                  <field name="fMaxZ" type="Float32">0</field>
+                </object>
+                <object name="sounds">
+                  <object name="hipFireShots">
+                    <field name="sndSingleBulletShot" type="String">0x00284CAE</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots">
+                    <field name="sndSingleBulletShot" type="String">0x00284CAE</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="hipFireShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0x002B4D25</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0x002B4D25</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                </object>
+                <object name="OffscreenRenderPropoerties">
+                  <object name="OffScreenRenderParams">
+                    <field name="vectorPos" type="Vector3">0,-0.24,0.18</field>
+                    <field name="vectorAngles" type="Vector3">17.7,0,113.5</field>
+                  </object>
+                </object>
+              </object>
+              <object name="Attachments_1cf9ad23c980034e">
+                <field name="hid_VTHandler_ElementId" type="String">Attachments_1cf9ad23c980034e</field>
+                <field name="arkAttachmentArchetypeName" type="Id64">7845903695467</field>
+                <field name="bIsIlluminatedSight" type="Boolean">False</field>
+                <field name="text_attachmentAttachmentType" type="String">none</field>
+                <field name="attachmentAttachmentType" type="Hash32">7F9000CF</field>
+                <field name="text_sName" type="String"></field>
+                <field name="sName" type="Hash32">FFFFFFFF</field>
+                <field name="locAttachmentNameId" type="Int32">-1</field>
+                <field name="bAttachAtStart" type="Boolean">True</field>
+                <field name="bHasWeaponOffset" type="Boolean">False</field>
+                <field name="bWeaponOffsetOnlyInIronsight" type="Boolean">True</field>
+                <field name="arkIronsightOffsetCurve" type="Id64">0</field>
+                <field name="bTriggersFoldingSights" type="Boolean">False</field>
+                <field name="bRevealsHiddenMesh" type="Boolean">True</field>
+                <field name="magazineUpgradeReplacement" type="Int32">0</field>
+                <field name="bNotAnAttachment" type="Boolean">True</field>
+                <field name="fReticleParticleScale" type="Float32">1</field>
+                <object name="weaponOffset">
+                  <field name="fMaxYaw" type="Float32">0</field>
+                  <field name="fMaxPitch" type="Float32">0</field>
+                  <field name="fMaxRoll" type="Float32">0</field>
+                  <field name="fMaxX" type="Float32">0</field>
+                  <field name="fMaxY" type="Float32">0</field>
+                  <field name="fMaxZ" type="Float32">0</field>
+                </object>
+                <object name="NonAttachments">
+                  <field name="text_sWeaponBoneName" type="String">ATTACH_SILENCER</field>
+                  <field name="sWeaponBoneName" type="Hash32">7462B93F</field>
+                </object>
+                <object name="sounds">
+                  <object name="hipFireShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="hipFireShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                </object>
+                <object name="OffscreenRenderPropoerties">
+                  <object name="OffScreenRenderParams">
+                    <field name="vectorPos" type="Vector3">0,-0.24,0.18</field>
+                    <field name="vectorAngles" type="Vector3">17.7,0,113.5</field>
+                  </object>
+                </object>
+              </object>
+              <object name="Attachments_1cf9ad23c980034f">
+                <field name="hid_VTHandler_ElementId" type="String">Attachments_1cf9ad23c980034f</field>
+                <field name="arkAttachmentArchetypeName" type="Id64">7674510304021</field>
+                <field name="bIsIlluminatedSight" type="Boolean">False</field>
+                <field name="text_attachmentAttachmentType" type="String">magupgrade</field>
+                <field name="attachmentAttachmentType" type="Hash32">7CAF7097</field>
+                <field name="text_sName" type="String">sa50_largemag</field>
+                <field name="sName" type="Hash32">03229903</field>
+                <field name="locAttachmentNameId" type="Int32">82893</field>
+                <field name="bAttachAtStart" type="Boolean">False</field>
+                <field name="bHasWeaponOffset" type="Boolean">False</field>
+                <field name="bWeaponOffsetOnlyInIronsight" type="Boolean">True</field>
+                <field name="arkIronsightOffsetCurve" type="Id64">0</field>
+                <field name="bTriggersFoldingSights" type="Boolean">False</field>
+                <field name="bRevealsHiddenMesh" type="Boolean">False</field>
+                <field name="magazineUpgradeReplacement" type="Int32">12</field>
+                <field name="bNotAnAttachment" type="Boolean">False</field>
+                <field name="fReticleParticleScale" type="Float32">1</field>
+                <object name="weaponOffset">
+                  <field name="fMaxYaw" type="Float32">0</field>
+                  <field name="fMaxPitch" type="Float32">0</field>
+                  <field name="fMaxRoll" type="Float32">0</field>
+                  <field name="fMaxX" type="Float32">0</field>
+                  <field name="fMaxY" type="Float32">0</field>
+                  <field name="fMaxZ" type="Float32">0</field>
+                </object>
+                <object name="sounds">
+                  <object name="hipFireShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="hipFireShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                </object>
+                <object name="OffscreenRenderPropoerties">
+                  <object name="OffScreenRenderParams">
+                    <field name="vectorPos" type="Vector3">0,-0.24,0.18</field>
+                    <field name="vectorAngles" type="Vector3">17.7,0,113.5</field>
+                  </object>
+                </object>
+              </object>
+              <object name="Attachments_1cf9ad23c9800350">
+                <field name="hid_VTHandler_ElementId" type="String">Attachments_1cf9ad23c9800350</field>
+                <field name="arkAttachmentArchetypeName" type="Id64">7857186318141</field>
+                <field name="bIsIlluminatedSight" type="Boolean">True</field>
+                <field name="text_attachmentAttachmentType" type="String">highpowerscope</field>
+                <field name="attachmentAttachmentType" type="Hash32">DB6BF4B6</field>
+                <field name="text_sName" type="String">sa50_highpowerscope</field>
+                <field name="sName" type="Hash32">E58C3877</field>
+                <field name="locAttachmentNameId" type="Int32">82904</field>
+                <field name="bAttachAtStart" type="Boolean">False</field>
+                <field name="bHasWeaponOffset" type="Boolean">False</field>
+                <field name="bWeaponOffsetOnlyInIronsight" type="Boolean">True</field>
+                <field name="arkIronsightOffsetCurve" type="Id64">9014782761192984</field>
+                <field name="bTriggersFoldingSights" type="Boolean">False</field>
+                <field name="bRevealsHiddenMesh" type="Boolean">False</field>
+                <field name="magazineUpgradeReplacement" type="Int32">0</field>
+                <field name="bNotAnAttachment" type="Boolean">False</field>
+                <field name="fReticleParticleScale" type="Float32">1</field>
+                <object name="NonAttachments">
+                  <field name="colorIlluminatedSightsColour" type="Vector3">0,0,0</field>
+                  <object name="IlluminatedMaterialNames">
+                    <object name="MaterialNames">
+                      <field name="text_Name" type="String">illuminated_SA50_01</field>
+                      <field name="Name" type="Hash32">5E79FAFC</field>
+                    </object>
+                    <object name="MaterialNames">
+                      <field name="text_Name" type="String">illuminated_SA50_02</field>
+                      <field name="Name" type="Hash32">C770AB46</field>
+                    </object>
+                    <object name="MaterialNames">
+                      <field name="text_Name" type="String">illuminated_SA50_03</field>
+                      <field name="Name" type="Hash32">B0779BD0</field>
+                    </object>
+                    <object name="MaterialNames">
+                      <field name="text_Name" type="String"></field>
+                      <field name="Name" type="Hash32">FFFFFFFF</field>
+                    </object>
+                  </object>
+                </object>
+                <object name="weaponOffset">
+                  <field name="fMaxYaw" type="Float32">0</field>
+                  <field name="fMaxPitch" type="Float32">0</field>
+                  <field name="fMaxRoll" type="Float32">0</field>
+                  <field name="fMaxX" type="Float32">0</field>
+                  <field name="fMaxY" type="Float32">0</field>
+                  <field name="fMaxZ" type="Float32">0</field>
+                </object>
+                <object name="sounds">
+                  <object name="hipFireShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="hipFireShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                </object>
+                <object name="OffscreenRenderPropoerties">
+                  <object name="OffScreenRenderParams">
+                    <field name="vectorPos" type="Vector3">0,-0.24,0.18</field>
+                    <field name="vectorAngles" type="Vector3">17.7,0,113.5</field>
+                  </object>
+                </object>
+              </object>
+              <object name="Attachments_1cf9ad23c9800351">
+                <field name="hid_VTHandler_ElementId" type="String">Attachments_1cf9ad23c9800351</field>
+                <field name="arkAttachmentArchetypeName" type="Id64">7857186575552</field>
+                <field name="bIsIlluminatedSight" type="Boolean">True</field>
+                <field name="text_attachmentAttachmentType" type="String">illuminatedscope</field>
+                <field name="attachmentAttachmentType" type="Hash32">B397824D</field>
+                <field name="text_sName" type="String">sa50_illumscope</field>
+                <field name="sName" type="Hash32">E84F358F</field>
+                <field name="locAttachmentNameId" type="Int32">82905</field>
+                <field name="bAttachAtStart" type="Boolean">False</field>
+                <field name="bHasWeaponOffset" type="Boolean">False</field>
+                <field name="bWeaponOffsetOnlyInIronsight" type="Boolean">True</field>
+                <field name="arkIronsightOffsetCurve" type="Id64">9014782761192984</field>
+                <field name="bTriggersFoldingSights" type="Boolean">False</field>
+                <field name="bRevealsHiddenMesh" type="Boolean">False</field>
+                <field name="magazineUpgradeReplacement" type="Int32">0</field>
+                <field name="bNotAnAttachment" type="Boolean">False</field>
+                <field name="fReticleParticleScale" type="Float32">1</field>
+                <object name="NonAttachments">
+                  <field name="colorIlluminatedSightsColour" type="Vector3">1,0,0</field>
+                  <object name="IlluminatedMaterialNames">
+                    <object name="MaterialNames">
+                      <field name="text_Name" type="String">illuminated_SA50_01</field>
+                      <field name="Name" type="Hash32">5E79FAFC</field>
+                    </object>
+                    <object name="MaterialNames">
+                      <field name="text_Name" type="String">illuminated_SA50_02</field>
+                      <field name="Name" type="Hash32">C770AB46</field>
+                    </object>
+                    <object name="MaterialNames">
+                      <field name="text_Name" type="String">illuminated_SA50_03</field>
+                      <field name="Name" type="Hash32">B0779BD0</field>
+                    </object>
+                    <object name="MaterialNames">
+                      <field name="text_Name" type="String"></field>
+                      <field name="Name" type="Hash32">FFFFFFFF</field>
+                    </object>
+                  </object>
+                </object>
+                <object name="weaponOffset">
+                  <field name="fMaxYaw" type="Float32">0</field>
+                  <field name="fMaxPitch" type="Float32">0</field>
+                  <field name="fMaxRoll" type="Float32">0</field>
+                  <field name="fMaxX" type="Float32">0</field>
+                  <field name="fMaxY" type="Float32">0</field>
+                  <field name="fMaxZ" type="Float32">0</field>
+                </object>
+                <object name="sounds">
+                  <object name="hipFireShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="hipFireShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                </object>
+                <object name="OffscreenRenderPropoerties">
+                  <object name="OffScreenRenderParams">
+                    <field name="vectorPos" type="Vector3">0,-0.24,0.18</field>
+                    <field name="vectorAngles" type="Vector3">17.7,0,113.5</field>
+                  </object>
+                </object>
+              </object>
+              <object name="Attachments">
+                <field name="arkAttachmentArchetypeName" type="Id64">0</field>
+                <field name="bIsIlluminatedSight" type="Boolean">False</field>
+                <field name="text_attachmentAttachmentType" type="String">none</field>
+                <field name="attachmentAttachmentType" type="Hash32">7F9000CF</field>
+                <field name="text_sName" type="String"></field>
+                <field name="sName" type="BinHex">FFFFFFFF</field>
+                <field name="locAttachmentNameId" type="Int32">-1</field>
+                <field name="bAttachAtStart" type="Boolean">False</field>
+                <field name="bHasWeaponOffset" type="Boolean">False</field>
+                <field name="bWeaponOffsetOnlyInIronsight" type="Boolean">True</field>
+                <field name="arkIronsightOffsetCurve" type="Id64">0</field>
+                <field name="bTriggersFoldingSights" type="Boolean">False</field>
+                <field name="bRevealsHiddenMesh" type="Boolean">False</field>
+                <field name="magazineUpgradeReplacement" type="Int32">0</field>
+                <field name="bNotAnAttachment" type="Boolean">False</field>
+                <field name="fReticleParticleScale" type="Float32">1</field>
+                <object name="weaponOffset">
+                  <field name="fMaxYaw" type="Float32">0</field>
+                  <field name="fMaxPitch" type="Float32">0</field>
+                  <field name="fMaxRoll" type="Float32">0</field>
+                  <field name="fMaxX" type="Float32">0</field>
+                  <field name="fMaxY" type="Float32">0</field>
+                  <field name="fMaxZ" type="Float32">0</field>
+                </object>
+                <object name="sounds">
+                  <object name="hipFireShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="hipFireShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                  <object name="ironsightShots3rd">
+                    <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  </object>
+                </object>
+                <object name="OffscreenRenderPropoerties">
+                  <object name="OffScreenRenderParams">
+                    <field name="vectorPos" type="Vector3">0,-0.24,0.18</field>
+                    <field name="vectorAngles" type="Vector3">17.7,0,113.5</field>
+                  </object>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Skins">
+            <field name="sSkinNamePrefix" type="String">SA50_</field>
+            <object name="UnlockableSkins">
+              <object name="Skins">
+                <field name="Skin" type="String">var_1</field>
+              </object>
+              <object name="Skins">
+                <field name="Skin" type="String">var_2</field>
+              </object>
+              <object name="Skins">
+                <field name="Skin" type="String">var_3</field>
+              </object>
+              <object name="Skins">
+                <field name="Skin" type="String">var_4</field>
+              </object>
+              <object name="Skins">
+                <field name="Skin" type="String">var_5</field>
+              </object>
+              <object name="Skins">
+                <field name="Skin" type="String">var_6</field>
+              </object>
+              <object name="Skins">
+                <field name="Skin" type="String"></field>
+              </object>
+            </object>
+          </object>
+          <object name="ShootCorrectionHelpers">
+            <object name="ShootCorrectionHelper">
+              <field name="fShootCorrectionStrength" type="Float32">0</field>
+              <field name="fShootCorrectionCylinderFactor" type="Float32">0</field>
+              <field name="fShootCorrectionHelperMaxDistance" type="Float32">0</field>
+            </object>
+            <object name="ShootCorrectionHelperIronsight">
+              <field name="fShootCorrectionStrength" type="Float32">0</field>
+              <field name="fShootCorrectionCylinderFactor" type="Float32">0</field>
+              <field name="fShootCorrectionHelperMaxDistance" type="Float32">0</field>
+            </object>
+          </object>
+          <object name="Marksman">
+            <field name="bCanFlickFire" type="Boolean">False</field>
+            <field name="bCanQuickFire" type="Boolean">False</field>
+            <field name="fNearFovDegrees" type="Float32">65</field>
+            <field name="fFovDegrees" type="Float32">85</field>
+          </object>
+          <object name="IronSight">
+            <field name="text_ScopeCenterBone" type="String">CROSSHAIR</field>
+            <field name="ScopeCenterBone" type="Hash32">DAD946B4</field>
+            <field name="ScopeCenterBoneOffset" type="BinHex">000000000000000000000000</field>
+            <field name="fMoveSpeedFactor" type="Float32">0.25</field>
+            <field name="bCanIronsight" type="Boolean">True</field>
+            <field name="fLookSensitivityFactor" type="Float32">0.09</field>
+            <field name="fLookSensitivityFactorMouse" type="Float32">0.19</field>
+            <field name="fVerticalLookSensitivityFactor" type="Float32">1.1</field>
+            <field name="fCoverMoveSpeedMultiplierIronSight" type="Float32">1</field>
+            <field name="fCoverLookSpeedMultiplierIronSight" type="Float32">1</field>
+            <field name="fIronsightFOVDegrees" type="Float32">30</field>
+            <field name="fIronsightNearFOVDegrees" type="Float32">8.75</field>
+            <field name="fIronsightTransitionTime" type="Float32">0.45</field>
+            <field name="fIronsightTransitionTimeFromSprint" type="Float32">0.45</field>
+            <field name="fSnapAimCylinderFactor" type="Float32">1</field>
+            <field name="fIronsightRecoilFactor" type="Float32">1</field>
+            <field name="fIronsightPrepareDelay" type="Float32">0.5</field>
+            <field name="bIronsightCanPrepare" type="Boolean">True</field>
+            <field name="bStayInIronsightWhenPrepare" type="Boolean">False</field>
+            <field name="bAlwaysIronsightReload" type="Boolean">False</field>
+            <field name="arkTransitionCurve" type="Id64">7876363844968</field>
+            <field name="arkAnimPlaybackCurve" type="Id64">0</field>
+            <field name="text_IronsightFX" type="String"></field>
+            <field name="IronsightFX" type="BinHex">FFFFFFFF</field>
+            <field name="bCanShootDuringIronsightTransition" type="Boolean">False</field>
+            <field name="bCanIronsightTransitionWhileShooting" type="Boolean">False</field>
+            <field name="bCanShootDuringIronsightTransitionInCover" type="Boolean">True</field>
+            <field name="bCanIronsightTransitionWhileShootingInCover" type="Boolean">True</field>
+            <field name="bIronsightAimingHelperEnabled" type="Boolean">False</field>
+            <field name="fAimingHelperInacurracyDistance" type="Float32">0</field>
+            <field name="fAimingHelperMinDistance" type="Float32">0</field>
+            <field name="fAimingHelperMaxDistance" type="Float32">0</field>
+            <field name="fAimingHelperFadeOutStartDistance" type="Float32">150</field>
+            <field name="fAimingHelperFadeOutStopDistance" type="Float32">151</field>
+            <field name="fAimingHelperFadeOutStartDistanceBlizzard" type="Float32">20</field>
+            <field name="fAimingHelperFadeOutStopDistanceBlizzard" type="Float32">20.1</field>
+            <field name="fAimingHelperLockOnTimeMultiplier" type="Float32">1</field>
+            <field name="fMinLockOnSpeed" type="Float32">40</field>
+            <field name="fMaxLockOnSpeed" type="Float32">80</field>
+            <object name="ironsightDof">
+              <field name="fBlur" type="Float32">1.75</field>
+              <field name="fBlurFactor" type="Float32">1.22</field>
+              <field name="fFocusDistance" type="Float32">1.25</field>
+              <field name="fAlphaRamp" type="Float32">0.45</field>
+              <object name="HDDOF">
+                <field name="fFocusDistance" type="Float32">100</field>
+                <field name="fNearDistance" type="Float32">0.3</field>
+                <field name="fFarDistance" type="Float32">160</field>
+                <field name="fCircleOfConfusion" type="Float32">0.21</field>
+              </object>
+            </object>
+            <object name="DriveAndShoot">
+              <field name="fAimingHelperDriveShootFadoutStartDistanceMulti" type="Float32">1</field>
+              <field name="fAimingHelperDriveShootFadoutStopDistanceMulti" type="Float32">1</field>
+            </object>
+          </object>
+          <object name="SprintingModifiers">
+            <field name="arkSprintingBlendWeightCurve" type="BinHex">EF5E681C25070000</field>
+            <field name="fSprintTimeScalar" type="Float32">0.5</field>
+          </object>
+          <object name="ActiveReloadSystem">
+            <field name="iStartPosinPercent" type="Int32">65</field>
+            <field name="iEndPosinPercent" type="Int32">75</field>
+            <field name="iDeltaTime" type="Int32">1</field>
+            <field name="iAccTime" type="Int32">5</field>
+            <field name="iWeaponDamage" type="Int32">0</field>
+            <field name="iLimitDeltaTime" type="Int32">500</field>
+            <field name="fFadeTimer" type="Float32">0.5</field>
+          </object>
+          <object name="HitAimReticule">
+            <field name="fHitAimDuration" type="Float32">0.2</field>
+            <field name="fHitReticuleDuration" type="Float32">0.2</field>
+          </object>
+          <object name="FollowHelper">
+            <field name="bUseWeaponFollowVars" type="Boolean">True</field>
+            <field name="fMaxDistForRightStickAssist" type="Float32">150</field>
+            <object name="HipFire">
+              <field name="fMinDistForInfluence" type="Float32">1</field>
+              <field name="fMinDistForMaxInfluence" type="Float32">3</field>
+              <field name="fMaxDistForMaxInfluence" type="Float32">10</field>
+              <field name="fMaxDistForInfluence" type="Float32">15</field>
+              <object name="DriveAndShoot">
+                <field name="fMultiplierForMaxDistForMaxInfluence" type="Float32">1</field>
+                <field name="fMultiplierForMaxDistForInfluence" type="BinHex">0000803F</field>
+              </object>
+            </object>
+            <object name="IronSight">
+              <field name="fMinDistForInfluence" type="Float32">1</field>
+              <field name="fMinDistForMaxInfluence" type="Float32">1.1</field>
+              <field name="fMaxDistForMaxInfluence" type="Float32">2</field>
+              <field name="fMaxDistForInfluence" type="Float32">3</field>
+              <object name="DriveAndShoot">
+                <field name="fMultiplierForMaxDistForMaxInfluence" type="Float32">1</field>
+                <field name="fMultiplierForMaxDistForInfluence" type="BinHex">0000803F</field>
+              </object>
+            </object>
+          </object>
+          <object name="Reliability">
+            <field name="fJamProbabilityPerReload" type="Float32">0</field>
+            <field name="fMaxReliability" type="Float32">1</field>
+          </object>
+          <object name="Damage">
+            <field name="fPVPAnimalMultiplier" type="Float32">1</field>
+            <object name="HitLocationMultiplier">
+              <field name="fHeadDamageMultiplier" type="Float32">2</field>
+              <field name="fTorsoDamageMultiplier" type="Float32">1</field>
+              <field name="fLegsDamageMultiplier" type="Float32">1</field>
+            </object>
+            <object name="MultiplayerHitLocationMultiplier">
+              <field name="fHeadDamageMultiplier" type="Float32">1</field>
+              <field name="fTorsoDamageMultiplier" type="Float32">1</field>
+              <field name="fPelvisDamageMultiplier" type="Float32">1</field>
+              <field name="fArmDamageMultiplier" type="Float32">1</field>
+              <field name="fHandDamageMultiplier" type="Float32">1</field>
+              <field name="fLegsDamageMultiplier" type="Float32">1</field>
+            </object>
+          </object>
+          <object name="StatisticsAndProgressionWiki">
+            <object name="StatisticUsageCount">
+              <field name="selStatisticType" type="Enum">116</field>
+            </object>
+          </object>
+          <object name="Sounds">
+            <field name="sndtpFirstUsageSoundType" type="Int32">-1</field>
+            <field name="sndFirstUsageSoundID" type="String">0xFFFFFFFF</field>
+          </object>
+          <object name="IKOffsets">
+            <field name="LeftHandIKTranslationOffset" type="Vector3">0,0,0</field>
+            <field name="LeftHandIKRotationOffset" type="Vector3">0,0,0</field>
+          </object>
+        </object>
+        <object name="WeaponMeleeProperties">
+          <field name="fPlannedAttackHeight" type="Float32">2</field>
+          <field name="fGenericAttackDistance" type="Float32">2</field>
+          <field name="fGenericAttackHeight" type="Float32">2</field>
+          <field name="fAlertSoundRadHit" type="Float32">2</field>
+          <field name="fAlertSoundRadNoHit" type="Float32">2</field>
+          <field name="matimpMeleeImpactFx" type="Hash64">00000000FFFFFFFF</field>
+          <field name="arkMeleeProp" type="Id64">0</field>
+          <field name="sndPvPMeleeKickSound" type="String">0xFFFFFFFF</field>
+          <object name="MeleeObjectsStims">
+            <field name="hidEventName" type="String">Stims</field>
+            <field name="bSupportForDualComponent" type="Boolean">False</field>
+            <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_sDetail" type="String">WeaponMeleeAttack</field>
+            <field name="sDetail" type="Hash32">39561182</field>
+            <field name="selType" type="Enum">4</field>
+            <field name="selFilterSubType" type="Enum">0</field>
+            <field name="fLevel" type="Float32">125</field>
+            <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+            <field name="hidShowType" type="Boolean">True</field>
+            <field name="hidShowRadius" type="Boolean">False</field>
+            <field name="fDuration" type="Float32">0</field>
+            <field name="bRollDiceForEachEntity" type="BinHex">01</field>
+            <field name="fPhysImpulse" type="Float32">5</field>
+            <field name="fPhysImpulseNPC" type="Float32">5</field>
+            <field name="fMaxMassModifier" type="Float32">20</field>
+            <object name="FilterFlags">
+              <field name="bCommon" type="Boolean">True</field>
+              <field name="bSinglePlayer" type="Boolean">True</field>
+              <field name="bPvP" type="Boolean">True</field>
+              <field name="bCoop" type="Boolean">True</field>
+              <field name="bShangriLa" type="Boolean">True</field>
+              <field name="bArena" type="Boolean">True</field>
+              <field name="bChannel0" type="Boolean">False</field>
+              <field name="bChannel1" type="BinHex">00</field>
+              <field name="bChannel2" type="BinHex">00</field>
+            </object>
+            <object name="DiceRolls">
+              <object name="Dice">
+                <field name="fMinValue" type="Float32">0</field>
+                <field name="fMaxValue" type="Float32">0</field>
+                <field name="fStepSize" type="Float32">1</field>
+                <field name="nNbRolls" type="Int32">1</field>
+              </object>
+            </object>
+          </object>
+          <object name="ImpulseStim">
+            <field name="hidEventName" type="String">Stims</field>
+            <field name="bSupportForDualComponent" type="Boolean">False</field>
+            <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_sDetail" type="String"></field>
+            <field name="sDetail" type="Hash32">FFFFFFFF</field>
+            <field name="selType" type="Enum">0</field>
+            <field name="fLevel" type="Float32">0</field>
+            <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+            <field name="fRadius" type="Float32">0</field>
+            <field name="bFalloff" type="Boolean">False</field>
+            <field name="fFalloffMinLevel" type="Float32">1</field>
+            <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+            <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+            <field name="arkFalloffCurve" type="Id64">0</field>
+            <field name="hidShowType" type="Boolean">True</field>
+            <field name="hidShowRadius" type="Boolean">True</field>
+            <field name="fDuration" type="Float32">0</field>
+            <field name="bRollDiceForEachEntity" type="BinHex">01</field>
+            <field name="vectorDefaultImpulse" type="BinHex">000000000000000000000000</field>
+            <field name="vectorDefaultImpulseAngular" type="BinHex">000000000000000000000000</field>
+            <field name="fStrength" type="Float32">1</field>
+            <object name="FilterFlags">
+              <field name="bCommon" type="Boolean">True</field>
+              <field name="bSinglePlayer" type="Boolean">True</field>
+              <field name="bPvP" type="Boolean">True</field>
+              <field name="bCoop" type="Boolean">True</field>
+              <field name="bShangriLa" type="Boolean">True</field>
+              <field name="bArena" type="Boolean">True</field>
+              <field name="bChannel0" type="Boolean">False</field>
+              <field name="bChannel1" type="BinHex">00</field>
+              <field name="bChannel2" type="BinHex">00</field>
+            </object>
+            <object name="DiceRolls">
+              <object name="Dice">
+                <field name="fMinValue" type="Float32">0</field>
+                <field name="fMaxValue" type="Float32">0</field>
+                <field name="fStepSize" type="Float32">1</field>
+                <field name="nNbRolls" type="Int32">1</field>
+              </object>
+            </object>
+          </object>
+        </object>
+        <object name="FireStrategyProperties">
+          <field name="fPiercingMultiplier" type="Float32">0.04</field>
+          <field name="fPiercingMultiplierMP" type="Float32">1</field>
+          <field name="fRagdollImpulse" type="Float32">10</field>
+          <field name="BulletWhizRadius" type="Float32">5</field>
+          <field name="bUseAngleSpread" type="Boolean">False</field>
+          <field name="iBulletsShot" type="Int32">1</field>
+          <field name="iBurstLength" type="Int32">0</field>
+          <field name="bFiresInBursts" type="BinHex">00</field>
+          <field name="fAngleYawBulletSpread" type="Float32">0</field>
+          <field name="fAnglePitchBulletSpread" type="Float32">0</field>
+          <field name="bHasMuzzleLight" type="Boolean">False</field>
+          <field name="fGroupingFactor" type="Float32">1</field>
+          <field name="matimpShellImpactFx" type="Hash64">00000000D1B81A13</field>
+          <field name="matimpBulletImpactFx" type="Hash64">00000000DF5C81BA</field>
+          <field name="matimpSecondaryBulletImpactFx" type="Hash64">00000000DF5C81BA</field>
+          <field name="matimpBloodBulletImpactFx" type="Hash64">000000008B774E15</field>
+          <field name="matimpDeathBulletImpactFx" type="Hash64">0000000078F42C20</field>
+          <field name="fBloodBulletMaxDist" type="Float32">7</field>
+          <object name="Network">
+            <field name="strControllerNetobjectType" type="String"></field>
+          </object>
+          <object name="BaseDamage">
+            <field name="hidEventName" type="String">Stims</field>
+            <field name="bSupportForDualComponent" type="Boolean">False</field>
+            <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_sDetail" type="String">BulletImpact</field>
+            <field name="sDetail" type="Hash32">AB3FB98A</field>
+            <field name="selType" type="Enum">3</field>
+            <field name="selFilterSubType" type="Enum">0</field>
+            <field name="fLevel" type="Float32">1250</field>
+            <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+            <field name="hidShowType" type="Boolean">True</field>
+            <field name="hidShowRadius" type="Boolean">False</field>
+            <field name="fDuration" type="Float32">0</field>
+            <field name="bRollDiceForEachEntity" type="BinHex">00</field>
+            <field name="fPhysImpulse" type="Float32">80</field>
+            <field name="fPhysImpulseNPC" type="Float32">30</field>
+            <field name="fMaxMassModifier" type="Float32">20</field>
+            <object name="FilterFlags">
+              <field name="bCommon" type="Boolean">True</field>
+              <field name="bSinglePlayer" type="Boolean">True</field>
+              <field name="bPvP" type="Boolean">True</field>
+              <field name="bCoop" type="Boolean">True</field>
+              <field name="bShangriLa" type="Boolean">True</field>
+              <field name="bArena" type="Boolean">True</field>
+              <field name="bChannel0" type="Boolean">False</field>
+              <field name="bChannel1" type="BinHex">00</field>
+              <field name="bChannel2" type="BinHex">00</field>
+            </object>
+            <object name="DiceRolls">
+              <object name="Dice">
+                <field name="fMinValue" type="Float32">0</field>
+                <field name="fMaxValue" type="Float32">0</field>
+                <field name="fStepSize" type="Float32">1</field>
+                <field name="nNbRolls" type="Int32">1</field>
+              </object>
+            </object>
+          </object>
+          <object name="MuzzleStims">
+            <object name="Stims">
+              <object name="Stim">
+                <field name="selStimType" type="Enum">0</field>
+                <field name="hidEventName" type="String">Stims</field>
+                <field name="bSupportForDualComponent" type="Boolean">False</field>
+                <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                <field name="text_sDetail" type="String"></field>
+                <field name="sDetail" type="Hash32">FFFFFFFF</field>
+                <field name="selType" type="Enum">1</field>
+                <field name="fLevel" type="Float32">1</field>
+                <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+                <field name="fRadius" type="Float32">150</field>
+                <field name="bFalloff" type="Boolean">False</field>
+                <field name="fFalloffMinLevel" type="Float32">1</field>
+                <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+                <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+                <field name="arkFalloffCurve" type="Id64">0</field>
+                <field name="hidShowType" type="Boolean">True</field>
+                <field name="hidShowRadius" type="Boolean">True</field>
+                <field name="fDuration" type="Float32">0</field>
+                <field name="bAppliesRangeMultipliers" type="Boolean">False</field>
+                <object name="FilterFlags">
+                  <field name="bCommon" type="Boolean">True</field>
+                  <field name="bSinglePlayer" type="Boolean">True</field>
+                  <field name="bPvP" type="Boolean">True</field>
+                  <field name="bCoop" type="Boolean">True</field>
+                  <field name="bShangriLa" type="Boolean">True</field>
+                  <field name="bArena" type="Boolean">True</field>
+                  <field name="bChannel0" type="Boolean">False</field>
+                  <field name="bChannel1" type="BinHex">00</field>
+                  <field name="bChannel2" type="BinHex">00</field>
+                </object>
+              </object>
+              <object name="Stim">
+                <field name="selStimType" type="Enum">3</field>
+                <field name="bAppliesRangeMultipliers" type="Boolean">False</field>
+              </object>
+            </object>
+          </object>
+          <object name="ImpactStims">
+            <object name="Stims">
+              <object name="Stim">
+                <field name="selStimType" type="Enum">0</field>
+                <field name="hidEventName" type="String">Stims</field>
+                <field name="bSupportForDualComponent" type="Boolean">False</field>
+                <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                <field name="text_sDetail" type="String"></field>
+                <field name="sDetail" type="Hash32">FFFFFFFF</field>
+                <field name="selType" type="Enum">1</field>
+                <field name="fLevel" type="Float32">1</field>
+                <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+                <field name="fRadius" type="Float32">10</field>
+                <field name="bFalloff" type="Boolean">False</field>
+                <field name="fFalloffMinLevel" type="Float32">1</field>
+                <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+                <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+                <field name="arkFalloffCurve" type="Id64">0</field>
+                <field name="hidShowType" type="Boolean">True</field>
+                <field name="hidShowRadius" type="Boolean">True</field>
+                <field name="fDuration" type="Float32">0</field>
+                <field name="bAppliesRangeMultipliers" type="Boolean">False</field>
+                <object name="FilterFlags">
+                  <field name="bCommon" type="Boolean">True</field>
+                  <field name="bSinglePlayer" type="Boolean">True</field>
+                  <field name="bPvP" type="Boolean">True</field>
+                  <field name="bCoop" type="Boolean">True</field>
+                  <field name="bShangriLa" type="Boolean">True</field>
+                  <field name="bArena" type="Boolean">True</field>
+                  <field name="bChannel0" type="Boolean">False</field>
+                  <field name="bChannel1" type="BinHex">00</field>
+                  <field name="bChannel2" type="BinHex">00</field>
+                </object>
+              </object>
+              <object name="Stim">
+                <field name="selStimType" type="Enum">3</field>
+                <field name="bAppliesRangeMultipliers" type="Boolean">False</field>
+              </object>
+            </object>
+          </object>
+          <object name="VictimStims">
+            <object name="Stims">
+              <object name="Stim">
+                <field name="selStimType" type="Enum">3</field>
+                <field name="bAppliesRangeMultipliers" type="Boolean">False</field>
+              </object>
+            </object>
+          </object>
+          <object name="RangeMultipliers">
+            <object name="RangeMultiplierCasual">
+              <object name="RangeMultiplierDifficulty">
+                <object name="RangeMultiplier">
+                  <field name="fStartMultiplier" type="Float32">1</field>
+                  <field name="fEndMultiplier" type="Float32">1</field>
+                  <field name="fMinRange" type="Float32">0</field>
+                  <field name="fMaxRange" type="Float32">170</field>
+                </object>
+                <object name="RangeMultiplier">
+                  <field name="fStartMultiplier" type="Float32">0</field>
+                  <field name="fEndMultiplier" type="Float32">0</field>
+                  <field name="fMinRange" type="Float32">0</field>
+                  <field name="fMaxRange" type="Float32">0</field>
+                </object>
+              </object>
+            </object>
+            <object name="RangeMultiplierExperimented">
+              <object name="RangeMultiplierDifficulty">
+                <object name="RangeMultiplier">
+                  <field name="fStartMultiplier" type="Float32">1</field>
+                  <field name="fEndMultiplier" type="Float32">1</field>
+                  <field name="fMinRange" type="Float32">0</field>
+                  <field name="fMaxRange" type="Float32">170</field>
+                </object>
+                <object name="RangeMultiplier">
+                  <field name="fStartMultiplier" type="Float32">0</field>
+                  <field name="fEndMultiplier" type="Float32">0</field>
+                  <field name="fMinRange" type="Float32">0</field>
+                  <field name="fMaxRange" type="Float32">0</field>
+                </object>
+              </object>
+            </object>
+            <object name="RangeMultiplierHardcore">
+              <object name="RangeMultiplierDifficulty">
+                <object name="RangeMultiplier">
+                  <field name="fStartMultiplier" type="Float32">1</field>
+                  <field name="fEndMultiplier" type="Float32">1</field>
+                  <field name="fMinRange" type="Float32">0</field>
+                  <field name="fMaxRange" type="Float32">170</field>
+                </object>
+                <object name="RangeMultiplier">
+                  <field name="fStartMultiplier" type="Float32">0</field>
+                  <field name="fEndMultiplier" type="Float32">0</field>
+                  <field name="fMinRange" type="Float32">0</field>
+                  <field name="fMaxRange" type="Float32">0</field>
+                </object>
+              </object>
+            </object>
+            <object name="RangeMultiplierInfamous">
+              <object name="RangeMultiplierDifficulty">
+                <object name="RangeMultiplier">
+                  <field name="fStartMultiplier" type="Float32">1</field>
+                  <field name="fEndMultiplier" type="Float32">1</field>
+                  <field name="fMinRange" type="Float32">0</field>
+                  <field name="fMaxRange" type="Float32">170</field>
+                </object>
+                <object name="RangeMultiplier">
+                  <field name="fStartMultiplier" type="Float32">0</field>
+                  <field name="fEndMultiplier" type="Float32">0</field>
+                  <field name="fMinRange" type="Float32">0</field>
+                  <field name="fMaxRange" type="Float32">0</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object name="Sounds">
+            <field name="sndEmptyWeapon" type="String">0x0002EC3D</field>
+            <field name="sndtpEmptyWeaponType" type="Int32">9</field>
+            <field name="sndPassByWizz" type="String">0xFFFFFFFF</field>
+            <field name="fPassByWizzTiming" type="Float32">0.15</field>
+            <field name="sndDudBullet" type="String">0xFFFFFFFF</field>
+            <field name="sndtpDudBulletType" type="Int32">-1</field>
+            <field name="sndMalfunctionSingleBulletShot" type="String">0xFFFFFFFF</field>
+            <field name="sndtpMalfunctionSingleBulletShotType" type="Int32">-1</field>
+            <field name="sndHitPlayerSound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpHitPlayerSoundType" type="Int32">-1</field>
+            <field name="sndHitPlayerHeadSound" type="String">0xFFFFFFFF</field>
+            <field name="sndtpHitPlayerHeadSoundType" type="Int32">-1</field>
+            <field name="sndmlDistanceFromShootingSoundToPlayerMultilayer" type="Int32">24235</field>
+            <field name="sndSingleBulletShot" type="String">0x002A213F</field>
+            <field name="sndSingleBulletShotEcho" type="String">0xFFFFFFFF</field>
+            <field name="sndtpSingleBulletShotType" type="Int32">8</field>
+            <object name="IronSightSound">
+              <field name="sndIronSightShotSound" type="String">0xFFFFFFFF</field>
+              <field name="sndtpIronSightShotSoundType" type="Int32">-1</field>
+              <field name="sndSingleBulletShot" type="String">0x002A213F</field>
+              <field name="sndtpSingleBulletShotType" type="Int32">8</field>
+              <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+              <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+              <field name="sndtpAutoBulletShotType" type="Int32">-1</field>
+              <field name="mixIronsightPreset" type="Hash64">00000000F7CDDA36</field>
+              <field name="sndIronSightEnterSound" type="String">0xFFFFFFFF</field>
+              <field name="sndtpIronSightEnterSoundType" type="Int32">-1</field>
+              <field name="sndIronSightExitSound" type="String">0xFFFFFFFF</field>
+              <field name="sndtpIronSightExitSoundType" type="Int32">-1</field>
+            </object>
+            <object name="ShotSound">
+              <field name="iLastFewShotNumber" type="Int32">2</field>
+              <field name="sndLastFewShotSound" type="String">0x0000584D</field>
+              <field name="sndtpLastFewShotSoundType" type="Int32">8</field>
+              <field name="sndLastShotSound" type="String">0x0000584E</field>
+              <field name="sndtpLastShotSoundType" type="Int32">8</field>
+            </object>
+            <object name="ThirdPerson">
+              <field name="sndAutomaticFireRateSound" type="String">0xFFFFFFFF</field>
+              <field name="sndtpAutomaticFireRateSoundType" type="Int32">-1</field>
+              <field name="sndtpThirdSingleShotSoundType" type="BinHex">09000000</field>
+              <field name="sndtpThirdAutoShotSoundType" type="BinHex">09000000</field>
+              <object name="ThirdPersonShootingSoundsArray">
+                <object name="ShootingSounds">
+                  <field name="sndSingleBulletShot" type="String">0x002A252F</field>
+                  <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                </object>
+                <object name="ShootingSounds">
+                  <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+                  <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
+                  <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
+                </object>
+              </object>
+            </object>
+            <object name="DistanceSwitchParameters">
+              <field name="sndswtpCloseFarSoundSwitchType" type="Int32">-1</field>
+              <field name="sndswvlCloseSoundSwitchValue" type="Int32">-1</field>
+              <field name="sndswvlFarSoundSwitchValue" type="Int32">-1</field>
+              <field name="fCloseFarSoundSwitchDistanceThreshold" type="Float32">40</field>
+            </object>
+          </object>
+          <object name="Particles">
+            <field name="text_psMuzzleParticlesId" type="String">newparticles\7848736865397.part</field>
+            <field name="psMuzzleParticlesId" type="Hash64">EA122CFE0AB8EEF0</field>
+            <field name="text_psMuzzleParticlesId_IronSight" type="String"></field>
+            <field name="psMuzzleParticlesId_IronSight" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_psMuzzleParticlesId_3rd" type="String">newparticles\7583354710277.part</field>
+            <field name="psMuzzleParticlesId_3rd" type="Hash64">3568CB0F8723FB39</field>
+            <field name="text_psMuzzleParticlesDudId" type="String"></field>
+            <field name="psMuzzleParticlesDudId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_psMuzzleParticlesDudId_3rd" type="String"></field>
+            <field name="psMuzzleParticlesDudId_3rd" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_psMuzzleParticlesMalfunctionId" type="String"></field>
+            <field name="psMuzzleParticlesMalfunctionId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_psMuzzleParticlesMalfunctionId_3rd" type="String"></field>
+            <field name="psMuzzleParticlesMalfunctionId_3rd" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_psBarrelSmokeMuzzleParticlesId" type="String"></field>
+            <field name="psBarrelSmokeMuzzleParticlesId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="fMuzzleScaleIronsight" type="Float32">0</field>
+            <field name="fMuzzleScaleFar" type="Float32">1</field>
+            <field name="fMuzzleNearDistanceTP" type="Float32">10</field>
+            <field name="fMuzzleFarDistanceTP" type="Float32">30</field>
+            <field name="text_MuzzleBone" type="String">FX_FIRE</field>
+            <field name="MuzzleBone" type="Hash32">AF2676DA</field>
+            <field name="text_LaserScopeBone" type="String">SCOPE_HI</field>
+            <field name="LaserScopeBone" type="Hash32">F1FFCE61</field>
+            <field name="text_psBulletCaseParticleId" type="String">newparticles\7644584968612.part</field>
+            <field name="psBulletCaseParticleId" type="Hash64">AF6B8DB9895A164B</field>
+            <field name="text_BulletCaseBone" type="String">FX_CASING</field>
+            <field name="BulletCaseBone" type="Hash32">D431B68E</field>
+            <field name="text_psShineParticleId" type="String"></field>
+            <field name="psShineParticleId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <object name="UnderwaterBullet">
+              <field name="text_psUnderwaterBulletParticleId" type="String">newparticles\7644730636210.part</field>
+              <field name="psUnderwaterBulletParticleId" type="Hash64">16D9D04F94BCFC4D</field>
+              <field name="fUnderwaterBulletMinAngle" type="Float32">1.39</field>
+              <field name="fUnderwaterBulletMinDistSquared" type="Float32">4</field>
+            </object>
+          </object>
+          <object name="BulletChain">
+            <object name="BulletChainObjectList">
+              <object name="BulletChainObject">
+                <field name="text_BulletChainObject" type="String"></field>
+                <field name="BulletChainObject" type="BinHex">FFFFFFFF</field>
+              </object>
+            </object>
+          </object>
+          <object name="FirstPerson">
+            <field name="fBase_spread_transition_time" type="Float32">0.2</field>
+            <field name="fMax_spread_bullet_number" type="Float32">1</field>
+            <field name="iReticleFadeOutMaxBulletNumber" type="Int32">0</field>
+            <field name="fShooting_expansion_speed" type="Float32">60</field>
+            <field name="fShooting_contraction_speed" type="Float32">2</field>
+            <field name="fBulletSpread_jump_modifier" type="Float32">6</field>
+            <field name="fBulletSpread_jump_stabilization_time" type="Float32">0.2</field>
+            <field name="fBulletSpread_movement_modifier" type="Float32">1</field>
+            <field name="fBulletSpread_movement_stabilization_time" type="Float32">0.2</field>
+            <field name="fBulletSpread_turn_modifier" type="Float32">0</field>
+            <field name="bBulletSpread_clamp_spread" type="Boolean">False</field>
+            <field name="text_sShootRumbleEffect" type="String">weaponbulletshoot</field>
+            <field name="sShootRumbleEffect" type="Hash32">ED0B0F70</field>
+            <field name="fBulletSpread_blindFireModifier" type="Float32">1</field>
+            <object name="BulletSpread">
+              <field name="fBaseSpread" type="Float32">3</field>
+              <field name="fMaxBulletSpread" type="Float32">4</field>
+            </object>
+            <object name="BulletSpread_ironSight">
+              <field name="fBaseSpread" type="Float32">0.001</field>
+              <field name="fMaxBulletSpread" type="Float32">0.001</field>
+            </object>
+            <object name="BulletSpread_crouch">
+              <field name="fBaseSpread" type="Float32">2.5</field>
+              <field name="fMaxBulletSpread" type="Float32">6</field>
+            </object>
+            <object name="BulletSpread_crouch_ironSight">
+              <field name="fBaseSpread" type="Float32">0.001</field>
+              <field name="fMaxBulletSpread" type="Float32">0.001</field>
+            </object>
+            <object name="fBulletSpread_jump">
+              <field name="fBaseSpread" type="Float32">2.75</field>
+              <field name="fMaxBulletSpread" type="Float32">3.5</field>
+            </object>
+            <object name="ReflexFire">
+              <field name="bReflexFire_enabled" type="Boolean">False</field>
+              <field name="bReflexFireOnlyOnSecondary" type="Boolean">False</field>
+              <field name="fReflexFireMinLookSpeedToActivate" type="Float32">0</field>
+              <field name="fReflexFireMinMoveSpeedToActivate" type="Float32">0</field>
+              <field name="fReflexFire_spread_factor" type="Float32">1</field>
+              <field name="fReflexFireDamageLevelMultiplier" type="Float32">1</field>
+              <field name="fReflexFireZiplineSpreadFactor" type="Float32">1</field>
+              <field name="fReflexFireJumpSpreadFactor" type="Float32">0.01</field>
+              <field name="fReflexFireMouseSpreadFactor" type="Float32">1</field>
+              <field name="fReflexFireZiplineDamageLevelMultiplier" type="Float32">1</field>
+              <field name="fReflexFireDriveAndShootSpreadFactor" type="Float32">1</field>
+              <field name="fReflexFireCoverBlindSpreadFactor" type="Float32">1.25</field>
+              <object name="settingsNear">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">1</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">1</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">4</field>
+              </object>
+              <object name="settingsFar">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">0</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">0</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">6</field>
+              </object>
+              <object name="ziplineSettingsNear">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">0</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">0</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">4</field>
+              </object>
+              <object name="ziplineSettingsFar">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">0</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">0</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">6</field>
+              </object>
+              <object name="animalSettingsNear">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">1</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">1</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">4</field>
+              </object>
+              <object name="animalSettingsFar">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">0</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">0</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">8</field>
+              </object>
+              <object name="driveAndShootSettingsNear">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">1</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">1</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">4</field>
+              </object>
+              <object name="driveAndShootSettingsFar">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">0</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">0</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">8</field>
+              </object>
+              <object name="CoverBlindNear">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">1</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">1</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">4</field>
+              </object>
+              <object name="CoverBlindFar">
+                <field name="iWeightingHead" type="Int32">0</field>
+                <field name="iWeightingTorso" type="Int32">0</field>
+                <field name="iWeightingOtherBodyParts" type="Int32">0</field>
+                <field name="iWeightingDefaultAim" type="Int32">1</field>
+                <field name="fDistance" type="Float32">8</field>
+              </object>
+            </object>
+          </object>
+          <object name="BulletTracer">
+            <object name="FirstPerson">
+              <field name="text_texTexture" type="String">graphics\_common\_textures\fx\bullet_tracers\bullet_tracer_01_null_d.xbt</field>
+              <field name="texTexture" type="Hash64">79997D459D1C98BA</field>
+              <field name="text_texTextureDistortion" type="String"></field>
+              <field name="texTextureDistortion" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_texFacingTexture" type="String"></field>
+              <field name="texFacingTexture" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_texLaserTexture" type="String"></field>
+              <field name="texLaserTexture" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="fSpeed" type="Float32">300</field>
+              <field name="fMinDistToActive" type="Float32">1</field>
+              <field name="fLength" type="Float32">5</field>
+              <field name="fLengthDistortion" type="Float32">5</field>
+              <field name="fWidth" type="Float32">0.01</field>
+              <field name="fOffset" type="Float32">0</field>
+              <field name="iFrequency" type="Int32">1</field>
+              <field name="fTextureTileNumber" type="Float32">1</field>
+              <field name="fDistortionTileNumber" type="Float32">1</field>
+              <field name="fFacingTextureWidth" type="Float32">0.05</field>
+              <field name="text_psTracerParticlesId" type="String">newparticles\7704561625153.part</field>
+              <field name="psTracerParticlesId" type="Hash64">A60CE54ED5EDA08A</field>
+              <field name="text_psTrailParticlesId" type="String">newparticles\7848740514734.part</field>
+              <field name="psTrailParticlesId" type="Hash64">5F51F98092613016</field>
+            </object>
+            <object name="Friendly">
+              <field name="text_texTexture" type="String">graphics\_common\_textures\fx\bullet_tracers\bullet_tracer_01_null_d.xbt</field>
+              <field name="texTexture" type="Hash64">79997D459D1C98BA</field>
+              <field name="text_texTextureDistortion" type="String"></field>
+              <field name="texTextureDistortion" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_texFacingTexture" type="String"></field>
+              <field name="texFacingTexture" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_texLaserTexture" type="String">graphics\_common\_textures\fx\bullet_tracers\fc3_gfx_laserbeam_01.xbt</field>
+              <field name="texLaserTexture" type="Hash64">E52B9D3CD5950DB3</field>
+              <field name="fSpeed" type="Float32">300</field>
+              <field name="fMinDistToActive" type="Float32">1</field>
+              <field name="fLength" type="Float32">5</field>
+              <field name="fLengthDistortion" type="Float32">5</field>
+              <field name="fWidth" type="Float32">0.1</field>
+              <field name="fOffset" type="Float32">0</field>
+              <field name="iFrequency" type="Int32">1</field>
+              <field name="fTextureTileNumber" type="Float32">1</field>
+              <field name="fDistortionTileNumber" type="Float32">1</field>
+              <field name="fFacingTextureWidth" type="Float32">0.05</field>
+              <field name="text_psTracerParticlesId" type="String">newparticles\7704561625153.part</field>
+              <field name="psTracerParticlesId" type="Hash64">A60CE54ED5EDA08A</field>
+              <field name="text_psTrailParticlesId" type="String">newparticles\7848740514734.part</field>
+              <field name="psTrailParticlesId" type="Hash64">5F51F98092613016</field>
+            </object>
+            <object name="Enemy">
+              <field name="text_texTexture" type="String">graphics\_common\_textures\fx\bullet_tracers\bullet_tracer_01_null_d.xbt</field>
+              <field name="texTexture" type="Hash64">79997D459D1C98BA</field>
+              <field name="text_texTextureDistortion" type="String"></field>
+              <field name="texTextureDistortion" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_texFacingTexture" type="String"></field>
+              <field name="texFacingTexture" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_texLaserTexture" type="String">graphics\_common\_textures\fx\bullet_tracers\fc3_gfx_laserbeam_01.xbt</field>
+              <field name="texLaserTexture" type="Hash64">E52B9D3CD5950DB3</field>
+              <field name="fSpeed" type="Float32">300</field>
+              <field name="fMinDistToActive" type="Float32">1</field>
+              <field name="fLength" type="Float32">5</field>
+              <field name="fLengthDistortion" type="Float32">5</field>
+              <field name="fWidth" type="Float32">0.1</field>
+              <field name="fOffset" type="Float32">0</field>
+              <field name="iFrequency" type="Int32">1</field>
+              <field name="fTextureTileNumber" type="Float32">1</field>
+              <field name="fDistortionTileNumber" type="Float32">1</field>
+              <field name="fFacingTextureWidth" type="Float32">0.05</field>
+              <field name="text_psTracerParticlesId" type="String"></field>
+              <field name="psTracerParticlesId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_psTrailParticlesId" type="String"></field>
+              <field name="psTrailParticlesId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+            <object name="HotRounds">
+              <field name="text_texTexture" type="String"></field>
+              <field name="texTexture" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_texTextureDistortion" type="String"></field>
+              <field name="texTextureDistortion" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_texFacingTexture" type="String"></field>
+              <field name="texFacingTexture" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_texLaserTexture" type="String"></field>
+              <field name="texLaserTexture" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="fSpeed" type="Float32">400</field>
+              <field name="fMinDistToActive" type="Float32">1</field>
+              <field name="fLength" type="Float32">10</field>
+              <field name="fLengthDistortion" type="Float32">50</field>
+              <field name="fWidth" type="Float32">0.01</field>
+              <field name="fOffset" type="Float32">1</field>
+              <field name="iFrequency" type="Int32">5</field>
+              <field name="fTextureTileNumber" type="Float32">1</field>
+              <field name="fDistortionTileNumber" type="Float32">1</field>
+              <field name="fFacingTextureWidth" type="Float32">0.05</field>
+              <field name="text_psTracerParticlesId" type="String"></field>
+              <field name="psTracerParticlesId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_psTrailParticlesId" type="String"></field>
+              <field name="psTrailParticlesId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            </object>
+          </object>
+          <object name="BulletImpactScale">
+            <field name="fOverallMinParticleScale" type="Float32">0.7</field>
+            <field name="fOverallMaxParticleScale" type="Float32">1.2</field>
+            <field name="fOverallDecalScale" type="Float32">1.25</field>
+            <field name="fBulletImpactScaleSmallDistance" type="Float32">5</field>
+            <field name="fBulletImpactScaleMediumDistance" type="Float32">25</field>
+            <field name="fBulletImpactScaleLargeDistance" type="Float32">50</field>
+            <field name="fSmallBulletImpactScaleFactor" type="Float32">0.6</field>
+            <field name="fMediumBulletImpactScaleFactor" type="Float32">1</field>
+            <field name="fLargeBulletImpactScaleFactor" type="Float32">1.2</field>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+  <object name="ResPack" />
+</object>

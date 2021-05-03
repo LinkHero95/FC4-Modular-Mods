@@ -1,0 +1,1778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<object name="EntityPrototype" def="ark">
+  <field name="disLibItemId" type="Id64">234194763977982012</field>
+  <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\234194763977982012.ark.fcb</field>
+  <field name="hidArchetypeResId" type="Hash64">6B67C50402CE6563</field>
+  <field name="Name" type="String">PickupPiles/AmmoPile</field>
+  <field name="ArchetypeName" type="String">fcc_interactive:pickuppiles/ammopile</field>
+  <object name="Entity">
+    <field name="hidName" type="String">FCC_Interactive:PickupPiles/AmmoPile</field>
+    <field name="text_hidEntityClass" type="String">CEntity</field>
+    <field name="hidEntityClass" type="Hash32">50C95067</field>
+    <field name="hidResourceCount" type="Int32">5</field>
+    <field name="hidConstEntity" type="Boolean">False</field>
+    <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\234194763977982012.ark.fcb</field>
+    <field name="hidArchetypeResId" type="Hash64">6B67C50402CE6563</field>
+    <object name="Components">
+      <object name="CPickupPile">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bEnable" type="Boolean">True</field>
+        <field name="fRespawnTime" type="Float32">0</field>
+        <field name="bCustomBoundingBox" type="Boolean">True</field>
+        <field name="vectorBoundingBoxSize" type="Vector3">1,1.75,1</field>
+        <field name="vectorBoundingBoxOffset" type="Vector3">0,0,0.55</field>
+        <field name="vectorMaxSpawningAngularVelocity" type="BinHex">000000000000000000000000</field>
+        <field name="bAffectedLightPickup" type="Boolean">True</field>
+        <field name="bPickable" type="Boolean">True</field>
+        <field name="sUsageString" type="String">loot</field>
+        <field name="locidDisplayString" type="BinHex">00000000</field>
+        <field name="fileGeometryPreload" type="BinHex">00</field>
+        <field name="Priority" type="UInt32">0</field>
+        <field name="bCanBeScouted" type="Boolean">False</field>
+        <field name="bDisableOnPick" type="BinHex">00</field>
+        <field name="bInstantPickup" type="BinHex">00</field>
+        <field name="bInstantPickupExtended" type="Boolean">False</field>
+        <field name="bPickUpOnDestroy" type="Boolean">False</field>
+        <field name="bPickUpOnAnyDamage" type="BinHex">00</field>
+        <field name="bPickUpOnBurn" type="BinHex">00</field>
+        <field name="bPickUpOnMolotovExplosion" type="BinHex">00</field>
+        <field name="bIsProp" type="BinHex">00</field>
+        <field name="bIsProjectilePickup" type="BinHex">00</field>
+        <field name="text_fileAnimationOnPickup" type="String"></field>
+        <field name="fileAnimationOnPickup" type="BinHex">FFFFFFFFFFFFFFFF</field>
+        <field name="fFiringDuration" type="Float32">11</field>
+        <field name="iAllowedUses" type="BinHex">03000000</field>
+        <field name="fObjectRespawnTime" type="Float32">0</field>
+        <field name="bGiveAmmo" type="BinHex">01</field>
+        <field name="bGiveGadgets" type="BinHex">01</field>
+        <field name="bDestroyableEvenIfEmtpy" type="BinHex">01</field>
+        <field name="bForKalinag" type="BinHex">00</field>
+        <object name="Sounds">
+          <field name="sndPickupGrabSound_1st" type="String">0x004554F1</field>
+          <field name="sndtpPickupGrabSoundType_1st" type="Int32">11</field>
+          <field name="sndPickupGrabSound_3rd" type="String">0x004554F1</field>
+          <field name="sndtpPickupGrabSoundType_3rd" type="Int32">11</field>
+          <field name="sndPickupEquipSound_1st" type="String">0xFFFFFFFF</field>
+          <field name="sndtpPickupEquipSoundType_1st" type="Int32">-1</field>
+          <field name="sndPickupEquipSound_3rd" type="String">0xFFFFFFFF</field>
+          <field name="sndtpPickupEquipSoundType_3rd" type="Int32">-1</field>
+          <field name="mpbarkBarkId" type="String"></field>
+        </object>
+        <object name="Ammunitions">
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">pistol</field>
+            <field name="ammoAmmoType" type="Hash32">A2D12CBB</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">assault</field>
+            <field name="ammoAmmoType" type="Hash32">CCE9D60C</field>
+            <field name="iAmmoQuantity" type="BinHex">FF0F0000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">sniper</field>
+            <field name="ammoAmmoType" type="Hash32">AE2848CB</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">rpg</field>
+            <field name="ammoAmmoType" type="Hash32">54DDE821</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">shotgun</field>
+            <field name="ammoAmmoType" type="Hash32">EEAE53E1</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">lmg</field>
+            <field name="ammoAmmoType" type="Hash32">BD090A47</field>
+            <field name="iAmmoQuantity" type="BinHex">FF0F0000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">smg</field>
+            <field name="ammoAmmoType" type="Hash32">AA73EE0A</field>
+            <field name="iAmmoQuantity" type="BinHex">FF0F0000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">arrow</field>
+            <field name="ammoAmmoType" type="Hash32">D837EE3E</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+		  <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">arrow</field>
+            <field name="ammoAmmoType" type="Hash32">D837EE3E</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">01000000</field>
+          </object>
+		  <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">arrow</field>
+            <field name="ammoAmmoType" type="Hash32">D837EE3E</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">02000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">fuel</field>
+            <field name="ammoAmmoType" type="Hash32">31BD6FE9</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">m79</field>
+            <field name="ammoAmmoType" type="Hash32">704CA95D</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">flare</field>
+            <field name="ammoAmmoType" type="Hash32">C86412FF</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">bolt</field>
+            <field name="ammoAmmoType" type="Hash32">6DC0FD07</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">harpoon</field>
+            <field name="ammoAmmoType" type="Hash32">0554A51A</field>
+            <field name="iAmmoQuantity" type="BinHex">FF000000</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+          <object name="AmmoEntry">
+            <field name="text_ammoAmmoType" type="String">none</field>
+            <field name="ammoAmmoType" type="Hash32">7F9000CF</field>
+            <field name="iAmmoQuantity" type="BinHex">9F860100</field>
+            <field name="selSpecialType" type="BinHex">00000000</field>
+          </object>
+        </object>
+      </object>
+      <object name="CFileDescriptorComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_fileName" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.xml</field>
+        <field name="fileName" type="Hash64">FAF2560BF04AF89B</field>
+        <field name="hidDescriptor" type="Rml">
+          <rml>
+            <hidDescriptor>
+              <component class="GraphicComponent" version="2" detail="0">
+                <object index="0" meshName="STATE01" boneName="STATE01" bboxMin="-0.540096,-0.697872,-0.00520887" bboxMax="0.370398,1.02404,1.41534" />
+                <object index="1" meshName="STATE02" boneName="STATE02" bboxMin="-0.464802,-0.694432,-0.00520887" bboxMax="0.366234,0.765265,0.546488" />
+                <object index="2" meshName="Pickup02" boneName="Pickup02" bboxMin="-0.862714,-0.896038,0.400119" bboxMax="0.488985,0.428906,1.20411" />
+                <object index="3" meshName="Pickup03" boneName="Pickup03" bboxMin="-0.552242,-0.992845,0.486919" bboxMax="0.568887,0.52882,1.15436" />
+                <object index="4" meshName="Pickup01xfg" boneName="Pickup01xfg" bboxMin="-0.407619,-1.11374,0.32656" bboxMax="0.871698,0.458721,1.05287" />
+                <object index="5" meshName="STATE02B" boneName="STATE02B" bboxMin="-0.34724,-0.30207,-0.564894" bboxMax="0.386409,0.284867,0.458096" />
+                <object index="6" meshName="STATE02C" boneName="STATE02C" bboxMin="-0.376977,-0.39615,-0.635118" bboxMax="0.329729,0.415877,0.512074" />
+                <object index="7" meshName="STATE02D" boneName="STATE02D" bboxMin="-0.26041,-0.21686,-0.533748" bboxMax="0.282913,0.113805,0.5433" />
+                <resource fileName="graphics\_SinglePlayer\Props\Equipment\AmmoPile_Pickup.xbg" bboxMin="-0.546363,-0.697871,-0.00543587" bboxMax="0.499938,1.20279,1.54386" />
+                <skeleton_reference_list>
+                  <skeleton name="AmmoPile_Pickup" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                    <bone name="AmmoPile_State" pos="-0.084503,-0.61212,0.017623" rot="1,0,0,0">
+                      <bone name="STATE01" pos="0.084503,0.61212,-0.017623" rot="1,0,0,0">
+                        <bone name="State01_FX" pos="0,0,0.368803" rot="1,0,0,0" />
+                      </bone>
+                      <bone name="STATE02" pos="0.084503,0.61212,-0.017623" rot="1,0,0,0">
+                        <bone name="State02_FX" pos="0,0,0.044945" rot="1,0,0,0" />
+                      </bone>
+                      <bone name="Pickup02" pos="0.107903,1.01574,0.12395" rot="0.965926,0,0,-0.258819" />
+                      <bone name="Pickup03" pos="0.107903,1.01574,0.035068" rot="0.976296,0,0,-0.216439" />
+                      <bone name="Pickup01xfg" pos="0.107903,1.01574,0.197272" rot="0.96005,0,0,-0.279829" />
+                      <bone name="STATE02B" pos="-0.019544,0.740807,1.21616" rot="0.519301,-0.382851,-0.574536,-0.503648" />
+                      <bone name="STATE02C" pos="0.050824,0.914337,0.806346" rot="0.520476,-0.390633,-0.558079,-0.514838" />
+                      <bone name="STATE02D" pos="-0.340875,0.991695,0.784932" rot="0.554874,-0.430272,-0.537696,-0.466759" />
+                    </bone>
+                  </skeleton>
+                </skeleton_reference_list>
+                <material_reference_list>
+                  <material name="AmmoBox_Paper" shader_name="Metal" ref_shader_id="grassam-M-0805201273096367" hd="0" />
+                  <material name="AmmoPile2_Wood02" shader_name="Metal" ref_shader_id="Mckoung-M-2012051463752190" hd="0" />
+                  <material name="AmmoPile2_WoodPlanks_01" shader_name="Metal" ref_shader_id="mgirard3-M-20140512142701" hd="0" />
+                  <material name="AmmoPile_Stickers_01" shader_name="Metal" ref_shader_id="mgirard3-M-20140512163434" hd="0" />
+                  <material name="AmmopileMetal_02" shader_name="Metal" ref_shader_id="mgirard3-M-20140527102905" hd="0" />
+                  <material name="Flamethrower_Ammo - RocketClone" shader_name="Metal" ref_shader_id="hlevasseur-M-20120606142650" hd="0" />
+                  <material name="PickupPile_AmmoBox01" shader_name="Metal" ref_shader_id="Mckoung-M-2012051052076130" hd="0" />
+                  <material name="AmmoPile2_Bullets" shader_name="Metal" ref_shader_id="Mckoung-M-2012051465883851" hd="0" />
+                  <material name="AmmoCan_Metal" shader_name="Metal" ref_shader_id="grassam-M-1305201161197199" hd="0" />
+                </material_reference_list>
+              </component>
+              <component class="InteriorVolumeComponent" version="1" detail="0" />
+              <component class="CompoundPhysComponent">
+                <nodes stateIndexStart="8" hasStatic="1">
+                  <stateNode boneIndex="1" index="8" name="AmmoPile_State">
+                    <state index="0">
+                      <body index="3" objectIndex="0" boneIndex="2" name="STATE01">
+                        <fx boneIndex="3" />
+                      </body>
+                      <body index="1" objectIndex="2" boneIndex="6" name="Pickup02" />
+                      <body index="2" objectIndex="3" boneIndex="7" name="Pickup03" />
+                      <body index="0" objectIndex="4" boneIndex="8" name="Pickup01xfg" />
+                    </state>
+                    <state index="1">
+                      <body index="4" objectIndex="1" boneIndex="4" name="STATE02">
+                        <fx boneIndex="5" />
+                      </body>
+                      <body index="5" objectIndex="5" boneIndex="9" name="STATE02B" />
+                      <body index="6" objectIndex="6" boneIndex="10" name="STATE02C" />
+                      <body index="7" objectIndex="7" boneIndex="11" name="STATE02D" />
+                    </state>
+                  </stateNode>
+                </nodes>
+                <resource fileName="graphics\_SinglePlayer\Props\Equipment\AmmoPile_Pickup.hkx" />
+              </component>
+              <component class="ParticleFXComponent">
+                <State01_FX psEmitter="" />
+                <State02_FX psEmitter="" />
+              </component>
+            </hidDescriptor>
+          </rml>
+        </field>
+      </object>
+      <object name="CGraphicComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bCastShadow" type="Boolean">True</field>
+        <field name="bReceiveShadow" type="Boolean">True</field>
+        <field name="bCastAmbientShadow" type="Boolean">True</field>
+        <field name="olgLightGroup" type="Int32">257</field>
+        <field name="bShowInReflection" type="Boolean">True</field>
+        <field name="bAlwaysShowInReflection" type="Boolean">False</field>
+        <field name="bHighLight" type="Boolean">False</field>
+        <field name="bLodDitheringEnable" type="Boolean">True</field>
+        <field name="matIntuitionMaterialName" type="String"></field>
+        <field name="bShowThroughWithFlashing" type="Boolean">False</field>
+        <field name="bBackDrop" type="Boolean">False</field>
+        <field name="bDisableMip0ResourceLoading" type="BinHex">00</field>
+        <field hash="F41DCC4F" type="BinHex">0000000000000000</field>
+        <field name="bAllowCullBySize" type="Boolean">True</field>
+        <field name="bMotionBlurExclusion" type="Boolean">False</field>
+        <field name="text_currentSkin" type="String"></field>
+        <field name="currentSkin" type="Hash32">FFFFFFFF</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
+        <object name="MaterialLightSwitch">
+          <field name="hidSharedDataHandlerHash" type="Hash64">2C345195BDA6A3C5</field>
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mgirard3-m-20140512142701.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">00D40DF68CA772A4</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-1305201161197199.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">262AE285E5BD5DAC</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\hlevasseur-m-20120606142650.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">8D55C584E6585310</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mckoung-m-2012051463752190.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">AB625FE2D5F20145</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mckoung-m-2012051052076130.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">AC0C2C035CE8F427</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mgirard3-m-20140512163434.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">BC9CCB168CA32068</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mgirard3-m-20140527102905.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">F0736030387FF6A9</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0805201273096367.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">F11193569322EBCD</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mckoung-m-2012051465883851.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">FA41490DDED34B72</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+          </object>
+        </object>
+        <object name="MaterialOverrides">
+          <field name="hidSharedDataHandlerHash" type="Hash64">093D1C45D630FBC2</field>
+          <object name="MaterialSlots">
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mgirard3-m-20140512142701.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">00D40DF68CA772A4</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-1305201161197199.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">262AE285E5BD5DAC</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\hlevasseur-m-20120606142650.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">8D55C584E6585310</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mckoung-m-2012051463752190.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">AB625FE2D5F20145</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mckoung-m-2012051052076130.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">AC0C2C035CE8F427</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mgirard3-m-20140512163434.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">BC9CCB168CA32068</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mgirard3-m-20140527102905.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">F0736030387FF6A9</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0805201273096367.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">F11193569322EBCD</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\mckoung-m-2012051465883851.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">FA41490DDED34B72</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+          </object>
+        </object>
+        <object name="SkinList">
+          <object name="Skin">
+            <field name="text_name" type="String"></field>
+            <field name="name" type="Hash32">FFFFFFFF</field>
+            <field name="locSkinNameId" type="Int32">-1</field>
+            <field name="bIsExcludedFromRandomSkin" type="Boolean">False</field>
+            <object name="MaterialOverrides">
+              <field name="hidSharedDataHandlerHash" type="Hash64">1A9641302CFD8B37</field>
+              <object name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">0</field>
+          <field name="text_fileModel" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.xbg</field>
+          <field name="fileModel" type="Hash64">F5ABC60BF04AF89B</field>
+          <field name="hidMeshName" type="String">STATE01</field>
+          <field name="text_hidNodeName" type="String">STATE01</field>
+          <field name="hidNodeName" type="Hash32">C17BF65B</field>
+          <field name="text_hidNodeNameLOD0" type="String">STATE01_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">0222EECD</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">1</field>
+          <field name="text_fileModel" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.xbg</field>
+          <field name="fileModel" type="Hash64">F5ABC60BF04AF89B</field>
+          <field name="hidMeshName" type="String">STATE02</field>
+          <field name="text_hidNodeName" type="String">STATE02</field>
+          <field name="hidNodeName" type="Hash32">5872A7E1</field>
+          <field name="text_hidNodeNameLOD0" type="String">STATE02_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">84B69C63</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">2</field>
+          <field name="text_fileModel" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.xbg</field>
+          <field name="fileModel" type="Hash64">F5ABC60BF04AF89B</field>
+          <field name="hidMeshName" type="String">Pickup02</field>
+          <field name="text_hidNodeName" type="String">Pickup02</field>
+          <field name="hidNodeName" type="Hash32">512941BC</field>
+          <field name="text_hidNodeNameLOD0" type="String">Pickup02_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">060AF3E5</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">3</field>
+          <field name="text_fileModel" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.xbg</field>
+          <field name="fileModel" type="Hash64">F5ABC60BF04AF89B</field>
+          <field name="hidMeshName" type="String">Pickup03</field>
+          <field name="text_hidNodeName" type="String">Pickup03</field>
+          <field name="hidNodeName" type="Hash32">262E712A</field>
+          <field name="text_hidNodeNameLOD0" type="String">Pickup03_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">CD562040</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">4</field>
+          <field name="text_fileModel" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.xbg</field>
+          <field name="fileModel" type="Hash64">F5ABC60BF04AF89B</field>
+          <field name="hidMeshName" type="String">Pickup01xfg</field>
+          <field name="text_hidNodeName" type="String">Pickup01xfg</field>
+          <field name="hidNodeName" type="Hash32">30F396C3</field>
+          <field name="text_hidNodeNameLOD0" type="String">Pickup01xfg_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">3AF3EFDB</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">5</field>
+          <field name="text_fileModel" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.xbg</field>
+          <field name="fileModel" type="Hash64">F5ABC60BF04AF89B</field>
+          <field name="hidMeshName" type="String">STATE02B</field>
+          <field name="text_hidNodeName" type="String">STATE02B</field>
+          <field name="hidNodeName" type="Hash32">9D856F78</field>
+          <field name="text_hidNodeNameLOD0" type="String">STATE02B_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">ED5F59B5</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">6</field>
+          <field name="text_fileModel" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.xbg</field>
+          <field name="fileModel" type="Hash64">F5ABC60BF04AF89B</field>
+          <field name="hidMeshName" type="String">STATE02C</field>
+          <field name="text_hidNodeName" type="String">STATE02C</field>
+          <field name="hidNodeName" type="Hash32">EA825FEE</field>
+          <field name="text_hidNodeNameLOD0" type="String">STATE02C_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">26038A10</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">7</field>
+          <field name="text_fileModel" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.xbg</field>
+          <field name="fileModel" type="Hash64">F5ABC60BF04AF89B</field>
+          <field name="hidMeshName" type="String">STATE02D</field>
+          <field name="text_hidNodeName" type="String">STATE02D</field>
+          <field name="hidNodeName" type="Hash32">74E6CA4D</field>
+          <field name="text_hidNodeNameLOD0" type="String">STATE02D_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">3B06BAA8</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="object">
+          <field name="hidIndex" type="Int32">8</field>
+          <field name="text_fileModel" type="String"></field>
+          <field name="fileModel" type="Hash64">FFFFFFFFFFFFFFFF</field>
+          <field name="hidMeshName" type="String"></field>
+          <field name="text_hidNodeName" type="String"></field>
+          <field name="hidNodeName" type="Hash32">FFFFFFFF</field>
+          <field name="text_hidNodeNameLOD0" type="String"></field>
+          <field name="hidNodeNameLOD0" type="Hash32">FFFFFFFF</field>
+          <field name="hidDetailObject" type="Boolean">False</field>
+        </object>
+        <object name="hidSharedDescriptors">
+          <field name="hidSharedDataHandlerHash" type="Hash64">85E39B271E1ED9B2</field>
+        </object>
+      </object>
+      <object name="CCompoundPhysComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="text_hidResourceId" type="String">graphics\_singleplayer\props\equipment\ammopile_pickup.hkx</field>
+        <field name="hidResourceId" type="Hash64">E737ED0BF04AF89B</field>
+        <field hash="C784A41F" type="BinHex">01</field>
+        <field name="bAnimateable" type="Boolean">False</field>
+        <field name="fMinImpactSpeedForDamage" type="Float32">1</field>
+        <field name="bCreateAsStatic" type="Boolean">False</field>
+        <field name="bForceNavMeshGeneration" type="BinHex">00</field>
+        <field name="bPatchNavMesh" type="BinHex">00</field>
+        <field name="bSupportExternalConstraint" type="Boolean">True</field>
+        <field name="bUseMaxTerrainSlope" type="Boolean">False</field>
+        <field name="bUseFastCollision" type="Boolean">True</field>
+        <field name="bUseDestructionKickThreshold" type="BinHex">01</field>
+        <field name="bAnimatedControlPos" type="BinHex">00</field>
+        <field name="fSelfCollOverrideSpeed" type="Float32">200</field>
+        <field name="hidHasStatic" type="Boolean">True</field>
+        <field name="hidNodeType" type="UInt32">0</field>
+        <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+        <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+        <field name="sndtpSoundType" type="Int32">-1</field>
+        <field name="bTriggerClusterExplosions" type="BinHex">00</field>
+        <field name="fBurnStimDamageMaxDistance" type="BinHex">000080BF</field>
+        <object name="LogicMaterialOverrides" />
+        <object name="hidTheSharedMap">
+          <field name="hidSharedDataHandlerHash" type="Hash64">86B8C40898DE0042</field>
+        </object>
+        <object name="Damage">
+          <field name="bDamageable" type="BinHex">01</field>
+          <field name="bPlayerOnly" type="BinHex">00</field>
+        </object>
+        <object name="RootNode">
+          <field name="text_disName" type="String">AmmoPile_State</field>
+          <field name="disName" type="BinHex">B90DB57F</field>
+          <field name="unFirstStateIndex" type="BinHex">00000000</field>
+          <field name="hidBoneIndex" type="UInt32">1</field>
+          <object name="States">
+            <field name="Count" type="BinHex">02000000</field>
+            <object name="State_1cf29d8e76400145">
+              <field name="hid_VTHandler_ElementId" type="String">State_1cf29d8e76400145</field>
+              <field name="disIndex" type="UInt32">0</field>
+              <field name="hidNodeType" type="UInt32">3</field>
+              <field name="bSendStimToNextState" type="Boolean">False</field>
+              <field name="bSendDamageToNextState" type="BinHex">00</field>
+              <object name="StateSubNode">
+                <field name="text_disName" type="String"></field>
+                <field name="disName" type="BinHex">FFFFFFFF</field>
+                <field name="bHealthByAverage" type="BinHex">00</field>
+                <object name="hidNodeTypes">
+                  <object name="hidNode">
+                    <field name="hidType" type="Int32">1</field>
+                  </object>
+                  <object name="hidNode">
+                    <field name="hidType" type="Int32">1</field>
+                  </object>
+                  <object name="hidNode">
+                    <field name="hidType" type="Int32">1</field>
+                  </object>
+                  <object name="hidNode">
+                    <field name="hidType" type="Int32">1</field>
+                  </object>
+                </object>
+                <object name="NodeList">
+                  <object name="Node">
+                    <field name="text_disName" type="String">STATE01</field>
+                    <field name="disName" type="BinHex">5BF67BC1</field>
+                    <field name="fHealth" type="Float32">80</field>
+                    <field name="fMass" type="Float32">0</field>
+                    <field name="fExplosionForceOnCreate" type="Float32">1</field>
+                    <field name="fPiercingForceOnCreate" type="Float32">1</field>
+                    <field name="fMinimumSpeedForDamageStim" type="Float32">6</field>
+                    <field name="vectorDirectionOnCreate" type="BinHex">000000000000000000000000</field>
+                    <field name="bOverwriteCreationVelocity" type="BinHex">00</field>
+                    <field name="sndInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitSound" type="String">0x00315317</field>
+                    <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpSoundType" type="Int32">11</field>
+                    <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                    <field name="vectorCenterOfMassOffset" type="Vector3">0,0,0</field>
+                    <field name="fFloatingScale" type="Float32">0.6</field>
+                    <field name="bForceActivatedOnCreate" type="BinHex">00</field>
+                    <field name="fWaterFriction" type="Float32">2</field>
+                    <field name="bStartEffectsOnCreate" type="BinHex">00</field>
+                    <field name="bStopTheStartEffectsOnDestroy" type="Boolean">False</field>
+                    <field name="bPropagateVelocityIfStatic" type="BinHex">00</field>
+                    <field name="bDoFakeExplosion" type="BinHex">00</field>
+                    <field name="bExplodes" type="BinHex">01</field>
+                    <field name="fRotationMultiplier" type="Float32">0.5</field>
+                    <field name="fWindForceMultiplier" type="Float32">0</field>
+                    <field name="bExcludeFromDynamicLimiter" type="BinHex">00</field>
+                    <field name="hidResIndex" type="UInt32">0</field>
+                    <field name="hidGraphicIndex" type="Int32">0</field>
+                    <field name="index" type="BinHex">00000000</field>
+                    <object name="Explosion">
+                      <field name="vectorSelfForce" type="BinHex">00000000000000000000FA43</field>
+                      <field name="fPartsForce" type="Float32">100</field>
+                      <field name="vectorExplosionCenter" type="BinHex">000000000000000000000000</field>
+                      <object name="ExplosionStim">
+                        <field name="hidEventName" type="String">Stims</field>
+                        <field name="bSupportForDualComponent" type="Boolean">False</field>
+                        <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                        <field name="text_sDetail" type="String">explosion</field>
+                        <field name="sDetail" type="Hash32">7197611C</field>
+                        <field name="selFilterSubType" type="Enum">3</field>
+                        <field name="fLevel" type="Float32">201</field>
+                        <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+                        <field name="fRadius" type="Float32">6</field>
+                        <field name="bFalloff" type="Boolean">False</field>
+                        <field name="fFalloffMinLevel" type="Float32">20</field>
+                        <field name="fFalloffInterpolationFactor" type="Float32">1</field>
+                        <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+                        <field name="arkFalloffCurve" type="Id64">0</field>
+                        <field name="fObliterationRadius" type="Float32">2</field>
+                        <field name="hidShowType" type="Boolean">False</field>
+                        <field name="hidShowRadius" type="Boolean">True</field>
+                        <field name="fDuration" type="Float32">0</field>
+                        <field name="bRollDiceForEachEntity" type="BinHex">01</field>
+                        <field name="fPhysImpulse" type="Float32">150</field>
+                        <field name="fPhysImpulse_z_multiplier" type="Float32">2</field>
+                        <field name="fPhysImpulse_x_multiplier" type="Float32">1</field>
+                        <field name="fPhysImpulse_y_multiplier" type="Float32">1</field>
+                        <field name="fRealTreeImpulseMultiplier" type="Float32">1500</field>
+                        <field name="fRealTreeRadiusMultiplier" type="Float32">1</field>
+                        <object name="FilterFlags">
+                          <field name="bCommon" type="Boolean">True</field>
+                          <field name="bSinglePlayer" type="Boolean">True</field>
+                          <field name="bPvP" type="Boolean">True</field>
+                          <field name="bCoop" type="Boolean">True</field>
+                          <field name="bShangriLa" type="Boolean">True</field>
+                          <field name="bArena" type="Boolean">True</field>
+                          <field name="bChannel0" type="Boolean">False</field>
+                          <field name="bChannel1" type="BinHex">00</field>
+                          <field name="bChannel2" type="BinHex">00</field>
+                        </object>
+                        <object name="DiceRolls">
+                          <object name="Dice">
+                            <field name="fMinValue" type="Float32">0</field>
+                            <field name="fMaxValue" type="Float32">0</field>
+                            <field name="fStepSize" type="Float32">1</field>
+                            <field name="nNbRolls" type="Int32">1</field>
+                          </object>
+                        </object>
+                      </object>
+                      <object name="ExtraStims">
+                        <object name="Stim">
+                          <field name="hidEventName" type="String">Stims</field>
+                          <field name="bSupportForDualComponent" type="Boolean">False</field>
+                          <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                          <field name="text_sDetail" type="String"></field>
+                          <field name="sDetail" type="Hash32">FFFFFFFF</field>
+                          <field name="selType" type="Enum">17</field>
+                          <field name="fLevel" type="Float32">5</field>
+                          <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+                          <field name="fRadius" type="Float32">40</field>
+                          <field name="bFalloff" type="Boolean">False</field>
+                          <field name="fFalloffMinLevel" type="Float32">1</field>
+                          <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+                          <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+                          <field name="arkFalloffCurve" type="Id64">0</field>
+                          <field name="hidShowType" type="Boolean">True</field>
+                          <field name="hidShowRadius" type="Boolean">True</field>
+                          <field name="fDuration" type="Float32">0</field>
+                          <object name="FilterFlags">
+                            <field name="bCommon" type="Boolean">True</field>
+                            <field name="bSinglePlayer" type="Boolean">True</field>
+                            <field name="bPvP" type="Boolean">True</field>
+                            <field name="bCoop" type="Boolean">True</field>
+                            <field name="bShangriLa" type="Boolean">True</field>
+                            <field name="bArena" type="Boolean">True</field>
+                            <field name="bChannel0" type="Boolean">False</field>
+                            <field name="bChannel1" type="BinHex">00</field>
+                            <field name="bChannel2" type="BinHex">00</field>
+                          </object>
+                        </object>
+                        <object name="Stim">
+                          <field name="hidEventName" type="String">Stims</field>
+                          <field name="bSupportForDualComponent" type="Boolean">False</field>
+                          <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                          <field name="text_sDetail" type="String"></field>
+                          <field name="sDetail" type="Hash32">FFFFFFFF</field>
+                          <field name="selType" type="Enum">7</field>
+                          <field name="selFilterSubType" type="Enum">0</field>
+                          <field name="fLevel" type="Float32">100</field>
+                          <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+                          <field name="fRadius" type="Float32">6</field>
+                          <field name="bFalloff" type="Boolean">False</field>
+                          <field name="fFalloffMinLevel" type="Float32">1</field>
+                          <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+                          <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+                          <field name="arkFalloffCurve" type="Id64">0</field>
+                          <field name="hidShowType" type="Boolean">True</field>
+                          <field name="hidShowRadius" type="Boolean">True</field>
+                          <field name="fDuration" type="Float32">0</field>
+                          <object name="FilterFlags">
+                            <field name="bCommon" type="Boolean">True</field>
+                            <field name="bSinglePlayer" type="Boolean">True</field>
+                            <field name="bPvP" type="Boolean">True</field>
+                            <field name="bCoop" type="Boolean">True</field>
+                            <field name="bShangriLa" type="Boolean">True</field>
+                            <field name="bArena" type="Boolean">True</field>
+                            <field name="bChannel0" type="Boolean">False</field>
+                            <field name="bChannel1" type="BinHex">00</field>
+                            <field name="bChannel2" type="BinHex">00</field>
+                          </object>
+                        </object>
+                        <object name="Stim">
+                          <field name="hidEventName" type="String">Stims</field>
+                          <field name="bSupportForDualComponent" type="Boolean">False</field>
+                          <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+                          <field name="text_sDetail" type="String"></field>
+                          <field name="sDetail" type="Hash32">FFFFFFFF</field>
+                          <field name="selType" type="Enum">0</field>
+                          <field name="fLevel" type="Float32">0</field>
+                          <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+                          <field name="fRadius" type="Float32">0</field>
+                          <field name="bFalloff" type="Boolean">False</field>
+                          <field name="fFalloffMinLevel" type="Float32">1</field>
+                          <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+                          <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+                          <field name="arkFalloffCurve" type="Id64">0</field>
+                          <field name="hidShowType" type="Boolean">True</field>
+                          <field name="hidShowRadius" type="Boolean">True</field>
+                          <field name="fDuration" type="Float32">0</field>
+                          <object name="FilterFlags">
+                            <field name="bCommon" type="Boolean">True</field>
+                            <field name="bSinglePlayer" type="Boolean">False</field>
+                            <field name="bPvP" type="Boolean">False</field>
+                            <field name="bCoop" type="Boolean">False</field>
+                            <field name="bShangriLa" type="Boolean">False</field>
+                            <field name="bArena" type="Boolean">False</field>
+                            <field name="bChannel0" type="Boolean">False</field>
+                            <field name="bChannel1" type="BinHex">00</field>
+                            <field name="bChannel2" type="BinHex">00</field>
+                          </object>
+                        </object>
+                      </object>
+                      <object name="hidExplosionSharedData">
+                        <field name="hidSharedDataHandlerHash" type="Hash64">20663F30C363E0D1</field>
+                      </object>
+                    </object>
+                    <object name="Stim">
+                      <field name="bPierceStim" type="Boolean">True</field>
+                      <field name="bCrushStim" type="Boolean">True</field>
+                      <field name="bBurnStim" type="Boolean">True</field>
+                      <field name="bExplosionStim" type="Boolean">True</field>
+                      <field name="bExplosionGrenadeStim" type="Boolean">True</field>
+                      <field name="bExplosionRPGStim" type="Boolean">True</field>
+                      <field name="bExplosionIEDStim" type="Boolean">True</field>
+                      <field name="bExplosionSplashStim" type="Boolean">False</field>
+                      <field name="bArrowStim" type="Boolean">True</field>
+                      <field name="bCutStim" type="Boolean">False</field>
+                      <field name="bAnimalCrushStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalAttackStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalImpulseAtPos" type="BinHex">01</field>
+                      <field name="bKickingStim" type="BinHex">00</field>
+                      <field name="fPierceDamageMultiplier" type="Float32">1</field>
+                      <field name="fCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fBurnDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionGrenadeDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionRPGDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionIEDDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionSplashDamageMultiplier" type="Float32">1</field>
+                      <field name="fArrowDamageMultiplier" type="Float32">1</field>
+                      <field name="fCutDamageMultiplier" type="Float32">0</field>
+                      <field name="fAnimalCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackDamageMultiplier" type="Float32">1</field>
+                      <field name="fKickingDamageMultiplier" type="Float32">0</field>
+                      <field name="fBulletImpulseScale" type="Float32">1</field>
+                      <field name="fExplosionImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fKickingImpulseScale" type="Float32">1</field>
+                      <field name="fCutImpulseScale" type="Float32">1</field>
+                      <field name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" type="BinHex">000000000000000000000000</field>
+                    </object>
+                    <object name="hidEffectBones">
+                      <object name="hidBone">
+                        <field name="hidIndex" type="Int32">3</field>
+                      </object>
+                    </object>
+                  </object>
+                  <object name="Node">
+                    <field name="text_disName" type="String">Pickup02</field>
+                    <field name="disName" type="BinHex">BC412951</field>
+                    <field name="fHealth" type="Float32">100</field>
+                    <field name="fMass" type="Float32">0</field>
+                    <field name="fExplosionForceOnCreate" type="Float32">1</field>
+                    <field name="fPiercingForceOnCreate" type="Float32">1</field>
+                    <field name="fMinimumSpeedForDamageStim" type="Float32">6</field>
+                    <field name="vectorDirectionOnCreate" type="BinHex">000000000000000000000000</field>
+                    <field name="bOverwriteCreationVelocity" type="BinHex">00</field>
+                    <field name="sndInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpSoundType" type="Int32">11</field>
+                    <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                    <field name="vectorCenterOfMassOffset" type="Vector3">0,0,0</field>
+                    <field name="fFloatingScale" type="Float32">0.6</field>
+                    <field name="bForceActivatedOnCreate" type="BinHex">00</field>
+                    <field name="fWaterFriction" type="Float32">2</field>
+                    <field name="bStartEffectsOnCreate" type="BinHex">00</field>
+                    <field name="bStopTheStartEffectsOnDestroy" type="Boolean">False</field>
+                    <field name="bPropagateVelocityIfStatic" type="BinHex">00</field>
+                    <field name="bDoFakeExplosion" type="BinHex">00</field>
+                    <field name="bExplodes" type="BinHex">00</field>
+                    <field name="fRotationMultiplier" type="Float32">0.5</field>
+                    <field name="fWindForceMultiplier" type="Float32">0</field>
+                    <field name="bExcludeFromDynamicLimiter" type="BinHex">00</field>
+                    <field name="hidResIndex" type="UInt32">3</field>
+                    <field name="hidGraphicIndex" type="Int32">2</field>
+                    <field name="index" type="BinHex">01000000</field>
+                    <object name="Stim">
+                      <field name="bPierceStim" type="Boolean">False</field>
+                      <field name="bCrushStim" type="Boolean">False</field>
+                      <field name="bBurnStim" type="Boolean">False</field>
+                      <field name="bExplosionStim" type="Boolean">False</field>
+                      <field name="bExplosionGrenadeStim" type="Boolean">False</field>
+                      <field name="bExplosionRPGStim" type="Boolean">False</field>
+                      <field name="bExplosionIEDStim" type="Boolean">False</field>
+                      <field name="bExplosionSplashStim" type="Boolean">False</field>
+                      <field name="bArrowStim" type="Boolean">False</field>
+                      <field name="bCutStim" type="Boolean">False</field>
+                      <field name="bAnimalCrushStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalAttackStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalImpulseAtPos" type="BinHex">01</field>
+                      <field name="bKickingStim" type="BinHex">00</field>
+                      <field name="fPierceDamageMultiplier" type="Float32">1</field>
+                      <field name="fCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fBurnDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionGrenadeDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionRPGDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionIEDDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionSplashDamageMultiplier" type="Float32">1</field>
+                      <field name="fArrowDamageMultiplier" type="Float32">1</field>
+                      <field name="fCutDamageMultiplier" type="Float32">0</field>
+                      <field name="fAnimalCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackDamageMultiplier" type="Float32">1</field>
+                      <field name="fKickingDamageMultiplier" type="Float32">0</field>
+                      <field name="fBulletImpulseScale" type="Float32">1</field>
+                      <field name="fExplosionImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fKickingImpulseScale" type="Float32">1</field>
+                      <field name="fCutImpulseScale" type="Float32">1</field>
+                      <field name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" type="BinHex">000000000000000000000000</field>
+                    </object>
+                    <object name="hidEffectBones" />
+                  </object>
+                  <object name="Node">
+                    <field name="text_disName" type="String">Pickup03</field>
+                    <field name="disName" type="BinHex">2A712E26</field>
+                    <field name="fHealth" type="Float32">100</field>
+                    <field name="fMass" type="Float32">0</field>
+                    <field name="fExplosionForceOnCreate" type="Float32">1</field>
+                    <field name="fPiercingForceOnCreate" type="Float32">1</field>
+                    <field name="fMinimumSpeedForDamageStim" type="Float32">6</field>
+                    <field name="vectorDirectionOnCreate" type="BinHex">000000000000000000000000</field>
+                    <field name="bOverwriteCreationVelocity" type="BinHex">00</field>
+                    <field name="sndInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpSoundType" type="Int32">11</field>
+                    <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                    <field name="vectorCenterOfMassOffset" type="Vector3">0,0,0</field>
+                    <field name="fFloatingScale" type="Float32">0.6</field>
+                    <field name="bForceActivatedOnCreate" type="BinHex">00</field>
+                    <field name="fWaterFriction" type="Float32">2</field>
+                    <field name="bStartEffectsOnCreate" type="BinHex">00</field>
+                    <field name="bStopTheStartEffectsOnDestroy" type="Boolean">False</field>
+                    <field name="bPropagateVelocityIfStatic" type="BinHex">00</field>
+                    <field name="bDoFakeExplosion" type="BinHex">00</field>
+                    <field name="bExplodes" type="BinHex">00</field>
+                    <field name="fRotationMultiplier" type="Float32">0.5</field>
+                    <field name="fWindForceMultiplier" type="Float32">0</field>
+                    <field name="bExcludeFromDynamicLimiter" type="BinHex">00</field>
+                    <field name="hidResIndex" type="UInt32">4</field>
+                    <field name="hidGraphicIndex" type="Int32">3</field>
+                    <field name="index" type="BinHex">02000000</field>
+                    <object name="Stim">
+                      <field name="bPierceStim" type="Boolean">False</field>
+                      <field name="bCrushStim" type="Boolean">False</field>
+                      <field name="bBurnStim" type="Boolean">False</field>
+                      <field name="bExplosionStim" type="Boolean">False</field>
+                      <field name="bExplosionGrenadeStim" type="Boolean">False</field>
+                      <field name="bExplosionRPGStim" type="Boolean">False</field>
+                      <field name="bExplosionIEDStim" type="Boolean">False</field>
+                      <field name="bExplosionSplashStim" type="Boolean">False</field>
+                      <field name="bArrowStim" type="Boolean">False</field>
+                      <field name="bCutStim" type="Boolean">False</field>
+                      <field name="bAnimalCrushStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalAttackStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalImpulseAtPos" type="BinHex">01</field>
+                      <field name="bKickingStim" type="BinHex">00</field>
+                      <field name="fPierceDamageMultiplier" type="Float32">1</field>
+                      <field name="fCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fBurnDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionGrenadeDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionRPGDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionIEDDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionSplashDamageMultiplier" type="Float32">1</field>
+                      <field name="fArrowDamageMultiplier" type="Float32">1</field>
+                      <field name="fCutDamageMultiplier" type="Float32">0</field>
+                      <field name="fAnimalCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackDamageMultiplier" type="Float32">1</field>
+                      <field name="fKickingDamageMultiplier" type="Float32">0</field>
+                      <field name="fBulletImpulseScale" type="Float32">1</field>
+                      <field name="fExplosionImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fKickingImpulseScale" type="Float32">1</field>
+                      <field name="fCutImpulseScale" type="Float32">1</field>
+                      <field name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" type="BinHex">000000000000000000000000</field>
+                    </object>
+                    <object name="hidEffectBones" />
+                  </object>
+                  <object name="Node">
+                    <field name="text_disName" type="String">Pickup01xfg</field>
+                    <field name="disName" type="BinHex">C396F330</field>
+                    <field name="fHealth" type="Float32">100</field>
+                    <field name="fMass" type="Float32">0</field>
+                    <field name="fExplosionForceOnCreate" type="Float32">1</field>
+                    <field name="fPiercingForceOnCreate" type="Float32">1</field>
+                    <field name="fMinimumSpeedForDamageStim" type="Float32">6</field>
+                    <field name="vectorDirectionOnCreate" type="BinHex">000000000000000000000000</field>
+                    <field name="bOverwriteCreationVelocity" type="BinHex">00</field>
+                    <field name="sndInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpSoundType" type="Int32">11</field>
+                    <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                    <field name="vectorCenterOfMassOffset" type="Vector3">0,0,0</field>
+                    <field name="fFloatingScale" type="Float32">0.6</field>
+                    <field name="bForceActivatedOnCreate" type="BinHex">00</field>
+                    <field name="fWaterFriction" type="Float32">2</field>
+                    <field name="bStartEffectsOnCreate" type="BinHex">00</field>
+                    <field name="bStopTheStartEffectsOnDestroy" type="Boolean">False</field>
+                    <field name="bPropagateVelocityIfStatic" type="BinHex">00</field>
+                    <field name="bDoFakeExplosion" type="BinHex">00</field>
+                    <field name="bExplodes" type="BinHex">00</field>
+                    <field name="fRotationMultiplier" type="Float32">0.5</field>
+                    <field name="fWindForceMultiplier" type="Float32">0</field>
+                    <field name="bExcludeFromDynamicLimiter" type="BinHex">00</field>
+                    <field name="hidResIndex" type="UInt32">2</field>
+                    <field name="hidGraphicIndex" type="Int32">4</field>
+                    <field name="index" type="BinHex">03000000</field>
+                    <object name="Stim">
+                      <field name="bPierceStim" type="Boolean">False</field>
+                      <field name="bCrushStim" type="Boolean">False</field>
+                      <field name="bBurnStim" type="Boolean">False</field>
+                      <field name="bExplosionStim" type="Boolean">False</field>
+                      <field name="bExplosionGrenadeStim" type="Boolean">False</field>
+                      <field name="bExplosionRPGStim" type="Boolean">False</field>
+                      <field name="bExplosionIEDStim" type="Boolean">False</field>
+                      <field name="bExplosionSplashStim" type="Boolean">False</field>
+                      <field name="bArrowStim" type="Boolean">False</field>
+                      <field name="bCutStim" type="Boolean">False</field>
+                      <field name="bAnimalCrushStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalAttackStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalImpulseAtPos" type="BinHex">01</field>
+                      <field name="bKickingStim" type="BinHex">00</field>
+                      <field name="fPierceDamageMultiplier" type="Float32">1</field>
+                      <field name="fCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fBurnDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionGrenadeDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionRPGDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionIEDDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionSplashDamageMultiplier" type="Float32">1</field>
+                      <field name="fArrowDamageMultiplier" type="Float32">1</field>
+                      <field name="fCutDamageMultiplier" type="Float32">0</field>
+                      <field name="fAnimalCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackDamageMultiplier" type="Float32">1</field>
+                      <field name="fKickingDamageMultiplier" type="Float32">0</field>
+                      <field name="fBulletImpulseScale" type="Float32">1</field>
+                      <field name="fExplosionImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fKickingImpulseScale" type="Float32">1</field>
+                      <field name="fCutImpulseScale" type="Float32">1</field>
+                      <field name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" type="BinHex">000000000000000000000000</field>
+                    </object>
+                    <object name="hidEffectBones" />
+                  </object>
+                </object>
+              </object>
+              <object name="OnDamage">
+                <field name="selNextState" type="BinHex">02000000</field>
+              </object>
+              <object name="OnEvent">
+                <field name="bTriggerEffects" type="BinHex">00</field>
+                <field name="selNextState" type="BinHex">02000000</field>
+                <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+                <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                <field name="sndtpSoundType" type="Int32">-1</field>
+                <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                <field name="bExplodes" type="BinHex">00</field>
+              </object>
+            </object>
+            <object name="State_1cf29d8e76400146">
+              <field name="hid_VTHandler_ElementId" type="String">State_1cf29d8e76400146</field>
+              <field name="disIndex" type="UInt32">1</field>
+              <field name="hidNodeType" type="UInt32">3</field>
+              <field name="bSendStimToNextState" type="Boolean">False</field>
+              <field name="bSendDamageToNextState" type="BinHex">00</field>
+              <object name="StateSubNode">
+                <field name="text_disName" type="String"></field>
+                <field name="disName" type="BinHex">FFFFFFFF</field>
+                <field name="bHealthByAverage" type="BinHex">01</field>
+                <object name="hidNodeTypes">
+                  <object name="hidNode">
+                    <field name="hidType" type="Int32">1</field>
+                  </object>
+                  <object name="hidNode">
+                    <field name="hidType" type="Int32">1</field>
+                  </object>
+                  <object name="hidNode">
+                    <field name="hidType" type="Int32">1</field>
+                  </object>
+                  <object name="hidNode">
+                    <field name="hidType" type="Int32">1</field>
+                  </object>
+                </object>
+                <object name="NodeList">
+                  <object name="Node">
+                    <field name="text_disName" type="String">STATE02</field>
+                    <field name="disName" type="BinHex">E1A77258</field>
+                    <field name="fHealth" type="Float32">100</field>
+                    <field name="fMass" type="Float32">0</field>
+                    <field name="fExplosionForceOnCreate" type="Float32">1</field>
+                    <field name="fPiercingForceOnCreate" type="Float32">1</field>
+                    <field name="fMinimumSpeedForDamageStim" type="Float32">6</field>
+                    <field name="vectorDirectionOnCreate" type="BinHex">000000000000000000000000</field>
+                    <field name="bOverwriteCreationVelocity" type="BinHex">00</field>
+                    <field name="sndInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpSoundType" type="Int32">-1</field>
+                    <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                    <field name="vectorCenterOfMassOffset" type="Vector3">0,0,0</field>
+                    <field name="fFloatingScale" type="Float32">0.6</field>
+                    <field name="bForceActivatedOnCreate" type="BinHex">00</field>
+                    <field name="fWaterFriction" type="Float32">2</field>
+                    <field name="bStartEffectsOnCreate" type="BinHex">00</field>
+                    <field name="bStopTheStartEffectsOnDestroy" type="Boolean">False</field>
+                    <field name="bPropagateVelocityIfStatic" type="BinHex">00</field>
+                    <field name="bDoFakeExplosion" type="BinHex">00</field>
+                    <field name="bExplodes" type="BinHex">00</field>
+                    <field name="fRotationMultiplier" type="Float32">0.5</field>
+                    <field name="fWindForceMultiplier" type="Float32">0</field>
+                    <field name="bExcludeFromDynamicLimiter" type="BinHex">00</field>
+                    <field name="hidResIndex" type="UInt32">0</field>
+                    <field name="hidGraphicIndex" type="Int32">1</field>
+                    <field name="index" type="BinHex">00000000</field>
+                    <object name="Stim">
+                      <field name="bPierceStim" type="Boolean">True</field>
+                      <field name="bCrushStim" type="Boolean">True</field>
+                      <field name="bBurnStim" type="Boolean">True</field>
+                      <field name="bExplosionStim" type="Boolean">True</field>
+                      <field name="bExplosionGrenadeStim" type="Boolean">True</field>
+                      <field name="bExplosionRPGStim" type="Boolean">True</field>
+                      <field name="bExplosionIEDStim" type="Boolean">True</field>
+                      <field name="bExplosionSplashStim" type="Boolean">False</field>
+                      <field name="bArrowStim" type="Boolean">True</field>
+                      <field name="bCutStim" type="Boolean">True</field>
+                      <field name="bAnimalCrushStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalAttackStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalImpulseAtPos" type="BinHex">01</field>
+                      <field name="bKickingStim" type="BinHex">01</field>
+                      <field name="fPierceDamageMultiplier" type="Float32">1</field>
+                      <field name="fCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fBurnDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionGrenadeDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionRPGDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionIEDDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionSplashDamageMultiplier" type="Float32">1</field>
+                      <field name="fArrowDamageMultiplier" type="Float32">1</field>
+                      <field name="fCutDamageMultiplier" type="Float32">1</field>
+                      <field name="fAnimalCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackDamageMultiplier" type="Float32">1</field>
+                      <field name="fKickingDamageMultiplier" type="Float32">1</field>
+                      <field name="fBulletImpulseScale" type="Float32">1</field>
+                      <field name="fExplosionImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fKickingImpulseScale" type="Float32">1</field>
+                      <field name="fCutImpulseScale" type="Float32">1</field>
+                      <field name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" type="BinHex">000000000000000000000000</field>
+                    </object>
+                    <object name="hidEffectBones">
+                      <object name="hidBone">
+                        <field name="hidIndex" type="Int32">5</field>
+                      </object>
+                    </object>
+                  </object>
+                  <object name="Node">
+                    <field name="text_disName" type="String">STATE02B</field>
+                    <field name="disName" type="BinHex">786F859D</field>
+                    <field name="fHealth" type="Float32">100</field>
+                    <field name="fMass" type="Float32">0</field>
+                    <field name="fExplosionForceOnCreate" type="Float32">1</field>
+                    <field name="fPiercingForceOnCreate" type="Float32">1</field>
+                    <field name="fMinimumSpeedForDamageStim" type="Float32">6</field>
+                    <field name="vectorDirectionOnCreate" type="BinHex">000000000000000000000000</field>
+                    <field name="bOverwriteCreationVelocity" type="BinHex">00</field>
+                    <field name="sndInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpSoundType" type="Int32">-1</field>
+                    <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                    <field name="vectorCenterOfMassOffset" type="Vector3">0,0,0</field>
+                    <field name="fFloatingScale" type="Float32">0.6</field>
+                    <field name="bForceActivatedOnCreate" type="BinHex">00</field>
+                    <field name="fWaterFriction" type="Float32">2</field>
+                    <field name="bStartEffectsOnCreate" type="BinHex">00</field>
+                    <field name="bStopTheStartEffectsOnDestroy" type="Boolean">False</field>
+                    <field name="bPropagateVelocityIfStatic" type="BinHex">00</field>
+                    <field name="bDoFakeExplosion" type="BinHex">00</field>
+                    <field name="bExplodes" type="BinHex">00</field>
+                    <field name="fRotationMultiplier" type="Float32">0.5</field>
+                    <field name="fWindForceMultiplier" type="Float32">0</field>
+                    <field name="bExcludeFromDynamicLimiter" type="BinHex">00</field>
+                    <field name="hidResIndex" type="UInt32">0</field>
+                    <field name="hidGraphicIndex" type="Int32">5</field>
+                    <field name="index" type="BinHex">01000000</field>
+                    <object name="Stim">
+                      <field name="bPierceStim" type="Boolean">True</field>
+                      <field name="bCrushStim" type="Boolean">True</field>
+                      <field name="bBurnStim" type="Boolean">True</field>
+                      <field name="bExplosionStim" type="Boolean">True</field>
+                      <field name="bExplosionGrenadeStim" type="Boolean">True</field>
+                      <field name="bExplosionRPGStim" type="Boolean">True</field>
+                      <field name="bExplosionIEDStim" type="Boolean">True</field>
+                      <field name="bExplosionSplashStim" type="Boolean">False</field>
+                      <field name="bArrowStim" type="Boolean">True</field>
+                      <field name="bCutStim" type="Boolean">True</field>
+                      <field name="bAnimalCrushStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalAttackStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalImpulseAtPos" type="BinHex">01</field>
+                      <field name="bKickingStim" type="BinHex">01</field>
+                      <field name="fPierceDamageMultiplier" type="Float32">1</field>
+                      <field name="fCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fBurnDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionGrenadeDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionRPGDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionIEDDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionSplashDamageMultiplier" type="Float32">1</field>
+                      <field name="fArrowDamageMultiplier" type="Float32">1</field>
+                      <field name="fCutDamageMultiplier" type="Float32">1</field>
+                      <field name="fAnimalCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackDamageMultiplier" type="Float32">1</field>
+                      <field name="fKickingDamageMultiplier" type="Float32">1</field>
+                      <field name="fBulletImpulseScale" type="Float32">1</field>
+                      <field name="fExplosionImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fKickingImpulseScale" type="Float32">1</field>
+                      <field name="fCutImpulseScale" type="Float32">1</field>
+                      <field name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" type="BinHex">000000000000000000000000</field>
+                    </object>
+                    <object name="hidEffectBones" />
+                  </object>
+                  <object name="Node">
+                    <field name="text_disName" type="String">STATE02C</field>
+                    <field name="disName" type="BinHex">EE5F82EA</field>
+                    <field name="fHealth" type="Float32">100</field>
+                    <field name="fMass" type="Float32">0</field>
+                    <field name="fExplosionForceOnCreate" type="Float32">1</field>
+                    <field name="fPiercingForceOnCreate" type="Float32">1</field>
+                    <field name="fMinimumSpeedForDamageStim" type="Float32">6</field>
+                    <field name="vectorDirectionOnCreate" type="BinHex">000000000000000000000000</field>
+                    <field name="bOverwriteCreationVelocity" type="BinHex">00</field>
+                    <field name="sndInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpSoundType" type="Int32">-1</field>
+                    <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                    <field name="vectorCenterOfMassOffset" type="Vector3">0,0,0</field>
+                    <field name="fFloatingScale" type="Float32">0.6</field>
+                    <field name="bForceActivatedOnCreate" type="BinHex">00</field>
+                    <field name="fWaterFriction" type="Float32">2</field>
+                    <field name="bStartEffectsOnCreate" type="BinHex">00</field>
+                    <field name="bStopTheStartEffectsOnDestroy" type="Boolean">False</field>
+                    <field name="bPropagateVelocityIfStatic" type="BinHex">00</field>
+                    <field name="bDoFakeExplosion" type="BinHex">00</field>
+                    <field name="bExplodes" type="BinHex">00</field>
+                    <field name="fRotationMultiplier" type="Float32">0.5</field>
+                    <field name="fWindForceMultiplier" type="Float32">0</field>
+                    <field name="bExcludeFromDynamicLimiter" type="BinHex">00</field>
+                    <field name="hidResIndex" type="UInt32">0</field>
+                    <field name="hidGraphicIndex" type="Int32">6</field>
+                    <field name="index" type="BinHex">02000000</field>
+                    <object name="Stim">
+                      <field name="bPierceStim" type="Boolean">True</field>
+                      <field name="bCrushStim" type="Boolean">True</field>
+                      <field name="bBurnStim" type="Boolean">True</field>
+                      <field name="bExplosionStim" type="Boolean">True</field>
+                      <field name="bExplosionGrenadeStim" type="Boolean">True</field>
+                      <field name="bExplosionRPGStim" type="Boolean">True</field>
+                      <field name="bExplosionIEDStim" type="Boolean">True</field>
+                      <field name="bExplosionSplashStim" type="Boolean">False</field>
+                      <field name="bArrowStim" type="Boolean">True</field>
+                      <field name="bCutStim" type="Boolean">True</field>
+                      <field name="bAnimalCrushStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalAttackStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalImpulseAtPos" type="BinHex">01</field>
+                      <field name="bKickingStim" type="BinHex">01</field>
+                      <field name="fPierceDamageMultiplier" type="Float32">1</field>
+                      <field name="fCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fBurnDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionGrenadeDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionRPGDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionIEDDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionSplashDamageMultiplier" type="Float32">1</field>
+                      <field name="fArrowDamageMultiplier" type="Float32">1</field>
+                      <field name="fCutDamageMultiplier" type="Float32">1</field>
+                      <field name="fAnimalCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackDamageMultiplier" type="Float32">1</field>
+                      <field name="fKickingDamageMultiplier" type="Float32">1</field>
+                      <field name="fBulletImpulseScale" type="Float32">1</field>
+                      <field name="fExplosionImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fKickingImpulseScale" type="Float32">1</field>
+                      <field name="fCutImpulseScale" type="Float32">1</field>
+                      <field name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" type="BinHex">000000000000000000000000</field>
+                    </object>
+                    <object name="hidEffectBones" />
+                  </object>
+                  <object name="Node">
+                    <field name="text_disName" type="String">STATE02D</field>
+                    <field name="disName" type="BinHex">4DCAE674</field>
+                    <field name="fHealth" type="Float32">100</field>
+                    <field name="fMass" type="Float32">0</field>
+                    <field name="fExplosionForceOnCreate" type="Float32">1</field>
+                    <field name="fPiercingForceOnCreate" type="Float32">1</field>
+                    <field name="fMinimumSpeedForDamageStim" type="Float32">6</field>
+                    <field name="vectorDirectionOnCreate" type="BinHex">000000000000000000000000</field>
+                    <field name="bOverwriteCreationVelocity" type="BinHex">00</field>
+                    <field name="sndInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndStopInitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                    <field name="sndtpSoundType" type="Int32">-1</field>
+                    <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                    <field name="vectorCenterOfMassOffset" type="Vector3">0,0,0</field>
+                    <field name="fFloatingScale" type="Float32">0.6</field>
+                    <field name="bForceActivatedOnCreate" type="BinHex">00</field>
+                    <field name="fWaterFriction" type="Float32">2</field>
+                    <field name="bStartEffectsOnCreate" type="BinHex">00</field>
+                    <field name="bStopTheStartEffectsOnDestroy" type="Boolean">False</field>
+                    <field name="bPropagateVelocityIfStatic" type="BinHex">00</field>
+                    <field name="bDoFakeExplosion" type="BinHex">00</field>
+                    <field name="bExplodes" type="BinHex">00</field>
+                    <field name="fRotationMultiplier" type="Float32">0.5</field>
+                    <field name="fWindForceMultiplier" type="Float32">0</field>
+                    <field name="bExcludeFromDynamicLimiter" type="BinHex">00</field>
+                    <field name="hidResIndex" type="UInt32">0</field>
+                    <field name="hidGraphicIndex" type="Int32">7</field>
+                    <field name="index" type="BinHex">03000000</field>
+                    <object name="Stim">
+                      <field name="bPierceStim" type="Boolean">True</field>
+                      <field name="bCrushStim" type="Boolean">True</field>
+                      <field name="bBurnStim" type="Boolean">True</field>
+                      <field name="bExplosionStim" type="Boolean">True</field>
+                      <field name="bExplosionGrenadeStim" type="Boolean">True</field>
+                      <field name="bExplosionRPGStim" type="Boolean">True</field>
+                      <field name="bExplosionIEDStim" type="Boolean">True</field>
+                      <field name="bExplosionSplashStim" type="Boolean">False</field>
+                      <field name="bArrowStim" type="Boolean">True</field>
+                      <field name="bCutStim" type="Boolean">True</field>
+                      <field name="bAnimalCrushStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalAttackStim" type="BinHex">01</field>
+                      <field name="bRiddenAnimalImpulseAtPos" type="BinHex">01</field>
+                      <field name="bKickingStim" type="BinHex">01</field>
+                      <field name="fPierceDamageMultiplier" type="Float32">1</field>
+                      <field name="fCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fBurnDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionGrenadeDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionRPGDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionIEDDamageMultiplier" type="Float32">1</field>
+                      <field name="fExplosionSplashDamageMultiplier" type="Float32">1</field>
+                      <field name="fArrowDamageMultiplier" type="Float32">1</field>
+                      <field name="fCutDamageMultiplier" type="Float32">1</field>
+                      <field name="fAnimalCrushDamageMultiplier" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackDamageMultiplier" type="Float32">1</field>
+                      <field name="fKickingDamageMultiplier" type="Float32">1</field>
+                      <field name="fBulletImpulseScale" type="Float32">1</field>
+                      <field name="fExplosionImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalAttackImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimImpulseScale" type="Float32">1</field>
+                      <field name="fAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fRiddenAnimalCrushStimAngularImpulseScale" type="Float32">1</field>
+                      <field name="fKickingImpulseScale" type="Float32">1</field>
+                      <field name="fCutImpulseScale" type="Float32">1</field>
+                      <field name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" type="BinHex">000000000000000000000000</field>
+                    </object>
+                    <object name="hidEffectBones" />
+                  </object>
+                </object>
+              </object>
+              <object name="OnDamage">
+                <field name="selNextState" type="BinHex">01000000</field>
+              </object>
+              <object name="OnEvent">
+                <field name="bTriggerEffects" type="BinHex">00</field>
+                <field name="selNextState" type="BinHex">01000000</field>
+                <field name="sndExitSound" type="String">0xFFFFFFFF</field>
+                <field name="sndExitGroupSound" type="String">0xFFFFFFFF</field>
+                <field name="sndtpSoundType" type="Int32">-1</field>
+                <field name="bSoundMustFollowEntity" type="BinHex">00</field>
+                <field name="bExplodes" type="BinHex">00</field>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CParticleFXComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bAutoStart" type="Boolean">False</field>
+        <object name="ParticleSystems">
+          <object name="ParticleSystem">
+            <field name="text_psEmitter" type="String">newparticles\7730068162369.part</field>
+            <field name="psEmitter" type="Hash64">4742F79EB8E7164E</field>
+            <field name="text_psInteriorEmitter" type="String"></field>
+            <field name="psInteriorEmitter" type="BinHex">FFFFFFFFFFFFFFFF</field>
+            <field name="bFollowEntity" type="Boolean">False</field>
+            <field name="fScale" type="Float32">1</field>
+            <field name="bExtinguishedByWater" type="Boolean">True</field>
+            <field name="text_disFXName" type="String">State01_FX</field>
+            <field name="disFXName" type="Hash32">0D7C729A</field>
+          </object>
+          <object name="ParticleSystem">
+            <field name="text_psEmitter" type="String">newparticles\7730068162369.part</field>
+            <field name="psEmitter" type="Hash64">4742F79EB8E7164E</field>
+            <field name="text_psInteriorEmitter" type="String"></field>
+            <field name="psInteriorEmitter" type="BinHex">FFFFFFFFFFFFFFFF</field>
+            <field name="bFollowEntity" type="Boolean">True</field>
+            <field name="fScale" type="Float32">1</field>
+            <field name="bExtinguishedByWater" type="Boolean">True</field>
+            <field name="text_disFXName" type="String">State02_FX</field>
+            <field name="disFXName" type="Hash32">1FC9DD74</field>
+          </object>
+        </object>
+      </object>
+      <object name="CPickupPileNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="fRespawnTime" type="Float32">60</field>
+        <field name="fPawnToCloseRadius" type="Float32">25</field>
+        <field name="bCanRespawn" type="Boolean">False</field>
+        <field name="bShouldBeDiscovered" type="BinHex">01</field>
+        <field name="bPhysicsStayOn" type="BinHex">01</field>
+      </object>
+      <object name="CPickupNetworkComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="bShouldBeDiscovered" type="BinHex">01</field>
+      </object>
+      <object name="CCountersComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+      </object>
+      <object name="CRandomShooterComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="vectorRelativePosition" type="BinHex">00000000000000000000003F</field>
+        <field name="bFireBullets" type="BinHex">01</field>
+        <field name="bFireProjectiles" type="BinHex">00</field>
+        <object name="Bullets">
+          <field name="fMinBulletFireDelay" type="Float32">0.1</field>
+          <field name="fMaxBulletFireDelay" type="Float32">0.1</field>
+          <field name="fMinBulletPitch" type="Float32">5</field>
+          <field name="fMaxBulletPitch" type="Float32">10</field>
+          <field name="fMinBulletYaw" type="Float32">0</field>
+          <field name="fMaxBulletYaw" type="Float32">360</field>
+          <field name="fMinBulletDistance" type="Float32">5</field>
+          <field name="fMaxBulletDistance" type="Float32">10</field>
+          <field name="iMinPierceStrength" type="BinHex">1E000000</field>
+          <field name="iMaxPierceStrength" type="BinHex">32000000</field>
+          <field name="arkWeaponProperties" type="BinHex">0000000000000000</field>
+          <object name="ImpactDamage">
+            <field name="hidEventName" type="String">Stims</field>
+            <field name="bSupportForDualComponent" type="Boolean">False</field>
+            <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+            <field name="text_sDetail" type="String"></field>
+            <field name="sDetail" type="Hash32">FFFFFFFF</field>
+            <field name="selType" type="Enum">3</field>
+            <field name="selFilterSubType" type="Enum">0</field>
+            <field name="fLevel" type="Float32">20</field>
+            <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+            <field name="fRadius" type="Float32">0</field>
+            <field name="bFalloff" type="Boolean">False</field>
+            <field name="fFalloffMinLevel" type="Float32">1</field>
+            <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+            <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+            <field name="arkFalloffCurve" type="Id64">0</field>
+            <field name="hidShowType" type="Boolean">True</field>
+            <field name="hidShowRadius" type="Boolean">True</field>
+            <field name="fDuration" type="Float32">0</field>
+            <field name="bRollDiceForEachEntity" type="BinHex">01</field>
+            <field name="fPhysImpulse" type="Float32">20</field>
+            <field name="fPhysImpulseNPC" type="Float32">25</field>
+            <field name="fMaxMassModifier" type="Float32">85</field>
+            <object name="FilterFlags">
+              <field name="bCommon" type="Boolean">True</field>
+              <field name="bSinglePlayer" type="Boolean">True</field>
+              <field name="bPvP" type="Boolean">True</field>
+              <field name="bCoop" type="Boolean">True</field>
+              <field name="bShangriLa" type="Boolean">True</field>
+              <field name="bArena" type="Boolean">True</field>
+              <field name="bChannel0" type="Boolean">False</field>
+              <field name="bChannel1" type="BinHex">00</field>
+              <field name="bChannel2" type="BinHex">00</field>
+            </object>
+            <object name="DiceRolls">
+              <object name="Dice">
+                <field name="fMinValue" type="Float32">0</field>
+                <field name="fMaxValue" type="Float32">0</field>
+                <field name="fStepSize" type="Float32">1</field>
+                <field name="nNbRolls" type="Int32">1</field>
+              </object>
+            </object>
+          </object>
+          <object name="ImpactStims">
+            <object name="Stim">
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">1</field>
+              <field name="fLevel" type="Float32">3</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">10</field>
+              <field name="bFalloff" type="Boolean">False</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">True</field>
+                <field name="bPvP" type="Boolean">True</field>
+                <field name="bCoop" type="Boolean">True</field>
+                <field name="bShangriLa" type="Boolean">True</field>
+                <field name="bArena" type="Boolean">True</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+            <object name="Stim">
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">3</field>
+              <field name="selFilterSubType" type="Enum">0</field>
+              <field name="fLevel" type="Float32">31</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">1</field>
+              <field name="bFalloff" type="Boolean">False</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">True</field>
+                <field name="bPvP" type="Boolean">True</field>
+                <field name="bCoop" type="Boolean">True</field>
+                <field name="bShangriLa" type="Boolean">True</field>
+                <field name="bArena" type="Boolean">True</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+            <object name="Stim">
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">3</field>
+              <field name="selFilterSubType" type="Enum">0</field>
+              <field name="fLevel" type="Float32">0</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">1</field>
+              <field name="bFalloff" type="Boolean">False</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">True</field>
+                <field name="bPvP" type="Boolean">True</field>
+                <field name="bCoop" type="Boolean">True</field>
+                <field name="bShangriLa" type="Boolean">True</field>
+                <field name="bArena" type="Boolean">True</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+            <object name="Stim">
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">0</field>
+              <field name="fLevel" type="Float32">0</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">0</field>
+              <field name="bFalloff" type="Boolean">False</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">False</field>
+                <field name="bPvP" type="Boolean">False</field>
+                <field name="bCoop" type="Boolean">False</field>
+                <field name="bShangriLa" type="Boolean">False</field>
+                <field name="bArena" type="Boolean">False</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+          </object>
+          <object name="PileStims">
+            <object name="Stim">
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">10</field>
+              <field name="fLevel" type="Float32">3</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">12.5</field>
+              <field name="bFalloff" type="Boolean">False</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">True</field>
+                <field name="bPvP" type="Boolean">True</field>
+                <field name="bCoop" type="Boolean">True</field>
+                <field name="bShangriLa" type="Boolean">True</field>
+                <field name="bArena" type="Boolean">True</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+            <object name="Stim">
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">7</field>
+              <field name="selFilterSubType" type="Enum">0</field>
+              <field name="fLevel" type="Float32">20</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">6</field>
+              <field name="bFalloff" type="Boolean">False</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">10</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">True</field>
+                <field name="bPvP" type="Boolean">True</field>
+                <field name="bCoop" type="Boolean">True</field>
+                <field name="bShangriLa" type="Boolean">True</field>
+                <field name="bArena" type="Boolean">True</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+            <object name="Stim">
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">0</field>
+              <field name="fLevel" type="Float32">0</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">0</field>
+              <field name="bFalloff" type="Boolean">False</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">False</field>
+                <field name="bPvP" type="Boolean">False</field>
+                <field name="bCoop" type="Boolean">False</field>
+                <field name="bShangriLa" type="Boolean">False</field>
+                <field name="bArena" type="Boolean">False</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+          </object>
+          <object name="IgnitionStims">
+            <object name="Stim">
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">17</field>
+              <field name="fLevel" type="Float32">1</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">20</field>
+              <field name="bFalloff" type="Boolean">False</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">True</field>
+                <field name="bPvP" type="Boolean">True</field>
+                <field name="bCoop" type="Boolean">True</field>
+                <field name="bShangriLa" type="Boolean">True</field>
+                <field name="bArena" type="Boolean">True</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+            <object name="Stim">
+              <field name="hidEventName" type="String">Stims</field>
+              <field name="bSupportForDualComponent" type="Boolean">False</field>
+              <field name="hidTargetEntityId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="text_sDetail" type="String"></field>
+              <field name="sDetail" type="Hash32">FFFFFFFF</field>
+              <field name="selType" type="Enum">0</field>
+              <field name="fLevel" type="Float32">0</field>
+              <field name="vectorImpactPos" type="Vector3">0,0,0</field>
+              <field name="fRadius" type="Float32">0</field>
+              <field name="bFalloff" type="Boolean">False</field>
+              <field name="fFalloffMinLevel" type="Float32">1</field>
+              <field name="fFalloffInterpolationFactor" type="Float32">0</field>
+              <field name="bUseNewFalloffCurve" type="Boolean">False</field>
+              <field name="arkFalloffCurve" type="Id64">0</field>
+              <field name="hidShowType" type="Boolean">True</field>
+              <field name="hidShowRadius" type="Boolean">True</field>
+              <field name="fDuration" type="Float32">0</field>
+              <object name="FilterFlags">
+                <field name="bCommon" type="Boolean">True</field>
+                <field name="bSinglePlayer" type="Boolean">False</field>
+                <field name="bPvP" type="Boolean">False</field>
+                <field name="bCoop" type="Boolean">False</field>
+                <field name="bShangriLa" type="Boolean">False</field>
+                <field name="bArena" type="Boolean">False</field>
+                <field name="bChannel0" type="Boolean">False</field>
+                <field name="bChannel1" type="BinHex">00</field>
+                <field name="bChannel2" type="BinHex">00</field>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object name="CPersistComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="selLevel" type="Enum">1</field>
+        <field name="bDontPersistIfChild" type="Boolean">False</field>
+        <field name="bIgnoreEntityLimiter" type="Boolean">False</field>
+      </object>
+      <object name="CSoundComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="sndptSoundPoint" type="Hash64">00000000FFFFFFFF</field>
+        <field name="bStopSoundOnStateChange" type="Boolean">False</field>
+        <field name="bAlwaysUpdate" type="Boolean">False</field>
+      </object>
+      <object name="CMissionComponent">
+        <field name="hidHasAliasName" type="Boolean">False</field>
+        <field name="hidMissionLayerId" type="Hash64">FFFFFFFFFFFFFFFF</field>
+        <field name="text_hidCategory" type="String"></field>
+        <field name="hidCategory" type="Hash32">FFFFFFFF</field>
+        <field name="ForceMerge" type="Boolean">True</field>
+      </object>
+    </object>
+  </object>
+  <object name="ResPack">
+    <field name="Count" type="BinHex">05000000</field>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">3AE88EFD</field>
+      <field name="ResIds" type="BinHex">010000009BF84AF00BED37E7</field>
+    </object>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">44601C12</field>
+      <field name="ResIds" type="BinHex">010000004E16E7B89EF74247</field>
+    </object>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">63F450D8</field>
+      <field name="ResIds" type="BinHex">02000000236C81CE9CC74A7A337852CB9C1C587F</field>
+    </object>
+    <object name="ResList">
+      <field name="TypeId" type="Hash32">86E8E8BE</field>
+      <field name="ResIds" type="BinHex">010000009BF84AF00BC6ABF5</field>
+    </object>
+  </object>
+</object>
