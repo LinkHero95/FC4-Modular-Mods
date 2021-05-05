@@ -209,12 +209,41 @@
 
 		<!-- Sniper Rifles -->
 		<!-- SVD -->
+		<Replace RequiredFile="entityarchetypeslibrary/7643219958677.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
 		<!-- M-700 -->
+		<Replace RequiredFile="entityarchetypeslibrary/99086773980156319.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
 		<!-- LMGs -->
 		<!-- PKM -->
+		<Replace RequiredFile="entityarchetypeslibrary/306252356839199135.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="2" type="BinHex">02000000</field>
+				</object>
+			</object>
+		</Replace>
+
 		<!-- U100 -->
-		<!-- MKG -->
-		<!-- MG42 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7656527615455.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="2" type="BinHex">02000000</field>
+				</object>
+			</object>
+		</Replace>
 
 		<!-- Weapon attachments data -->
 		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
