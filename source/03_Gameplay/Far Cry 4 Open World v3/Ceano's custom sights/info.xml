@@ -24,7 +24,7 @@
 	<Category>3</Category>
     <Pairs>
         <Pair>
-            <Source><![CDATA[reticle_01.xbt]></Source>
+            <Source><![CDATA[reticle_01.xbt]]></Source>
             <Target><![CDATA[graphics\_common\_textures\weapons\_shared\reticle_01.xbt]]></Target>
         </Pair>
 
