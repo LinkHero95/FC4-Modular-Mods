@@ -1,1 +1,0 @@
-Copy the folder "graphics" to...patch_hd.dat
