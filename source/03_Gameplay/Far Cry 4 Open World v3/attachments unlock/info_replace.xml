@@ -158,6 +158,25 @@
 			<object hash="FC33DE57" name="CommonProperties">
 				<object hash="C1587501" name="Attachments">
 					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+					<object hash="1943503F" name="ModelsForLoad">
+						<object hash="7EA7F8EA" name="Attachments_1cf9ac4462e00092">
+							<object hash="F924D31F" name="weaponOffset">
+								<field hash="056A4EA9" name="fMaxY" value-Float32="0.08" type="BinHex">0AD7A33D</field>
+							</object>
+						</object>
+						<object hash="E0C36D49" name="Attachments_1cf9ac4462e00095">
+							<object hash="F924D31F" name="weaponOffset">
+								<field hash="056A4EA9" name="fMaxY" value-Float32="0.08" type="BinHex">0AD7A33D</field>
+								<field hash="9C631F13" name="fMaxZ" value-Float32="-0.026" type="BinHex">F4FDD4BC</field>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="BB04E184" name="IronSight">
+					<object hash="891543F6" name="ironsightDof">
+						<field hash="4CC34AA1" name="fBlur" value-Float32="0" type="BinHex">00000000</field>
+						<field hash="37EF5ED9" name="fBlurFactor" value-Float32="0" type="BinHex">00000000</field>
+					</object>
 				</object>
 			</object>
 		</Replace>
