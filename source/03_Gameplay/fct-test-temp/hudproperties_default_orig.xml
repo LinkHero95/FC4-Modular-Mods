@@ -139,6 +139,11 @@
         <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
       </Conditions>
     </RoundStart>
+    <TimeBar iPriority="0" fTimer="1.5">
+      <Conditions>
+        <Condition selConditionType="-1" fConditionValue="0" MissionName="" />
+      </Conditions>
+    </TimeBar>
   </HUDEvents>
   <HUDEventsMiscData fTimeOpenWorldUpdateBlock1="2" fTimeMultiplierOpenWorldUpdateBlock2="4" fTimeOpenWorldShowNewActivity="4" fTimePvPOpenWorldUpdateDuration="5" fTimePvPOpenWorldUpdateBlock1="5" />
   <UnlockEntitiesPopups>
@@ -671,7 +676,7 @@
       <Entity iTowerIdx="2">
         <UnlockPopups>
           <UnlockPopup>
-            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="150712" vectorPositionInWorld="0,0,0" />
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="354041" vectorPositionInWorld="0,0,0" />
           </UnlockPopup>
           <UnlockPopup>
             <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
@@ -938,6 +943,56 @@
         <UnlockPopups>
           <UnlockPopup>
             <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="346308" locidMessageId="346308" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="DLC_MIS_020_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="346307" locidMessageId="346307" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="DLC_MIS_030_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="346307" locidMessageId="346307" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="DLC_MIS_040_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="346307" locidMessageId="346307" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="DLC_MIS_050_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="346307" locidMessageId="346307" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
+          </UnlockPopup>
+        </UnlockPopups>
+      </Entity>
+      <Entity missionScriptName="DLC_MIS_060_MAIN">
+        <UnlockPopups>
+          <UnlockPopup>
+            <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="346307" locidMessageId="346307" vectorPositionInWorld="0,0,0" />
           </UnlockPopup>
           <UnlockPopup>
             <popupLocId sDescription="" entEntityId="18446744073709551615" locidHeaderId="-1" locidMessageId="-1" vectorPositionInWorld="0,0,0" />
@@ -1306,6 +1361,49 @@
           <Tip locidTip="0" />
         </Tips>
       </Pool>
+      <Pool selTipType="20" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="355420" />
+          <Tip locidTip="355422" />
+          <Tip locidTip="355804" />
+          <Tip locidTip="355805" />
+          <Tip locidTip="355806" />
+          <Tip locidTip="355807" />
+          <Tip locidTip="355808" />
+          <Tip locidTip="355809" />
+          <Tip locidTip="355810" />
+          <Tip locidTip="355811" />
+          <Tip locidTip="355812" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
+      <Pool selTipType="21" selMissionType="0" missionScriptName="" fileImageFileName="">
+        <Tips>
+          <Tip locidTip="360272" />
+          <Tip locidTip="360273" />
+          <Tip locidTip="360274" />
+          <Tip locidTip="360275" />
+          <Tip locidTip="360276" />
+          <Tip locidTip="360277" />
+          <Tip locidTip="360905" />
+          <Tip locidTip="360906" />
+          <Tip locidTip="360907" />
+          <Tip locidTip="361252" />
+          <Tip locidTip="361253" />
+          <Tip locidTip="361254" />
+          <Tip locidTip="361255" />
+          <Tip locidTip="361256" />
+          <Tip locidTip="361257" />
+          <Tip locidTip="361258" />
+          <Tip locidTip="361259" />
+          <Tip locidTip="361260" />
+          <Tip locidTip="361261" />
+          <Tip locidTip="361262" />
+          <Tip locidTip="361326" />
+          <Tip locidTip="361327" />
+          <Tip locidTip="0" />
+        </Tips>
+      </Pool>
       <Pool selTipType="-1" selMissionType="0" missionScriptName="" fileImageFileName="">
         <Tips>
           <Tip locidTip="0" />
@@ -1325,7 +1423,7 @@
       <Profile sProfileName="CraftingHighlight" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="7" iHPadding="8" iVPadding="8" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.35" fBoderAlpha="0.65" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.929412,0.894118,0.219608" clrExtraLeftTextureColor="0.02,0.02,0.02" />
       <Profile sProfileName="Warning" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="2" selBordeType="2" iHPadding="14" iVPadding="4" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.94902,0.054902,0.054902" clrExtraLeftTextureColor="0.019608,0.019608,0.019608" />
       <Profile sProfileName="Subtitles" bUseMultiline="1" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="0" iHPadding="4" iVPadding="1" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.4" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0,0,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
-      <Profile sProfileName="TutorialsBackground" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="2" selBordeType="6" iHPadding="20" iVPadding="10" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.937255,0.494118,0.176471" clrExtraLeftTextureColor="0.54902,0.290196,0.109804" />
+      <Profile sProfileName="TutorialsBackground" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="6" iHPadding="20" iVPadding="10" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.937255,0.494118,0.176471" clrExtraLeftTextureColor="0.54902,0.290196,0.109804" />
       <Profile sProfileName="HintsBackground" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="1" iHPadding="20" iVPadding="10" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.929412,0.490196,0.176471" clrExtraLeftTextureColor="0.54902,0.290196,0.109804" />
       <Profile sProfileName="SkillsPageElephant" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="4" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.223529,0.639216,0.976471" clrExtraLeftTextureColor="0.02,0.02,0.02" />
       <Profile sProfileName="SkillsPageTiger" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="4" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,0.584314,0.196078" clrExtraLeftTextureColor="0.02,0.02,0.02" />
@@ -1334,7 +1432,7 @@
       <Profile sProfileName="FloatingMsgBox" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="2" selBordeType="5" iHPadding="10" iVPadding="10" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.65" fBoderAlpha="0.65" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
       <Profile sProfileName="KarmaBackground" bUseMultiline="0" bUseExtraLeftTexture="1" iBorderSize="2" selBordeType="1" iHPadding="20" iVPadding="9" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.7" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.588235,0.4,1" clrExtraLeftTextureColor="0.337255,0.262745,0.509804" />
       <Profile sProfileName="UnlocksBorderAnim" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="7" iHPadding="20" iVPadding="15" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0" fBoderAlpha="0.95" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.937255,0.835294,0.262745" clrExtraLeftTextureColor="0,0,0" />
-      <Profile sProfileName="CoopMessages" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="1" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.2,0.6,0.8" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="CoopMessages" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="1" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.2,0.6,0.8" clrExtraLeftTextureColor="0.019608,0.019608,0.019608" />
       <Profile sProfileName="DefaultHighlighted" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="7" iHPadding="10" iVPadding="8" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.4" fBoderAlpha="0.65" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.937255,0.835294,0.262745" clrExtraLeftTextureColor="0.02,0.02,0.02" />
       <Profile sProfileName="MessageBoxTitle" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="7" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0" fBoderAlpha="0.65" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
       <Profile sProfileName="YellowBorderTitle" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="4" selBordeType="5" iHPadding="12" iVPadding="8" fHPaddingMultiplier="0.1" fVPaddingMultiplier="0.1" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.996078,0.819608,0.015686" clrExtraLeftTextureColor="0.02,0.02,0.02" />
@@ -1344,6 +1442,11 @@
       <Profile sProfileName="TheKingIsDead" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="4" selBordeType="5" iHPadding="12" iVPadding="15" fHPaddingMultiplier="0.07" fVPaddingMultiplier="0.1" fBackgroundAlpha="0" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,0.203922,0.423529" clrExtraLeftTextureColor="0.02,0.02,0.02" />
       <Profile sProfileName="TopLeftBottom" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="4" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.4" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.019608,0.019608,0.019608" clrExtraLeftTextureColor="0.02,0.02,0.02" />
       <Profile sProfileName="ActivitieBG" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="1" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="1" clrBackgroundColor="0.019608,0.019608,0.019608" clrBorderColor="0.4,0.8,1" clrExtraLeftTextureColor="0.019608,0.019608,0.019608" />
+      <Profile sProfileName="ObjectiveNoIcon" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="1" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,0.933333,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="CoopWaitingMSG" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="0" iHPadding="20" iVPadding="6" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.5" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0,0,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="RegularTimer" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="3" selBordeType="5" iHPadding="12" iVPadding="5" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.15" fBoderAlpha="1" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="1,1,1" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="BonusTime" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="4" selBordeType="7" iHPadding="12" iVPadding="5" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.15" fBoderAlpha="0.65" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.588235,1,0.552941" clrExtraLeftTextureColor="0.02,0.02,0.02" />
+      <Profile sProfileName="TimeRunningOut" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="4" selBordeType="7" iHPadding="12" iVPadding="5" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.15" fBoderAlpha="0.65" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0.792157,0.2,0.207843" clrExtraLeftTextureColor="0.02,0.02,0.02" />
       <Profile sProfileName="" bUseMultiline="0" bUseExtraLeftTexture="0" iBorderSize="0" selBordeType="0" iHPadding="6" iVPadding="4" fHPaddingMultiplier="0" fVPaddingMultiplier="0" fBackgroundAlpha="0.25" fBoderAlpha="0" clrBackgroundColor="0.02,0.02,0.02" clrBorderColor="0,0,0" clrExtraLeftTextureColor="0.02,0.02,0.02" />
     </bgProfiles>
     <BordersAnimation fStartUpdatingTop="20" fStartUpdatingRight="90" fStartUpdatingBottom="60" fStopUpdatingAlpha="65" fEffectDuration="1.5" />
@@ -1822,7 +1925,7 @@
             <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M-700Mag" fAttchamentPosX="-11" fAttchamentPosY="1" />
           </Attachments>
           <Attachments>
-            <AttachmentInfo arkAttachmentArchetype="7707382671690" sUIIconName="HighPowerScope" fAttchamentPosX="-10" fAttchamentPosY="-15" />
+            <AttachmentInfo arkAttachmentArchetype="7707382671690" sUIIconName="IlluminatedScope2" fAttchamentPosX="-10" fAttchamentPosY="-15" />
           </Attachments>
           <Attachments>
             <AttachmentInfo arkAttachmentArchetype="7707382639531" sUIIconName="IlluminatedScope" fAttchamentPosX="20" fAttchamentPosY="-16" />
@@ -1957,10 +2060,10 @@
             <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="M93Mag" fAttchamentPosX="-20" fAttchamentPosY="7" />
           </Attachments>
           <Attachments>
-            <AttachmentInfo arkAttachmentArchetype="7707382589914" sUIIconName="HighPowerScope" fAttchamentPosX="-13" fAttchamentPosY="-16" />
+            <AttachmentInfo arkAttachmentArchetype="7707382589914" sUIIconName="IlluminatedScope2" fAttchamentPosX="-15" fAttchamentPosY="-14" />
           </Attachments>
           <Attachments>
-            <AttachmentInfo arkAttachmentArchetype="7707382617869" sUIIconName="IlluminatedScope" fAttchamentPosX="-17" fAttchamentPosY="-13" />
+            <AttachmentInfo arkAttachmentArchetype="7707382617869" sUIIconName="HighPowerScope" fAttchamentPosX="-14" fAttchamentPosY="-14" />
           </Attachments>
           <Attachments>
             <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
@@ -1995,13 +2098,13 @@
             <AttachmentInfo arkAttachmentArchetype="7666473669635" sUIIconName="Silencer" fAttchamentPosX="71" fAttchamentPosY="-4" />
           </Attachments>
           <Attachments>
-            <AttachmentInfo arkAttachmentArchetype="7857186318141" sUIIconName="HighPowerScope" fAttchamentPosX="0" fAttchamentPosY="-18" />
+            <AttachmentInfo arkAttachmentArchetype="7857186318141" sUIIconName="IlluminatedScope2" fAttchamentPosX="2" fAttchamentPosY="-18" />
           </Attachments>
           <Attachments>
             <AttachmentInfo arkAttachmentArchetype="7674510304021" sUIIconName="SA50Mag" fAttchamentPosX="-28" fAttchamentPosY="11" />
           </Attachments>
           <Attachments>
-            <AttachmentInfo arkAttachmentArchetype="7857186575552" sUIIconName="IlluminatedScope" fAttchamentPosX="5" fAttchamentPosY="-18" />
+            <AttachmentInfo arkAttachmentArchetype="7857186575552" sUIIconName="HighPowerScope" fAttchamentPosX="5" fAttchamentPosY="-18" />
           </Attachments>
           <Attachments>
             <AttachmentInfo arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
