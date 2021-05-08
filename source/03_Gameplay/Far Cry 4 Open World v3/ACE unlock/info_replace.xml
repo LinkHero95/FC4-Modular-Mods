@@ -3,7 +3,7 @@
 	<DefaultInclude>false</DefaultInclude>
 	<Description>FC4 Open World: ACE unlocker
 
-    Unlocks All skills from the start.
+    Unlocks the ACE signature weapon in the in-game shop.
 
     Changes made by this mod:
     [list]
@@ -13,6 +13,7 @@
     Other Information:
     [list]
     [*] This mod is part of jvarnes' Open World Mod.
+	[*] When uninstalling this mod, make sure that the ACE is not in your inventory. The game is known to crash in this situation.
     [*] This mod is co-op friendly.
 	[/list]
 	
@@ -23,10 +24,25 @@
 	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
 	[/list]
 	</Description>
-	<Dependencies>Shop Files</Dependencies>>
+	<Dependencies>Shop Files</Dependencies>
 	<Category>3</Category>
 
 	<Replaces>
+		<Replace RequiredFile="generated/databases/generic/shopsubcategory1.ndb">
+			<Generic primaryKey_disLibItemId="7790061934673">
+				<SubCategory2Dep>
+					<Link addNode="1" disshpscatbId="178"/>
+				</SubCategory2Dep>
+			</Generic>
+		</Replace>
 
+		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
+			<Generic primaryKey_disLibItemId="7799986727086" shpcatCategory="11" shpscataSubCategory1="181" shpscatbSubCategory2="178" shpitpeItemType="66">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="450000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866560178293"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="450000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866560178293"/>
+				</ShopTypeDatas>
+			</Generic>
+		</Replace>
 	</Replaces>
 </InfoReplace>
