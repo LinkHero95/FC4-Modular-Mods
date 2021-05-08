@@ -18,6 +18,13 @@
     <ItemTypeDep />
     <ItemSubTypeDep />
   </Generic>
+  <Generic disLibItemId="7884918665612" Name="Buy/DLC90_Upgrades" hidGUID_Legacy="{5EB1A429-7B17-475C-9A3E-4CECA88FC2FC}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/DLC90_Upgrades" disId="191" locidDescriptionId="361378" iSortId="0" sIconName="">
+    <SubCategory2Dep />
+    <ItemTypeDep>
+      <Link disshpitpeId="94" />
+    </ItemTypeDep>
+    <ItemSubTypeDep />
+  </Generic>
   <Generic disLibItemId="7790060225602" Name="Buy/Items" hidGUID_Legacy="{2AD294E2-2F88-4CEF-8716-1CA49B3C7D93}" hidSingleObject="0" bCanBeShared="1" hidName="Buy/Items" disId="168" locidDescriptionId="80224" iSortId="0" sIconName="">
     <SubCategory2Dep />
     <ItemTypeDep />
