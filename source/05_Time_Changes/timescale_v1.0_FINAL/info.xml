@@ -1,0 +1,31 @@
+<Info>
+	<DefaultInclude>false</DefaultInclude>
+	<Description>Timescale Increase
+
+	Decreases the rate of passage of time in-game.
+
+	Changes made by this mod:
+	[list]
+	[*] Days and nights are now roughly 3 times longer.
+	[/list]
+
+    Other Information:
+    [list]
+    [*] This mod is co-op friendly. However, the host's timescale settings apply in coop play. If you are joining another player's game, their settings will apply.
+	[/list]
+	
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
+	[/list]
+	</Description>
+	<!-- <Dependencies>Script Loader</Dependencies> -->
+	<!-- <Category>3</Category> -->
+	<Category>5</Category>
+	<Pairs>
+		<Pair>
+			<Source><![CDATA[fcc_master.fcc_master.lua]]></Source>
+			<Target><![CDATA[domino/user/fcc/fcc_master/fcc_master.fcc_master.lua]]></Target>
+		</Pair>
+	</Pairs>
+</Info>
