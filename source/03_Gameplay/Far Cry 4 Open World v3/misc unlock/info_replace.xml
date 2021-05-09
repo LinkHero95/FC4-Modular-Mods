@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <InfoReplace>
 	<DefaultInclude>false</DefaultInclude>
-	<Description>FC4 Open World: Skill unlocker
+	<Description>FC4 Open World: Miscellaneous shop item unlocker
 
-    Unlocks All skills from the start.
+    This is a collection of things that were there in the shop file, but couldn't be easily classified into the weapon unlocks or the attachment unlocks.
 
     Changes made by this mod:
     [list]
@@ -29,6 +29,10 @@
 	<Category>3</Category>
 
 	<Replaces>
-
+		<Replace RequiredFile="entityarchetypeslibrary/7817179374877.ark.fcb">
+		<!-- Template -->
+		<!-- <Generic primaryKey_disLibItemId="1">
+		</Generic> -->
+		</Replace>
 	</Replaces>
 </InfoReplace>

@@ -1,9 +1,9 @@
 Ammo
-	Explosive arrow
+	Explosive arrow - Ditch
 	7842422198768
 	18
 
-	Fire arrow
+	Fire arrow - Ditch
 	7842422204463
 	34
 
