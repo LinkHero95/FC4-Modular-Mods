@@ -7,9 +7,10 @@
 
     Changes made by this mod:
     [list]
-    [*] All signature Weapons are available in the shop from the start.
-    [*] The signature weapons are not available for free in the shops; the player will still need to purchase these weapons from the shop to use them.
-	[*] The player can still get free weapons by liberating radio towers and/or picking them up off fallen ememies.
+    [*] Eagle feathers give 500 Karma when acquired. They can also be sold for 20,000 Kyrati Rupees, rather than the original 2,000.
+    [*] Demon Fish skins give 250 XP when acquired.
+    [*] The AJM9 handgun costs 60,000 Kyrati Rupees to purchase in the shop.
+	[*] The player can purchase Guns for Hire Tokens and the Wingsuit as soon as they arrive in Banapur for the first time.
     [/list]
 
     Other Information:
@@ -29,10 +30,108 @@
 	<Category>3</Category>
 
 	<Replaces>
-		<Replace RequiredFile="entityarchetypeslibrary/7817179374877.ark.fcb">
-		<!-- Template -->
-		<!-- <Generic primaryKey_disLibItemId="1">
-		</Generic> -->
+		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
+			<!-- Black Eagle Feathers -->
+			<Generic primaryKey_disLibItemId="7787939910167" iXPOnLoot="500" iKarmaOnLoot="500">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" sellValue="20000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" sellValue="20000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" sellValue="20000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" sellValue="20000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Demon Fish Skin -->
+			<Generic primaryKey_disLibItemId="7787939945984" iXPOnLoot="250">
+			</Generic>
+
+			<!-- Thick Skin's Skin -->
+			<Generic primaryKey_disLibItemId="7787940271709">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Bridge Item 1 -->
+			<Generic primaryKey_disLibItemId="7867939896028">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="-1" sellValue="800" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="-1" sellValue="800" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="-1" sellValue="800" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="-1" sellValue="800" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Bridge Item 2 -->
+			<Generic primaryKey_disLibItemId="7867939902211">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="-1" sellValue="400" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="-1" sellValue="400" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="-1" sellValue="400" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="-1" sellValue="400" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Bridge Item 3 -->
+			<Generic primaryKey_disLibItemId="7867939908112">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="-1" sellValue="100" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="-1" sellValue="100" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="-1" sellValue="100" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="-1" sellValue="100" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Special Sherpa Loot Item 1 -->
+			<Generic primaryKey_disLibItemId="7794901606488">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="-1" sellValue="1000" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="-1" sellValue="1000" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="-1" sellValue="1000" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="-1" sellValue="1000" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- DLC Yeti Loot -->
+			<Generic primaryKey_disLibItemId="7884764286572">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="-1" sellValue="93000" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="-1" sellValue="93000" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="-1" sellValue="93000" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="-1" sellValue="93000" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- AJM9 -->
+			<Generic primaryKey_disLibItemId="7860555523370">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="60000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="60000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="60000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="60000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0" />
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Guns for Hire Tokens -->
+			<Generic primaryKey_disLibItemId="7852218072511" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Wingsuit -->
+			<Generic primaryKey_disLibItemId="7877179230355" UnlockOnMissionComplete="">
+			</Generic>
+
+			<!-- Painted Pachyderms -->
+			<Generic primaryKey_disLibItemId="7870999440339" shpcatCategory="4">
+			</Generic>
 		</Replace>
 	</Replaces>
 </InfoReplace>

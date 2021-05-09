@@ -54,47 +54,47 @@ Misc
 	7860555523370
 	6141-6144
 
-	Ajay House Upgrade 12 Cost
+	Ajay House Upgrade 12 Cost - Ditch
 	7856793900071
 	2924
 
 	Black Market GFH Token
-	disLibItemId
+	7852218072511
 	2994
 
-	GFH Token Upgrade 1
+	GFH Token Upgrade 1 - Ditch
 	7868327870477
 	3008
 
-	GFH Token Upgrade 2
+	GFH Token Upgrade 2 - Ditch
 	7868328272899
 	3022
 
-	GFH Token Upgrade 3
+	GFH Token Upgrade 3 - Ditch
 	7868328282126
 	3036
 
-	GFH Upgrade 1
+	GFH Upgrade 1 - Ditch
 	7852222197351
 	3050
 
-	GFH Upgrade 2
+	GFH Upgrade 2 - Ditch
 	7852222203479
 	3064
 
-	GFH Upgrade 3 Cut
+	GFH Upgrade 3 Cut - Ditch
 	7852223913039
 	3078
 
-	Sticky C4 Upgrade
+	Sticky C4 Upgrade - Ditch
 	7842286350975
 	3090
 
-	Sticky Grenade Upgrade
+	Sticky Grenade Upgrade - Ditch
 	7842286329906
 	3104
 
-	Sticky Mine Upgrade
+	Sticky Mine Upgrade - Ditch
 	7842286342862
 	3118
 
@@ -107,22 +107,22 @@ Misc
 	15075
 
 DLC Misc
-	DLC Skill points
+	DLC Skill points - Ditch
 	7880673158451
 	3720-3731
 
-	DLC Sticky C4 Upgrade
+	DLC Sticky C4 Upgrade - Ditch
 	7884518396154
 	4468
 
-	DLC Sticky Grenade Upgrade
+	DLC Sticky Grenade Upgrade - Ditch
 	7884518346689
 	4482
 
-	DLC Sticky Mine Upgrade
+	DLC Sticky Mine Upgrade - Ditch
 	7884518221858
 	4496
 
-	DLC Wingsuit
+	DLC Wingsuit - Ditch
 	7884518073560
 	4510
