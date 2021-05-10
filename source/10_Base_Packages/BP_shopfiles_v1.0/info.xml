@@ -4,7 +4,7 @@
 
         This base package makes 3 files able to be modified by a3 packages:
 		[list]
-		[*] hudproperties_default.ndb: used for display of attachments on the shop UI
+		[*] shopitemtype.ndb: used for changing shop prices.
 		[*] shoppingitems.ndb: the main shop file contains details for all buyable and sellable items in game.
 		[*] shopsubcategory1.ndb: determines which items are actually shown in the shop.
 		[/list]
@@ -21,11 +21,11 @@
 	</Description>
 	<Category>10</Category>
 	<Pairs>
-		<!-- hudproperties_default.ndb -->
+		<!-- shopitemtype.ndb -->
 		<Pair>
 			<FromDatFile>patch.fat</FromDatFile>
-			<Source><![CDATA[generated\databases\generic\hudproperties_default.ndb]]></Source>
-			<Target><![CDATA[generated\databases\generic\hudproperties_default.ndb]]></Target>
+			<Source><![CDATA[generated\databases\generic\shopitemtype.ndb]]></Source>
+			<Target><![CDATA[generated\databases\generic\shopitemtype.ndb]]></Target>
 		</Pair>
 
 		<!-- shoppingitems.ndb -->

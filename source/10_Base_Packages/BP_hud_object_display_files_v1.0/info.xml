@@ -1,12 +1,10 @@
 <Info>
 	<DefaultInclude>true</DefaultInclude>
-	<Description>Shop Files
+	<Description>HUD Object Display Files
 
         This base package makes 3 files able to be modified by a3 packages:
 		[list]
-		[*] hudproperties_default.ndb: used for display of attachments on the shop UI
-		[*] shoppingitems.ndb: the main shop file contains details for all buyable and sellable items in game.
-		[*] shopsubcategory1.ndb: determines which items are actually shown in the shop.
+		[*] hudproperties_default.ndb: used for display of icons (like pickup weapons, etc) on the HUD.
 		[/list]
  
 		Other Information:
@@ -26,20 +24,6 @@
 			<FromDatFile>patch.fat</FromDatFile>
 			<Source><![CDATA[generated\databases\generic\hudproperties_default.ndb]]></Source>
 			<Target><![CDATA[generated\databases\generic\hudproperties_default.ndb]]></Target>
-		</Pair>
-
-		<!-- shoppingitems.ndb -->
-		<Pair>
-			<FromDatFile>patch.fat</FromDatFile>
-			<Source><![CDATA[generated\databases\generic\shoppingitems.ndb]]></Source>
-			<Target><![CDATA[generated\databases\generic\shoppingitems.ndb]]></Target>
-		</Pair>
-
-		<!-- shopsubcategory1.ndb -->
-		<Pair>
-			<FromDatFile>patch.fat</FromDatFile>
-			<Source><![CDATA[generated\databases\generic\shopsubcategory1.ndb]]></Source>
-			<Target><![CDATA[generated\databases\generic\shopsubcategory1.ndb]]></Target>
 		</Pair>
 	</Pairs>
 </Info>
