@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<Replaces>
+		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
+			<Generic primaryKey_disLibItemId="9014915644816849">
+				<WeaponAttachmentsInfo>
+					<WeaponAttachmentsInfo>
+						<!-- Template -->
+						<!-- <Weapons arkWeapon="7679090023493">
+						</Weapons> -->
+
+						<!-- Handguns -->
+						<!-- SMGs -->
+						<!-- Shotguns -->
+						<!-- Assault Rifles -->
+						<!-- Sniper Rifles -->
+						<!-- LMGs -->
+						<!-- Laaunchers -->
+						<!-- Special Weapons -->			
+					</WeaponAttachmentsInfo>
+				</WeaponAttachmentsInfo>
+			</Generic>
+		</Replace>
+	</Replaces>
+</InfoReplace>
