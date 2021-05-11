@@ -934,10 +934,10 @@
 			<!-- Auto Cross Marksman Sight -->
 			<Generic primaryKey_disLibItemId="7840544102850" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="168" shpitpeItemType="67">
 				<ShopTypeDatas>
-					<ShopTypeData primaryKey_shptypShopType="1" buyValue="45000" />
-					<ShopTypeData primaryKey_shptypShopType="2" buyValue="45000" />
-					<ShopTypeData primaryKey_shptypShopType="4" buyValue="45000" />
-					<ShopTypeData primaryKey_shptypShopType="5" buyValue="45000" />
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="45000"/>
 				</ShopTypeDatas>
 			</Generic>
 		</Replace>
