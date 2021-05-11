@@ -1,25 +1,232 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <InfoReplace>
 	<Replaces>
-		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
-			<Generic primaryKey_disLibItemId="9014915644816849">
-				<WeaponAttachmentsInfo>
-					<WeaponAttachmentsInfo>
-						<!-- Template -->
-						<!-- <Weapons arkWeapon="7679090023493">
-						</Weapons> -->
+		<Replace RequiredFile="generated/databases/generic/hudproperties_default.ndb">
+			<!-- 1911 -->
+			<Weapons primaryKey_arkWeapon="7602852352217">
+				<AttachmentsInfo>
+					<Attachments count="0">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7646733255608" fAttchamentPosX="55"/>
+					</Attachments>
+					<Attachments count="2">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205334127" fAttchamentPosX="-5" fAttchamentPosY="-26"/>
+					</Attachments>
+					<Attachments count="4">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="-5" fAttchamentPosY="-26"/>
+					</Attachments>
+					<Attachments count="5">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-5" fAttchamentPosY="-26"/>
+					</Attachments>
+					<Attachments count="6">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-5" fAttchamentPosY="-26"/>
+					</Attachments>
+				</AttachmentsInfo>
+			</Weapons>
 
-						<!-- Handguns -->
-						<!-- SMGs -->
-						<!-- Shotguns -->
-						<!-- Assault Rifles -->
-						<!-- Sniper Rifles -->
-						<!-- LMGs -->
-						<!-- Laaunchers -->
-						<!-- Special Weapons -->			
-					</WeaponAttachmentsInfo>
-				</WeaponAttachmentsInfo>
-			</Generic>
+			<!-- .44 Magnum -->
+			<Weapons primaryKey_arkWeapon="7659620898856">
+				<AttachmentsInfo>
+					<Attachments count="2">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205334127" fAttchamentPosX="-8"/>
+					</Attachments>
+					<Attachments count="4">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-8"/>
+					</Attachments>
+					<Attachments count="5">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7728734188296" fAttchamentPosX="-8"/>
+					</Attachments>
+					<Attachments count="6">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7728734214457" fAttchamentPosX="-8"/>
+					</Attachments>
+				</AttachmentsInfo>
+			</Weapons>
+
+			<!-- D50 -->
+			<Weapons primaryKey_arkWeapon="7676525258612">
+				<AttachmentsInfo>
+					<Attachments count="1">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205334127" fAttchamentPosX="10" fAttchamentPosY="-28"/>
+					</Attachments>
+					<Attachments count="3">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="10" fAttchamentPosY="-28"/>
+					</Attachments>
+					<Attachments count="4">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7728734188296" fAttchamentPosX="10" fAttchamentPosY="-28"/>
+					</Attachments>
+					<Attachments count="15">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7728734214457" fAttchamentPosX="10" fAttchamentPosY="-28"/>
+					</Attachments>
+				</AttachmentsInfo>
+			</Weapons>
+
+			<!-- A99 -->
+			<Weapons primaryKey_arkWeapon="7811421549439">
+				<AttachmentsInfo clearNodeBeforeInsert="1">
+					<Attachments addNode="1">
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7666473493239" sUIIconName="Silencer" fAttchamentPosX="56" fAttchamentPosY="-24"/>
+					</Attachments>
+					<Attachments addNode="1">
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7854228547482" sUIIconName="A99Mag" fAttchamentPosX="-3" fAttchamentPosY="17"/>
+					</Attachments>
+					<Attachments addNode="1">
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7708205334127" sUIIconName="Optical" fAttchamentPosX="-15" fAttchamentPosY="-34"/>
+					</Attachments>
+					<Attachments addNode="1">
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734188296" sUIIconName="ReflexA" fAttchamentPosX="-15" fAttchamentPosY="-34"/>
+					</Attachments>
+					<Attachments addNode="1">
+						<AttachmentInfo arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-15" fAttchamentPosY="-34"/>
+					</Attachments addNode="1">
+					<Attachments addNode="1">
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="-15" fAttchamentPosY="-34"/>
+					</Attachments>
+					<Attachments addNode="1">
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0"/>
+					</Attachments>
+				</AttachmentsInfo>
+
+			</Weapons>
+
+			<!-- SMGs -->
+			<!-- Skorpion -->
+			<Weapons primaryKey_arkWeapon="495403542517206553">
+				<AttachmentsInfo>
+					<Attachments count="1">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-10" fAttchamentPosY="-24"/>
+					</Attachments>
+					<Attachments count="1">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-10" fAttchamentPosY="-24"/>
+					</Attachments>
+					<Attachments count="4">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205366872" fAttchamentPosX="-10" fAttchamentPosY="-24"/>
+					</Attachments>
+					<Attachments count="5">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205225130" sUIIconName="ReflexB" fAttchamentPosX="-10" fAttchamentPosY="-24"/>
+					</Attachments>
+				</AttachmentsInfo>
+			</Weapons>
+
+			<!-- A2000 -->
+			<Weapons primaryKey_arkWeapon="7639738883482">
+				<AttachmentsInfo>
+					<Attachments count="1">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-5"/>
+					</Attachments>
+					<Attachments count="2">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" fAttchamentPosX="-5"/>
+					</Attachments>
+					<Attachments count="3">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205225130" fAttchamentPosX="-5" fAttchamentPosY="-28"/>
+					</Attachments>
+					<Attachments count="5">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205366872" fAttchamentPosX="-5" fAttchamentPosY="-28"/>
+					</Attachments>
+				</AttachmentsInfo>
+			</Weapons>
+
+			<!-- Vector .45 ACP -->
+			<Weapons primaryKey_arkWeapon="7635867338492">
+				<AttachmentsInfo>
+					<Attachments count="3">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205225130" sUIIconName="ReflexB"/>
+					</Attachments>
+				</AttachmentsInfo>
+			</Weapons>
+
+			<!-- Shotguns -->
+			<!-- M133 -->
+			<!-- <Weapons primaryKey_arkWeapon="189158767856012825">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- 1887 -->
+			<!-- <Weapons primaryKey_arkWeapon="7679090023493">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- Assault Rifles -->
+			<!-- AK47 -->
+			<!-- <Weapons primaryKey_arkWeapon="216180365620235801">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- STG-90 -->
+			<!-- <Weapons primaryKey_arkWeapon="7598204629182">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- F1 -->
+			<!-- <Weapons primaryKey_arkWeapon="7656527669248">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- MS16 -->
+			<!-- <Weapons primaryKey_arkWeapon="7662973330456">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- A52 -->
+			<!-- <Weapons primaryKey_arkWeapon="7681075439447">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- Sniper Rifles -->
+			<!-- SVD -->
+			<!-- <Weapons primaryKey_arkWeapon="7643219808021">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- M700 -->
+			<!-- <Weapons primaryKey_arkWeapon="144122771582307865">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- Z93 -->
+			<!-- <Weapons primaryKey_arkWeapon="7671716426589">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- SA50 -->
+			<!-- <Weapons primaryKey_arkWeapon="7845903257979">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- LMGs -->
+			<!-- PKM -->
+			<!-- <Weapons primaryKey_arkWeapon="378309952205573657">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- U100 -->
+			<!-- <Weapons primaryKey_arkWeapon="7656527520569">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- MKG -->
+			<!-- <Weapons primaryKey_arkWeapon="7677582910076">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
+
+			<!-- Special Weapons -->
+			<!-- Autocross -->
+			<!-- <Weapons primaryKey_arkWeapon="7792905702112">
+				<AttachmentsInfo>
+				</AttachmentsInfo>
+			</Weapons> -->
 		</Replace>
 	</Replaces>
 </InfoReplace>
