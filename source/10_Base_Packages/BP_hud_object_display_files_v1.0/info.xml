@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Info>
 	<DefaultInclude>true</DefaultInclude>
 	<Description>HUD Object Display Files
 
-        This base package makes 3 files able to be modified by a3 packages:
+        This base package makes 1 file able to be modified by a3 packages:
 		[list]
-		[*] hudproperties_default.ndb: used for display of icons (like pickup weapons, etc) on the HUD.
+		[*] hudproperties_default.ndb: used for display of icons (like weapon pickups, etc) on the HUD.
 		[/list]
  
 		Other Information:
@@ -23,6 +24,7 @@
 		<Pair>
 			<FromDatFile>patch.fat</FromDatFile>
 			<Source><![CDATA[generated\databases\generic\hudproperties_default.ndb]]></Source>
+			<!-- <Source><![CDATA[hudproperties_default.ndb]]></Source> -->
 			<Target><![CDATA[generated\databases\generic\hudproperties_default.ndb]]></Target>
 		</Pair>
 	</Pairs>
