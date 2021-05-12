@@ -75,8 +75,8 @@
 						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734188296" sUIIconName="ReflexA" fAttchamentPosX="-15" fAttchamentPosY="-34"/>
 					</Attachments>
 					<Attachments addNode="1">
-						<AttachmentInfo arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-15" fAttchamentPosY="-34"/>
-					</Attachments addNode="1">
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-15" fAttchamentPosY="-34"/>
+					</Attachments>
 					<Attachments addNode="1">
 						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="-15" fAttchamentPosY="-34"/>
 					</Attachments>
@@ -94,7 +94,7 @@
 					<Attachments count="1">
 						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-10" fAttchamentPosY="-24"/>
 					</Attachments>
-					<Attachments count="1">
+					<Attachments count="2">
 						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-10" fAttchamentPosY="-24"/>
 					</Attachments>
 					<Attachments count="4">
@@ -157,19 +157,19 @@
 			<Weapons primaryKey_arkWeapon="216180365620235801">
 				<AttachmentsInfo>
 					<Attachments count="0">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-13" fAttchamentPosY="-24"/>
 					</Attachments>
 					<Attachments count="1">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-13" fAttchamentPosY="-24"/>
 					</Attachments>
 					<Attachments count="2">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-13" fAttchamentPosY="-24"/>
 					</Attachments>
 					<Attachments count="3">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473538432" fAttchamentPosX="83" fAttchamentPosY="-11" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473538432" fAttchamentPosX="83" fAttchamentPosY="-11"/>
 					</Attachments>
 					<Attachments count="5">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708623574868" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708623574868" fAttchamentPosX="-13" fAttchamentPosY="-24"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -178,13 +178,13 @@
 			<Weapons primaryKey_arkWeapon="7598204629182">
 				<AttachmentsInfo>
 					<Attachments count="1">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" sUIIconName="ACOG"/>
 					</Attachments >
 					<Attachments count="2">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB"/>
 					</Attachments>
 					<Attachments count="3">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473538432" fAttchamentPosX="65" fAttchamentPosY="-8" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473538432" fAttchamentPosX="65" fAttchamentPosY="-8"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -202,16 +202,16 @@
 			<Weapons primaryKey_arkWeapon="7662973330456">
 				<AttachmentsInfo>
 					<Attachments count="0">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-7" fAttchamentPosY="-22"/>
 					</Attachments>
 					<Attachments count="1">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" fAttchamentPosX="-7" fAttchamentPosY="-22"/>
 					</Attachments>
 					<Attachments count="2">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-7" fAttchamentPosY="-22"/>
 					</Attachments>
 					<Attachments count="5">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708623574868" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708623574868" fAttchamentPosX="-7" fAttchamentPosY="-22"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -220,19 +220,19 @@
 			<Weapons primaryKey_arkWeapon="7681075439447">
 				<AttachmentsInfo>
 					<Attachments count="0">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-26" fAttchamentPosY="-25"/>
 					</Attachments>
 					<Attachments count="1">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" fAttchamentPosX="-26" fAttchamentPosY="-25"/>
 					</Attachments>
 					<Attachments count="2">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" fAttchamentPosX="-26" fAttchamentPosY="-25"/>
 					</Attachments>
 					<Attachments count="3">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473538432" fAttchamentPosX="75" fAttchamentPosY="-9.5" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473538432" fAttchamentPosX="75" fAttchamentPosY="-9.5"/>
 					</Attachments>
 					<Attachments count="5">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708623574868" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708623574868" fAttchamentPosX="-26" fAttchamentPosY="-25"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -242,13 +242,13 @@
 			<Weapons primaryKey_arkWeapon="7643219808021">
 				<AttachmentsInfo>
 					<Attachments count="0">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473669635"fAttchamentPosX="95" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473669635" fAttchamentPosX="95"/>
 					</Attachments>
 					<Attachments count="1">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7705370039467" fAttchamentPosX="-11" fAttchamentPosY="-15" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7705370039467" fAttchamentPosX="-11" fAttchamentPosY="-15"/>
 					</Attachments>
 					<Attachments count="2">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7705370388939" fAttchamentPosX="-11" fAttchamentPosY="-15" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7705370388939" fAttchamentPosX="-11" fAttchamentPosY="-15"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -257,10 +257,10 @@
 			<Weapons primaryKey_arkWeapon="144122771582307865">
 				<AttachmentsInfo>
 					<Attachments count="2">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7707382671690" sUIIconName="HighPowerScope" fAttchamentPosY="-16" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7707382671690" sUIIconName="HighPowerScope" fAttchamentPosY="-16"/>
 					</Attachments>
 					<Attachments count="3">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7707382639531" fAttchamentPosX="-10" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7707382639531" fAttchamentPosX="-10"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -269,10 +269,10 @@
 			<Weapons primaryKey_arkWeapon="7671716426589">
 				<AttachmentsInfo>
 					<Attachments count="3">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7707382589914" sUIIconName="HighPowerScope" fAttchamentPosX="-13" fAttchamentPosY="-13" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7707382589914" sUIIconName="HighPowerScope" fAttchamentPosX="-13" fAttchamentPosY="-13"/>
 					</Attachments>
 					<Attachments count="4">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7707382617869" sUIIconName="IlluminatedScope" fAttchamentPosX="-17" fAttchamentPosY="-13" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7707382617869" sUIIconName="IlluminatedScope" fAttchamentPosX="-17" fAttchamentPosY="-13"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -281,10 +281,10 @@
 			<Weapons primaryKey_arkWeapon="7845903257979">
 				<AttachmentsInfo>
 					<Attachments count="1">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7857186318141" sUIIconName="HighPowerScope" fAttchamentPosX="0" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7857186318141" sUIIconName="HighPowerScope" fAttchamentPosX="0"/>
 					</Attachments>
 					<Attachments count="3">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7857186575552" sUIIconName="IlluminatedScope" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7857186575552" sUIIconName="IlluminatedScope"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -294,16 +294,16 @@
 			<Weapons primaryKey_arkWeapon="378309952205573657">
 				<AttachmentsInfo>
 					<Attachments count="0">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7723385677420" fAttchamentPosX="-20" fAttchamentPosY="-22" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7723385677420" fAttchamentPosX="-20" fAttchamentPosY="-22"/>
 					</Attachments>
 					<Attachments count="1">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7723385704509" sUIIconName="ACOG" fAttchamentPosX="-20" fAttchamentPosY="-22" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7723385704509" sUIIconName="ACOG" fAttchamentPosX="-20" fAttchamentPosY="-22"/>
 					</Attachments>
 					<Attachments count="2">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205260853" sUIIconName="ReflexB" fAttchamentPosX="-20" fAttchamentPosY="-22" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205260853" sUIIconName="ReflexB" fAttchamentPosX="-20" fAttchamentPosY="-22"/>
 					</Attachments>
 					<Attachments count="4">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7722692876924" fAttchamentPosX="-20" fAttchamentPosY="-22" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7722692876924" fAttchamentPosX="-20" fAttchamentPosY="-22"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -321,16 +321,16 @@
 			<Weapons primaryKey_arkWeapon="7677582910076">
 				<AttachmentsInfo>
 					<Attachments count="0">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7723385677420" fAttchamentPosX="-11" fAttchamentPosY="-30" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7723385677420" fAttchamentPosX="-11" fAttchamentPosY="-30"/>
 					</Attachments>
 					<Attachments count="1">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7723385704509" fAttchamentPosX="-11" fAttchamentPosY="-30" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7723385704509" fAttchamentPosX="-11" fAttchamentPosY="-30"/>
 					</Attachments>
 					<Attachments count="2">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205260853" fAttchamentPosX="-11" fAttchamentPosY="-30" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205260853" fAttchamentPosX="-11" fAttchamentPosY="-30"/>
 					</Attachments>
 					<Attachments count="4">
-						<AttachmentInfo primaryKey_arkAttachmentArchetype="7722692876924" fAttchamentPosX="-11" fAttchamentPosY="-30" />
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7722692876924" fAttchamentPosX="-11" fAttchamentPosY="-30"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>
@@ -340,22 +340,22 @@
 			<Weapons primaryKey_arkWeapon="7792905702112">
 				<AttachmentsInfo clearNodeBeforeInsert="1">
 					<Attachments addNode="1">
-						<AttachmentInfo addNode="1" arkAttachmentArchetype="7708205334127" sUIIconName="Optical" fAttchamentPosX="-18" fAttchamentPosY="-24" />
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7708205334127" sUIIconName="Optical" fAttchamentPosX="-18" fAttchamentPosY="-24"/>
 					</Attachments>
 					<Attachments addNode="1">
-						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734188296" sUIIconName="ReflexA" fAttchamentPosX="-18" fAttchamentPosY="-24" />
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734188296" sUIIconName="ReflexA" fAttchamentPosX="-18" fAttchamentPosY="-24"/>
 					</Attachments>
 					<Attachments addNode="1">
-						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="-18" fAttchamentPosY="-24" />
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734214457" sUIIconName="ACOG" fAttchamentPosX="-18" fAttchamentPosY="-24"/>
 					</Attachments>
 					<Attachments addNode="1">
-						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-18" fAttchamentPosY="-24" />
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7728734545775" sUIIconName="ReflexB" fAttchamentPosX="-18" fAttchamentPosY="-24"/>
 					</Attachments>
 					<Attachments addNode="1">
-						<AttachmentInfo addNode="1" arkAttachmentArchetype="7674510304021" sUIIconName="M1887Mag" fAttchamentPosX="2" fAttchamentPosY="-3" />
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="7674510304021" sUIIconName="M1887Mag" fAttchamentPosX="2" fAttchamentPosY="-3"/>
 					</Attachments>
 					<Attachments addNode="1">
-						<AttachmentInfo addNode="1" arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0" />
+						<AttachmentInfo addNode="1" arkAttachmentArchetype="0" sUIIconName="" fAttchamentPosX="0" fAttchamentPosY="0"/>
 					</Attachments>
 				</AttachmentsInfo>
 			</Weapons>

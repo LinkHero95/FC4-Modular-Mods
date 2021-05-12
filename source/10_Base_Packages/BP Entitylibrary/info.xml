@@ -1,14 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Info>
     <DefaultInclude>true</DefaultInclude>
-    <Description>Entity Library File
 
-        This base package makes the entitylibrary.fcb able to be modified by a3 packages.
-  
-        [color=yellow]If a mod collides with this base package, then just simply disable this package, because a mod you want to use probably contains these files.[/color]
+ 	<Description>EntitylLibrary
 
-        [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
-    </Description>
+        This base package makes 1 file able to be modified by a3 packages:
+		[list]
+		[*] entitylibrary.fcb: A master list of all the object archetypes used in game.
+		[/list]
+ 
+		Other Information:
+		[list]
+		[*] [color=yellow]If a mod collides with this base package, then just simply disable this package, because a mod you want to use probably contains these files.[/color]
+		[/list]
+
+		Credits: 
+		[list]
+		[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+		[/list]
+	</Description>
+
     <Category>10</Category>
+
     <Pairs>
         <Pair>
             <FromDatFile>patch.fat</FromDatFile>
