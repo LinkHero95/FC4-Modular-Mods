@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<DefaultInclude>false</DefaultInclude>
+	<Description>FC4 Open World - Attachments Unlock
+
+    Unlocks attachments for weapons from the start. Also increases the available slots for attachments for each weapon.
+
+    Changes made by this mod:
+    [list]
+    [*] Attachments for weapons are available in the shop from the start.
+    [*] The number of attachment slots for weapons has been increased to the maximum amount of attachments that can be simultaneously applied e.g. shotguns and LMGs have two slots, while rifles and SMGs have 3.
+    [/list]
+
+    Other Information:
+    [list]
+    [*] This mod is part of jvarnes' Open World Mod.
+    [*] This mod is co-op friendly.
+	[*] Before uninstalling this mod, ensure that [b]ALL[/b] weapons in the shop have [u]zero[/u] attachments attached to them, even if the weapons are not in your inventory.
+	[/list]
+	
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/1251163][b]jvarnes[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/71678078][b]Amichai-Oz Yannai[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
+	[/list]
+	</Description>
+
+	<Dependencies>
+		<Dependency Name="Shop files">
+			<Package File="BP Shop Files.a3"/>
+		</Dependency>
+		<Dependency Name="HUD Icon Display Files">
+			<Package File="BP HUD Icon Display Files.a3"/>
+		</Dependency>
+	</Dependencies>>
+
+	<Category>3</Category>
+
+	<Replaces>
+		<!-- Weapon archetype files -->
+		<!-- Handguns -->
+		<!-- Mark IV -->
+		<Replace RequiredFile="entityarchetypeslibrary/7817179374877.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="1" type="BinHex">01000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- M-712 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7843644073721.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="2" type="BinHex">02000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- 1911 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7602852762562.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- 6P9 -->
+		<Replace RequiredFile="entityarchetypeslibrary/324266755348681119.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- .44 Magnum -->
+		<Replace RequiredFile="entityarchetypeslibrary/7659621595554.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="2" type="BinHex">02000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- D50 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7676525528817.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="2" type="BinHex">02000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- A99 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7811421726926.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- SMGs -->
+		<!-- Skorpion -->
+		<Replace RequiredFile="entityarchetypeslibrary/387317150131868063.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- MP34 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7839194524044.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="1" type="BinHex">01000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- A2000 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7639739152790.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- MP5 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7660420242520.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- Shotguns -->
+		<!-- D2 -->
+		<!-- will decide what to do later -->
+
+		<!-- M133 -->
+		<Replace RequiredFile="entityarchetypeslibrary/144122770253861279.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="2" type="BinHex">02000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- 1887 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7679090354180.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="2" type="BinHex">02000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- Assault Rifles -->
+		<!-- AK47 -->
+		<Replace RequiredFile="entityarchetypeslibrary/171144368018084255.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<field hash="DCD2897C" name="fNearFovDegrees" value-Float32="75" type="BinHex">00009642</field>
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+					<object hash="1943503F" name="ModelsForLoad">
+						<object hash="7EA7F8EA" name="Attachments_1cf9ac4462e00092">
+							<object hash="F924D31F" name="weaponOffset">
+								<field hash="056A4EA9" name="fMaxY" value-Float32="0.08" type="BinHex">0AD7A33D</field>
+							</object>
+						</object>
+						<object hash="E0C36D49" name="Attachments_1cf9ac4462e00095">
+							<object hash="F924D31F" name="weaponOffset">
+								<field hash="056A4EA9" name="fMaxY" value-Float32="0.08" type="BinHex">0AD7A33D</field>
+								<field hash="9C631F13" name="fMaxZ" value-Float32="-0.026" type="BinHex">F4FDD4BC</field>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="BD1AE42A" name="Marksman">
+					<field hash="DCD2897C" name="fNearFovDegrees" value-Float32="75" type="BinHex">00009642</field>
+				</object>
+				<object hash="BB04E184" name="IronSight">
+					<field hash="ED2BBBA7" name="fIronsightFOVDegrees" value-Float32="75" type="BinHex">00009642</field>
+					<field hash="C857C8DA" name="fIronsightNearFOVDegrees" value-Float32="75" type="BinHex">00009642</field>
+					<object hash="891543F6" name="ironsightDof">
+						<field hash="4CC34AA1" name="fBlur" value-Float32="0" type="BinHex">00000000</field>
+						<field hash="37EF5ED9" name="fBlurFactor" value-Float32="0" type="BinHex">00000000</field>
+					</object>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- STG-90 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7598204997445.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- F1 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7656527764316.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- MS16 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7662974066226.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- P416 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7679076076980.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- A52 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7681075852019.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- Sniper Rifles -->
+		<!-- SVD -->
+		<Replace RequiredFile="entityarchetypeslibrary/7643219958677.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- M-700 -->
+		<Replace RequiredFile="entityarchetypeslibrary/99086773980156319.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="3" type="BinHex">03000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- LMGs -->
+		<!-- PKM -->
+		<Replace RequiredFile="entityarchetypeslibrary/306252356839199135.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="2" type="BinHex">02000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- U100 -->
+		<Replace RequiredFile="entityarchetypeslibrary/7656527615455.ark.fcb">
+			<object hash="FC33DE57" name="CommonProperties">
+				<object hash="C1587501" name="Attachments">
+					<field hash="580C17C6" name="iMaxNumAttachments" value-Int32="2" type="BinHex">02000000</field>
+				</object>
+			</object>
+		</Replace>
+
+		<!-- Weapon attachments data -->
+		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
+			<!-- Handgun Attachments -->
+			<!-- Mark IV - Night Sight -->
+			<Generic primaryKey_disLibItemId="7856643211447">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="9500"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="9500"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="9500"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="9500"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- M-712 Extended Magazine -->
+			<Generic primaryKey_disLibItemId="7856649233766">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="28000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- 1911 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7728888934059" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="74">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- 1911 Optical Sight -->
+			<Generic primaryKey_disLibItemId="7667934397528" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="74">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- 1911 Reflex Sight -->
+			<Generic primaryKey_disLibItemId="7728888968508" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="74">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- 1911 Red Dot Sight -->
+			<Generic primaryKey_disLibItemId="7728888978036" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="74">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- 1911 Suppressor -->
+			<Generic primaryKey_disLibItemId="7667934349236" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="74">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- .44 Magnum Extended Barrel -->
+			<Generic primaryKey_disLibItemId="7667946317734">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- .44 Magnum Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7728888991708" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="76">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="45000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- .44 Magnum Optical Sight -->
+			<Generic primaryKey_disLibItemId="7667946348856" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="76">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- D50 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7728889116873" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="104">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- A99 Night Sight -->
+			<Generic primaryKey_disLibItemId="7840385032300">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- A99 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7840385055757" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="184">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- SMG Attachments -->
+			<!-- Skorpion Extended Magazine -->
+			<Generic primaryKey_disLibItemId="7667946460219">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="28000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Skorpion Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7728888873646" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="154">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="45000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Skorpion Optical Sight -->
+			<Generic primaryKey_disLibItemId="7711351588290" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="154">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Skorpion Reflex Sight -->
+			<Generic primaryKey_disLibItemId="7667946510709" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="154">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="32000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Skorpion Red Dot Sight -->
+			<Generic primaryKey_disLibItemId="7667946518077" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="154">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="32000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Skorpion Suppressor -->
+			<Generic primaryKey_disLibItemId="7667946479067">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- MP34 Extended Magazine -->
+			<Generic primaryKey_disLibItemId="7856660682998">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="28000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- A2000 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667959061801" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="82">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- A2000 Optical Sight -->
+			<Generic primaryKey_disLibItemId="7711350975044" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="82">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- A2000 Reflex Sight -->
+			<Generic primaryKey_disLibItemId="7667959072201">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="32000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- A2000 Suppressor -->
+			<Generic primaryKey_disLibItemId="7667959045991">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- MP5 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667958845962" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="80">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="45000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- MP5 Optical Sight -->
+			<Generic primaryKey_disLibItemId="7711351440784" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="80">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- BZ19 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667958752716" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="79">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Vector .45ACP Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667958933611" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="81">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Shotgun Attachments -->
+			<!-- M133 Night Sight -->
+			<Generic primaryKey_disLibItemId="7667956966535">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- M133 Extended Magazine -->
+			<Generic primaryKey_disLibItemId="7655448456779">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="28000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- M133 Reflex Sight -->
+			<Generic primaryKey_disLibItemId="7667956978495" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="89">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- M133 Red Dot Sight -->
+			<Generic primaryKey_disLibItemId="7667956987431" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="89">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- SPAS12 Night Sight -->
+			<Generic primaryKey_disLibItemId="7667957009721">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="9500" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- SPAS12 Red Dot Sight -->
+			<Generic primaryKey_disLibItemId="7667957022586">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Assault Rifle Attachments -->
+			<!-- AK47 Display -->
+			<Generic primaryKey_disLibItemId="7655443393041">
+				<DefaultPositionOnScreen vectorDisplayDefaultPosition="0.09,0.4,0.24" DisplayDefaultAngles="8,0,108" vectorDisplayDefaultPositionWithSilencer="0.09,0.4,0.24" DisplayDefaultAnglesWithSilencer="8,0,108"/>
+			</Generic>
+
+			<!-- AK47 Extended Magazine -->
+			<Generic primaryKey_disLibItemId="7655448366736">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="28000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="28000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="28000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="28000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- AK47 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667952051392" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="83">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="45000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- AK47 Optical Sight -->
+			<Generic primaryKey_disLibItemId="7728888726106" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="83">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- AK47 Reflex Sight -->
+			<Generic primaryKey_disLibItemId="7667952065482" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="83">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="32000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- AK47 Red Dot Sight -->
+			<Generic primaryKey_disLibItemId="7667952072888" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="83">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="32000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- AK47 Suppressor -->
+			<Generic primaryKey_disLibItemId="7667952041904" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="83">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- STG-90 Display -->
+			<Generic primaryKey_disLibItemId="7667812319534">
+				<DefaultPositionOnScreen vectorDisplayDefaultPosition="-0.04,0.21,0.24" DisplayDefaultAngles="11.1,0.3,122.12" vectorDisplayDefaultPositionWithSilencer="-0.04,0.21,0.24" DisplayDefaultAnglesWithSilencer="11.1,0.3,122.12"/>
+			</Generic>
+
+			<!-- STG-90 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667952416606" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="101">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- STG-90 Optical Sight -->
+			<Generic primaryKey_disLibItemId="7728888820413" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="101">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- STG-90 Red Dot Sight -->
+			<Generic primaryKey_disLibItemId="7667952433576">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- STG-90 Suppressor -->
+			<Generic primaryKey_disLibItemId="7667952394645" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="101">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- F1 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667952209399" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="85">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="45000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- F1 Optical Sight -->
+			<Generic primaryKey_disLibItemId="7728888737650" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="85" shpitpeItemType="67">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- F1 Reflex Sight -->
+			<Generic primaryKey_disLibItemId="7667952217879">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="32000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- MS16 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667952281762" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="155">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- P416 Suppressor -->
+			<Generic primaryKey_disLibItemId="7667952333724" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="87">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- A52 Display -->
+			<Generic primaryKey_disLibItemId="7681355770983">
+				<DefaultPositionOnScreen vectorDisplayDefaultPosition="0.01,0.44,0.26" DisplayDefaultAngles="17.31,5.29,97.6" vectorDisplayDefaultPositionWithSilencer="0.01,0.44,0.26" DisplayDefaultAnglesWithSilencer="17.31,5.29,97.6"/>
+			</Generic>
+
+			<!-- A52 Suppressor -->
+			<Generic primaryKey_disLibItemId="7681356078757" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="113">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="42000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Sniper Rifle Attachments -->
+			<!-- SVD High Power Scope -->
+			<Generic primaryKey_disLibItemId="7668083926809">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="60000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="60000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="60000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="60000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- SVD Enhanced Scope -->
+			<Generic primaryKey_disLibItemId="7668083936602" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="96" shpitpeItemType="67">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="75000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="75000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="75000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="75000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+\    </ShopTypeDatas>
+			</Generic>
+
+			<!-- SVD Extended Magazine -->
+			<Generic primaryKey_disLibItemId="7655448127541">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="28000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- SVD Suppressor -->
+			<Generic primaryKey_disLibItemId="7668083884624">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- M700 Enhanced Scope -->
+			<Generic primaryKey_disLibItemId="7668083872559">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="75000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="75000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="75000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="75000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- LMG Attachments -->
+			<!-- PKM Extended Magazine -->
+			<Generic primaryKey_disLibItemId="7655448240784">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="28000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="28000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- PKM Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667955739375" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="156">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="45000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- PKM Optical Sight -->
+			<Generic primaryKey_disLibItemId="7728888899431" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="156">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="42000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="42000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- PKM Reflex Sight -->
+			<Generic primaryKey_disLibItemId="7667955748279">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="32000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- PKM Red Dot Sight -->
+			<Generic primaryKey_disLibItemId="7667955753808" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="156">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="32000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="32000"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- U100 Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7667955788305" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="158">
+				<ShopTypeDatas clearNodeBeforeInsert="1">
+					<ShopTypeData addNode="1" shptypShopType="1" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="2" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="1" arkKarmaLevelPricesCurve="7866460751704"/>
+					<ShopTypeData addNode="1" shptypShopType="4" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="5" buyValue="45000" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+					<ShopTypeData addNode="1" shptypShopType="255" buyValue="-1" sellValue="-1" bModulateCostOfItemWithKarmaLevel="0"/>
+				</ShopTypeDatas>
+			</Generic>
+
+			<!-- Special Weapon Attachments -->
+			<!-- Auto Cross Marksman Sight -->
+			<Generic primaryKey_disLibItemId="7840544102850" shpcatCategory="11" shpscataSubCategory1="187" shpscatbSubCategory2="168" shpitpeItemType="67">
+				<ShopTypeDatas>
+					<ShopTypeData primaryKey_shptypShopType="1" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="2" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="4" buyValue="45000"/>
+					<ShopTypeData primaryKey_shptypShopType="5" buyValue="45000"/>
+				</ShopTypeDatas>
+			</Generic>
+		</Replace>
+	</Replaces>
+</InfoReplace>
