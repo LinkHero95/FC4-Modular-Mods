@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<DefaultInclude>false</DefaultInclude>
+	<Description>FC4 Open World - Skills Unlock
+
+    Unlocks All skills from the start.
+
+    Changes made by this mod:
+    [list]
+    [*] All requirements for unlocking skills (like "Complete these missions" or "Reach this Arena rank/Karma level") have been removed. All skills are now available from the start.
+    [/list]
+
+    Other Information:
+    [list]
+    [*] This mod is part of jvarnes' Open World Mod.
+    [*] This mod is co-op friendly.
+	[/list]
+	
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/1251163][b]jvarnes[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/71678078][b]Amichai-Oz Yannai[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
+	[/list]
+	</Description>
+
+	<Dependencies>
+		<Dependency Name="Templates file">
+			<Package File="BP Templates.a3"/>
+		</Dependency>
+	</Dependencies>>
+
+	<Category>3</Category>
+
+	<Replaces>
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb">
+			<object hash="E6E07252" name="Single_Player">
+				<object hash="3E572127" name="Chapters">
+					<object hash="07E7DFB5" name="ChapterList">
+						<!-- Tiger Skill Tree -->
+						<object hash="3E572127" name="Chapters" count="3">
+							<object hash="3C541623" name="BasicAbilities">
+								<object hash="E8D70A41" name="SkillsList">
+									<!-- Stay on Target -->
+									<object hash="A920C2D1" name="AbilityType" count="2">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Ammo Wrangler -->
+									<object hash="A920C2D1" name="AbilityType" count="3">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Huntsman -->
+									<object hash="A920C2D1" name="AbilityType" count="5">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Breath Control -->
+									<object hash="A920C2D1" name="AbilityType" count="6">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Soft Landing -->
+									<object hash="A920C2D1" name="AbilityType" count="9">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Non-Stop -->
+									<object hash="A920C2D1" name="AbilityType" count="11">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Cover Takedown -->
+									<object hash="A920C2D1" name="AbilityType" count="14">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Grenade Takedown -->
+									<object hash="A920C2D1" name="AbilityType" count="15">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Chain Takedown -->
+									<object hash="A920C2D1" name="AbilityType" count="17">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Vehicle Takedown -->
+									<object hash="A920C2D1" name="AbilityType" count="19">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Bullet Sponge -->
+									<object hash="A920C2D1" name="AbilityType" count="22">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Heavy Takedown -->
+									<object hash="A920C2D1" name="AbilityType" count="23">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+
+						<!-- Elephant Skill Tree -->
+						<object hash="3E572127" name="Chapters" count="4">
+							<object hash="3C541623" name="BasicAbilities">
+								<object hash="E8D70A41" name="SkillsList">
+									<!-- Dominant Strength -->
+									<object hash="A920C2D1" name="AbilityType" count="2">
+										<field hash="325FA8B9" name="UnlockOnMissionComplete" type="BinHex">00</field>
+									</object>
+
+									<!-- Unyielding Strength -->
+									<object hash="A920C2D1" name="AbilityType" count="3">
+										<field hash="325FA8B9" name="UnlockOnMissionComplete" type="BinHex">00</field>
+									</object>
+
+									<!-- Improvised Surgery -->
+									<object hash="A920C2D1" name="AbilityType" count="6">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Healing Syringe Level 3 -->
+									<object hash="A920C2D1" name="AbilityType" count="7">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Karma Boost -->
+									<object hash="A920C2D1" name="AbilityType" count="10">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Overdose Syringe -->
+									<object hash="A920C2D1" name="AbilityType" count="11">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Hunting Syringe Level 2 -->
+									<object hash="A920C2D1" name="AbilityType" count="14">
+										<field hash="325FA8B9" name="UnlockOnMissionComplete" type="BinHex">00</field>
+									</object>
+
+									<!-- Hunting Syringe Duration Boost -->
+									<object hash="A920C2D1" name="AbilityType" count="15">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Survival Syringe Level 2 -->
+									<object hash="A920C2D1" name="AbilityType" count="18">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Survival Syringe Duration Boost -->
+									<object hash="A920C2D1" name="AbilityType" count="19">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+
+									<!-- Focus Syringe Level 2 -->
+									<object hash="A920C2D1" name="AbilityType" count="22">
+										<field hash="325FA8B9" name="UnlockOnMissionComplete" type="BinHex">00</field>
+									</object>
+
+									<!-- Focus Syringe Duration Boost -->
+									<object hash="A920C2D1" name="AbilityType" count="23">
+										<object hash="65BA3C6A" name="preReq">
+											<field hash="0689054C" name="selStatisticType" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</Replace>
+	</Replaces>
+</InfoReplace>
