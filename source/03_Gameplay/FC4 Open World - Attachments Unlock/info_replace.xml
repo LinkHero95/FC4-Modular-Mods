@@ -27,10 +27,10 @@
 	</Description>
 
 	<Dependencies>
-		<Dependency Name="Shop files">
+		<Dependency Name="Shop files" Action="or">
 			<Package File="BP Shop Files.a3"/>
 		</Dependency>
-		<Dependency Name="HUD Icon Display Files">
+		<Dependency Name="HUD Icon Display Files" Action="or">
 			<Package File="BP HUD Icon Display Files.a3"/>
 		</Dependency>
 	</Dependencies>>

@@ -26,7 +26,7 @@
 	</Description>
 
 	<Dependencies>
-		<Dependency Name="Templates file">
+		<Dependency Name="Templates file" Action="or">
 			<Package File="BP Templates.a3"/>
 		</Dependency>
 	</Dependencies>>
