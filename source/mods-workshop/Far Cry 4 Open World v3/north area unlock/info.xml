@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Info>
-    <DefaultInclude>false</DefaultInclude>
-    <Description>FAR CRY 4 OPEN WORLD - North Unlock [color=lightblue][b]This mod opens the game up from the start so that you can enjoy it any way you like (even bypassing the campaign if you wish).[/b][/color]
-
+	<DefaultInclude>false</DefaultInclude>
+	<Description>FAR CRY 4 OPEN WORLD - North Unlock
+	
+	Does crazy stuff.
 
     Changes made by this mod:
     [list]
-    [*]Opens the North from the very beginning of the game. It will still be covered in fog until you climb bell towers to remove the "fog of war". The Kings Bridge will still warn you "Dangerous Territory Ahead" when you try to go into the north, but the game will not prevent you from doing so should you wish to. 
+    [*] Opens the North from the very beginning of the game. It will still be covered in fog until you climb bell towers to remove the "fog of war". The Kings Bridge will still warn you "Dangerous Territory Ahead" when you try to go into the north, but the game will not prevent you from doing so should you wish to. 
     [/list]
 
     Warnings: 
@@ -15,9 +16,13 @@
     [*] This mod may cause the game to crash during the mission 'A Key to the North'. If this happens, please uninstall the mod before starting the mission. After the mission is complete, this mod will not be necessary anyway.
     [/list]
 
-    [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/1251163][b]jvarnes[/b][/url][/size]
-    [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/71678078][b]Amichai-Oz Yannai[/b][/url][/size]
-    [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
-    </Description>
-    <Category>3</Category>
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/1251163][b]jvarnes[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/71678078][b]Amichai-Oz Yannai[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
+	[/list]
+	</Description>
+
+	<Category>3</Category>
 </Info>

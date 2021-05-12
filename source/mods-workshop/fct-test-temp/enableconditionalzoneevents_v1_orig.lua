@@ -7,10 +7,8 @@ function EnableConditionalZoneEvents:SetState(zoneId, state)
   SetConditionalZoneIdState(zoneId, state)
 end
 function EnableConditionalZoneEvents:Lock()
-  local out = self.Unlocked
---   local out = self.Locked
-  self:SetState(self.zoneID, false)
---   self:SetState(self.zoneID, true)
+  local out = self.Locked
+  self:SetState(self.zoneID, true)
   out(self)
 end
 function EnableConditionalZoneEvents:Unlock()
