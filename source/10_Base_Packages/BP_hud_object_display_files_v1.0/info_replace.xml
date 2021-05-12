@@ -135,47 +135,107 @@
 
 			<!-- Shotguns -->
 			<!-- M133 -->
-			<!-- <Weapons primaryKey_arkWeapon="189158767856012825">
+			<Weapons primaryKey_arkWeapon="189158767856012825">
 				<AttachmentsInfo>
+					<Attachments count="2">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7738074037280" sUIIconName="ACOG"/>
+					</Attachments>
 				</AttachmentsInfo>
-			</Weapons> -->
+			</Weapons>
 
 			<!-- 1887 -->
-			<!-- <Weapons primaryKey_arkWeapon="7679090023493">
+			<Weapons primaryKey_arkWeapon="7679090023493">
 				<AttachmentsInfo>
+					<Attachments count="3">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7674510304021" fAttchamentPosY="-4"/>
+					</Attachments>
 				</AttachmentsInfo>
-			</Weapons> -->
+			</Weapons>
 
 			<!-- Assault Rifles -->
 			<!-- AK47 -->
-			<!-- <Weapons primaryKey_arkWeapon="216180365620235801">
+			<Weapons primaryKey_arkWeapon="216180365620235801">
 				<AttachmentsInfo>
+					<Attachments count="0">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+					</Attachments>
+					<Attachments count="1">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+					</Attachments>
+					<Attachments count="2">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+					</Attachments>
+					<Attachments count="3">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473538432" fAttchamentPosX="83" fAttchamentPosY="-11" />
+					</Attachments>
+					<Attachments count="5">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708623574868" fAttchamentPosX="-13" fAttchamentPosY="-24" />
+					</Attachments>
 				</AttachmentsInfo>
-			</Weapons> -->
+			</Weapons>
 
 			<!-- STG-90 -->
-			<!-- <Weapons primaryKey_arkWeapon="7598204629182">
+			<Weapons primaryKey_arkWeapon="7598204629182">
 				<AttachmentsInfo>
+					<Attachments count="1">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" sUIIconName="ACOG" />
+					</Attachments >
+					<Attachments count="2">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" />
+					</Attachments>
+					<Attachments count="3">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473538432" fAttchamentPosX="65" fAttchamentPosY="-8" />
+					</Attachments>
 				</AttachmentsInfo>
-			</Weapons> -->
+			</Weapons>
 
 			<!-- F1 -->
-			<!-- <Weapons primaryKey_arkWeapon="7656527669248">
+			<Weapons primaryKey_arkWeapon="7656527669248">
 				<AttachmentsInfo>
+					<Attachments count="2">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB"/>
+					</Attachments>
 				</AttachmentsInfo>
-			</Weapons> -->
+			</Weapons>
 
 			<!-- MS16 -->
-			<!-- <Weapons primaryKey_arkWeapon="7662973330456">
+			<Weapons primaryKey_arkWeapon="7662973330456">
 				<AttachmentsInfo>
+					<Attachments count="0">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+					</Attachments>
+					<Attachments count="1">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+					</Attachments>
+					<Attachments count="2">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" sUIIconName="ReflexB" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+					</Attachments>
+					<Attachments count="5">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708623574868" fAttchamentPosX="-7" fAttchamentPosY="-22" />
+					</Attachments>
 				</AttachmentsInfo>
-			</Weapons> -->
+			</Weapons>
 
 			<!-- A52 -->
-			<!-- <Weapons primaryKey_arkWeapon="7681075439447">
+			<Weapons primaryKey_arkWeapon="7681075439447">
 				<AttachmentsInfo>
+					<Attachments count="0">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7647656694902" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+					</Attachments>
+					<Attachments count="1">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666463205441" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+					</Attachments>
+					<Attachments count="2">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708205238675" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+					</Attachments>
+					<Attachments count="3">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7666473538432" fAttchamentPosX="75" fAttchamentPosY="-9.5" />
+					</Attachments>
+					<Attachments count="5">
+						<AttachmentInfo primaryKey_arkAttachmentArchetype="7708623574868" fAttchamentPosX="-26" fAttchamentPosY="-25" />
+					</Attachments>
 				</AttachmentsInfo>
-			</Weapons> -->
+			</Weapons>
 
 			<!-- Sniper Rifles -->
 			<!-- SVD -->
