@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Info>
 	<DefaultInclude>true</DefaultInclude>
+
 	<Description>HUD Icon Display Files
 
         This base package makes 1 file able to be modified by a3 packages:
@@ -18,7 +19,9 @@
 		[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
 		[/list]
 	</Description>
+
 	<Category>10</Category>
+
 	<Pairs>
 		<!-- hudproperties_default.ndb -->
 		<Pair>

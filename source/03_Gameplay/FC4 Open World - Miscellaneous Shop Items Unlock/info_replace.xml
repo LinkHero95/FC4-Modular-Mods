@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <InfoReplace>
 	<DefaultInclude>false</DefaultInclude>
+
 	<Description>FC4 Open World - Miscellaneous Shop Items Unlock
 
     This is a collection of things that were there in the shop file, but couldn't be easily classified into the weapon unlocks or the attachment unlocks.
@@ -26,11 +27,13 @@
 	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
 	[/list]
 	</Description>
+
 	<Dependencies>
 		<Dependency Name="Shop files" Action="or">
 			<Package File="BP Shop Files.a3"/>
 		</Dependency>
 	</Dependencies>>
+
 	<Category>3</Category>
 
 	<Replaces>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <InfoReplace>
 	<DefaultInclude>false</DefaultInclude>
+
 	<Description>FC4 Open World - Attachments Unlock
 
     Unlocks attachments for weapons from the start. Also increases the available slots for attachments for each weapon.
@@ -30,6 +31,7 @@
 		<Dependency Name="Shop files" Action="or">
 			<Package File="BP Shop Files.a3"/>
 		</Dependency>
+
 		<Dependency Name="HUD Icon Display Files" Action="or">
 			<Package File="BP HUD Icon Display Files.a3"/>
 		</Dependency>
