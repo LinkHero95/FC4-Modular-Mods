@@ -33,7 +33,7 @@
 	<Pairs>
 		<Pair>
 			<Source><![CDATA[enableconditionalzoneevents_v1.lua]]></Source>
-			<Target><![CDATA[domino/system/player/enableconditionalzoneevents_v1.lua]]></Target>
+			<Target><![CDATA[domino\system\player\enableconditionalzoneevents_v1.lua]]></Target>
 		</Pair>
 	</Pairs>
 </Info>
