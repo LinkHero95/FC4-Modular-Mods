@@ -32,7 +32,10 @@
 		<Dependency Name="Shop files" Action="or">
 			<Package File="BP Shop Files.a3"/>
 		</Dependency>
-	</Dependencies>
+
+		<Dependency Name="Templates" Action="or">
+			<Package File="BP Templates.a3"/>
+		</Dependency>	</Dependencies>
 
 	<Category>3</Category>
 
@@ -377,6 +380,22 @@
 			<!-- Buzzsaw -->
 			<Generic primaryKey_disLibItemId="7880772879596" UnlockOnMissionComplete="">
 			</Generic>
+		</Replace>
+
+		<!-- LK1018 - A special change -->
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb">
+			<object hash="589D5D0A" name="OpenWorldUnlocks">
+				<object hash="BD7D8F2A" name="UnlocksList">
+					<object hash="6D48B5D9" name="Unlock" count="108">
+						<object hash="DA1B02DB" name="UnlockCondition">
+							<field hash="34BD8A53" name="iCountToUnlock" value-Int32="0" type="BinHex">00000000</field>
+							<object hash="2BAED5E2" name="StatCondition">
+								<field hash="0689054C" name="selStatisticType" value-Enum="0" type="BinHex">00000000</field>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
 		</Replace>
 	</Replaces>
 </InfoReplace>
