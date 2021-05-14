@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>FC4 Open World - North Kyrat Unlock
+	
+	Unlocks North Kyrat from the beginning of the game.
+
+    Changes made by this mod:
+    [list]
+    [*] Opens the Northern half of Kyrat from the beginning of the game. It will still be covered in fog until you climb bell towers to remove the "fog of war" and reveal the map.
+	[*] The King's Bridge will still warn you "Dangerous Territory Ahead" when you try to go into the north, but the game will not prevent you from doing so should you wish to. 
+    [/list]
+
+    Other Information: 
+    [list]
+    [*] This mod may not be co-op friendly. Please make sure both players have this mod activated when starting a co-op play session.
+    [*] This mod may cause the game to crash during the mission 'A Key to the North'. If this happens, please uninstall the mod before starting the mission. After the mission is complete, this mod will not be necessary anyway.
+	[*] To get to North Kyrat, use the stream below King's Bridge. Beware of snipers in the general area of the bridge.
+	[*] If you wish to uninstall this mod, and have not completed the mission 'A Key to the North', please ensure that you are not in North Kyrat. 
+    [/list]
+
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/1251163][b]jvarnes[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/71678078][b]Amichai-Oz Yannai[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
+	[/list]
+	</Description>
+
+	<Category>3</Category>
+
+	<Pairs>
+		<Pair>
+			<Source><![CDATA[enableconditionalzoneevents_v1.lua]]></Source>
+			<Target><![CDATA[domino/system/player/enableconditionalzoneevents_v1.lua]]></Target>
+		</Pair>
+	</Pairs>
+</Info>
