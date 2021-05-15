@@ -27,9 +27,9 @@
 
 	<Dependencies>
 		<Dependency Name="Templates file" Action="or">
-			<Package File="BP Templates.a3"/>
+			<Package>BP Templates.a3</Package>
 		</Dependency>
-	</Dependencies>>
+	</Dependencies>
 
 	<Category>3</Category>
 

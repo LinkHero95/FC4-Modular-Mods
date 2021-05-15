@@ -30,14 +30,15 @@
 
 	<Dependencies>
 		<Dependency Name="Shop files" Action="or">
-			<Package File="BP Shop Files.a3"/>
+			<Package>BP Shop Files.a3</Package>
 		</Dependency>
 
 		<Dependency Name="Templates" Action="or">
-			<Package File="BP Templates.a3"/>
-		</Dependency>	</Dependencies>
+			<Package>BP Templates.a3</Package>
+		</Dependency>
+	</Dependencies>
 
-	<Category>3</Category>
+	<Category>6</Category>
 
 	<Replaces>
 		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
@@ -111,7 +112,7 @@
 			<Generic primaryKey_disLibItemId="7681355770983" UnlockOnMissionComplete="">
 			</Generic>
 
-			<!-- .700 Nitro (added here bcos the shop file lists this as an assault rifle.)-->
+			<!-- .700 Nitro (added here bcos the shop file lists this as an assault rifle.) -->
 			<Generic primaryKey_disLibItemId="7799878801479" UnlockOnMissionComplete="">
 			</Generic>
 

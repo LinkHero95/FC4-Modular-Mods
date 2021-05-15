@@ -28,37 +28,37 @@
 
 	<Dependencies>
 		<Dependency Name="Shop files" Action="or">
-			<Package File="BP Shop Files.a3"/>
+			<Package>BP Shop Files.a3</Package>
 		</Dependency>
 	</Dependencies>
 
-	<Category>3</Category>
+	<Category>6</Category>
 
 	<Replaces>
 		<Replace RequiredFile="generated/databases/generic/shopsubcategory1.ndb">
 			<Generic primaryKey_disLibItemId="7790061934673">
 				<SubCategory2Dep clearNodeBeforeInsert="1">
-					<Link addNode="1" disshpscatbId="166" />
-					<Link addNode="1" disshpscatbId="170" />
-					<Link addNode="1" disshpscatbId="171" />
-					<Link addNode="1" disshpscatbId="172" />
-					<Link addNode="1" disshpscatbId="173" />
-					<Link addNode="1" disshpscatbId="174" />
-					<Link addNode="1" disshpscatbId="175" />
-					<Link addNode="1" disshpscatbId="176" />
-					<Link addNode="1" disshpscatbId="177" />
-					<Link addNode="1" disshpscatbId="178" />
-					<Link addNode="1" disshpscatbId="179" />
-					<Link addNode="1" disshpscatbId="180" />
-					<Link addNode="1" disshpscatbId="181" />
-					<Link addNode="1" disshpscatbId="182" />
-					<Link addNode="1" disshpscatbId="183" />
-					<Link addNode="1" disshpscatbId="190" />
-					<Link addNode="1" disshpscatbId="198" />
-					<Link addNode="1" disshpscatbId="199" />
-					<Link addNode="1" disshpscatbId="200" />
-					<Link addNode="1" disshpscatbId="201" />
-					<Link addNode="1" disshpscatbId="202" />
+					<Link addNode="1" disshpscatbId="166"/>
+					<Link addNode="1" disshpscatbId="170"/>
+					<Link addNode="1" disshpscatbId="171"/>
+					<Link addNode="1" disshpscatbId="172"/>
+					<Link addNode="1" disshpscatbId="173"/>
+					<Link addNode="1" disshpscatbId="174"/>
+					<Link addNode="1" disshpscatbId="175"/>
+					<Link addNode="1" disshpscatbId="176"/>
+					<Link addNode="1" disshpscatbId="177"/>
+					<Link addNode="1" disshpscatbId="178"/>
+					<Link addNode="1" disshpscatbId="179"/>
+					<Link addNode="1" disshpscatbId="180"/>
+					<Link addNode="1" disshpscatbId="181"/>
+					<Link addNode="1" disshpscatbId="182"/>
+					<Link addNode="1" disshpscatbId="183"/>
+					<Link addNode="1" disshpscatbId="190"/>
+					<Link addNode="1" disshpscatbId="198"/>
+					<Link addNode="1" disshpscatbId="199"/>
+					<Link addNode="1" disshpscatbId="200"/>
+					<Link addNode="1" disshpscatbId="201"/>
+					<Link addNode="1" disshpscatbId="202"/>
 				</SubCategory2Dep>
 			</Generic>
 		</Replace>

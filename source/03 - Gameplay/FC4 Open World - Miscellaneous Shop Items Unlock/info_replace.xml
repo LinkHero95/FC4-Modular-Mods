@@ -30,11 +30,11 @@
 
 	<Dependencies>
 		<Dependency Name="Shop files" Action="or">
-			<Package File="BP Shop Files.a3"/>
+			<Package>BP Shop Files.a3</Package>
 		</Dependency>
-	</Dependencies>>
+	</Dependencies>
 
-	<Category>3</Category>
+	<Category>6</Category>
 
 	<Replaces>
 		<Replace RequiredFile="generated/databases/generic/shoppingitems.ndb">
