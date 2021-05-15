@@ -27,7 +27,7 @@
 <a name="otherinfo"></a>
 ##	Other Information
 
-- **Mods completed:**<br>
+- **Mods completed:**
     1. *Base Files:*
         1. BP Entitylibrary File
         1. BP Shop Files
@@ -45,14 +45,14 @@
 - **Mods in testing:**<br>
 	None at present.
 
-- **Mods in development:**<br>
+- **Mods in development:**
     1. *Replacements:*
         1. Ceano's alternate sights
 		1. Ceano's sharper vanilla sights
 		1. Ceano's clearer night sky
         1. Vinh1998's alternate Golden Path outfits
 
-- **Mods to be started:**<br>
+- **Mods to be started:**
     1. *Gameplay:*
         1. Higher Shop Prices
 
