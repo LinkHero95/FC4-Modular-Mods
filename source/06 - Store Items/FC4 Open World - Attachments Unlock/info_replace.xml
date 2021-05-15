@@ -860,7 +860,7 @@
 			</Generic>
 
 			<!-- SVD Suppressor -->
-			<Generic primaryKey_disLibItemId="7668083884624">
+			<Generic primaryKey_disLibItemId="7668083884624" shpcatCategory="11" shpscataSubCategory1="169" shpscatbSubCategory2="96">
 				<ShopTypeDatas>
 					<ShopTypeData primaryKey_shptypShopType="1" buyValue="42000"/>
 					<ShopTypeData primaryKey_shptypShopType="2" buyValue="42000"/>
