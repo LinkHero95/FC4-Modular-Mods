@@ -26,22 +26,31 @@
 
 <a name="otherinfo"></a>
 ##	Other Information
+
 - **Mods completed:**<br>
     1. *Base Files:*
-        1. BP Entitylibrary File v1.0
-        1. BP Shop Files v1.0
+        1. BP Entitylibrary File
+        1. BP Shop Files
+		1. BP HUD Icon Display Files
+	1. *Gameplay:*
+        1. FC4 Open World - ACE Unlock
+        1. FC4 Open World - Attachments Unlock
+        1. FC4 Open World - Miscellaneous Shop Items Unlock
+        1. FC4 Open World - North Kyrat Unlock
+        1. FC4 Open World - Skills Unlock
+        1. FC4 Open World - Signature weapons Unlock
+        1. FC4 Open World - Weapons Unlock
+        1. Body Armour Durability Enhancement
 
 - **Mods in testing:**<br>
-    1. *Gameplay:*
-        1. FC4 Open World Skills unlock
-        1. FC4 Open World Signature weapons unlock
-        1. FC4 Open World Weapons unlock
-        1. Ceano's alternate sights
-        1. Vinh1998's alternate Golden Path outfits
+	None at present.
 
 - **Mods in development:**<br>
-    1. *Gameplay:*
-        1. FC4 Open World Attachments unlock
+    1. *Replacements:*
+        1. Ceano's alternate sights
+		1. Ceano's sharper vanilla sights
+		1. Ceano's clearer night sky
+        1. Vinh1998's alternate Golden Path outfits
 
 - **Mods to be started:**<br>
     1. *Gameplay:*
@@ -50,7 +59,8 @@
 
 <a name="contact"></a>
 ##	Contact details
-- You can drop an email addressed to [linkhero95@gmail.com] (mailto:linkhero95@gmail.com)
-- I am also available on Discord, my username is LinkHero95#9219
+- You can drop an email addressed to linkhero95@gmail.com
+- I am available on Discord, my username is LinkHero95#9219
+- I am also available on Nexus Mods, under the username LinkHero95.
 
 [Go to Top](#top "Go to Top")
