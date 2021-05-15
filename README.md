@@ -30,32 +30,42 @@
 - **Mods completed:**
     1. *Base Files:*
         1. BP Entitylibrary File
-        1. BP Shop Files
 		1. BP HUD Icon Display Files
+        1. BP Shop Files
 	1. *Gameplay:*
-        1. FC4 Open World - ACE Unlock
-        1. FC4 Open World - Attachments Unlock
-        1. FC4 Open World - Miscellaneous Shop Items Unlock
         1. FC4 Open World - North Kyrat Unlock
         1. FC4 Open World - Skills Unlock
         1. FC4 Open World - Signature weapons Unlock
-        1. FC4 Open World - Weapons Unlock
         1. Body Armour Durability Enhancement
-
-- **Mods in testing:**<br>
-	None at present.
+	1. *Store Items:*
+        1. FC4 Open World - ACE Unlock
+        1. FC4 Open World - Attachments Unlock
+        1. FC4 Open World - Miscellaneous Shop Items Unlock
+        1. FC4 Open World - Weapons Unlock
+	1. *Replacements:*
+        1. Ceano's Better Sights
 
 - **Mods in development:**
     1. *Replacements:*
-        1. Ceano's alternate sights
 		1. Ceano's sharper vanilla sights
 		1. Ceano's clearer night sky
-        1. Vinh1998's alternate Golden Path outfits
+
 
 - **Mods to be started:**
-    1. *Gameplay:*
-        1. Higher Shop Prices
-
+	1. Higher Shop Prices
+	1. Higher XP Requirements
+	1. Higher Karma Requirements
+	1. D2 Fires Single Round
+	1. Vinh1998's alternate Golden Path outfits
+	1. Vinh1998's alternate Royal Army outfits
+	1. Vinh1998's alternate Royal Guard outfits
+	1. Weapon Unlock Restrictions
+	1. New Weapon Archetypes Base File
+	1. New weaponry for allies and enemies
+	1. Prompt Removal
+	1. Decreased Time Scale
+	1. SA-50 and autocross Clip Reduction
+	1. Ammo Cap changes
 
 <a name="contact"></a>
 ##	Contact details
