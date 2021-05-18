@@ -44,18 +44,17 @@
         1. FC4 Open World - Weapons Unlock
 	1. *Replacements:*
         1. Ceano's Better Sights
+		1. Ceano's Sharper Vanilla Sights
 
 - **Mods in development:**
-    1. *Replacements:*
-		1. Ceano's sharper vanilla sights
-		1. Ceano's clearer night sky
+	1. D2 Fires Single Round
 
 
 - **Mods to be started:**
 	1. Higher Shop Prices
 	1. Higher XP Requirements
 	1. Higher Karma Requirements
-	1. D2 Fires Single Round
+	1. Ceano's clearer night sky
 	1. Vinh1998's alternate Golden Path outfits
 	1. Vinh1998's alternate Royal Army outfits
 	1. Vinh1998's alternate Royal Guard outfits

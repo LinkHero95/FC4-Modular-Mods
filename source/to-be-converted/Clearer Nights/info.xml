@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+
+	<DefaultInclude>false</DefaultInclude>
+	<Description>Ceano's Clearer Nights
+
+	Does Crazy Stuff.
+	</Description>
+
+	<Category>1</Category>
+
+	<!-- <Pairs>
+		<Pair>
+			<Source><![CDATA[fc5_bunkersopener.lua]]></Source>
+			<Target><![CDATA[armaniii_stuff/fc5_bunkersopener.lua]]></Target>
+		</Pair>
+
+		<Pair>
+			<Source><![CDATA[fc5_bunkersopener.lua]]></Source>
+			<Target><![CDATA[armaniii_stuff/fc5_bunkersopener.lua]]></Target>
+		</Pair>
+	</Pairs> -->
+</Info>
