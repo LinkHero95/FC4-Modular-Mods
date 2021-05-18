@@ -48,16 +48,15 @@
 
 - **Mods in development:**
 	1. D2 Fires Single Round
-
+	1. Vinh1998's alternate Golden Path outfits
+	1. Vinh1998's alternate Royal Army outfits
+	1. Vinh1998's alternate Royal Guard outfits
 
 - **Mods to be started:**
 	1. Higher Shop Prices
 	1. Higher XP Requirements
 	1. Higher Karma Requirements
 	1. Ceano's clearer night sky
-	1. Vinh1998's alternate Golden Path outfits
-	1. Vinh1998's alternate Royal Army outfits
-	1. Vinh1998's alternate Royal Guard outfits
 	1. Weapon Unlock Restrictions
 	1. New Weapon Archetypes Base File
 	1. New weaponry for allies and enemies
