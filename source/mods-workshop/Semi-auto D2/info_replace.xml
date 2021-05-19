@@ -9,7 +9,7 @@
 
 	<Dependencies>
 		<Dependency Name="Weapons" Action="or">
-			<Package>BP PakaoTemplates.a3</Package>
+			<Package>BP Weapon Files.a3</Package>
 		</Dependency>
 	</Dependencies>
 
