@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>Semi-auto D2
+	
+	Does crazy stuff.
+	</Description>
+
+	<Dependencies>
+		<Dependency Name="Weapons" Action="or">
+			<Package>BP PakaoTemplates.a3</Package>
+		</Dependency>
+	</Dependencies>
+
+	<Category>3</Category>
+
+	<Replaces>
+		<Replace RequiredFile="entityarchetypeslibrary/7793085898219.ark.fcb">
+
+		</Replace>
+	</Replaces>
+</Info>
