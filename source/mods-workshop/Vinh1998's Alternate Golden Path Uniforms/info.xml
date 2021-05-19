@@ -2,14 +2,15 @@
 <Info>
 	<DefaultInclude>false</DefaultInclude>
 
-	<Description>Vinh1998's Alternate Golden Path Outfits
+	<Description>Vinh1998's Alternate Golden Path Uniforms
 	
 	Does crazy stuff.
 	</Description>
 
 	<OnlyOne>golden_path_outfits</OnlyOne>
 
-	<Category>8</Category>
+	<!-- <Category>8</Category> -->
+	<OwnCategory>LH95 Test Temp</OwnCategory>
 
 	<Pairs>
 		<Pair>
