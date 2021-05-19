@@ -35,6 +35,10 @@
 		<Dependency Name="HUD Icon Display Files" Action="or">
 			<Package>BP HUD Icon Display Files.a3</Package>
 		</Dependency>
+
+		<Dependency Name="Weapon Files" Action="or">
+			<Package>BP Weapon Files.a3</Package>
+		</Dependency>
 	</Dependencies>
 
 	<Category>6</Category>
