@@ -16,8 +16,14 @@
 	<Category>3</Category>
 
 	<Replaces>
+		<!-- D2 -->
 		<Replace RequiredFile="entityarchetypeslibrary/7793085898219.ark.fcb">
 
 		</Replace>
+
+		<!-- D2.Menu -->
+		<!-- <Replace RequiredFile="entityarchetypeslibrary/7796769493989.ark.fcb">
+
+		</Replace> -->
 	</Replaces>
 </Info>
