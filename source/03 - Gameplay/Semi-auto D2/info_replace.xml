@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Info>
+<InfoReplace>
 	<DefaultInclude>false</DefaultInclude>
 
 	<Description>Semi-auto D2
 
-	The D2 now fires one shot per trigger pull, thus being able to fire two shots before requiring a reload.
+	Makes the D2 shotgun fire one round per trigger pull, thus being able to fire two round before requiring a reload.
 
 	Changes made by this mod:
 	[list]
-	[*] The D2 fires one shell per trigger pull. Two trigger pulls are required to empty the weapon.
-	[*] The damage od each shot has been halved, to account for only one shot being fired from the gun instead of 2.
+	[*] The D2 fires one round per trigger pull. Two trigger pulls are required to empty the weapon.
+	[*] The damage of each shot has been reduced by half, to account for only one shot being fired from the gun instead of two.
 	[/list]
 
 	Other Information:
 	[list]
-
 	[*] This mod is co-op friendly.
 	[/list]
 
@@ -41,7 +40,6 @@
 						<field hash="08A00C66" name="AmmoUsedPerShot" value-Int32="1" type="BinHex">01000000</field>
 					</object>
 				</object>
-
 				<object hash="4124E600" name="FireStrategyProperties">
 					<object hash="6E2A2FC4" name="BaseDamage">
 						<field hash="F26659EE" name="fLevel" value-Float32="60.5" type="BinHex">00007242</field>
@@ -67,4 +65,4 @@
 			</object>
 		</Replace>
 	</Replaces>
-</Info>
+</InfoReplace>

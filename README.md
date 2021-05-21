@@ -29,25 +29,25 @@
 
 - **Mods completed:**
     1. *Base Files:*
-        1. BP Entitylibrary File
+		1. BP Entitylibrary File
 		1. BP HUD Icon Display Files
-        1. BP Shop Files
+		1. BP Shop Files
 	1. *Gameplay:*
-        1. FC4 Open World - North Kyrat Unlock
-        1. FC4 Open World - Skills Unlock
-        1. FC4 Open World - Signature weapons Unlock
-        1. Body Armour Durability Enhancement
+		1. Body Armour Durability Enhancement
+		1. FC4 Open World - North Kyrat Unlock
+		1. FC4 Open World - Skills Unlock
+		1. FC4 Open World - Signature weapons Unlock
+		1. Semi-auto D2
 	1. *Store Items:*
-        1. FC4 Open World - ACE Unlock
-        1. FC4 Open World - Attachments Unlock
-        1. FC4 Open World - Miscellaneous Shop Items Unlock
-        1. FC4 Open World - Weapons Unlock
+		1. FC4 Open World - ACE Unlock
+		1. FC4 Open World - Attachments Unlock
+		1. FC4 Open World - Miscellaneous Shop Items Unlock
+		1. FC4 Open World - Weapons Unlock
 	1. *Replacements:*
-        1. Ceano's Better Sights
+		1. Ceano's Better Sights
 		1. Ceano's Sharper Vanilla Sights
 
 - **Mods in development:**
-	1. D2 Fires Single Round
 	1. Vinh1998's alternate Golden Path outfits
 	1. Vinh1998's alternate Royal Army outfits
 	1. Vinh1998's alternate Royal Guard outfits
