@@ -1,3 +1,0 @@
-﻿<lib>
-  <Generic disLibItemId="7780278970635" Name="Armor_Basic" hidGUID_Legacy="{11880EE7-D726-413F-B9F9-2A0291D3FD15}" hidSingleObject="0" bCanBeShared="1" hidName="Armor_Basic" hidKey="1001332968" fPierceDamageMitigation="0.75" fCrushDamageMitigation="0.75" fCutDamageMitigation="0" fBurnDamageMitigation="0" fDirtDamageMitigation="0" fExplosionDamageMitigation="0.75" fToxicDamageMitigation="0" fStunDamageMitigation="0" />
-</lib>
