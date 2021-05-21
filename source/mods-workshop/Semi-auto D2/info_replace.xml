@@ -3,8 +3,25 @@
 	<DefaultInclude>false</DefaultInclude>
 
 	<Description>Semi-auto D2
-	
-	Does crazy stuff.
+
+	The D2 now fires one shot per trigger pull, thus being able to fire two shots before requiring a reload.
+
+	Changes made by this mod:
+	[list]
+	[*] The D2 fires one shell per trigger pull. Two trigger pulls are required to empty the weapon.
+	[*] The damage od each shot has been halved, to account for only one shot being fired from the gun instead of 2.
+	[/list]
+
+	Other Information:
+	[list]
+
+	[*] This mod is co-op friendly.
+	[/list]
+
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
 	</Description>
 
 	<Dependencies>
