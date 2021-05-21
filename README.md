@@ -51,6 +51,8 @@
 	1. Vinh1998's alternate Golden Path outfits
 	1. Vinh1998's alternate Royal Army outfits
 	1. Vinh1998's alternate Royal Guard outfits
+	1. BP Control Mappings (Experimental)
+	1. Fast Travel Disable (Experimental)
 
 - **Mods to be started:**
 	1. Higher Shop Prices

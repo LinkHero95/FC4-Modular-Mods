@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<DefaultInclude>true</DefaultInclude>
+	<Description>test
+	</Description>
+
+	<Replaces>
+		<Replace RequiredFile="hidinputmappcenduser.xml">
+			<CompoundInput primaryKey_control="REMAPPABLE_CONTROL_VEHICLE_STEERING">
+				<Input primaryKey_remap="vehicle_move_left" invert="0" myNewParam="abc" />
+			</CompoundInput>
+
+			<Root>
+				<Binding input="KB_A" action="holdrepeat" signal="ArmanIII_KB_A" holdDuration="0.5" addNode="1" />
+			</Root>
+		</Replace>
+	</Replaces>
+</InfoReplace>

@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Root>
+
+    <!--deadzone instruction full instruction in the HID input on teamlink 
+        deadzone are set per physical control, virtual control will inherit from those value.
+        If 2 controls are used to create another or a signal, for example the look signal, the result will be as follow.
+        The biggest deadzone will be used, the biggest axisdeadzone will be used and the lowest outerdeadzone will be used.
+        deadzone : inner deadzone before a value is registred, before this value = 0
+        outerdeadzone : outer deadzone after which the value is overwritten to 1
+        axisdeadzone : "sticky" zone, under that value an axis is set to 0 
+    -->
+
+    <VirtualPadOrbis>
+        <!-- Asign PS4 keys to virtual gamepad-->
+        <Define input="orbis.CROSS" control="CONTROL_A"/>
+        <Define input="orbis.CIRCLE" control="CONTROL_B"/>
+        <Define input="orbis.SQUARE" control="CONTROL_X"/>
+        <Define input="orbis.TRIANGLE" control="CONTROL_Y"/>
+        <Define input="orbis.L3" control="CONTROL_LEFT_STICK_BUTTON"/>
+        <Define input="orbis.R3" control="CONTROL_RIGHT_STICK_BUTTON"/>
+        <Define input="orbis.OPTIONS" control="CONTROL_START"/>
+        <Define input="orbis.TOUCHPAD_BUTTON" control="CONTROL_BACK"/>
+        <Define input="orbis.DPAD_UP" control="CONTROL_DPAD_UP"/>
+        <Define input="orbis.DPAD_DOWN" control="CONTROL_DPAD_DOWN"/>
+        <Define input="orbis.DPAD_LEFT" control="CONTROL_DPAD_LEFT"/>
+        <Define input="orbis.DPAD_RIGHT" control="CONTROL_DPAD_RIGHT"/>
+        <!--<Define input="orbis.L1" control="CONTROL_LEFT_SHOULDER_TOP"  deadzone="0.1351" outerdeadzone="0.94"/>
+    <Define input="orbis.R1" control="CONTROL_RIGHT_SHOULDER_TOP" deadzone="0.1351" outerdeadzone="0.94"/>
+    <Define input="orbis.L2" control="CONTROL_LEFT_SHOULDER_BOTTOM" deadzone="0.1351" outerdeadzone="0.94"/>
+    <Define input="orbis.R2" control="CONTROL_RIGHT_SHOULDER_BOTTOM" deadzone="0.1351" outerdeadzone="0.94"/>-->
+        <Define input="orbis.L1" control="CONTROL_LEFT_BUMPER"  deadzone="0.1351" outerdeadzone="0.94"/>
+        <Define input="orbis.R1" control="CONTROL_RIGHT_BUMPER" deadzone="0.1351" outerdeadzone="0.94"/>
+        <!--<Define input="orbis.L1" control="VEHICLE_CONTROL_LEFT_BUMPER"  deadzone="0.1351" outerdeadzone="0.94"/>
+    <Define input="orbis.R1" control="VEHICLE_CONTROL_RIGHT_BUMPER" deadzone="0.1351" outerdeadzone="0.94"/>-->
+        <Define input="orbis.L2" control="CONTROL_LEFT_TRIGGER" deadzone="0.1351" outerdeadzone="0.94"/>
+        <Define input="orbis.R2" control="CONTROL_RIGHT_TRIGGER" deadzone="0.1351" outerdeadzone="0.94"/>
+        <Define input="orbis.THUMB_LX" control="CONTROL_LEFT_STICK_X" deadzone="0.1351" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="orbis.THUMB_LY" control="CONTROL_LEFT_STICK_Y" deadzone="0.1351" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="orbis.THUMB_RX" control="CONTROL_RIGHT_STICK_X" deadzone="0.1351" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="orbis.THUMB_RY" control="CONTROL_RIGHT_STICK_Y" deadzone="0.1351" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <!--<Define input="orbis.CROSS" control="PADONLY_CONTROL_A"/>-->
+        <!--<Define input="orbis.L2" control="VEHICLE_CONTROL_LEFT_TRIGGER" deadzone="0.1953" outerdeadzone="0.94" axisdeadzone="0.06"/>
+    <Define input="orbis.R2" control="VEHICLE_CONTROL_RIGHT_TRIGGER" deadzone="0.1953" outerdeadzone="0.94" axisdeadzone="0.06"/>-->
+        <Define input="orbis.TOUCHPAD_1_TOUCHED" control="CONTROL_TOUCHPAD_1_TOUCHED"/>
+        <Define input="orbis.TOUCHPAD_1_X" control="CONTROL_TOUCHPAD_1_X"/>
+        <Define input="orbis.TOUCHPAD_1_Y" control="CONTROL_TOUCHPAD_1_Y"/>
+        <Define input="orbis.TOUCHPAD_2_TOUCHED" control="CONTROL_TOUCHPAD_2_TOUCHED"/>
+        <Define input="orbis.TOUCHPAD_2_X" control="CONTROL_TOUCHPAD_2_X"/>
+        <Define input="orbis.TOUCHPAD_2_Y" control="CONTROL_TOUCHPAD_2_Y"/>
+        <!-- 
+    <Define input="orbis.OPTIONS" control="CONTROL_START_ALLDEVICES" allDevices="1"/>
+	  <Define input="orbis.CROSS" control="CONTROL_A_ALLDEVICES" allDevices="1"/>
+    <Define input="orbis.CIRCLE" control="CONTROL_B_ALLDEVICES" allDevices="1"/>
+    <Define input="orbis.SQUARE" control="CONTROL_X_ALLDEVICES" allDevices="1"/>
+	-->
+        <CompoundInput control="CONTROL_CAMERA_Z">
+            <Input input="orbis.L2" invert="1"/>
+            <Input input="orbis.R2"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_CAMERA_ACCEL">
+            <Input input="orbis.R1" axis="0"/>
+            <Input input="orbis.L1" axis="0" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_ZOOM">
+            <Input input="orbis.L2" invert="1"/>
+            <Input input="orbis.R2"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_TRIGGER_AXIS" >
+            <Input input="orbis.R2"/>
+            <Input input="orbis.L2" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_BUMPER_AXIS">
+            <Input input="orbis.R1"/>
+            <Input input="orbis.L1" invert="1"/>
+        </CompoundInput>
+    </VirtualPadOrbis>
+
+    <VirtualPadVitaRemote>
+        <!-- Asign PS4 keys to virtual gamepad-->
+        <Define input="vita.CROSS" control="CONTROL_A"/>
+        <Define input="vita.CIRCLE" control="CONTROL_B"/>
+        <Define input="vita.SQUARE" control="CONTROL_X"/>
+        <Define input="vita.TRIANGLE" control="CONTROL_Y"/>
+        <Define input="vita.OPTIONS" control="CONTROL_START"/>
+        <DefineRegion press="vita.TOUCHPAD_1_TOUCHED" xAxis="vita.TOUCHPAD_1_X" yAxis="vita.TOUCHPAD_1_Y" control="CONTROL_BACK" minX="0.35" maxX="0.65" minY="0" maxY="1"/>
+        <DefineRegion press="vita.TOUCHPAD_2_TOUCHED" xAxis="vita.TOUCHPAD_2_X" yAxis="vita.TOUCHPAD_2_Y" control="CONTROL_BACK" minX="0.35" maxX="0.65" minY="0" maxY="1"/>
+        <Define input="vita.DPAD_UP" control="CONTROL_DPAD_UP"/>
+        <Define input="vita.DPAD_DOWN" control="CONTROL_DPAD_DOWN"/>
+        <Define input="vita.DPAD_LEFT" control="CONTROL_DPAD_LEFT"/>
+        <Define input="vita.DPAD_RIGHT" control="CONTROL_DPAD_RIGHT"/>
+        <Define input="vita.L1" control="CONTROL_LEFT_SHOULDER_TOP"  deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.R1" control="CONTROL_RIGHT_SHOULDER_TOP" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.L2" control="CONTROL_LEFT_SHOULDER_BOTTOM" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.R2" control="CONTROL_RIGHT_SHOULDER_BOTTOM" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.L1" control="CONTROL_LEFT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.R1" control="CONTROL_RIGHT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.L2" control="CONTROL_LEFT_BUMPER"  deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.L3" control="CONTROL_LEFT_BUMPER"  deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.R2" control="CONTROL_RIGHT_BUMPER" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.R3" control="CONTROL_RIGHT_BUMPER" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="vita.THUMB_LX" control="CONTROL_LEFT_STICK_X" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="vita.THUMB_LY" control="CONTROL_LEFT_STICK_Y" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="vita.THUMB_RX" control="CONTROL_RIGHT_STICK_X" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="vita.THUMB_RY" control="CONTROL_RIGHT_STICK_Y" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="vita.CROSS" control="PADONLY_CONTROL_A"/>
+        <!--<Define input="vita.L1" control="VEHICLE_CONTROL_LEFT_TRIGGER" deadzone="0.1953" outerdeadzone="0.94" axisdeadzone="0.06"/>
+    <Define input="vita.R1" control="VEHICLE_CONTROL_RIGHT_TRIGGER" deadzone="0.1953" outerdeadzone="0.94" axisdeadzone="0.06"/>-->
+        <Define input="vita.OPTIONS" control="CONTROL_START_ALLDEVICES" allDevices="1"/>
+        <Define input="vita.CROSS" control="CONTROL_A_ALLDEVICES" allDevices="1"/>
+        <Define input="vita.CIRCLE" control="CONTROL_B_ALLDEVICES" allDevices="1"/>
+        <Define input="vita.SQUARE" control="CONTROL_X_ALLDEVICES" allDevices="1"/>
+        <DefineRegion press="vita.TOUCHPAD_1_TOUCHED" xAxis="vita.TOUCHPAD_1_X" yAxis="vita.TOUCHPAD_1_Y" control="CONTROL_LEFT_STICK_BUTTON" minX="0.65" maxX="0.95" minY="0.5" maxY="1"/>
+        <DefineRegion press="vita.TOUCHPAD_2_TOUCHED" xAxis="vita.TOUCHPAD_2_X" yAxis="vita.TOUCHPAD_2_Y" control="CONTROL_LEFT_STICK_BUTTON" minX="0.65" maxX="0.95" minY="0.5" maxY="1"/>
+        <DefineRegion press="vita.TOUCHPAD_1_TOUCHED" xAxis="vita.TOUCHPAD_1_X" yAxis="vita.TOUCHPAD_1_Y" control="CONTROL_RIGHT_STICK_BUTTON" minX="0.65" maxX="0.95" minY="0" maxY="0.5"/>
+        <DefineRegion press="vita.TOUCHPAD_2_TOUCHED" xAxis="vita.TOUCHPAD_2_X" yAxis="vita.TOUCHPAD_2_Y" control="CONTROL_RIGHT_STICK_BUTTON" minX="0.65" maxX="0.95" minY="0" maxY="0.5"/>
+        <Define input="vita.TOUCHPAD_1_X" control="CONTROL_TOUCHPAD_1_X"/>
+        <Define input="vita.TOUCHPAD_1_Y" control="CONTROL_TOUCHPAD_1_Y"/>
+        <Define input="vita.TOUCHPAD_2_X" control="CONTROL_TOUCHPAD_2_X"/>
+        <Define input="vita.TOUCHPAD_2_Y" control="CONTROL_TOUCHPAD_2_Y"/>
+        <CompoundInput control="CONTROL_CAMERA_Z">
+            <Input input="vita.L1" invert="1"/>
+            <Input input="vita.R1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_CAMERA_ACCEL">
+            <Input input="vita.R2" axis="0"/>
+            <Input input="vita.L2" axis="0" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_CAMERA_ACCEL">
+            <Input input="vita.R3" axis="0"/>
+            <Input input="vita.L3" axis="0" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_ZOOM">
+            <Input input="vita.L1" invert="1"/>
+            <Input input="vita.R1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_TRIGGER_AXIS">
+            <Input input="vita.R1"/>
+            <Input input="vita.L1" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_BUMPER_AXIS">
+            <Input input="vita.R2"/>
+            <Input input="vita.L2" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_BUMPER_AXIS">
+            <Input input="vita.R3"/>
+            <Input input="vita.L3" invert="1"/>
+        </CompoundInput>
+    </VirtualPadVitaRemote>
+
+    <VirtualPadXboxOne>
+        <!-- Asign Xbox One keys to virtual gamepad-->
+        <Define input="xboxone.A" control="CONTROL_A"/>
+        <Define input="xboxone.B" control="CONTROL_B"/>
+        <Define input="xboxone.X" control="CONTROL_X"/>
+        <Define input="xboxone.Y" control="CONTROL_Y"/>
+        <Define input="xboxone.LEFT_THUMBSTICK_BUTTON" control="CONTROL_LEFT_STICK_BUTTON"/>
+        <Define input="xboxone.RIGHT_THUMBSTICK_BUTTON" control="CONTROL_RIGHT_STICK_BUTTON"/>
+        <Define input="xboxone.MENU" control="CONTROL_START"/>
+        <Define input="xboxone.VIEW" control="CONTROL_BACK"/>
+        <Define input="xboxone.DPAD_UP" control="CONTROL_DPAD_UP"/>
+        <Define input="xboxone.DPAD_DOWN" control="CONTROL_DPAD_DOWN"/>
+        <Define input="xboxone.DPAD_LEFT" control="CONTROL_DPAD_LEFT"/>
+        <Define input="xboxone.DPAD_RIGHT" control="CONTROL_DPAD_RIGHT"/>
+        <Define input="xboxone.LEFT_SHOULDER" control="CONTROL_LEFT_SHOULDER_TOP"/>
+        <Define input="xboxone.RIGHT_SHOULDER" control="CONTROL_RIGHT_SHOULDER_TOP"/>
+        <Define input="xboxone.LEFT_TRIGGER" control="CONTROL_LEFT_SHOULDER_BOTTOM" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="xboxone.RIGHT_TRIGGER" control="CONTROL_RIGHT_SHOULDER_BOTTOM" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="xboxone.LEFT_SHOULDER" control="CONTROL_LEFT_BUMPER"/>
+        <Define input="xboxone.RIGHT_SHOULDER" control="CONTROL_RIGHT_BUMPER"/>
+        <!--<Define input="xboxone.LEFT_SHOULDER" control="VEHICLE_CONTROL_LEFT_BUMPER"/>
+    <Define input="xboxone.RIGHT_SHOULDER" control="VEHICLE_CONTROL_RIGHT_BUMPER"/>-->
+        <Define input="xboxone.LEFT_TRIGGER" control="CONTROL_LEFT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="xboxone.RIGHT_TRIGGER" control="CONTROL_RIGHT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="xboxone.THUMB_LX" control="CONTROL_LEFT_STICK_X" deadzone="0.2176" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="xboxone.THUMB_LY" control="CONTROL_LEFT_STICK_Y" deadzone="0.2176" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="xboxone.THUMB_RX" control="CONTROL_RIGHT_STICK_X" deadzone="0.1876" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="xboxone.THUMB_RY" control="CONTROL_RIGHT_STICK_Y" deadzone="0.1876" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <!--<Define input="xboxone.LEFT_TRIGGER" control="VEHICLE_CONTROL_LEFT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+    <Define input="xboxone.RIGHT_TRIGGER" control="VEHICLE_CONTROL_RIGHT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>-->
+        <!--
+	  <Define input="xboxone.MENU" control="CONTROL_START_ALLDEVICES" allDevices="1"/>
+	  <Define input="xboxone.A" control="CONTROL_A_ALLDEVICES" allDevices="1"/>
+    <Define input="xboxone.B" control="CONTROL_B_ALLDEVICES" allDevices="1"/>
+    <Define input="xboxone.X" control="CONTROL_X_ALLDEVICES" allDevices="1"/>
+    <Define input="xboxone.A" control="PADONLY_CONTROL_A"/>
+	-->
+        <CompoundInput control="CONTROL_CAMERA_Z">
+            <Input input="xboxone.LEFT_TRIGGER" invert="1"/>
+            <Input input="xboxone.RIGHT_TRIGGER"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_CAMERA_ACCEL">
+            <Input input="xboxone.RIGHT_SHOULDER" axis="0"/>
+            <Input input="xboxone.LEFT_SHOULDER" axis="0" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_ZOOM">
+            <Input input="xboxone.LEFT_TRIGGER" invert="1"/>
+            <Input input="xboxone.RIGHT_TRIGGER"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_TRIGGER_AXIS">
+            <Input input="xboxone.RIGHT_TRIGGER"/>
+            <Input input="xboxone.LEFT_TRIGGER" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_BUMPER_AXIS">
+            <Input input="xboxone.RIGHT_SHOULDER"/>
+            <Input input="xboxone.LEFT_SHOULDER" invert="1"/>
+        </CompoundInput>
+    </VirtualPadXboxOne>
+
+    <VoiceCommandsXboxOne>
+        <Define input="PAUSE" control="SPEECH_PAUSE"/>
+        <Define input="MENU"  control="SPEECH_MENU"/>
+        <Define input="VIEW"  control="SPEECH_VIEW"/>
+        <Define input="PLAY"  control="SPEECH_PLAY"/>
+        <Define input="BACK"  control="SPEECH_BACK"/>
+    </VoiceCommandsXboxOne>
+
+    <VirtualPadX360>
+        <!-- Asign X360 keys to virtual gamepad-->
+        <Define input="x360.A" control="CONTROL_A"/>
+        <Define input="x360.B" control="CONTROL_B"/>
+        <Define input="x360.X" control="CONTROL_X"/>
+        <Define input="x360.Y" control="CONTROL_Y"/>
+        <Define input="x360.LEFT_STICK_BUTTON" control="CONTROL_LEFT_STICK_BUTTON"/>
+        <Define input="x360.RIGHT_STICK_BUTTON" control="CONTROL_RIGHT_STICK_BUTTON"/>
+        <Define input="x360.START" control="CONTROL_START"/>
+        <Define input="x360.BACK" control="CONTROL_BACK"/>
+        <Define input="x360.DPAD_UP" control="CONTROL_DPAD_UP"/>
+        <Define input="x360.DPAD_DOWN" control="CONTROL_DPAD_DOWN"/>
+        <Define input="x360.DPAD_LEFT" control="CONTROL_DPAD_LEFT"/>
+        <Define input="x360.DPAD_RIGHT" control="CONTROL_DPAD_RIGHT"/>
+        <!--<Define input="x360.LEFT_BUMPER" control="CONTROL_LEFT_SHOULDER_TOP"/>
+    <Define input="x360.RIGHT_BUMPER" control="CONTROL_RIGHT_SHOULDER_TOP"/>
+    <Define input="x360.LEFT_TRIGGER" control="CONTROL_LEFT_SHOULDER_BOTTOM" deadzone="0.1376" outerdeadzone="0.94"/>
+    <Define input="x360.RIGHT_TRIGGER" control="CONTROL_RIGHT_SHOULDER_BOTTOM" deadzone="0.1376" outerdeadzone="0.94"/>-->
+        <Define input="x360.LEFT_BUMPER" control="CONTROL_LEFT_BUMPER"/>
+        <Define input="x360.RIGHT_BUMPER" control="CONTROL_RIGHT_BUMPER"/>
+        <!--<Define input="x360.LEFT_BUMPER" control="VEHICLE_CONTROL_LEFT_BUMPER"/>
+    <Define input="x360.RIGHT_BUMPER" control="VEHICLE_CONTROL_RIGHT_BUMPER"/>-->
+        <Define input="x360.LEFT_TRIGGER" control="CONTROL_LEFT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="x360.RIGHT_TRIGGER" control="CONTROL_RIGHT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="x360.THUMB_LX" control="CONTROL_LEFT_STICK_X" deadzone="0.2395" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="x360.THUMB_LY" control="CONTROL_LEFT_STICK_Y" deadzone="0.2395" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="x360.THUMB_RX" control="CONTROL_RIGHT_STICK_X" deadzone="0.2652" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="x360.THUMB_RY" control="CONTROL_RIGHT_STICK_Y" deadzone="0.2652" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <!--<Define input="x360.LEFT_TRIGGER" control="VEHICLE_CONTROL_LEFT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+    <Define input="x360.RIGHT_TRIGGER" control="VEHICLE_CONTROL_RIGHT_TRIGGER" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>-->
+        <!--
+	  <Define input="x360.START" control="CONTROL_START_ALLDEVICES" allDevices="1"/>
+	  <Define input="x360.A" control="CONTROL_A_ALLDEVICES" allDevices="1"/>
+    <Define input="x360.B" control="CONTROL_B_ALLDEVICES" allDevices="1"/>
+    <Define input="x360.X" control="CONTROL_X_ALLDEVICES" allDevices="1"/>
+    <Define input="x360.A" control="PADONLY_CONTROL_A"/>
+	-->
+        <CompoundInput control="CONTROL_CAMERA_Z">
+            <Input input="x360.LEFT_TRIGGER" invert="1"/>
+            <Input input="x360.RIGHT_TRIGGER"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_CAMERA_ACCEL">
+            <Input input="x360.RIGHT_BUMPER" axis="0"/>
+            <Input input="x360.LEFT_BUMPER" axis="0" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_ZOOM">
+            <Input input="x360.LEFT_TRIGGER" invert="1"/>
+            <Input input="x360.RIGHT_TRIGGER"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_TRIGGER_AXIS">
+            <Input input="x360.RIGHT_TRIGGER"/>
+            <Input input="x360.LEFT_TRIGGER" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_BUMPER_AXIS">
+            <Input input="x360.RIGHT_BUMPER"/>
+            <Input input="x360.LEFT_BUMPER" invert="1"/>
+        </CompoundInput>
+    </VirtualPadX360>
+
+    <VirtualPadPS3>
+        <!-- Asign PS3 keys to virtual gamepad-->
+        <Define input="ps3.CROSS" control="CONTROL_A"/>
+        <Define input="ps3.CIRCLE" control="CONTROL_B"/>
+        <Define input="ps3.SQUARE" control="CONTROL_X"/>
+        <Define input="ps3.TRIANGLE" control="CONTROL_Y"/>
+        <Define input="ps3.L3" control="CONTROL_LEFT_STICK_BUTTON"/>
+        <Define input="ps3.R3" control="CONTROL_RIGHT_STICK_BUTTON"/>
+        <Define input="ps3.START" control="CONTROL_START"/>
+        <Define input="ps3.SELECT" control="CONTROL_BACK"/>
+        <Define input="ps3.DPAD_UP" control="CONTROL_DPAD_UP"/>
+        <Define input="ps3.DPAD_DOWN" control="CONTROL_DPAD_DOWN"/>
+        <Define input="ps3.DPAD_LEFT" control="CONTROL_DPAD_LEFT"/>
+        <Define input="ps3.DPAD_RIGHT" control="CONTROL_DPAD_RIGHT"/>
+        <Define input="ps3.L1" control="CONTROL_LEFT_SHOULDER_TOP"  deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="ps3.R1" control="CONTROL_RIGHT_SHOULDER_TOP" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="ps3.L2" control="CONTROL_LEFT_SHOULDER_BOTTOM" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="ps3.R2" control="CONTROL_RIGHT_SHOULDER_BOTTOM" deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="ps3.L2" control="CONTROL_LEFT_BUMPER"  deadzone="0.1376" outerdeadzone="0.94"/>
+        <Define input="ps3.R2" control="CONTROL_RIGHT_BUMPER" deadzone="0.1376" outerdeadzone="0.94"/>
+        <!--<Define input="ps3.L2" control="VEHICLE_CONTROL_LEFT_BUMPER"  deadzone="0.1376" outerdeadzone="0.94"/>
+    <Define input="ps3.R2" control="VEHICLE_CONTROL_RIGHT_BUMPER" deadzone="0.1376" outerdeadzone="0.94"/>-->
+        <!-- PS3 L1/R1 deadzones are setup to simulate digital from a pressure-sensitive input-->
+	    <Define input="ps3.L1" control="CONTROL_LEFT_TRIGGER" deadzone="0.1976" outerdeadzone="0.198"/>
+		<Define input="ps3.R1" control="CONTROL_RIGHT_TRIGGER" deadzone="0.1976" outerdeadzone="0.198"/>
+        <Define input="ps3.THUMB_LX" control="CONTROL_LEFT_STICK_X" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="ps3.THUMB_LY" control="CONTROL_LEFT_STICK_Y" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="ps3.THUMB_RX" control="CONTROL_RIGHT_STICK_X" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <Define input="ps3.THUMB_RY" control="CONTROL_RIGHT_STICK_Y" deadzone="0.1376" outerdeadzone="0.94" axisdeadzone="0.06"/>
+        <!--
+	  <Define input="ps3.START" control="CONTROL_START_ALLDEVICES" allDevices="1"/>
+	  <Define input="ps3.CROSS" control="CONTROL_A_ALLDEVICES" allDevices="1"/>
+    <Define input="ps3.CIRCLE" control="CONTROL_B_ALLDEVICES" allDevices="1"/>
+    <Define input="ps3.SQUARE" control="CONTROL_X_ALLDEVICES" allDevices="1"/>
+    <Define input="ps3.CROSS" control="PADONLY_CONTROL_A"/>
+	-->
+        <!--
+    <Define input="ps3.L1" control="VEHICLE_CONTROL_LEFT_TRIGGER" deadzone="0.1276" outerdeadzone="0.128" axisdeadzone="0.06"/>
+    <Define input="ps3.R1" control="VEHICLE_CONTROL_RIGHT_TRIGGER" deadzone="0.1276" outerdeadzone="0.128" axisdeadzone="0.06"/>
+	-->
+        <CompoundInput control="CONTROL_CAMERA_Z">
+            <Input input="ps3.L2" invert="1"/>
+            <Input input="ps3.R2"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_CAMERA_ACCEL">
+            <Input input="ps3.R1" axis="0"/>
+            <Input input="ps3.L1" axis="0" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_ZOOM">
+            <Input input="ps3.L1" invert="1"/>
+            <Input input="ps3.R1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_TRIGGER_AXIS" deadzone="0.29" outerdeadzone="0.3">
+            <Input input="ps3.R1"/>
+            <Input input="ps3.L1" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_BUMPER_AXIS" deadzone="0.29" outerdeadzone="0.3">
+            <Input input="ps3.R2"/>
+            <Input input="ps3.L2" invert="1"/>
+        </CompoundInput>
+    </VirtualPadPS3>
+
+    <VirtualPadPC>
+        <!-- Asign PC keys to virtual gamepad-->
+        <Define input="KB.GRAVE" control="KB_GRAVE"/>
+        <Define input="KB.BACKSPACE" control="KB_BACKSPACE"/>
+        <Define input="KB.UP" control="KB_UP"/>
+        <Define input="KB.DOWN" control="KB_DOWN"/>
+        <Define input="KB.LEFT" control="KB_LEFT"/>
+        <Define input="KB.RIGHT" control="KB_RIGHT"/>
+        <Define input="KB.ENTER" control="KB_ENTER"/>
+        <Define input="KB.ESCAPE" control="KB_ESCAPE"/>
+        <Define input="KB.EQUAL" control="KB_EQUAL"/>
+        <Define input="KB.MINUS" control="KB_MINUS"/>
+        <Define input="KB.SPACE" control="KB_SPACE"/>
+        <Define input="KB.TAB" control="KB_TAB"/>
+        <Define input="KB.HOME" control="KB_HOME"/>
+        <Define input="KB.END" control="KB_END"/>
+        <Define input="KB.LSHIFT" control="KB_LSHIFT"/>
+        <Define input="KB.LALT" control="KB_LALT"/>
+        <Define input="KB.LCONTROL" control="KB_LCONTROL"/>
+        <Define input="KB.SEMICOLON" control="KB_SEMICOLON"/>
+        <Define input="KB.SUBTRACT" control="KB_SUBTRACT"/>
+        <Define input="KB.ADD" control="KB_ADD"/>
+        <Define input="KB.MULTIPLY" control="KB_MULTIPLY"/>
+        <Define input="KB.PAGEUP" control="KB_PAGEUP"/>
+        <Define input="KB.PAGEDOWN" control="KB_PAGEDOWN"/>
+        <Define input="KB.BACKSLASH" control="KB_BACKSLASH"/>
+        <Define input="KB.DELETE" control="KB_DELETE"/>
+        <Define input="KB.0" control="KB_0"/>
+        <Define input="KB.1" control="KB_1"/>
+        <Define input="KB.2" control="KB_2"/>
+        <Define input="KB.3" control="KB_3"/>
+        <Define input="KB.4" control="KB_4"/>
+        <Define input="KB.5" control="KB_5"/>
+        <Define input="KB.6" control="KB_6"/>
+        <Define input="KB.7" control="KB_7"/>
+        <Define input="KB.8" control="KB_8"/>
+        <Define input="KB.9" control="KB_9"/>
+        <Define input="KB.A" control="KB_A"/>
+        <Define input="KB.B" control="KB_B"/>
+        <Define input="KB.C" control="KB_C"/>
+        <Define input="KB.D" control="KB_D"/>
+        <Define input="KB.E" control="KB_E"/>
+        <Define input="KB.F" control="KB_F"/>
+        <Define input="KB.G" control="KB_G"/>
+        <Define input="KB.H" control="KB_H"/>
+        <Define input="KB.I" control="KB_I"/>
+        <Define input="KB.J" control="KB_J"/>
+        <Define input="KB.K" control="KB_K"/>
+        <Define input="KB.L" control="KB_L"/>
+        <Define input="KB.M" control="KB_M"/>
+        <Define input="KB.N" control="KB_N"/>
+        <Define input="KB.O" control="KB_O"/>
+        <Define input="KB.P" control="KB_P"/>
+        <Define input="KB.Q" control="KB_Q"/>
+        <Define input="KB.R" control="KB_R"/>
+        <Define input="KB.S" control="KB_S"/>
+        <Define input="KB.T" control="KB_T"/>
+        <Define input="KB.U" control="KB_U"/>
+        <Define input="KB.V" control="KB_V"/>
+        <Define input="KB.W" control="KB_W"/>
+        <Define input="KB.X" control="KB_X"/>
+        <Define input="KB.Y" control="KB_Y"/>
+        <Define input="KB.Z" control="KB_Z"/>
+        <Define input="KB.F1" control="KB_F1"/>
+        <Define input="KB.F2" control="KB_F2"/>
+        <Define input="KB.F3" control="KB_F3"/>
+        <Define input="KB.F4" control="KB_F4"/>
+        <Define input="KB.F5" control="KB_F5"/>
+        <Define input="KB.F6" control="KB_F6"/>
+        <Define input="KB.F7" control="KB_F7"/>
+        <Define input="KB.F8" control="KB_F8"/>
+        <Define input="KB.F9" control="KB_F9"/>
+        <Define input="KB.NUMPAD0" control="KB_NUMPAD0"/>
+        <Define input="KB.NUMPAD1" control="KB_NUMPAD1"/>
+        <Define input="KB.NUMPAD2" control="KB_NUMPAD2"/>
+        <Define input="KB.NUMPAD3" control="KB_NUMPAD3"/>
+        <Define input="KB.NUMPAD4" control="KB_NUMPAD4"/>
+        <Define input="KB.NUMPAD5" control="KB_NUMPAD5"/>
+        <Define input="KB.NUMPAD6" control="KB_NUMPAD6"/>
+        <Define input="KB.NUMPAD7" control="KB_NUMPAD7"/>
+        <Define input="KB.NUMPAD8" control="KB_NUMPAD8"/>
+        <Define input="KB.NUMPAD9" control="KB_NUMPAD9"/>
+        <Define input="KB.F10" control="KB_F10"/>
+        <Define input="KB.F11" control="KB_F11"/>
+        <Define input="KB.F12" control="KB_F12"/>
+
+        <Define input="KB.LBRACKET" control="KB_LBRACKET"/>
+        <Define input="KB.RBRACKET" control="KB_RBRACKET"/>
+        <Define input="KB.APOSTROPHE" control="KB_APOSTROPHE"/>
+        <Define input="KB.COMMA" control="KB_COMMA"/>
+        <Define input="KB.PERIOD" control="KB_PERIOD"/>
+        <Define input="KB.SLASH" control="KB_SLASH"/>
+
+        <Define input="MOUSE.MOUSE_LEFT_BUTTON" control="CONTROL_LEFT_MOUSE_BUTTON"/>
+        <Define input="MOUSE.MOUSE_RIGHT_BUTTON" control="CONTROL_RIGHT_MOUSE_BUTTON"/>
+        <Define input="MOUSE.MOUSE_MIDDLE_BUTTON" control="CONTROL_MIDDLE_MOUSE_BUTTON"/>
+        <Define input="MOUSE.MOUSE_X_AXIS" control="CONTROL_MOUSE_X"/>
+        <Define input="MOUSE.MOUSE_Y_AXIS" control="CONTROL_MOUSE_Y" invert="1"/>
+        <Define input="MOUSE.WHEEL" control="CONTROL_MOUSE_WHEEL"/>
+        <Define input="MOUSE.WHEEL" control="CONTROL_CAMERA_ACCEL"/>
+        <CompoundInput control="CONTROL_KB_AD">
+            <Input input="KB.A" invert="1"/>
+            <Input input="KB.D"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_KB_WS">
+            <Input input="KB.W"/>
+            <Input input="KB.S" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="ARROW_LEFT_RIGHT">
+            <Input input="KB.LEFT"/>
+            <Input input="KB.RIGHT" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="ARROW_UP_DOWN">
+            <Input input="KB.UP"/>
+            <Input input="KB.DOWN" invert="1"/>
+        </CompoundInput>
+        <CompoundInput control="KB_PGUPDOWN">
+            <Input input="KB.PAGEUP"/>
+            <Input input="KB.PAGEDOWN"/>
+        </CompoundInput>
+        <CompoundInput control="CONTROL_CAMERA_Z">
+            <Input input="MOUSE.MOUSE_LEFT_BUTTON" invert="1"/>
+            <Input input="MOUSE.MOUSE_RIGHT_BUTTON"/>
+        </CompoundInput>
+
+        <!--This control is used only for one signal - grapple_climb. There is no need to suport a separate not remappable entity-->
+        <CompoundInput control="CONTROL_MOUSE_BUTTON_AXIS">
+            <Input input="MOUSE.MOUSE_LEFT_BUTTON" remapped="rm_0007_ms_lb"/>
+            <Input input="MOUSE.MOUSE_RIGHT_BUTTON" invert="1" remapped="rm_0008_ms_rb"/>
+        </CompoundInput>
+
+        <!--This control is not supported by Fire thus it does need to be defined as normal-->
+        <Define input="KB.CAPITAL" control="REMAPPABLE_CONTROL_KB_CAPSLOCK" remapped="rm_0180_kb_capslock"/>
+        
+        <CompoundInput control="CONTROL_ZOOM">
+            <Input input="KB.PAGEUP" invert="1"/>
+            <Input input="KB.PAGEDOWN"/>
+        </CompoundInput>
+
+    </VirtualPadPC>
+
+    <!-- Use voice commands input to create signal for the game-->
+
+    <!-- Those signals are not used in the PC version
+    <Binding input="SPEECH_PAUSE" action="voice" signal="show_pausemenu_fork" />
+    <Binding input="SPEECH_MENU" action="voice" signal="show_pausemenu_fork" />
+    <Binding input="SPEECH_VIEW" action="voice" signal="show_pausemenu_fork" />
+    <Binding input="SPEECH_PLAY" action="voice" signal="show_map" />
+    <Binding input="SPEECH_BACK" action="voice" signal="messageBox_Cancel" />
+    -->
+
+    <!-- Use virtual gamepad input to create signal for the game-->
+    <!-- Player input -->
+
+    <Binding signal="companion_despawn" action="press">
+        <Input input="CONTROL_LEFT_TRIGGER"/>
+        <Input input="CONTROL_DPAD_DOWN"/>
+    </Binding>
+
+    <Binding input="KB_Q" action="press" signal="companion_despawn" remapped="REMAPPABLE_CONTROL_KB_Q"/>
+
+    <Binding input="CONTROL_RIGHT_BUMPER" action="press"   signal="companion_target_entity"/>
+    <Binding input="CONTROL_MIDDLE_MOUSE_BUTTON" action="press" signal="companion_target_entity" remapped="REMAPPABLE_CONTROL_MIDDLE_MOUSE_BUTTON"/>
+
+    <Binding input="CONTROL_Y" action="holdrepeat" signal="heal"/>
+    <Binding input="KB_LCONTROL" action="holdrepeat" signal="heal" remapped="REMAPPABLE_CONTROL_KB_LCONTROL"/>
+    <Binding input="CONTROL_Y" action="release" signal="heal_release"/>
+    <Binding input="KB_LCONTROL" action="release" signal="heal_release" remapped="REMAPPABLE_CONTROL_KB_LCONTROL"/>
+    <Binding input="CONTROL_A" action="press" signal="jump"/>
+    <Binding input="KB_SPACE" action="press" signal="jump" remapped="REMAPPABLE_CONTROL_KB_SPACE"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="updatealways" signal="updateshooting"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="updatealways" signal="updateshooting" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="press" signal="sprint"/>
+    <Binding input="KB_LSHIFT" action="press" signal="sprint" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="release" signal="walk"/>
+    <Binding input="KB_LSHIFT" action="release" signal="walk" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+
+    <Binding signal="move" action="updatealways">
+        <Input input="CONTROL_LEFT_STICK_Y" curve="Player:MovementCurves/Movement_updown"/>
+        <Input input="CONTROL_LEFT_STICK_X" curve="Player:MovementCurves/Movement_leftright"/>
+    </Binding>
+
+    <Binding signal="move" action="updatealways">
+        <Input input="CONTROL_KB_WS" curve="Player:MovementCurves/Movement_updown" remapped="REMAPPABLE_CONTROL_KB_WS"/>
+        <Input input="CONTROL_KB_AD" curve="Player:MovementCurves/Movement_leftright" remapped="REMAPPABLE_CONTROL_KB_AD"/>
+    </Binding>
+
+    <Binding signal="look" action="updatealways">
+        <Input input="CONTROL_RIGHT_STICK_X" curve="Weapons:AimCurves/Pad_Look"/>
+        <Input input="CONTROL_RIGHT_STICK_Y" curve="Weapons:AimCurves/Pad_Look"/>
+    </Binding>
+    <Binding signal="look" action="updatemousealways" sensitivity="0.0002">
+        <Input input="CONTROL_MOUSE_X" curve="Weapons:AimCurves/Mouse_Curve"/>
+        <Input input="CONTROL_MOUSE_Y" curve="Weapons:AimCurves/Mouse_Curve"/>
+    </Binding>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="press" signal="hold_breath"/>
+    <Binding input="KB_LSHIFT" action="press" signal="hold_breath" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="release" signal="unhold_breath"/>
+    <Binding input="KB_LSHIFT" action="release" signal="unhold_breath" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" action="press" signal="sniper_switch_fov"/>
+    <Binding input="CONTROL_MOUSE_WHEEL" action="press" signal="sniper_switch_fov" remapped="REMAPPABLE_CONTROL_MOUSE_WHEEL"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" action="press" signal="short_range_melee_start"/>
+    <Binding input="CONTROL_X" action="click" signal="reload"/>
+    <Binding input="CONTROL_X" action="holdrepeat" signal="use"/>
+    <Binding input="KB_E" action="holdrepeat" signal="use" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <!--<Binding input="CONTROL_A" action="release" signal="jump_use"/>
+    <Binding input="KB_SPACE" action="release" signal="jump_use" remapped="REMAPPABLE_CONTROL_KB_SPACE"/>-->
+    <Binding input="CONTROL_LEFT_TRIGGER" action="update" signal="ironsight"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="update" signal="ironsight" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <!-- <Binding input="CONTROL_DPAD_DOWN" action="press" signal="stalkMode_start"/>-->
+    <!-- <Binding input="CONTROL_DPAD_DOWN" action="release" signal="stalkMode_stop"/>-->
+    <!-- <Binding input="KB_J" action="press" signal="stalkMode_start"/>-->
+    <!-- <Binding input="KB_J" action="release" signal="stalkMode_release"/>-->
+    <Binding input="CONTROL_B" action="press" signal="crouch"/>
+    <Binding input="KB_C" action="press" signal="crouch" remapped="REMAPPABLE_CONTROL_KB_C"/>
+    <Binding input="CONTROL_DPAD_UP" action="press" signal="toggle_monocular"/>
+    <Binding input="KB_Z" action="press" signal="toggle_monocular" remapped="REMAPPABLE_CONTROL_KB_Z"/>
+    <Binding input="KB_F11" action="press" signal="toggle_hud"/>
+    <Binding input="CONTROL_Y" action="click"   signal="select_last_weapon"/>
+    <Binding input="KB_X" action="click"   signal="select_last_weapon" remapped="REMAPPABLE_CONTROL_KB_X"/>
+    <Binding input="CONTROL_X" action="click"   signal="useFireArrow"/>
+    <Binding input="KB_R" action="click"   signal="useFireArrow" remapped="REMAPPABLE_CONTROL_KB_R"/>
+    <Binding input="CONTROL_Y" action="click"   signal="useExplosiveArrow"/>
+    <Binding input="KB_E" action="click"   signal="useExplosiveArrow" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="click" signal="toggleStickyExplosives"/>
+    <Binding input="KB_F" action="press" signal="toggleStickyExplosives" remapped="REMAPPABLE_CONTROL_KB_F"/>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="press"   signal="throw_grenade"/>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="release" signal="release_grenade"/>
+    <Binding input="CONTROL_MIDDLE_MOUSE_BUTTON" action="press"   signal="throw_grenade" remapped="REMAPPABLE_CONTROL_MIDDLE_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_MIDDLE_MOUSE_BUTTON" action="release" signal="release_grenade" remapped="REMAPPABLE_CONTROL_MIDDLE_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_LEFT_TRIGGER"     action="press"         signal="cover_start_peeking"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON"     action="press"         signal="cover_start_peeking" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_LEFT_TRIGGER"     action="release"     signal="cover_stop_peeking"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON"     action="release"     signal="cover_stop_peeking" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"     action="press"         signal="cover_start_peeking"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON"     action="press"         signal="cover_start_peeking" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"     action="release"     signal="cover_stop_peeking"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON"     action="release"     signal="cover_stop_peeking" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <!--<Binding signal="sabotage" action="press">
+        <Input input="CONTROL_LEFT_TRIGGER"/>
+        <Input input="CONTROL_B"/>
+    </Binding>
+    <Binding signal="sabotage_failed" action="release">
+        <Input input="CONTROL_LEFT_TRIGGER"/>
+        <Input input="CONTROL_B"/>
+    </Binding>-->
+    <Binding input="CONTROL_A" action="press" signal="exitZipline"/>
+    <Binding input="KB_SPACE" action="press" signal="exitZipline" remapped="REMAPPABLE_CONTROL_KB_SPACE"/>
+    <Binding input="CONTROL_DPAD_RIGHT" action="press" signal="throw_rock" />
+    <Binding input="CONTROL_DPAD_RIGHT"  action="release" signal="release_rock"/>
+    <Binding input="KB_T" action="press" signal="throw_rock" remapped="REMAPPABLE_CONTROL_KB_T"/>
+    <Binding input="KB_T" action="release" signal="release_rock" remapped="REMAPPABLE_CONTROL_KB_T"/>
+    <!--<Binding input="CONTROL_DPAD_LEFT" action="press" signal="throw_bait" />
+    <Binding input="KB_B" action="press" signal="throw_bait"/>-->
+    <Binding input="CONTROL_DPAD_LEFT" action="press" signal="toggle_explosive" />
+    <Binding input="CONTROL_DPAD_LEFT"  action="release" signal="release_grenade"/>
+    <Binding input="CONTROL_DPAD_DOWN"  action="press" signal="GunsForHire"/>
+    <Binding input="CONTROL_MIDDLE_MOUSE_BUTTON"  action="press" signal="GunsForHire" remapped="REMAPPABLE_CONTROL_MIDDLE_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_BUMPER"  action="press" signal="TakePicture"/>
+    <!--<Binding input="CONTROL_RIGHT_STICK_BUTTON"  action="press" signal="TakePictureRemote"/> Exclude Vita signals-->
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON"  action="press" signal="TakePicture" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_LEFT_BUMPER"  action="press" signal="ToggleLegend"/>
+    <Binding input="CONTROL_X"  action="press" signal="ToggleHUD"/>
+    <Binding input="KB_E"  action="press" signal="ToggleHUD" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON"  action="press" signal="ToggleLegend" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_LEFT_TRIGGER"  action="update" signal="ZoomIn"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"  action="update" signal="ZoomOut"/>
+    <Binding input="CONTROL_MOUSE_WHEEL"  action="updatemouse" signal="ZoomOut" remapped="REMAPPABLE_CONTROL_MOUSE_WHEEL"/>
+    <Binding input="CONTROL_LEFT_STICK_X" action="update" signal="rudder_roll"/>
+    <Binding input="CONTROL_KB_AD" action="update" signal="rudder_roll" remapped="REMAPPABLE_CONTROL_KB_AD"/>
+    <Binding input="CONTROL_LEFT_STICK_Y" action="update" signal="rudder_pitch"/>
+    <Binding input="CONTROL_KB_WS" action="update" signal="rudder_pitch" remapped="REMAPPABLE_CONTROL_KB_WS"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="press" signal="tryuseied"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="press" signal="tryuseied" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="press" signal="try_detonate_ied"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="press" signal="try_detonate_ied" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="REMAPPABLE_CONTROL_KB_CAPSLOCK" action="press" signal="show_scoreboard" priority="Menu"/>
+    <Binding input="REMAPPABLE_CONTROL_KB_CAPSLOCK" action="release" signal="hide_scoreboard" priority="Cinema"/>
+    <!--<Binding input="KB_LALT" action="press" signal="alt_down" priority="Menu"/>-->
+    <!--<Binding input="KB_LALT" action="release" signal="alt_up" priority="Menu"/>-->
+    <Binding input="KB_1" action="releasebeforehold" signal="select_weapon_slot0" remapped="REMAPPABLE_CONTROL_KB_1"/>
+    <Binding input="KB_2" action="releasebeforehold" signal="select_weapon_slot1" remapped="REMAPPABLE_CONTROL_KB_2"/>
+    <Binding input="KB_3" action="releasebeforehold" signal="select_weapon_slot2" remapped="REMAPPABLE_CONTROL_KB_3"/>
+    <Binding input="KB_4" action="releasebeforehold" signal="select_weapon_slot3" remapped="REMAPPABLE_CONTROL_KB_4"/>
+
+    <Binding input="KB_1" action="releaseafterhold" signal="close_inventory" remapped="REMAPPABLE_CONTROL_KB_1"/>
+    <Binding input="KB_2" action="releaseafterhold" signal="close_inventory" remapped="REMAPPABLE_CONTROL_KB_2"/>
+    <Binding input="KB_3" action="releaseafterhold" signal="close_inventory" remapped="REMAPPABLE_CONTROL_KB_3"/>
+    <Binding input="KB_4" action="releaseafterhold" signal="close_inventory" remapped="REMAPPABLE_CONTROL_KB_4"/>
+    
+    <Binding input="KB_1" action="hold" signal="open_inventory_weapon" remapped="REMAPPABLE_CONTROL_KB_1"/>
+    <Binding input="KB_2" action="hold" signal="open_inventory_weapon" remapped="REMAPPABLE_CONTROL_KB_2"/>
+    <Binding input="KB_3" action="hold" signal="open_inventory_weapon" remapped="REMAPPABLE_CONTROL_KB_3"/>
+    <Binding input="KB_4" action="hold" signal="open_inventory_weapon" remapped="REMAPPABLE_CONTROL_KB_4"/>
+    
+    
+    <Binding input="KB_B" action="press" signal="select_previous_weapon" remapped="REMAPPABLE_CONTROL_KB_B"/>
+    <Binding input="KB_N" action="press" signal="select_next_weapon" remapped="REMAPPABLE_CONTROL_KB_N"/>
+    <Binding input="KB_R" action="press" signal="reload" remapped="REMAPPABLE_CONTROL_KB_R"/>
+    <!--<Binding input="KB_7" action="press" signal="select_next_throwable"/>
+    <Binding input="KB_8" action="press" signal="select_next_throwable"/>-->
+    <Binding input="KB_F" action="press" signal="short_range_melee_start" remapped="REMAPPABLE_CONTROL_KB_F"/>
+    <Binding input="CONTROL_MOUSE_WHEEL" action="press" signal="select_throwable_analogue_check" remapped="REMAPPABLE_CONTROL_MOUSE_WHEEL"/>
+    <Binding input="CONTROL_DPAD_DOWN"  action="release" signal="cycle_arrow_recipe"/>
+    <!--TODO assing something for cycling arrows-->
+
+    <Binding input="KB_5"  action="press" signal="pre_use_recipe_a" remapped="REMAPPABLE_CONTROL_KB_5"/>
+    <Binding input="KB_6"  action="press" signal="pre_use_recipe_b" remapped="REMAPPABLE_CONTROL_KB_6"/>
+    <Binding input="KB_7"  action="press" signal="pre_use_recipe_c" remapped="REMAPPABLE_CONTROL_KB_7"/>
+    <Binding input="KB_8"  action="press" signal="pre_use_recipe_d" remapped="REMAPPABLE_CONTROL_KB_8"/>
+
+    <Binding input="KB_0"  action="release" signal="select_mine" remapped="REMAPPABLE_CONTROL_KB_0"/>
+    <Binding input="KB_Y"  action="release" signal="select_repair_tool" remapped="REMAPPABLE_CONTROL_KB_Y"/>
+
+    <!-- These are confling signals that are removed in PC version
+    <Binding input="KB_5"  action="release" signal="use_recipe_a" remapped="REMAPPABLE_CONTROL_KB_5"/>
+    <Binding input="KB_6"  action="release" signal="use_recipe_b" remapped="REMAPPABLE_CONTROL_KB_6"/>
+    <Binding input="KB_7"  action="release" signal="use_recipe_c" remapped="REMAPPABLE_CONTROL_KB_7"/>
+    <Binding input="KB_8"  action="release" signal="use_recipe_d" remapped="REMAPPABLE_CONTROL_KB_8"/>-->
+
+    <Binding input="CONTROL_X" action="holdrepeat" signal="start_grapple"/>
+    <Binding input="CONTROL_X" action="press" signal="start_grapple_press"/>
+    <Binding input="CONTROL_B" action="press" signal="stop_grapple"/>
+    <Binding input="KB_E" action="holdrepeat" signal="start_grapple" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="KB_E" action="holdrepeat" signal="start_grapple_press" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="KB_C" action="press" signal="stop_grapple" remapped="REMAPPABLE_CONTROL_KB_C"/>
+
+    <Binding input="KB_F" action="hold" signal="try_move_bodies" remapped="REMAPPABLE_CONTROL_KB_F"/>
+    <Binding input="KB_F" action="press" signal="end_move_bodies" remapped="REMAPPABLE_CONTROL_KB_F"/>
+
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" action="hold" signal="try_move_bodies"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" action="press" signal="end_move_bodies"/>
+
+    <Binding input="CONTROL_TRIGGER_AXIS" action="update" signal="grapple_climb"/>
+    <Binding input="CONTROL_MOUSE_BUTTON_AXIS" action="update" signal="grapple_climb"/>
+    <Binding input="CONTROL_LEFT_STICK_Y" action="update" signal="grapple_swing"/>
+    <Binding input="CONTROL_KB_WS" action="update" signal="grapple_swing" remapped="REMAPPABLE_CONTROL_KB_WS"/>
+
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="press" signal="bow_slowmo_toggle"/>
+    <Binding input="KB_LSHIFT" action="press" signal="bow_slowmo_toggle" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="release" signal="bow_force_slowmo_end"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="release" signal="bow_force_slowmo_end" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+
+    <Binding input="KB_TAB"  action="release" signal="cheat_ToggleRadar" priority="DEBUG_GUI"/>
+    <Binding input="KB_SUBTRACT"  action="release" signal="radar_zoom_out" priority="DEBUG_GUI"/>
+    <Binding input="KB_ADD"  action="release" signal="radar_zoom_in" priority="DEBUG_GUI"/>
+    <Binding signal="radar_move" action="update" sensitivity="1.0" priority="DEBUG_GUI">
+        <Input input="ARROW_LEFT_RIGHT"/>
+        <Input input="ARROW_UP_DOWN"/>
+    </Binding>
+    <Binding input="KB_HOME" action="press" signal="radar_reset" priority="DEBUG_GUI"/>
+    <Binding input="KB_MULTIPLY" action="press" signal="radar_mode" priority="DEBUG_GUI"/>
+    <Binding input="KB_PAGEUP" action="press" signal="radar_target_next" priority="DEBUG_GUI"/>
+    <Binding input="KB_PAGEDOWN" action="press" signal="radar_target_prev" priority="DEBUG_GUI"/>
+    <Binding input="KB_END" action="press" signal="radar_target_closest" priority="DEBUG_GUI"/>
+    <Binding input="KB_PAGEUP" action="press" signal="squadmember_next" priority="DEBUG_GUI"/>
+    <Binding input="KB_PAGEDOWN" action="press" signal="squadmember_prev" priority="DEBUG_GUI"/>
+    <Binding input="KB_U" action="press" signal="apheuristic_evaluation_next" priority="DEBUG_GUI"/>
+    <Binding input="KB_I" action="press" signal="apheuristic_rule_next" priority="DEBUG_GUI"/>
+    <!--Disabled for now causing issue with vehicle enter-->
+    <!--<Binding input="CONTROL_X"  action="release" signal="abort"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="press" signal="turn_around"/>
+    <Binding input="KB_LSHIFT" action="press" signal="turn_around"/>-->
+
+    <!-- Mounted weapon -->
+    <Binding input="CONTROL_LEFT_TRIGGER" action="update" signal="mortar_aiming_update"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="update" signal="mortar_aiming_update" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding signal="mortar_aiming_alternative" action="update">
+        <Input input="CONTROL_KB_AD" curve="Curves:Menu/Map_movement" remapped="REMAPPABLE_CONTROL_KB_AD"/>
+        <Input input="CONTROL_KB_WS" curve="Curves:Menu/Map_movement" remapped="REMAPPABLE_CONTROL_KB_WS"/>
+    </Binding>
+	
+    <Binding input="CONTROL_X" action="press" signal="leave_mounted_weapon"/>
+    <Binding input="KB_E" action="press" signal="leave_mounted_weapon" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding signal="look_mw" action="update">
+        <Input input="CONTROL_RIGHT_STICK_X" curve="Weapons:AimCurves/Pad_Look_MountedWeapon"/>
+        <Input input="CONTROL_RIGHT_STICK_Y" curve="Weapons:AimCurves/Pad_Look_MountedWeapon"/>
+    </Binding>
+    <Binding signal="look_mw" action="updatemouse" sensitivity="0.0045">
+        <Input input="CONTROL_MOUSE_X" curve="Weapons:AimCurves/Mouse_Curve"/>
+        <Input input="CONTROL_MOUSE_Y" curve="Weapons:AimCurves/Mouse_Curve"/>
+    </Binding>
+
+    <!-- Debug Weapon ZULU: DO NOT CARE ON THE PC VERSION-->
+    <!--<Binding signal="weapondebug_move" action="update" sensitivity="1.0">
+        <Input input="ARROW_LEFT_RIGHT"/>
+        <Input input="ARROW_UP_DOWN"/>
+    </Binding>-->
+
+    <!-- Takedown -->
+    <Binding input="CONTROL_LEFT_TRIGGER" action="press" signal="try_pistol_kill"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="press" signal="try_pistol_kill" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="press" signal="try_throw_knife"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="press" signal="try_throw_knife" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="press" signal="try_grenade_kill"/>
+    <Binding input="CONTROL_MIDDLE_MOUSE_BUTTON" action="press" signal="try_grenade_kill" remapped="REMAPPABLE_CONTROL_MIDDLE_MOUSE_BUTTON"/>
+    <!--Binding input="CONTROL_X" action="press" signal="reload_now"/-->
+
+    <!-- takedown_end_pistol is a GOSM signal (see .\fcc-branches\fcc-pc\data\engine\scripts\Engine\Objects\Pawn\StateMachine\weapons.gosm.xml)
+    <Binding input="CONTROL_Y" action="press" signal="takedown_end_pistol"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="press" signal="takedown_end_pistol"/>-->
+
+    <Binding input="CONTROL_X" action="holdrepeat" signal="try_kill_finish"/>
+    <Binding input="KB_E" action="holdrepeat" signal="try_kill_finish" remapped="REMAPPABLE_CONTROL_KB_E"/>
+
+    <!-- Menu -->
+    <!--
+	  <Binding input="CONTROL_START_ALLDEVICES" action="devicepress" signal="pressStart_InitialControllerSelect" priority="Menu"/>
+	  <Binding input="CONTROL_A_ALLDEVICES" action="devicepress" signal="pressStart_InitialControllerSelect" priority="Menu"/>
+	-->
+
+    <Binding input="CONTROL_A" action="press" signal="initialScreen_pressStart" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="initialScreen_pressStart" priority="Menu"/>
+    <!-- TODO: ZULU: Could not find usage
+    <Binding input="CONTROL_A" action="press" signal="startPressed" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="startPressed" priority="Menu"/>-->
+    <Binding input="CONTROL_A" action="devicepress" signal="messageBox_Accept" priority="TRC_GUI"/>
+    <Binding input="KB_ENTER" action="press" signal="messageBox_Accept" priority="TRC_GUI"/>
+
+    <Binding input="CONTROL_X" action="hold" signal="floatingBox_Accept" priority="Menu"/>
+    <Binding input="KB_E" action="hold" signal="floatingBox_Accept" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_E"/>
+
+    <Binding input="CONTROL_X" action="press" signal="messageBox_CustomAction" priority="TRC_GUI"/>
+	<Binding input="KB_SPACE" action="press" signal="messageBox_CustomAction" priority="TRC_GUI"/>
+
+    <Binding input="CONTROL_START" action="press" signal="show_pausemenu_fork"/>
+    <Binding input="KB_ESCAPE" action="press" signal="show_pausemenu_fork"/>
+    <Binding input="CONTROL_B" action="press" signal="messageBox_Cancel" priority="TRC_GUI"/>
+    <Binding input="KB_ESCAPE" action="press" signal="messageBox_Cancel" priority="TRC_GUI"/>
+    <Binding input="CONTROL_BACK" action="press" signal="show_gamemenu"/>
+    <Binding input="KB_M" action="press" signal="show_map" remapped="REMAPPABLE_CONTROL_KB_M" priority="Menu"/>
+    <Binding input="CONTROL_Y" action="press" signal="show_gamertag" priority="Menu"/>
+    <Binding input="CONTROL_BACK" action="press" signal="open_menu_tutorial" priority="Menu"/>
+    <Binding input="KB_M" action="press" signal="open_menu_tutorial" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_BUMPER"    action="press"         signal="open_inventory_weapon"/>
+    <Binding input="KB_TAB" action="press" signal="open_inventory" remapped="REMAPPABLE_CONTROL_KB_TAB"/>
+    <Binding input="KB_Q"                action="press"         signal="open_inventory_weapon" remapped="REMAPPABLE_CONTROL_KB_Q"/>
+    <Binding input="CONTROL_LEFT_BUMPER"     action="release"     signal="close_inventory"/>
+    <Binding input="KB_TAB"                action="release"         signal="close_inventory" remapped="REMAPPABLE_CONTROL_KB_TAB"/>
+    <Binding input="KB_Q"                action="release"         signal="close_inventory" remapped="REMAPPABLE_CONTROL_KB_Q"/>
+    <Binding input="CONTROL_DPAD_UP"     action="press"           signal="force_close_weapon_inventory"/>
+    <Binding input="CONTROL_DPAD_DOWN"   action="press"           signal="force_close_weapon_inventory"/>
+    <Binding input="CONTROL_DPAD_LEFT"   action="press"           signal="force_close_weapon_inventory"/>
+    <Binding input="CONTROL_DPAD_RIGHT"  action="press"           signal="force_close_weapon_inventory"/>
+
+    <Binding input="KB_Z" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_Z"/>
+    <Binding input="KB_V" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_V"/>
+    <Binding input="KB_T" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_T"/>
+    <Binding input="KB_Y" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_Y"/>
+    <Binding input="KB_0" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_0"/>
+    <Binding input="KB_1" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_1"/>
+    <Binding input="KB_2" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_2"/>
+    <Binding input="KB_3" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_3"/>
+    <Binding input="KB_4" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_4"/>
+    <Binding input="KB_5" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_5"/>
+    <Binding input="KB_6" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_6"/>
+    <Binding input="KB_7" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_7"/>
+    <Binding input="KB_8" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_8"/>
+    <Binding input="KB_9" action="press" signal="force_close_weapon_inventory" remapped="REMAPPABLE_CONTROL_KB_9"/>
+    
+    <Binding input="CONTROL_RIGHT_BUMPER" action="press" signal="switch_wheel" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="release" signal="switch_wheel_finished" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="press" signal="switch_wheel" priority="Menu" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="release" signal="switch_wheel_finished" priority="Menu" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+
+    <Binding input="CONTROL_A" action="press" signal="leave_UGC_gameplay_menu" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="leave_UGC_gameplay_menu" priority="Menu"/>
+    <!--Binding input="CONTROL_BACK" action="press" signal="leave_UGC_gameplay_menu" priority="Menu"/-->
+
+    <Binding input="CONTROL_A" action="press" signal="leave_UGC_missionstart_menu" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="leave_UGC_missionstart_menu" priority="Menu"/>
+
+
+    <Binding input="CONTROL_TOUCHPAD_1_TOUCHED" action="release" signal="TouchpadRelease1" priority="Menu"/>
+    <Binding input="CONTROL_TOUCHPAD_2_TOUCHED" action="release" signal="TouchpadRelease2" priority="Menu"/>
+    <Binding signal="TouchpadUpdate1" action="touch" priority="Menu">
+        <Input input="CONTROL_TOUCHPAD_1_TOUCHED"/>
+        <Input input="CONTROL_TOUCHPAD_1_X"/>
+        <Input input="CONTROL_TOUCHPAD_1_Y"/>
+    </Binding>
+    <Binding signal="TouchpadUpdate2" action="touch" priority="Menu">
+        <Input input="CONTROL_TOUCHPAD_2_TOUCHED"/>
+        <Input input="CONTROL_TOUCHPAD_2_X"/>
+        <Input input="CONTROL_TOUCHPAD_2_Y"/>
+    </Binding>
+
+    <Binding signal="UpdateLeftStick" action="update" priority="Menu" doNotSwap="true">
+        <Input input="CONTROL_LEFT_STICK_X" curve="Curves:Menu/Map_movement"/>
+        <Input input="CONTROL_LEFT_STICK_Y" curve="Curves:Menu/Map_movement"/>
+    </Binding>
+    <Binding signal="UpdateLeftStick" action="update" priority="Menu">
+        <Input input="CONTROL_KB_AD" curve="Curves:Menu/Map_movement"/>
+        <Input input="CONTROL_KB_WS" curve="Curves:Menu/Map_movement"/>
+    </Binding>
+    <Binding signal="UpdateRightStick" action="update" priority="Menu">
+        <Input input="CONTROL_RIGHT_STICK_X"/>
+        <Input input="CONTROL_RIGHT_STICK_Y"/>
+    </Binding>
+    <Binding signal="Shop3DWeaponRotation" action="update" priority="Menu" doNotSwap="True">
+        <Input input="CONTROL_RIGHT_STICK_X"/>
+        <Input input="CONTROL_RIGHT_STICK_Y"/>
+    </Binding>
+    <Binding signal="UpdateRightStick" action="updatemouse" sensitivity="0.5" priority="Menu">
+        <Input input="CONTROL_MOUSE_X" />
+        <Input input="CONTROL_MOUSE_Y" />
+    </Binding>
+    <Binding signal="Shop3DWeaponRotation" action="update" priority="Menu">
+        <Input input="CONTROL_MOUSE_WHEEL"/>
+        <Input input="CONTROL_MOUSE_WHEEL"/>
+    </Binding>
+    <Binding signal="TeleportToCursor_debug" action="press" priority="Menu">
+        <Input input="CONTROL_DPAD_UP"/>
+        <Input input="CONTROL_A"/>
+    </Binding>
+
+    <Binding signal="TeleportToCursor_debug" action="press" priority="Menu">
+        <Input input="KB_LCONTROL"/>
+        <Input input="KB_A"/>
+    </Binding>
+
+    <Binding signal="camera_look_stick" action="update" priority="Cinema">
+        <Input input="CONTROL_RIGHT_STICK_X"/>
+        <Input input="CONTROL_RIGHT_STICK_Y"/>
+    </Binding>
+
+    <Binding input="CONTROL_A" action="press" signal="worldmap_fast_travel" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="release" signal="worldmap_fast_travel" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" action="press" signal="worldmap_toggle_waypoint" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="press" signal="worldmap_toggle_waypoint" priority="Menu"/>
+    <Binding input="CONTROL_Y" action="press" signal="worldmap_toggle_legend" priority="Menu"/>
+    <Binding input="KB_TAB" action="press" signal="worldmap_toggle_legend" priority="Menu"/>
+    <Binding input="CONTROL_B" action="press" signal="worldmap_close_legend" priority="Menu"/>
+    <Binding input="KB_ESCAPE" action="press" signal="worldmap_close_legend" priority="Menu"/>
+    <Binding input="CONTROL_X" action="press" signal="worldmap_center" priority="Menu"/>
+    <Binding input="KB_SPACE" action="press" signal="worldmap_center" priority="Menu"/>
+
+    <Binding input="CONTROL_ZOOM" action="update" signal="zoom_worldmap" priority="Menu" doNotSwap="True"/>
+    <Binding input="CONTROL_MOUSE_WHEEL" action="update" signal="zoom_worldmap" priority="Menu"/>
+    <Binding signal="mouse_map_move" action="update" sensitivity="0.1" priority="Menu">
+        <Input input="CONTROL_MOUSE_X"/>
+        <Input input="CONTROL_MOUSE_Y"/>
+    </Binding>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="press" signal="mouse_map_move_enable" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="release" signal="mouse_map_move_disable" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_RIGHT" action="press" signal="use_recipe_a_pvp"/>
+    <Binding input="KB_4" action="press" signal="use_recipe_b_pvp" remapped="REMAPPABLE_CONTROL_KB_4"/>
+    <Binding input="CONTROL_DPAD_LEFT" action="press" signal="use_recipe_b_pvp"/>
+    <Binding input="KB_5" action="press" signal="use_recipe_a_pvp" remapped="REMAPPABLE_CONTROL_KB_5"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="press" signal="hud_craft_recipe"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="press" signal="hud_craft_recipe" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="KB_9" action="press" signal="select_ied" remapped="REMAPPABLE_CONTROL_KB_9"/>
+    <!--TODO: recheck later-->
+    <Binding signal="rotate_dial" action="update" priority="Menu">
+        <Input input="CONTROL_LEFT_STICK_X"/>
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+    </Binding>
+    <Binding input="CONTROL_KB_AD" action="update" signal="rotate_dial" priority="Menu"/>
+    <Binding input="CONTROL_A" action="press" signal="use_watch" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="use_watch" priority="Menu"/>
+    <Binding input="CONTROL_B" action="press" signal="skip_sleep" priority="Menu"/>
+    <Binding input="KB_ESCAPE" action="press" signal="skip_sleep" priority="Menu"/>
+    <Binding input="CONTROL_BACK" action="press" signal="WorldMapPressed"/>
+    <Binding input="KB_M" action="press" signal="WorldMapPressed" remapped="REMAPPABLE_CONTROL_KB_M"/>
+    <Binding input="CONTROL_X" action="release" signal="abort_cinematic" priority="Cinema"/>
+    <Binding input="KB_E" action="release" signal="abort_cinematic" priority="Cinema"/>
+    <Binding input="CONTROL_START" action="press" signal="show_multipause"/>
+    <Binding input="KB_ESCAPE" action="press" signal="show_multipause"/>
+    <Binding input="CONTROL_BACK" action="press" signal="show_scoreboard" priority="Menu"/>
+    <Binding input="CONTROL_BACK" action="release" signal="hide_scoreboard" priority="Cinema"/>
+    <Binding signal="rotate_itemYZ" action="update" priority="Menu">
+        <Input input="CONTROL_LEFT_STICK_X" curve="Curves:Menu/ShopMenu_RotationLeftRight"/>
+        <Input input="CONTROL_LEFT_STICK_Y" curve="Curves:Menu/ShopMenu_RotationUpDown"/>
+    </Binding>
+    <Binding signal="rotate_itemYZ" action="update" priority="Menu">
+        <Input input="CONTROL_KB_AD" curve="Curves:Menu/ShopMenu_RotationLeftRight"/>
+        <Input input="CONTROL_KB_WS" curve="Curves:Menu/ShopMenu_RotationUpDown"/>
+    </Binding>
+    <Binding input="CONTROL_ZOOM" action="update" priority="Menu" signal="camera_distance"/>
+    <Binding input="KB_NUMPAD8" action="press" priority="DEBUG_SHORTCUTS" signal="offscreenrenderscene_moveUp"/>
+    <Binding input="KB_NUMPAD2" action="press" priority="DEBUG_SHORTCUTS" signal="offscreenrenderscene_moveDown"/>
+    <Binding input="KB_NUMPAD4" action="press" priority="DEBUG_SHORTCUTS" signal="offscreenrenderscene_moveLeft"/>
+    <Binding input="KB_NUMPAD6" action="press" priority="DEBUG_SHORTCUTS" signal="offscreenrenderscene_moveRight"/>
+
+    <Binding input="CONTROL_DPAD_UP" action="press" priority="Menu" signal="mapslist_up"/>
+    <Binding input="CONTROL_DPAD_UP" action="hold" priority="Menu" signal="mapslist_up_scroll"/>
+    <Binding input="CONTROL_DPAD_UP" action="release" priority="Menu" signal="mapslist_stop_scrolling"/>
+    <Binding input="CONTROL_DPAD_DOWN" action="press" priority="Menu" signal="mapslist_down"/>
+    <Binding input="CONTROL_DPAD_DOWN" action="hold" priority="Menu" signal="mapslist_down_scroll"/>
+    <Binding input="CONTROL_DPAD_DOWN" action="release" priority="Menu" signal="mapslist_stop_scrolling"/>
+    <Binding input="CONTROL_LEFT_STICK_Y" action="update" priority="Menu" signal="mapslist_stick_updown"/>
+    <Binding input="CONTROL_KB_WS" action="update" priority="Menu" signal="mapslist_stick_updown"/>
+
+    <Binding input="KB_UP" action="press" priority="Menu" signal="mapslist_up"/>
+    <Binding input="KB_UP" action="hold" priority="Menu" signal="mapslist_up_scroll"/>
+    <Binding input="KB_UP" action="release" priority="Menu" signal="mapslist_stop_scrolling"/>
+    <Binding input="KB_DOWN" action="press" priority="Menu" signal="mapslist_down"/>
+    <Binding input="KB_DOWN" action="hold" priority="Menu" signal="mapslist_down_scroll"/>
+    <Binding input="KB_DOWN" action="release" priority="Menu" signal="mapslist_stop_scrolling"/>
+
+    <!-- coop -->
+    <Binding input="CONTROL_A" action="press" signal="close_loadout_inverted" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="close_loadout_inverted" priority="Menu"/>
+    <Binding input="CONTROL_A" action="press" signal="loadout_ready" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="loadout_ready" priority="Menu"/>
+    <Binding input="CONTROL_A" action="press" signal="select" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="select" priority="Menu"/>
+    <Binding input="CONTROL_A" action="press" signal="end_camera_sweep" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="end_camera_sweep" priority="Menu"/>
+    <Binding input="CONTROL_A" action="press" signal="respawn"/>
+    <Binding input="KB_SPACE" action="press" signal="respawn" remapped="REMAPPABLE_CONTROL_KB_SPACE"/>
+    <Binding input="CONTROL_B" action="press" signal="drop_carriable"/>
+    <Binding input="KB_B" action="press" signal="drop_carriable" remapped="REMAPPABLE_CONTROL_KB_B"/>
+    <Binding input="CONTROL_X" action="hold" signal="teammateSupport_give_ammo"/>
+    <Binding input="KB_E" action="hold" signal="teammateSupport_give_ammo" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="CONTROL_Y" action="hold" signal="teammateSupport_give_medpack"/>
+    <Binding input="KB_LCONTROL" action="hold" signal="teammateSupport_give_medpack" remapped="REMAPPABLE_CONTROL_KB_LCONTROL"/>
+
+    <Binding input="CONTROL_DPAD_DOWN"    action="press"       signal="open_coopcom"/>
+    <Binding input="KB_V" action="press" signal="open_coopcom" remapped="REMAPPABLE_CONTROL_KB_V"/>
+    <Binding input="CONTROL_DPAD_DOWN"    action="release"     signal="close_coopcom"/>
+    <Binding input="KB_V" action="release" signal="close_coopcom" remapped="REMAPPABLE_CONTROL_KB_V"/>
+
+
+    <!-- PVP -->
+    <Binding signal="update_selected_spawn" action="update" priority="Menu">
+        <Input input="CONTROL_LEFT_STICK_X"/>
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+    </Binding>
+    <Binding signal="update_selected_spawn" action="update" priority="Menu">
+        <Input input="CONTROL_KB_AD"/>
+        <Input input="CONTROL_KB_WS"/>
+    </Binding>
+    <Binding input="CONTROL_DPAD_LEFT" action="press" signal="update_selected_spawn_left"/>
+    <Binding input="CONTROL_DPAD_RIGHT" action="press" signal="update_selected_spawn_right"/>
+    <Binding input="CONTROL_A" action="press" signal="confirm_spawn_point"/>
+    <Binding input="KB_ENTER" action="press" signal="confirm_spawn_point"/>
+    <Binding input="CONTROL_X" action="press" signal="spawn_selection_open_loadout" />
+    <Binding input="KB_SPACE" action="press" signal="spawn_selection_open_loadout" />
+    <Binding input="CONTROL_B" action="press" signal="revive_spam_press"/>
+    <Binding input="KB_E" action="press" signal="revive_spam_press" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="CONTROL_X" action="press" signal="revive_self"/>
+    <Binding input="CONTROL_B" action="release" signal="revive_spam_release"/>
+    <Binding input="KB_E" action="release" signal="revive_spam_release" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="KB_L" action="press" signal="toggle_loadout" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_L"/>
+
+    <Binding input="KB_X" action="release" signal="label_entity_release" remapped="REMAPPABLE_CONTROL_KB_X"/>
+    <Binding input="CONTROL_BACK" action="release" signal="label_entity_release"/>
+
+    <Binding input="KB_E" action="press" signal="revive_giveUpPress" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="CONTROL_B" action="press" signal="revive_giveUpPress" />
+    <Binding input="KB_E" action="release" signal="revive_giveUpRelease" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="CONTROL_B" action="release" signal="revive_giveUpRelease" />
+
+    <Binding signal="killcam_look" action="updatemouse" sensitivity="0.0022">
+        <Input input="CONTROL_MOUSE_X" curve="Weapons:AimCurves/Mouse_Curve"/>
+        <Input input="CONTROL_MOUSE_Y" curve="Weapons:AimCurves/Mouse_Curve"/>
+    </Binding>
+    <Binding signal="killcam_look" action="update">
+        <Input input="CONTROL_LEFT_STICK_Y" curve="Player:MovementCurves/Movement_updown"/>
+        <Input input="CONTROL_LEFT_STICK_X" curve="Player:MovementCurves/Movement_leftright"/>
+    </Binding>
+    <Binding signal="killcam_look" action="update">
+        <Input input="CONTROL_KB_WS" curve="Player:MovementCurves/Movement_updown" remapped="REMAPPABLE_CONTROL_KB_WS"/>
+        <Input input="CONTROL_KB_AD" curve="Player:MovementCurves/Movement_leftright" remapped="REMAPPABLE_CONTROL_KB_AD"/>
+    </Binding>
+    <Binding signal="killcam_look" action="update">
+        <Input input="CONTROL_RIGHT_STICK_X" curve="Weapons:AimCurves/Pad_Look"/>
+        <Input input="CONTROL_RIGHT_STICK_Y" curve="Weapons:AimCurves/Pad_Look"/>
+    </Binding>
+
+
+    <Binding input="CONTROL_B" action="press" signal="close_loadout" priority="Menu"/>
+    <!-- remove it, is duplicated by coop section check a few lines above Binding input="CONTROL_A" action="press" signal="close_loadout_inverted" priority="Menu"-->
+
+    <Binding input="KB_E" action="press" signal="loadout_ready" priority="Menu"/>
+    <Binding input="CONTROL_X" action="press" signal="loadout_ready" priority="Menu"/>
+    <Binding input="CONTROL_B" action="press" signal="loadout_notready" secondary="1" priority="Menu"/>
+    <Binding input="KB_ESCAPE" action="press" signal="close_loadout" priority="Menu"/>
+
+    <!-- Minigame -->
+    <Binding input="CONTROL_A" action="release"     signal="interact_release_accept" priority="Menu"/>
+    <Binding input="CONTROL_A" action="hold"         signal="interact_hold_accept" priority="Menu"/>
+    <Binding input="CONTROL_A" action="press"         signal="interact_press_accept" priority="Menu"/>
+    <Binding input="CONTROL_B" action="release"     signal="interact_release_cancel" priority="Menu"/>
+    <Binding input="CONTROL_B" action="hold"         signal="interact_hold_cancel" priority="Menu"/>
+    <Binding input="CONTROL_B" action="press"         signal="interact_press_cancel" priority="Menu"/>
+    <Binding input="CONTROL_A" action="press"         signal="interact_press_a" priority="Menu"/>
+    <Binding input="CONTROL_A" action="hold"         signal="interact_hold_a" priority="Menu"/>
+    <Binding input="CONTROL_A" action="release"     signal="interact_release_a" priority="Menu"/>
+    <Binding input="CONTROL_B" action="press"         signal="interact_press_b" priority="Menu"/>
+    <Binding input="CONTROL_B" action="hold"         signal="interact_hold_b" priority="Menu"/>
+    <Binding input="CONTROL_B" action="release"     signal="interact_release_b" priority="Menu"/>
+    <Binding input="CONTROL_X" action="press"         signal="interact_press_x" priority="Menu"/>
+    <Binding input="CONTROL_X" action="hold"         signal="interact_hold_x" priority="Menu"/>
+    <Binding input="CONTROL_X" action="release"     signal="interact_release_x" priority="Menu"/>
+    <Binding input="CONTROL_Y" action="press"         signal="interact_press_y" priority="Menu"/>
+    <Binding input="CONTROL_Y" action="hold"         signal="interact_hold_y" priority="Menu"/>
+    <Binding input="CONTROL_Y" action="release"     signal="interact_release_y" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_STICK_X"           action="update"     signal="interact_update_leftthumbstickleftright" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_STICK_Y" 			action="update"     signal="interact_update_leftthumbstickupdown" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_STICK_X" 			action="update"     signal="interact_update_rightthumbstickleftright" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_STICK_Y" 			action="update" 	signal="interact_update_rightthumbstickupdown" priority="Menu"/>
+
+    <Binding input="CONTROL_KB_AD"           action="update"     signal="interact_update_leftthumbstickleftright" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_AD"/>
+    <Binding input="CONTROL_KB_WS" 			action="update"     signal="interact_update_leftthumbstickupdown" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_WS"/>
+
+    <Binding input="CONTROL_LEFT_STICK_BUTTON"				action="press" 		signal="interact_press_leftthumbstick"  priority="Menu"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON"				action="hold" 		signal="interact_hold_leftthumbstick"  priority="Menu"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON"				action="release" 	signal="interact_release_leftthumbstick"  priority="Menu"/>
+
+    <Binding input="KB_LSHIFT"				action="press" 		signal="interact_press_leftthumbstick"  priority="Menu"/>
+    <Binding input="KB_LSHIFT"				action="hold" 		signal="interact_hold_leftthumbstick"  priority="Menu"/>
+    <Binding input="KB_LSHIFT"				action="release" 	signal="interact_release_leftthumbstick"  priority="Menu"/>
+
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON"				action="press" 		signal="interact_press_rightthumbstick"  priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" 			action="hold" 		signal="interact_hold_rightthumbstick"  priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" 			action="release" 	signal="interact_release_rightthumbstick"  priority="Menu"/>
+
+    <Binding input="KB_F" action="press" signal="interact_press_rightthumbstick"  priority="Menu" remapped="REMAPPABLE_CONTROL_KB_F"/>
+    <Binding input="KB_V" action="hold" signal="interact_hold_rightthumbstick"  priority="Menu" remapped="REMAPPABLE_CONTROL_KB_V"/>
+    <Binding input="KB_V" action="release" signal="interact_release_rightthumbstick"  priority="Menu" remapped="REMAPPABLE_CONTROL_KB_V"/>
+
+    <Binding input="CONTROL_LEFT_TRIGGER"             action="update"     signal="interact_update_lefttrigger" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON"             action="update"     signal="interact_update_lefttrigger" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_TRIGGER"             action="press"         signal="interact_press_lefttrigger" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON"             action="press"         signal="interact_press_lefttrigger" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_TRIGGER"             action="hold"         signal="interact_hold_lefttrigger" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON"             action="hold"         signal="interact_hold_lefttrigger" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_TRIGGER"             action="release"     signal="interact_release_lefttrigger" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON"             action="release"     signal="interact_release_lefttrigger" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"            action="update"     signal="interact_update_righttrigger" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON"      action="update"     signal="interact_update_righttrigger" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"          action="press"         signal="interact_press_righttrigger" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON"      action="press"         signal="interact_press_righttrigger" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"          action="hold"         signal="interact_hold_righttrigger" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON"      action="hold"         signal="interact_hold_righttrigger" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"          action="release"     signal="interact_release_righttrigger" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON"      action="release"     signal="interact_release_righttrigger" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_BUMPER"            action="press"        signal="interact_press_leftshoulder" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_BUMPER"            action="hold"        signal="interact_hold_leftshoulder" priority="Menu"/>
+    <Binding input="CONTROL_LEFT_BUMPER"            action="release"    signal="interact_release_leftshoulder" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_BUMPER"            action="press"        signal="interact_press_rightshoulder" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_BUMPER"            action="hold"        signal="interact_hold_rightshoulder" priority="Menu"/>
+    <Binding input="CONTROL_RIGHT_BUMPER"            action="release"    signal="interact_release_rightshoulder" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_UP"                action="press"       signal="interact_press_dpadup" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_UP"                action="release"     signal="interact_release_dpadup" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_UP"                action="hold"         signal="interact_hold_dpadup" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_DOWN"              action="press"       signal="interact_press_dpaddown" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_DOWN"              action="release"     signal="interact_release_dpaddown" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_DOWN"              action="hold"       signal="interact_hold_dpaddown" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_LEFT"              action="press"       signal="interact_press_dpadleft" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_LEFT"              action="release"     signal="interact_release_dpadleft" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_RIGHT"             action="press"       signal="interact_press_dpadright" priority="Menu"/>
+    <Binding input="CONTROL_DPAD_RIGHT"             action="release"     signal="interact_release_dpadright" priority="Menu"/>
+
+    <!-- Minigame PC -->
+    <Binding input="KB_ESCAPE" action="release"     signal="interact_release_cancel" priority="Menu"/>
+    <Binding input="KB_ESCAPE" action="hold"         signal="interact_hold_cancel" priority="Menu"/>
+    <Binding input="KB_ESCAPE" action="press"         signal="interact_press_cancel" priority="Menu"/>
+
+    <Binding input="KB_ENTER" action="release"     signal="interact_release_accept" priority="Menu"/>
+    <Binding input="KB_ENTER" action="hold"         signal="interact_hold_accept" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press"         signal="interact_press_accept" priority="Menu"/>
+
+    <Binding input="KB_S" action="release"     signal="interact_release_a" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_S"/>
+    <Binding input="KB_S" action="hold"         signal="interact_hold_a" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_S"/>
+    <Binding input="KB_S" action="press"         signal="interact_press_a" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_S"/>
+
+    <Binding input="KB_D"         action="press"         signal="interact_press_b" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_D"/>
+    <Binding input="KB_D"         action="release"    signal="interact_release_b" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_D"/>
+    <Binding input="KB_D"         action="hold"       signal="interact_hold_b" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_D"/>
+
+    <Binding input="KB_A"         action="press"         signal="interact_press_x" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_A"/>
+    <Binding input="KB_A"         action="release"    signal="interact_release_x" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_A"/>
+    <Binding input="KB_A"         action="hold"       signal="interact_hold_x" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_A"/>
+
+    <Binding input="KB_W"         action="press"         signal="interact_press_y" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_W"/>
+    <Binding input="KB_W"         action="release"    signal="interact_release_y" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_W"/>
+    <Binding input="KB_W"         action="hold"       signal="interact_hold_y" priority="Menu" remapped="REMAPPABLE_CONTROL_KB_W"/>
+
+    <Binding input="KB_UP"        action="press"       signal="interact_press_dpadup" priority="Menu"/>
+    <Binding input="KB_UP"        action="release"     signal="interact_release_dpadup" priority="Menu"/>
+    <Binding input="KB_UP"        action="hold"         signal="interact_hold_dpadup" priority="Menu"/>
+    <Binding input="KB_DOWN"    action="press"       signal="interact_press_dpaddown" priority="Menu"/>
+    <Binding input="KB_DOWN"    action="release"     signal="interact_release_dpaddown" priority="Menu"/>
+    <Binding input="KB_DOWN"    action="hold"       signal="interact_hold_dpaddown" priority="Menu"/>
+    <Binding input="KB_LEFT"    action="press"       signal="interact_press_dpadleft" priority="Menu"/>
+    <Binding input="KB_LEFT"    action="release"     signal="interact_release_dpadleft" priority="Menu"/>
+    <Binding input="KB_RIGHT"   action="press"       signal="interact_press_dpadright" priority="Menu"/>
+    <Binding input="KB_RIGHT"   action="release"     signal="interact_release_dpadright" priority="Menu"/>
+
+    <Binding input="KB_Q"      action="press"    signal="interact_press_leftshoulder" priority="Menu"/>
+    <Binding input="KB_Q"      action="hold"    signal="interact_hold_leftshoulder" priority="Menu"/>
+    <Binding input="KB_Q"      action="release"    signal="interact_release_leftshoulder" priority="Menu"/>
+
+    <Binding input="KB_F"     action="press"    signal="interact_press_rightshoulder" priority="Menu"/>
+    <Binding input="KB_F"     action="hold"        signal="interact_hold_rightshoulder" priority="Menu"/>
+    <Binding input="KB_F"     action="release"    signal="interact_release_rightshoulder" priority="Menu"/>
+
+    <Binding input="KB_F1" action="press" signal="show_skill" remapped="REMAPPABLE_CONTROL_KB_F1"/>
+    <Binding input="KB_F2" action="press" signal="show_crafting" remapped="REMAPPABLE_CONTROL_KB_F2"/>
+    <Binding input="KB_F3" action="press" signal="show_progress" remapped="REMAPPABLE_CONTROL_KB_F3"/>
+    <Binding input="KB_F4" action="press" signal="show_collection" remapped="REMAPPABLE_CONTROL_KB_F4"/>
+    <Binding input="KB_F5" action="press" signal="show_guide" remapped="REMAPPABLE_CONTROL_KB_F5"/>
+
+    <!-- Editor mapping -->
+    <Binding input="KB_F1" action="press" signal="active_camerafirst" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_F2" action="press" signal="active_camerathird" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_F3" action="press" signal="active_cameraghost" priority="DEBUG_SHORTCUTS"/>
+    <!-- This duplicates F3 mapping to toggle camera ghost, the previous mapping is only available for no master builds, the one below is for IGE on pc, even on master config-->
+    <Binding input="KB_F3" action="press" signal="toggle_cameraghost_ige" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_F4" action="press" signal="active_camerafree" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_F6" action="release" signal="camera_toggle_controls" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_SPACE" action="release" signal="camera_toggle_controls" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_F7" action="press" signal="toggle_market_camera_kb" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_E" action="release" signal="camera_toggle_first_person" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_M" action="release" signal="camera_toggle_aimat" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_P" action="press" signal="cheatpause_toggle" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_O" action="press" signal="cheatpause_step" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_Y" action="press" signal="increase_globalTimeScale" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_Y" action="release" signal="restore_globalTimeScale" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_SEMICOLON" action="press" signal="debug_lencounter_cycle" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="CONTROL_MOUSE_WHEEL" action="update" signal="zoom_camera_third" priority="Cinema"/>
+    <Binding input="KB_HOME" action="press" signal="select_next_player" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_END" action="press" signal="select_previous_player" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_F11" action="press" signal="toggle_dbg_impacts" priority="DEBUG_SHORTCUTS"/>
+    <Binding signal="toggle_cameraghost" action="press" priority="DEBUG_SHORTCUTS">
+        <Input input="CONTROL_DPAD_LEFT"/>
+        <Input input="CONTROL_X"/>
+    </Binding>
+    <Binding signal="toggle_cameraghostTandem" action="press" priority="DEBUG_SHORTCUTS">
+        <Input input="CONTROL_DPAD_LEFT"/>
+        <Input input="CONTROL_A"/>
+    </Binding>
+    <Binding input="CONTROL_START" action="press" signal="menu_show" priority="MiniGame"/>
+    <Binding signal="ige_explore_map" action="press" priority="MiniGame">
+        <Input input="CONTROL_RIGHT_STICK_BUTTON"/>
+        <Input input="CONTROL_DPAD_UP"/>
+    </Binding>
+    <Binding signal="ige_play_map" action="press" priority="MiniGame">
+        <Input input="CONTROL_RIGHT_STICK_BUTTON"/>
+        <Input input="CONTROL_DPAD_DOWN"/>
+    </Binding>
+    <Binding input="CONTROL_LEFT_BUMPER" action="press" signal="toolbox_show" priority="MiniGame"/>
+    <Binding input="CONTROL_LEFT_BUMPER" action="press" signal="toolbox_close"/>
+    <Binding signal="toolbox_shortcut" action="update" priority="MiniGame">
+        <Input input="CONTROL_LEFT_STICK_X"/>
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+    </Binding>
+    <Binding signal="toolbox_shortcut" action="update" priority="MiniGame">
+        <Input input="CONTROL_KB_AD"/>
+        <Input input="CONTROL_KB_WS"/>
+    </Binding>
+    <Binding signal="object_manipulate" action="update" priority="MiniGame">
+        <Input input="CONTROL_LEFT_STICK_X"/>
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+    </Binding>
+    <Binding signal="object_manipulate" action="update" priority="MiniGame">
+        <Input input="CONTROL_KB_AD"/>
+        <Input input="CONTROL_KB_WS"/>
+    </Binding>
+    <Binding signal="object_rotate_z" action="update" priority="MiniGame">
+        <Input input="CONTROL_RIGHT_STICK_X"/>
+        <Input input="CONTROL_RIGHT_STICK_Y"/>
+    </Binding>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="press" signal="object_manipulate_z_on" priority="MiniGame" />
+    <Binding input="CONTROL_RIGHT_BUMPER" action="release" signal="object_manipulate_z_off" priority="MiniGame" />
+    <Binding signal="controller_move" action="update" priority="Menu">
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+        <Input input="CONTROL_LEFT_STICK_X"/>
+    </Binding>
+    <Binding signal="controller_move" action="update" priority="Menu">
+        <Input input="CONTROL_KB_WS"/>
+        <Input input="CONTROL_KB_AD"/>
+    </Binding>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="press" signal="controller_move_alt_begin" />
+    <Binding input="CONTROL_RIGHT_BUMPER" action="release" signal="controller_move_alt_end" />
+    <Binding signal="controller_look" action="update" priority="Menu">
+        <Input input="CONTROL_RIGHT_STICK_X" curve="Weapons:AimCurves/Pad_Look"/>
+        <Input input="CONTROL_RIGHT_STICK_Y" curve="Weapons:AimCurves/Pad_Look"/>
+    </Binding>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="hold" signal="paint_shortcut_begin" />
+    <Binding input="CONTROL_RIGHT_BUMPER" action="release" signal="paint_shortcut_end" />
+    <Binding signal="paint_shortcut1" action="update" priority="MiniGame">
+        <Input input="CONTROL_LEFT_STICK_X"/>
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+    </Binding>
+    <Binding signal="paint_shortcut1" action="update" priority="MiniGame">
+        <Input input="CONTROL_KB_AD"/>
+        <Input input="CONTROL_KB_WS"/>
+    </Binding>
+    <Binding signal="paint_shortcut2" action="update" priority="MiniGame">
+        <Input input="CONTROL_RIGHT_STICK_X"/>
+        <Input input="CONTROL_RIGHT_STICK_Y"/>
+    </Binding>
+    <Binding signal="paint_grab_move" action="update" priority="MiniGame">
+        <Input input="CONTROL_LEFT_STICK_X"/>
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+    </Binding>
+    <Binding signal="paint_grab_move" action="update" priority="MiniGame">
+        <Input input="CONTROL_KB_AD"/>
+        <Input input="CONTROL_KB_WS"/>
+    </Binding>
+    <Binding input="CONTROL_A" action="release" signal="toolbox_select" priority="MiniGame"/>
+    <Binding input="KB_ENTER" action="release" signal="toolbox_select" priority="MiniGame"/>
+    <Binding input="CONTROL_B" action="release" signal="toolbox_back" priority="MiniGame"/>
+    <Binding input="KB_ESCAPE" action="release" signal="toolbox_back" priority="MiniGame"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="update" signal="paint_plus" priority="MiniGame"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="update" signal="paint_plus" priority="MiniGame"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="update" signal="paint_minus" priority="MiniGame"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="update" signal="paint_minus" priority="MiniGame"/>
+    <Binding input="CONTROL_Y" action="release" signal="zone_reset" priority="MiniGame"/>
+    <Binding input="CONTROL_Y" action="press" signal="paint_grab_begin" priority="MiniGame"/>
+    <Binding input="CONTROL_Y" action="release" signal="paint_grab_end" priority="MiniGame"/>
+    <Binding input="CONTROL_Y" action="release" signal="browser_clear_slot" priority="MiniGame"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" action="press" signal="controller_alt_begin"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" action="release" signal="controller_alt_end"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="release" signal="controller_speed_change"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="press" signal="object_rotate_start" priority="MiniGame"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="release" signal="object_rotate_stop" priority="MiniGame"/>
+    <Binding input="KB_LSHIFT" action="release" signal="controller_speed_change" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="press" signal="object_add_confirm" priority="MiniGame"/>
+    <Binding input="CONTROL_A" action="press" signal="object_add_confirm" priority="MiniGame"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="release" signal="object_add_and_edit" priority="MiniGame"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="release" signal="object_add_and_edit" priority="MiniGame"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="press" signal="object_rotate_begin" priority="MiniGame"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="press" signal="object_rotate_begin" priority="MiniGame"/>
+    <Binding signal="editor_redo" action="press" priority="MiniGame">
+        <Input input="CONTROL_RIGHT_STICK_BUTTON"/>
+        <Input input="CONTROL_DPAD_RIGHT"/>
+    </Binding>
+    <Binding signal="editor_undo" action="press" priority="Menu">
+        <Input input="CONTROL_RIGHT_STICK_BUTTON"/>
+        <Input input="CONTROL_DPAD_LEFT"/>
+    </Binding>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="update" signal="environment_increase_time"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="update" signal="environment_increase_time" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="update" signal="environment_decrease_time"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="update" signal="environment_decrease_time" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="release" signal="environment_end_time_update"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="release" signal="environment_end_time_update" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="release" signal="environment_end_time_update"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="release" signal="environment_end_time_update" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="press" signal="object_move_begin"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="press" signal="object_move_begin" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="press" signal="object_grab_begin"/>
+    <Binding input="CONTROL_X" action="release" signal="controller_cursor_togglecontrol"/>
+    <Binding input="CONTROL_Y" action="release" signal="object_delete"/>
+    <Binding input="KB_H" action="release" signal="object_delete"/>
+    <Binding input="CONTROL_BACK" action="release" signal="object_select_switch" priority="MiniGame"/>
+    <Binding input="CONTROL_DPAD_UP" action="release" signal="test_spawnsize_increase"/>
+    <Binding input="CONTROL_DPAD_DOWN" action="release" signal="test_spawnsize_decrease"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="press" signal="base_select_plus_start"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="press" signal="base_select_plus_start" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="release" signal="base_select_end"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="release" signal="base_select_end" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="hold" signal="select_grow_start"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="hold" signal="select_grow_start" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="release" signal="select_grow_end"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="release" signal="select_grow_end" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding action="update" signal="select_grow_change_radius">
+        <Input input="CONTROL_LEFT_STICK_X"/>
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+    </Binding>
+    <Binding action="update" signal="select_grow_change_radius">
+        <Input input="CONTROL_KB_AD"/>
+        <Input input="CONTROL_KB_WS"/>
+    </Binding>
+    <Binding input="CONTROL_DPAD_RIGHT" action="release" signal="object_clone"/>
+    <Binding input="CONTROL_DPAD_UP" action="release" signal="object_reset_angles"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="press" signal="selectmode_rotate_start"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="press" signal="selectmode_rotate_start" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="release" signal="selectmode_rotate_stop"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="release" signal="selectmode_rotate_stop" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="press" signal="rotate_changeaxis"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="press" signal="rotate_changeaxis" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_A" action="press" signal="selectmode_move_start"/>
+    <Binding input="KB_SPACE" action="press" signal="selectmode_move_start" remapped="REMAPPABLE_CONTROL_KB_SPACE"/>
+    <Binding input="CONTROL_B" action="release" signal="selectmode_release"/>
+    <Binding input="CONTROL_DPAD_LEFT" action="release" signal="selectmode_move_followtype"/>
+    <Binding input="CONTROL_Y" action="release" signal="selectmode_delete"/>
+    <Binding input="KB_H" action="release" signal="selectmode_delete"/>
+    <Binding input="CONTROL_Y" action="release" signal="object_search"/>
+    <Binding input="KB_H" action="release" signal="object_search"/>
+    <!--EDITOR-->
+    <Binding input="CONTROL_X" action="release" signal="selectmode_edit"/>
+    <Binding input="CONTROL_DPAD_DOWN" action="release" signal="object_drop"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="release" signal="snapshot_clear_snapshot"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="release" signal="snapshot_clear_snapshot" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="release" signal="snapshot_take_snapshot"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="release" signal="snapshot_take_snapshot" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_X" action="release" signal="snapshot_go_to_snapshot_position"/>
+    <Binding input="CONTROL_Y" action="release" signal="terrain_getheight"/>
+    <Binding input="KB_H" action="release" signal="terrain_getheight"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="release" signal="terrain_ramp_begin_end"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="release" signal="terrain_ramp_begin_end" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="release" signal="terrain_ramp_cancel"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="release" signal="terrain_ramp_cancel" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_Y" action="release" signal="spline_select"/>
+
+    <!-- Camera -->
+    <Binding signal="camera_move" action="update" priority="Cinema">
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+        <Input input="CONTROL_LEFT_STICK_X"/>
+    </Binding>
+    <Binding signal="camera_move" action="update" priority="Cinema">
+        <Input input="CONTROL_KB_WS"/>
+        <Input input="CONTROL_KB_AD"/>
+    </Binding>
+    <Binding signal="camera_look" action="updatealways" priority="Cinema">
+        <Input input="CONTROL_RIGHT_STICK_X"/>
+        <Input input="CONTROL_RIGHT_STICK_Y"/>
+    </Binding>
+    <Binding signal="camera_look" action="updatemousealways" sensitivity="0.004" priority="Cinema">
+        <Input input="CONTROL_MOUSE_X" curve="Weapons:AimCurves/Mouse_Curve"/>
+        <Input input="CONTROL_MOUSE_Y" curve="Weapons:AimCurves/Mouse_Curve"/>
+    </Binding>
+    <Binding input="CONTROL_CAMERA_Z" action="update" signal="camera_move_z" priority="Cinema"/>
+    <Binding input="CONTROL_CAMERA_ACCEL" action="update" signal="camera_acceleration" priority="Cinema"/>
+    <Binding input="CONTROL_B" action="press" signal="interact_press_b" priority="Cinema"/>
+    <Binding input="KB_C" action="press" signal="interact_press_b" priority="Cinema"/>
+    <Binding input="CONTROL_Y" action="press" signal="do_teleport_freeCam" priority="Cinema"/>
+    <Binding input="KB_H" action="press" signal="do_teleport_freeCam" priority="Cinema"/>
+    <Binding input="CONTROL_X" action="press" signal="toggleAimingInfo" priority="Cinema"/>
+    <Binding input="KB_E" action="press" signal="toggleAimingInfo" priority="Cinema"/>
+    <Binding input="CONTROL_LEFT_BUMPER" action="press" signal="cam_left_shoulder_press" priority="Cinema"/>
+    <Binding input="CONTROL_LEFT_BUMPER" action="release" signal="cam_left_shoulder_release" priority="Cinema"/>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="press" signal="cam_right_shoulder_press" priority="Cinema"/>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="release" signal="cam_right_shoulder_release" priority="Cinema"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="update" signal="cam_fov_speed_step" priority="Cinema"/>
+    <Binding input="KB_LSHIFT" action="update" signal="cam_fov_speed_step" priority="Cinema"/>
+    <Binding input="CONTROL_DPAD_UP" action="press" signal="reset_speeds" priority="Cinema"/>
+    <Binding input="CONTROL_BACK" action="press" signal="cam_toggle_lock" priority="Cinema"/>
+    <Binding input="CONTROL_START" action="press" signal="cam_toggle_transform" priority="Cinema"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" action="press" signal="toggle_market_camera_pad"/>
+
+
+
+    <!-- Vehicle -->
+    <Binding input="CONTROL_X" action="hold" signal="exitvehicle"/>
+    <Binding input="KB_E" action="hold" signal="exitvehicle" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="CONTROL_A" action="press" signal="change_seat"/>
+    <Binding input="KB_C" action="press" signal="change_seat" remapped="REMAPPABLE_CONTROL_KB_C"/>
+    <Binding input="CONTROL_LEFT_BUMPER" action="press" signal="toggle_awd"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="press" signal="deploy_wingsuit"/>
+    <Binding input="KB_LSHIFT" action="press" signal="deploy_wingsuit" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+
+    <Binding input="CONTROL_LEFT_STICK_Y" action="update" signal="frontback"/>
+    <Binding input="CONTROL_KB_WS" action="update" signal="frontback" remapped="REMAPPABLE_CONTROL_KB_WS"/>
+    <Binding input="CONTROL_LEFT_STICK_X" action="update" signal="steering"/>
+    <Binding input="CONTROL_KB_AD" action="update" signal="steering" remapped="REMAPPABLE_CONTROL_KB_AD"/>
+    <Binding input="CONTROL_B" action="update" signal="hand_brake"/>
+    <Binding input="KB_SPACE" action="update" signal="hand_brake" remapped="REMAPPABLE_CONTROL_KB_SPACE"/>
+
+    <Binding input="KB_G" action="press" signal="toggle_headlights" remapped="REMAPPABLE_CONTROL_KB_G"/>
+
+    <Binding input="CONTROL_B" action="update" signal="vehicle_deccelonbutton" />
+    <Binding input="CONTROL_A" action="update" signal="vehicle_accelonbutton"/>
+
+    <Binding input="KB_W" action="update" signal="accelerator" remapped="REMAPPABLE_CONTROL_KB_W"/>
+    <Binding input="KB_S" action="update" signal="reverse" invert="1" remapped="REMAPPABLE_CONTROL_KB_S"/>
+
+
+    <!--Animal Riding-->
+    <Binding signal="animal_move" action="update">
+        <Input input="CONTROL_LEFT_STICK_X"/>
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+    </Binding>
+    <Binding signal="animal_move" action="update">
+        <Input input="CONTROL_KB_AD" remapped="REMAPPABLE_CONTROL_KB_AD"/>
+        <Input input="CONTROL_KB_WS" remapped="REMAPPABLE_CONTROL_KB_WS"/>
+    </Binding>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON"         action="press"         signal="animal_start_sprint"/>
+    <Binding input="KB_LSHIFT"         action="press"         signal="animal_start_sprint" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON"         action="release"     signal="animal_stop_sprint"/>
+    <Binding input="KB_LSHIFT"         action="release"     signal="animal_stop_sprint" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+
+    <Binding input="CONTROL_B"                         action="press"         signal="animal_start_quickstop"/>
+    <Binding input="KB_SPACE"                         action="press"         signal="animal_start_quickstop" remapped="REMAPPABLE_CONTROL_KB_SPACE"/>
+    <Binding input="CONTROL_B"                         action="release"     signal="animal_stop_quickstop"/>
+    <Binding input="KB_SPACE"                         action="release"     signal="animal_stop_quickstop" remapped="REMAPPABLE_CONTROL_KB_SPACE"/>
+    <Binding input="CONTROL_X"                         action="hold"        signal="try_get_off_animal"/>
+    <Binding input="KB_E"                             action="press"        signal="try_get_off_animal" remapped="REMAPPABLE_CONTROL_KB_E"/>
+    <Binding input="CONTROL_LEFT_TRIGGER"             action="release"     signal="animal_attack_left"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON"             action="release"     signal="animal_attack_left" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"             action="release"     signal="animal_attack_right"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON"             action="release"     signal="animal_attack_right" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON"     action="press"         signal="animal_perform_attack"/>
+    <Binding input="KB_F"                             action="press"         signal="animal_perform_attack" remapped="REMAPPABLE_CONTROL_KB_F"/>
+
+    <!-- Voice chat -->
+    <Binding input="KB_LALT" action="press" signal="voicechat_enable" remapped="REMAPPABLE_CONTROL_KB_LALT"/>
+    <Binding input="KB_LALT" action="release" signal="voicechat_disable" remapped="REMAPPABLE_CONTROL_KB_LALT"/>
+    <Binding input="KB_F" action="press" signal="team_voicechat_enable" remapped="REMAPPABLE_CONTROL_KB_F"/>
+    <Binding input="KB_F" action="release" signal="team_voicechat_disable" remapped="REMAPPABLE_CONTROL_KB_F"/>
+
+    <!-- Scry input -->
+    <Binding signal="scry_openclose" action="press" priority="DEBUG_GUI">
+        <Input input="CONTROL_B"/>
+        <Input input="CONTROL_LEFT_BUMPER"/>
+    </Binding>
+    <Binding input="KB_BACKSLASH" signal="scry_openclose" action="press" priority="DEBUG_GUI"/>
+    <Binding signal="scry_move_left_thumb" action="update" priority="DEBUG_GUI">
+        <Input input="CONTROL_LEFT_STICK_X"/>
+        <Input input="CONTROL_LEFT_STICK_Y"/>
+    </Binding>
+    <Binding signal="scry_move_right_thumb" action="update" priority="DEBUG_GUI">
+        <Input input="CONTROL_RIGHT_STICK_X"/>
+        <Input input="CONTROL_RIGHT_STICK_Y"/>
+    </Binding>
+    <Binding input="KB_ENTER"    action="press"   signal="scry_press_start" priority="DEBUG_GUI"/>
+    <Binding input="KB_ENTER"    action="release" signal="scry_release_start" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_START"            action="press"   signal="scry_press_start" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_START"            action="release" signal="scry_release_start" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_BACK"             action="press"   signal="scry_press_back" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_BACK"             action="release" signal="scry_release_back" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_DPAD_UP"          action="press"   signal="scry_press_dpad_up" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_DPAD_UP"          action="release" signal="scry_release_dpad_up" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_DPAD_DOWN"        action="press"   signal="scry_press_dpad_down" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_DPAD_DOWN"        action="release" signal="scry_release_dpad_down" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_DPAD_LEFT"        action="press"   signal="scry_press_dpad_left" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_DPAD_LEFT"        action="release" signal="scry_release_dpad_left" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_DPAD_RIGHT"       action="press"   signal="scry_press_dpad_right" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_DPAD_RIGHT"       action="release" signal="scry_release_dpad_right" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_LEFT_TRIGGER"     action="press"   signal="scry_press_left_trigger" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_LEFT_TRIGGER"     action="release" signal="scry_release_left_trigger" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"    action="press"   signal="scry_press_right_trigger" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER"    action="release" signal="scry_release_right_trigger" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_LEFT_BUMPER"        action="press"   signal="scry_press_left_shoulder" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_LEFT_BUMPER"        action="release" signal="scry_release_left_shoulder" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_RIGHT_BUMPER"       action="press"   signal="scry_press_right_shoulder" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_RIGHT_BUMPER"           action="release" signal="scry_release_right_shoulder" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_Y"                action="press"   signal="scry_press_y" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_Y"                action="release" signal="scry_release_y" priority="DEBUG_GUI"/>
+    <Binding input="KB_H"                action="press"   signal="scry_press_y" priority="DEBUG_GUI"/>
+    <Binding input="KB_H"                action="release" signal="scry_release_y" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_A"                action="press"   signal="scry_press_a" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_A"                action="release" signal="scry_release_a" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_B"                action="press"   signal="scry_press_b" priority="DEBUG_GUI"/>
+    <Binding input="CONTROL_B"                action="release" signal="scry_release_b" priority="DEBUG_GUI"/>
+
+    <!-- Debug console -->
+    <Binding input="KB_GRAVE" action="press" signal="toggle_console" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_BACKSPACE" action="press" signal="console_backspace" priority="DEBUG_CONSOLE"/>
+    <Binding input="CONTROL_START" action="press" signal="console_execute_buffer" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_ENTER" action="press" signal="console_execute_buffer" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_BACKSPACE" action="release" signal="console_backspace_release" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_DELETE" action="release" signal="console_delete" priority="DEBUG_CONSOLE"/>
+    <Binding signal="console_autocompleteprev" action="press" priority="DEBUG_CONSOLE">
+        <Input input="KB_LSHIFT"/>
+        <Input input="KB_TAB"/>
+    </Binding>
+    <Binding input="KB_TAB" action="press" signal="console_autocomplete" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_TAB" action="release" signal="console_autocomplete_release" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_UP" action="press" signal="console_cursor_up" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_UP" action="release" signal="console_cursor_up_release" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_DOWN" action="press" signal="console_cursor_down" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_DOWN" action="release" signal="console_cursor_down_release" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_LEFT" action="press" signal="console_cursor_left" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_LEFT" action="release" signal="console_cursor_left_release" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_RIGHT" action="press" signal="console_cursor_right" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_RIGHT" action="release" signal="console_cursor_right_release" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_ESCAPE" action="press" signal="console_clear_input" priority="DEBUG_CONSOLE"/>
+    <Binding signal="create_issue" action="press" priority="DEBUG_CONSOLE">
+        <Input input="KB_J"/>
+        <Input input="KB_SHIFT"/>
+    </Binding>
+    <Binding signal="create_issue_pad" action="press" priority="DEBUG_CONSOLE">
+        <Input input="CONTROL_LEFT_STICK_BUTTON"/>
+        <Input input="CONTROL_RIGHT_STICK_BUTTON"/>
+    </Binding>
+    <Binding input="KB_PAGEUP" action="press" signal="console_scroll_start_up" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_PAGEDOWN" action="press" signal="console_scroll_start_down" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_PGUPDOWN" action="release" signal="console_scroll_stop" priority="DEBUG_CONSOLE"/>
+    <Binding signal="console_backspace_word" action="press" priority="DEBUG_CONSOLE">
+        <Input input="KB_LCONTROL"/>
+        <Input input="KB_BACKSPACE"/>
+    </Binding>
+    <Binding signal="console_paste" action="press" priority="DEBUG_CONSOLE">
+        <Input input="KB_LCONTROL"/>
+        <Input input="KB_V"/>
+    </Binding>
+
+    <Binding signal="player_Teleport_Dump" action="press" priority="DEBUG_CONSOLE">
+        <Input input="KB_LCONTROL"/>
+        <Input input="KB_T"/>
+    </Binding>
+
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="press" signal="console_paste" priority="DEBUG_CONSOLE"/>
+
+    <Binding input="KB_NUMPAD0" action="press" signal="enable_profiler_dump" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD0" action="release" signal="disable_profiler_dump" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD1" action="press" signal="enable_renderer_dump" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD2" action="press" signal="enable_memtracer_dump" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD3" action="press" signal="enable_pix_dump" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD3" action="release" signal="disable_pix_dump" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD4" action="release" signal="profile_data_capture_single_frame" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD5" action="press" signal="mark_frustration" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD6" action="release" signal="profiler_data_capture_toggle" priority="DEBUG_GUI"/>
+    <Binding input="KB_NUMPAD7" action="press" signal="enable_physics_dump" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD8" action="press" signal="toggle_particle_render" priority="DEBUG_SHORTCUTS"/>
+    <Binding input="KB_NUMPAD9" action="press" signal="detailed_storm_stats_toggle" priority="DEBUG_GUI"/>
+
+    <Binding input="CONTROL_LEFT_TRIGGER" action="press" signal="togglephysdrag" priority="DEBUG_SHORTCUTS"/>
+
+    <Binding input="KB_UP"   action="press" signal="slowmotioncontrol_up" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_DOWN" action="press" signal="slowmotioncontrol_down" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_PAGEUP" action="press" signal="slowmotioncontrol_up_sync" priority="DEBUG_CONSOLE"/>
+    <Binding input="KB_PAGEDOWN" action="press" signal="slowmotioncontrol_down_sync" priority="DEBUG_CONSOLE"/>
+
+    <Binding input="CONTROL_DPAD_RIGHT" action="press" signal="teleport_to_next_spawn_point" priority="DEBUG_CONSOLE"/>
+    <Binding input="CONTROL_DPAD_LEFT" action="press" signal="teleport_to_previous_spawn_point" priority="DEBUG_CONSOLE"/>
+
+    <!-- Credits -->
+    <Binding input="CONTROL_START" action="press" signal="skip_credits" priority="Menu"/>
+    <Binding input="CONTROL_BACK" action="press" signal="skip_credits" priority="Menu"/>
+    <Binding input="CONTROL_A" action="press" signal="skip_credits" priority="Menu"/>
+    <Binding input="CONTROL_B" action="press" signal="skip_credits" priority="Menu"/>
+    <Binding input="KB_ESCAPE" action="press" signal="skip_credits" priority="Menu"/>
+    <Binding input="KB_ENTER" action="press" signal="skip_credits" priority="Menu"/>
+
+    <!-- E3 Demo -->
+    <!--<Binding input="CONTROL_A" action="press" signal="endDemo" priority="Cinema" />
+    <Binding input="KB_ENTER" action="press" signal="endDemo" priority="Cinema" />-->
+
+    <!-- Attract video -->
+    <Binding input="CONTROL_DPAD_LEFT" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_DPAD_RIGHT" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_DPAD_UP" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_DPAD_DOWN" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_A" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_B" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_X" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_Y" action="press" signal="dismiss_attract_video"/>
+    <Binding input="KB_LCONTROL" action="press" signal="dismiss_attract_video" remapped="REMAPPABLE_CONTROL_KB_LCONTROL"/>
+    <Binding input="CONTROL_START" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_BACK" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_LEFT_STICK_X" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_KB_AD" action="press" signal="dismiss_attract_video" remapped="REMAPPABLE_CONTROL_KB_AD"/>
+    <Binding input="CONTROL_LEFT_STICK_Y" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_KB_WS" action="press" signal="dismiss_attract_video" remapped="REMAPPABLE_CONTROL_KB_WS"/>
+    <Binding input="CONTROL_RIGHT_STICK_X" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_RIGHT_STICK_Y" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_RIGHT_TRIGGER" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_LEFT_MOUSE_BUTTON" action="press" signal="dismiss_attract_video" remapped="REMAPPABLE_CONTROL_LEFT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_LEFT_TRIGGER" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_RIGHT_MOUSE_BUTTON" action="press" signal="dismiss_attract_video" remapped="REMAPPABLE_CONTROL_RIGHT_MOUSE_BUTTON"/>
+    <Binding input="CONTROL_RIGHT_BUMPER" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_LEFT_BUMPER" action="press" signal="dismiss_attract_video"/>
+    <Binding input="CONTROL_LEFT_STICK_BUTTON" action="press" signal="dismiss_attract_video"/>
+    <Binding input="KB_LSHIFT" action="press" signal="dismiss_attract_video" remapped="REMAPPABLE_CONTROL_KB_LSHIFT"/>
+    <Binding input="CONTROL_RIGHT_STICK_BUTTON" action="press" signal="dismiss_attract_video"/>
+    <Binding input="KB_ESCAPE" action="press" signal="dismiss_attract_video"/>
+    <Binding input="KB_ENTER" action="press" signal="dismiss_attract_video"/>
+    <Binding input="KB_SPACE" action="press" signal="dismiss_attract_video" remapped="REMAPPABLE_CONTROL_KB_SPACE"/>
+
+    <!-- Navigation Debug -->
+    <Binding input="CONTROL_X" action="press" signal="NavigationDebugLeftPick" priority="DEBUG_CONSOLE"/>
+    <Binding input="CONTROL_B" action="press" signal="NavigationDebugShiftLeftPick" priority="DEBUG_CONSOLE"/>
+    <Binding input="CONTROL_Y" action="press" signal="NavigationDebugRightPick" priority="DEBUG_CONSOLE"/>
+</Root>

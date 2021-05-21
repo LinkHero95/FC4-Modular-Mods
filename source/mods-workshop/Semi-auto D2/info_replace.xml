@@ -18,12 +18,36 @@
 	<Replaces>
 		<!-- D2 -->
 		<Replace RequiredFile="entityarchetypeslibrary/7793085898219.ark.fcb">
+			<object hash="5B7C0249" name="CWeaponProperties">
+				<object hash="FC33DE57" name="CommonProperties">
+					<object hash="4FBDD114" name="Ammo">
+						<field hash="08A00C66" name="AmmoUsedPerShot" value-Int32="1" type="BinHex">01000000</field>
+					</object>
+				</object>
 
+				<object hash="4124E600" name="FireStrategyProperties">
+					<object hash="6E2A2FC4" name="BaseDamage">
+						<field hash="F26659EE" name="fLevel" value-Float32="60.5" type="BinHex">00007242</field>
+					</object>
+				</object>
+			</object>
 		</Replace>
 
 		<!-- D2.Menu -->
-		<!-- <Replace RequiredFile="entityarchetypeslibrary/7796769493989.ark.fcb">
+		<Replace RequiredFile="entityarchetypeslibrary/7796769493989.ark.fcb">
+			<object hash="5B7C0249" name="CWeaponProperties">
+				<object hash="FC33DE57" name="CommonProperties">
+					<object hash="4FBDD114" name="Ammo">
+						<field hash="08A00C66" name="AmmoUsedPerShot" value-Int32="1" type="BinHex">01000000</field>
+					</object>
+				</object>
 
-		</Replace> -->
+				<object hash="4124E600" name="FireStrategyProperties">
+					<object hash="6E2A2FC4" name="BaseDamage">
+						<field hash="F26659EE" name="fLevel" value-Float32="60.5" type="BinHex">00007242</field>
+					</object>
+				</object>
+			</object>
+		</Replace>
 	</Replaces>
 </Info>

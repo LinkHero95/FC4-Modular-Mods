@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<DefaultInclude>true</DefaultInclude>
+	<Description>Disable Fast Travel
+	</Description>
+
+	<OwnCategory>LH95 Test Temp</OwnCategory>
+
+	<Replaces>
+		<Replace RequiredFile="actionmaps/hidinputmap.xml">
+			<Root>
+				<Binding primaryKey_signal="worldmap_fast_travel" removeParent="1"/>
+				<!-- <Binding primaryKey_signal="worldmap_fast_travel" removeParent="1"/> -->
+			</Root>
+		</Replace>
+	</Replaces>
+</InfoReplace>
