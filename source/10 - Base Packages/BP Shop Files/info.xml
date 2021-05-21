@@ -4,22 +4,22 @@
 
 	<Description>Shop Files
 
-        This base package makes 3 files able to be modified by a3 packages:
-		[list]
-		[*] shopitemtype.ndb: used for changing shop prices.
-		[*] shoppingitems.ndb: the main shop file contains details for all buyable and sellable items in game.
-		[*] shopsubcategory1.ndb: determines which items are actually shown in the shop.
-		[/list]
- 
-		Other Information:
-		[list]
-		[*] [color=yellow]If a mod collides with this base package, then just simply disable this package, because a mod you want to use probably contains these files.[/color]
-		[/list]
+	This base package makes 3 files able to be modified by a3 packages:
+	[list]
+	[*] shopitemtype.ndb: used for changing shop prices.
+	[*] shoppingitems.ndb: the main shop file contains details for all buyable and sellable items in game.
+	[*] shopsubcategory1.ndb: determines which items are actually shown in the shop.
+	[/list]
 
-		Credits: 
-		[list]
-		[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
-		[/list]
+	Other Information:
+	[list]
+	[*] [color=yellow]If a mod collides with this base package, then just simply disable this package, because a mod you want to use probably contains these files.[/color]
+	[/list]
+
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
 	</Description>
 
 	<Category>10</Category>

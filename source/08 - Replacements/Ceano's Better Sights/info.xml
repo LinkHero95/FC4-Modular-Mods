@@ -6,27 +6,27 @@
 
 	Replaces some of the sights with alternate versions.
 
-    Changes made by this mod:
-    [list]
-    [*] Changes the reticles for the sights used by handguns, assault rifles, etc. 
-    [*] Changes the reticles for the sights used by the recurve bow.
+	Changes made by this mod:
+	[list]
+	[*] Changes the reticles for the sights used by handguns, assault rifles, etc. 
+	[*] Changes the reticles for the sights used by the recurve bow.
 	[*] Does not change the scope reticles for sniper rifles, or the reticle for the sight used by the LK-1018.  
-    [/list]
+	[/list]
 
 	In game look:
 
 	[img]topleft.jpg[/img]
 
-    Other Information: 
-    [list]
+	Other Information: 
+	[list]
 	[*] This mod is co-op friendly. 
-    [/list]
+	[/list]
 
 	Credits: 
-    [list]
-    [*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/86149][b]Ceano[/b][/url][/size]
-    [*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
-    [/list]
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/86149][b]Ceano[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
 	</Description>
 
 	<OnlyOne>sight_reticle_replacements</OnlyOne>

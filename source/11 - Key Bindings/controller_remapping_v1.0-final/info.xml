@@ -1,22 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Info>
-    <DefaultInclude>false</DefaultInclude>
-    <Description>Controller Remapping
-        Changes the working of some controls in the game. All of these can be remapped to your specific configuration
+	<DefaultInclude>false</DefaultInclude>
 
-        Changes made by this mod:
-        [list]
-        [*] INTERACT: Press INTERACT KEY to use or pickup items. Press and hold INTERACT KEY to use grappling hook.
-        [*] RELOAD: Press RELOAD KEY to reload - press and hold RELOAD to bring up weapon wheel.
-        [*] HEAL: Press HEAL KEY to heal. Press and hold HEAL to bring up syringe wheel.
-        [*] HIDE HUD: Use the L key to hide your HUD completely (total immersion!)
-        [/list]
-		
-		NOTE: This mod is included by default in the OPEN WORLD mod. If you are using that mod, then please feel free to exclude this one.
+	<Description>Controller Remapping
+	Changes the working of some controls in the game. All of these can be remapped to your specific configuration
 
-		Version: 1.0 - FINAL
-		[size=1][color=lightgreen]Author: [/color][b]JRavens[/b][/size]
-        [size=1][color=lightgreen]Converted to Mod Installer format by: [/color][b]LinkHero95[/b][/size]
-    </Description>
-    <!-- <Dependencies>Script Loader</Dependencies> -->
-    <Category>11</Category>
+	Changes made by this mod:
+	[list]
+	[*] INTERACT: Press INTERACT KEY to use or pickup items. Press and hold INTERACT KEY to use grappling hook.
+	[*] RELOAD: Press RELOAD KEY to reload - press and hold RELOAD to bring up weapon wheel.
+	[*] HEAL: Press HEAL KEY to heal. Press and hold HEAL to bring up syringe wheel.
+	[*] HIDE HUD: Use the L key to hide your HUD completely (total immersion!)
+	[/list]
+
+	NOTE: This mod is included by default in the OPEN WORLD mod. If you are using that mod, then please feel free to exclude this one.
+
+	Version: 1.0 - FINAL [size=1][color=lightgreen]Author: [/color][b]JRavens[/b][/size] [size=1][color=lightgreen]Converted to Mod Installer format by: [/color][b]LinkHero95[/b][/size]
+	</Description>
+
+	<Category>11</Category>
 </Info>

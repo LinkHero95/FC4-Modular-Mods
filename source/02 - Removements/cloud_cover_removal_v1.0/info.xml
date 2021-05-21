@@ -1,20 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Info>
     <DefaultInclude>false</DefaultInclude>
     <Description>Cloud Cover Removal
 
-        Removes the cloud cover on the map when the radio towers are unlocked. I personally find it a tad silly that the map is covered by clouds which magically disappear when the player liberates a radio tower. Also, this will allow for full map visibility without having to liberate towers and having to listen to "Radio Freaky Rat" throughout the rest of the game.
+	Removes the cloud cover on the map when the radio towers are unlocked. I personally find it a tad silly that the map is covered by clouds which magically disappear when the player liberates a radio tower. Also, this will allow for full map visibility without having to liberate towers and having to listen to "Radio Freaky Rat" throughout the rest of the game.
 
-        Changes made by this mod:
-        [list]
-        [*] The cloud cover on the world map is removed from the start.
-		[*] The minimap is visible even when the nearest radio tower has not been liberated.
-        [/list]
+	Changes made by this mod:
+	[list]
+	[*] The cloud cover on the world map is removed from the start.
+	[*] The minimap is visible even when the nearest radio tower has not been liberated.
+	[/list]
 
-		Warnings:
-		[*] This mod may not be co-op friendly. 
-		[*] In case of any bugs, please email me at linkhero95@gmail.com, or contact me at the Far Cry series modding discord.
+	Warnings:
+	[*] This mod may not be co-op friendly. 
+	[*] In case of any bugs, please email me at linkhero95@gmail.com, or contact me at the Far Cry series modding discord.
 
-		[size=1][color=lightgreen]Author: [/color][b]LinkHero95[/b][/size]
+	[size=1][color=lightgreen]Author: [/color][b]LinkHero95[/b][/size]
 	</Description>
     <Category>2</Category>
     <Pairs>

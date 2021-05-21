@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Info>
-    <DefaultInclude>false</DefaultInclude>
+	<DefaultInclude>false</DefaultInclude>
 
-    <Description>Body Armour Durability Enhancement
-        Modifies the properties of the purchaseable body armour
+	<Description>Body Armour Durability Enhancement
 
-        Changes made by this mod:
-        [list]
-        [*] Body Armour is not depleted by wild animal attacks.
-        [*] As a trade-off, body armour does not protect the player from wild animal attacks.
-        [*] The same properties apply to the melee attacks of the Royal Army Beheader.
-        [/list]
+	Modifies the properties of the purchaseable body armour
 
-        Other Information:
-        [list]
-        [*] This mod is co-op friendly.
-        [/list]
+	Changes made by this mod:
+	[list]
+	[*] Body Armour is not depleted by wild animal attacks.
+	[*] As a trade-off, body armour does not protect the player from wild animal attacks.
+	[*] The same properties apply to the melee attacks of the Royal Army Beheader.
+	[/list]
 
-		Credits:
-		[list]
-		[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
-		[/list] 
-    </Description>
+	Other Information:
+	[list]
+	[*] This mod is co-op friendly.
+	[/list]
 
-    <Category>3</Category>
+	Credits:
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list] 
+	</Description>
 
-    <Pairs>
-        <Pair>
-            <Source><![CDATA[armorsettings.ndb]]></Source>
-            <Target><![CDATA[generated\databases\generic\armorsettings.ndb]]></Target>
-        </Pair>
-    </Pairs>
+	<Category>3</Category>
+
+	<Pairs>
+		<Pair>
+			<Source><![CDATA[armorsettings.ndb]]></Source>
+			<Target><![CDATA[generated\databases\generic\armorsettings.ndb]]></Target>
+		</Pair>
+	</Pairs>
 </Info>

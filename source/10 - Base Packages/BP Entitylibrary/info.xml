@@ -4,20 +4,20 @@
 
  	<Description>EntitylLibrary
 
-        This base package makes 1 file able to be modified by a3 packages:
-		[list]
-		[*] entitylibrary.fcb: A master list of all the object archetypes used in game.
-		[/list]
- 
-		Other Information:
-		[list]
-		[*] [color=yellow]If a mod collides with this base package, then just simply disable this package, because a mod you want to use probably contains these files.[/color]
-		[/list]
+	This base package makes 1 file able to be modified by a3 packages:
+	[list]
+	[*] entitylibrary.fcb: A master list of all the object archetypes used in game.
+	[/list]
 
-		Credits: 
-		[list]
-		[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
-		[/list]
+	Other Information:
+	[list]
+	[*] [color=yellow]If a mod collides with this base package, then just simply disable this package, because a mod you want to use probably contains these files.[/color]
+	[/list]
+
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
 	</Description>
 
     <Category>10</Category>
