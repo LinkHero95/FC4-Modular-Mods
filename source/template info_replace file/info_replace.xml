@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <InfoReplace>
-	<DefaultInclude>true</DefaultInclude>
+	<DefaultInclude>false</DefaultInclude>
 
 	<Description>Bunker Opener You are able to go inside all bunkers / silos before mission start and even after regions are liberated.</Description>
 
