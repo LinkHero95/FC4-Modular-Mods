@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+	<DefaultInclude>true</DefaultInclude>
+
+	<Description>Bunker Opener You are able to go inside all bunkers / silos before mission start and even after regions are liberated.</Description>
+
+	<HeaderPicture1>bun1.jpg</HeaderPicture1>
+	<HeaderPicture2>bun2.jpg</HeaderPicture2>
+
+	<Category>3</Category>
+
+	<Dependencies>
+		<Dependency Action="and">
+			<Package>Script Loader.a3</Package>
+		</Dependency>
+	</Dependencies>
+
+	<Pairs>
+		<Pair>
+			<FromDatFile></FromDatFile>
+			<Source><![CDATA[fc5_bunkersopener.lua]]></Source>
+			<Target><![CDATA[armaniii_stuff/fc5_bunkersopener.lua]]></Target>
+		</Pair>
+	</Pairs>
+</Info>
