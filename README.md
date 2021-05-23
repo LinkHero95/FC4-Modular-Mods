@@ -36,12 +36,13 @@
 		1. Body Armour Durability Enhancement
 		1. FC4 Open World - North Kyrat Unlock
 		1. FC4 Open World - Skills Unlock
-		1. FC4 Open World - Signature weapons Unlock
+		1. Higher Karma Requirements
 		1. Semi-auto D2
 	1. *Store Items:*
 		1. FC4 Open World - ACE Unlock
 		1. FC4 Open World - Attachments Unlock
 		1. FC4 Open World - Miscellaneous Shop Items Unlock
+		1. FC4 Open World - Signature weapons Unlock
 		1. FC4 Open World - Weapons Unlock
 	1. *Replacements:*
 		1. Ceano's Better Sights
@@ -53,7 +54,7 @@
 	1. Vinh1998's alternate Royal Guard outfits
 	1. BP Control Mappings (Experimental)
 	1. Fast Travel Disable (Experimental)
-	1. Higher Karma Requirements
+	1. Higher XP Requirements
 
 - **Mods to be started:**
 	1. Higher Shop Prices

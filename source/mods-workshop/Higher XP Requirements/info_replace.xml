@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>Bunker Opener You are able to go inside all bunkers / silos before mission start and even after regions are liberated.</Description>
+
+	<HeaderPicture1>bun1.jpg</HeaderPicture1>
+	<HeaderPicture2>bun2.jpg</HeaderPicture2>
+
+	<Category>3</Category>
+
+	<Dependencies>
+		<Dependency Action="and">
+			<Package>Script Loader.a3</Package>
+		</Dependency>
+	</Dependencies>
+
+	<Replaces>
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb" OptionXPMultiplier="2">
+			<object hash="E9701E21" name="XPLevels">
+				<object hash="C6B36DE2" name="LevelsList">
+					<object hash="1CD16453" name="XPLevel" count="0">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="1000" type="BinHex">E8030000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="1">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="2200" type="BinHex">98080000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="2">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="3600" type="BinHex">100E0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="3">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="5100" type="BinHex">EC130000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="4">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="6600" type="BinHex">C8190000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="5">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="8100" type="BinHex">A41F0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="6">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="9700" type="BinHex">E4250000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="7">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="11300" type="BinHex">242C0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="8">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="12900" type="BinHex">64320000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="9">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="14600" type="BinHex">08390000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="10">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="16300" type="BinHex">AC3F0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="11">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="18000" type="BinHex">50460000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="12">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="19800" type="BinHex">584D0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="13">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="21600" type="BinHex">60540000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="14">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="23400" type="BinHex">685B0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="15">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="25300" type="BinHex">D4620000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="16">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="27200" type="BinHex">406A0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="17">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="29100" type="BinHex">AC710000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="18">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="31300" type="BinHex">447A0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="19">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="33500" type="BinHex">DC820000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="20">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="35700" type="BinHex">748B0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="21">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="38100" type="BinHex">D4940000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="22">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="40500" type="BinHex">349E0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="23">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="42900" type="BinHex">94A70000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="24">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="45400" type="BinHex">58B10000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="25">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="47900" type="BinHex">1CBB0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="26">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="50500" type="BinHex">44C50000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="27">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="53100" type="BinHex">6CCF0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="28">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="55800" type="BinHex">F8D90000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="29">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="58600" type="BinHex">E8E40000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="30">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="61600" type="BinHex">A0F00000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="31">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="64700" type="BinHex">BCFC0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="32">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="67900" type="BinHex">3C090100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="33">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="71200" type="BinHex">20160100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="34">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="74500" type="BinHex">04230100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="35">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="77800" type="BinHex">E82F0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="36">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="81150" type="BinHex">FE3C0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="37">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="84500" type="BinHex">144A0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="38">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="87850" type="BinHex">2A570100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="39">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="91250" type="BinHex">72640100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="40">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="94650" type="BinHex">BA710100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="41">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="98050" type="BinHex">027F0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="42">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="101500" type="BinHex">7C8C0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="43">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="104950" type="BinHex">F6990100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="44">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="108400" type="BinHex">70A70100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="45">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="111900" type="BinHex">1CB50100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="46">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="115400" type="BinHex">C8C20100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="47">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="118900" type="BinHex">74D00100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="48">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="122450" type="BinHex">52DE0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="49">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="126000" type="BinHex">30EC0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="50">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="129550" type="BinHex">0EFA0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="51">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="133150" type="BinHex">1E080200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="52">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="136750" type="BinHex">2E160200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="53">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="140350" type="BinHex">3E240200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="54">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="143950" type="BinHex">4E320200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="55">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="147600" type="BinHex">90400200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="56">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="151250" type="BinHex">D24E0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="57">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="154900" type="BinHex">145D0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="58">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="158550" type="BinHex">566B0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="59">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="162250" type="BinHex">CA790200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="60">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="165950" type="BinHex">3E880200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="61">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="169650" type="BinHex">B2960200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="62">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="173350" type="BinHex">26A50200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="63">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="177100" type="BinHex">CCB30200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="64">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="180850" type="BinHex">72C20200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="65">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="184600" type="BinHex">18D10200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="66">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="188400" type="BinHex">F0DF0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="67">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="192200" type="BinHex">C8EE0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="68">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="196000" type="BinHex">A0FD0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="69">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="200000" type="BinHex">400D0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="70">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="204000" type="BinHex">E01C0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="71">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="208000" type="BinHex">802C0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="72">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="212000" type="BinHex">203C0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="73">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="216000" type="BinHex">C04B0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="74">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="220000" type="BinHex">605B0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="75">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="224000" type="BinHex">006B0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="76">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="228000" type="BinHex">A07A0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="77">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="232000" type="BinHex">408A0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="78">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="236000" type="BinHex">E0990300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="79">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="240000" type="BinHex">80A90300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="80">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="244000" type="BinHex">20B90300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="81">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="248000" type="BinHex">C0C80300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="82">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="252000" type="BinHex">60D80300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="83">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="256000" type="BinHex">00E80300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="84">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="260000" type="BinHex">A0F70300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="85">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="264000" type="BinHex">40070400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="86">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="268000" type="BinHex">E0160400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="87">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="272000" type="BinHex">80260400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="88">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="276000" type="BinHex">20360400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="89">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="280000" type="BinHex">C0450400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="90">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="284000" type="BinHex">60550400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="91">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="288000" type="BinHex">00650400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="92">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="292000" type="BinHex">A0740400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="93">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="296000" type="BinHex">40840400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="94">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="300000" type="BinHex">E0930400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="95">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="304000" type="BinHex">80A30400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="96">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="308000" type="BinHex">20B30400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="97">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="312000" type="BinHex">C0C20400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="98">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="316000" type="BinHex">60D20400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="99">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="320000" type="BinHex">00E20400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="100">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="324000" type="BinHex">A0F10400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="101">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="328000" type="BinHex">40010500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="102">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="332000" type="BinHex">E0100500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="103">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="336000" type="BinHex">80200500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="104">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="340000" type="BinHex">20300500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="105">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="344000" type="BinHex">C03F0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="106">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="348000" type="BinHex">604F0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="107">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="352000" type="BinHex">005F0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="108">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="356000" type="BinHex">A06E0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="109">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="360000" type="BinHex">407E0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="110">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="364000" type="BinHex">E08D0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="111">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="368000" type="BinHex">809D0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="112">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="372000" type="BinHex">20AD0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="113">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="376000" type="BinHex">C0BC0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="114">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="380000" type="BinHex">60CC0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="115">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="384000" type="BinHex">00DC0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="116">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="388000" type="BinHex">A0EB0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="117">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="392000" type="BinHex">40FB0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="118">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="396000" type="BinHex">E00A0600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="119">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="400000" type="BinHex">801A0600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="120">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="404000" type="BinHex">202A0600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="121">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="408000" type="BinHex">C0390600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="122">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="412000" type="BinHex">60490600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="123">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="416000" type="BinHex">00590600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="124">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="420000" type="BinHex">A0680600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="125">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="424000" type="BinHex">40780600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="126">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="428000" type="BinHex">E0870600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="127">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="432000" type="BinHex">80970600</field>
+					</object>
+				</object>
+			</object>
+		</Replace>
+
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb" OptionXPMultiplier="3">
+			<object hash="E9701E21" name="XPLevels">
+				<object hash="C6B36DE2" name="LevelsList">
+					<object hash="1CD16453" name="XPLevel" count="0">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="1500" type="BinHex">DC050000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="1">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="3300" type="BinHex">E40C0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="2">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="5400" type="BinHex">18150000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="3">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="7650" type="BinHex">E21D0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="4">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="9900" type="BinHex">AC260000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="5">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="12150" type="BinHex">762F0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="6">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="14550" type="BinHex">D6380000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="7">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="16950" type="BinHex">36420000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="8">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="19350" type="BinHex">964B0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="9">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="21900" type="BinHex">8C550000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="10">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="24450" type="BinHex">825F0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="11">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="27000" type="BinHex">78690000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="12">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="29700" type="BinHex">04740000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="13">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="32400" type="BinHex">907E0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="14">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="35100" type="BinHex">1C890000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="15">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="37950" type="BinHex">3E940000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="16">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="40800" type="BinHex">609F0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="17">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="43650" type="BinHex">82AA0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="18">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="46950" type="BinHex">66B70000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="19">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="50250" type="BinHex">4AC40000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="20">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="53550" type="BinHex">2ED10000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="21">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="57150" type="BinHex">3EDF0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="22">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="60750" type="BinHex">4EED0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="23">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="64350" type="BinHex">5EFB0000</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="24">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="68100" type="BinHex">040A0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="25">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="71850" type="BinHex">AA180100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="26">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="75750" type="BinHex">E6270100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="27">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="79650" type="BinHex">22370100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="28">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="83700" type="BinHex">F4460100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="29">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="87900" type="BinHex">5C570100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="30">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="92400" type="BinHex">F0680100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="31">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="97050" type="BinHex">1A7B0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="32">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="101850" type="BinHex">DA8D0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="33">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="106800" type="BinHex">30A10100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="34">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="111750" type="BinHex">86B40100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="35">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="116700" type="BinHex">DCC70100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="36">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="121725" type="BinHex">7DDB0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="37">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="126750" type="BinHex">1EEF0100</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="38">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="131775" type="BinHex">BF020200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="39">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="136875" type="BinHex">AB160200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="40">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="141975" type="BinHex">972A0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="41">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="147075" type="BinHex">833E0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="42">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="152250" type="BinHex">BA520200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="43">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="157425" type="BinHex">F1660200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="44">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="162600" type="BinHex">287B0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="45">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="167850" type="BinHex">AA8F0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="46">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="173100" type="BinHex">2CA40200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="47">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="178350" type="BinHex">AEB80200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="48">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="183675" type="BinHex">7BCD0200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="49">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="189000" type="BinHex">48E20200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="50">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="194325" type="BinHex">15F70200</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="51">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="199725" type="BinHex">2D0C0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="52">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="205125" type="BinHex">45210300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="53">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="210525" type="BinHex">5D360300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="54">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="215925" type="BinHex">754B0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="55">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="221400" type="BinHex">D8600300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="56">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="226875" type="BinHex">3B760300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="57">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="232350" type="BinHex">9E8B0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="58">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="237825" type="BinHex">01A10300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="59">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="243375" type="BinHex">AFB60300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="60">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="248925" type="BinHex">5DCC0300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="61">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="254475" type="BinHex">0BE20300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="62">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="260025" type="BinHex">B9F70300</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="63">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="265650" type="BinHex">B20D0400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="64">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="271275" type="BinHex">AB230400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="65">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="276900" type="BinHex">A4390400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="66">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="282600" type="BinHex">E84F0400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="67">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="288300" type="BinHex">2C660400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="68">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="294000" type="BinHex">707C0400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="69">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="300000" type="BinHex">E0930400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="70">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="306000" type="BinHex">50AB0400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="71">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="312000" type="BinHex">C0C20400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="72">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="318000" type="BinHex">30DA0400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="73">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="324000" type="BinHex">A0F10400</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="74">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="330000" type="BinHex">10090500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="75">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="336000" type="BinHex">80200500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="76">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="342000" type="BinHex">F0370500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="77">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="348000" type="BinHex">604F0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="78">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="354000" type="BinHex">D0660500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="79">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="360000" type="BinHex">407E0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="80">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="366000" type="BinHex">B0950500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="81">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="372000" type="BinHex">20AD0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="82">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="378000" type="BinHex">90C40500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="83">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="384000" type="BinHex">00DC0500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="84">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="390000" type="BinHex">70F30500</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="85">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="396000" type="BinHex">E00A0600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="86">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="402000" type="BinHex">50220600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="87">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="408000" type="BinHex">C0390600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="88">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="414000" type="BinHex">30510600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="89">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="420000" type="BinHex">A0680600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="90">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="426000" type="BinHex">10800600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="91">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="432000" type="BinHex">80970600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="92">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="438000" type="BinHex">F0AE0600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="93">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="444000" type="BinHex">60C60600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="94">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="450000" type="BinHex">D0DD0600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="95">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="456000" type="BinHex">40F50600</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="96">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="462000" type="BinHex">B00C0700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="97">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="468000" type="BinHex">20240700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="98">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="474000" type="BinHex">903B0700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="99">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="480000" type="BinHex">00530700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="100">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="486000" type="BinHex">706A0700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="101">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="492000" type="BinHex">E0810700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="102">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="498000" type="BinHex">50990700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="103">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="504000" type="BinHex">C0B00700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="104">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="510000" type="BinHex">30C80700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="105">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="516000" type="BinHex">A0DF0700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="106">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="522000" type="BinHex">10F70700</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="107">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="528000" type="BinHex">800E0800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="108">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="534000" type="BinHex">F0250800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="109">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="540000" type="BinHex">603D0800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="110">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="546000" type="BinHex">D0540800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="111">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="552000" type="BinHex">406C0800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="112">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="558000" type="BinHex">B0830800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="113">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="564000" type="BinHex">209B0800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="114">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="570000" type="BinHex">90B20800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="115">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="576000" type="BinHex">00CA0800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="116">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="582000" type="BinHex">70E10800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="117">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="588000" type="BinHex">E0F80800</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="118">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="594000" type="BinHex">50100900</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="119">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="600000" type="BinHex">C0270900</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="120">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="606000" type="BinHex">303F0900</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="121">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="612000" type="BinHex">A0560900</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="122">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="618000" type="BinHex">106E0900</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="123">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="624000" type="BinHex">80850900</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="124">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="630000" type="BinHex">F09C0900</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="125">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="636000" type="BinHex">60B40900</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="126">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="642000" type="BinHex">D0CB0900</field>
+					</object>
+					<object hash="1CD16453" name="XPLevel" count="127">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="648000" type="BinHex">40E30900</field>
+					</object>
+				</object>
+			</object>
+		</Replace>
+
+	</Replaces>
+</InfoReplace>
