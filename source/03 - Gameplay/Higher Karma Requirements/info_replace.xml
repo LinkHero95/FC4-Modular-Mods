@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>Higher Karma Requirements
+
+	Increases the Karma requirements to gain Karma levels.
+
+	Changes made by this mod:
+	[list]
+	[*] The requirements to increase the Karma levels have been increased.
+	[*] The amount of increase depends upon the option selected while installing the mod.
+	[/list]
+
+	Available Options:
+	[list]
+	[*] [b]More Karma[/b]: Karma requirements for each level are multiplied by 2.
+	[*] [b]Still More Karma[/b]: Karma requirements for each level are multiplied by 3.
+	[*] [b]Much More Karma[/b]: Karma requirements for each level are multiplied by 5.
+	[*] [b]Lots More Karma[/b]: Karma requirements for each level are multiplied by 7.
+	[*] [b]God-like Karma[/b]: Karma requirements for each level are multiplied by 10.
+	[/list]
+
+	Other Information:
+	[list]
+	[*] It is recommended to start a new game when installing this mod (or uninstalling it).
+	[*] This mod can be installed on an existing save game if the player has not gained [i]any[/i] Karma levels, i.e. they are at Karma level 0. They can have Karma points, but not Karma levels.
+	[*] Once this mod is installed, it is [b]NOT[/b] recommended to uninstall it, or to change the selected Karma multiplier option for that particular save game. Doing so may cause problems to occur in your save.
+	[*] This mod appears to be co-op friendly. However, further testing may be necessary to confirm this. If you obtain any evidence supporting or disproving this hypothesis, feel free to contact me on Nexus Mods(link below)/Discord. I go by the same name on both those platforms.
+	[/list]
+
+	Credits:
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
+	</Description>
+
+	<Category>3</Category>
+
+	<Dependencies>
+		<Dependency Name="Templates" Action="or">
+			<Package>BP Templates.a3</Package>
+		</Dependency>
+	</Dependencies>
+
+	<Options>
+		<Option ID="KarmaMultiplier" name="Karma Increase">
+			<option name="More Karma (2x)" value="2"/>
+			<option name="Still More Karma (3x)" value="3"/>
+			<option name="Much More Karma (5x)" value="5"/>
+			<option name="Lots More Karma (7x)" value="7"/>
+			<option name="God-like Karma (10x)" value="10"/>
+		</Option>
+	</Options>
+
+	<Replaces>
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb" OptionKarmaMultiplier="2">
+			<object hash="31F599ED" name="KarmaLevels">
+				<object hash="C6B36DE2" name="LevelsList">
+					<object hash="947D72FB" name="KarmaLevel" count="0">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="2000" type="BinHex">D0070000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="1">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="4400" type="BinHex">30110000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="2">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="7200" type="BinHex">201C0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="3">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="10400" type="BinHex">A0280000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="4">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="14000" type="BinHex">B0360000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="5">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="18000" type="BinHex">50460000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="6">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="24000" type="BinHex">C05D0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="7">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="32000" type="BinHex">007D0000</field>
+					</object>
+				</object>
+			</object>
+		</Replace>
+
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb" OptionKarmaMultiplier="3">
+			<object hash="31F599ED" name="KarmaLevels">
+				<object hash="C6B36DE2" name="LevelsList">
+					<object hash="947D72FB" name="KarmaLevel" count="0">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="3000" type="BinHex">B80B0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="1">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="6600" type="BinHex">C8190000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="2">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="10800" type="BinHex">302A0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="3">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="15600" type="BinHex">F03C0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="4">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="21000" type="BinHex">08520000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="5">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="27000" type="BinHex">78690000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="6">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="36000" type="BinHex">A08C0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="7">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="48000" type="BinHex">80BB0000</field>
+					</object>
+				</object>
+			</object>
+		</Replace>
+
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb" OptionKarmaMultiplier="5">
+			<object hash="31F599ED" name="KarmaLevels">
+				<object hash="C6B36DE2" name="LevelsList">
+					<object hash="947D72FB" name="KarmaLevel" count="0">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="5000" type="BinHex">88130000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="1">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="11000" type="BinHex">F82A0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="2">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="18000" type="BinHex">50460000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="3">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="26000" type="BinHex">90650000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="4">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="35000" type="BinHex">B8880000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="5">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="45000" type="BinHex">C8AF0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="6">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="60000" type="BinHex">60EA0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="7">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="80000" type="BinHex">80380100</field>
+					</object>
+				</object>
+			</object>
+		</Replace>
+
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb" OptionKarmaMultiplier="7">
+			<object hash="31F599ED" name="KarmaLevels">
+				<object hash="C6B36DE2" name="LevelsList">
+					<object hash="947D72FB" name="KarmaLevel" count="0">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="7000" type="BinHex">581B0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="1">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="15400" type="BinHex">283C0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="2">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="25200" type="BinHex">70620000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="3">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="36400" type="BinHex">308E0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="4">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="49000" type="BinHex">68BF0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="5">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="63000" type="BinHex">18F60000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="6">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="84000" type="BinHex">20480100</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="7">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="16000" type="BinHex">80B50100</field>
+					</object>
+				</object>
+			</object>
+		</Replace>
+
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb" OptionKarmaMultiplier="10">
+			<object hash="31F599ED" name="KarmaLevels">
+				<object hash="C6B36DE2" name="LevelsList">
+					<object hash="947D72FB" name="KarmaLevel" count="0">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="10000" type="BinHex">10270000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="1">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="22000" type="BinHex">F0550000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="2">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="36000" type="BinHex">A08C0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="3">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="52000" type="BinHex">20CB0000</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="4">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="70000" type="BinHex">70110100</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="5">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="90000" type="BinHex">905F0100</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="6">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="120000" type="BinHex">C0D40100</field>
+					</object>
+					<object hash="947D72FB" name="KarmaLevel" count="7">
+						<field hash="C62CEFDA" name="iXPNeeded" value-Int32="160000" type="BinHex">00710200</field>
+					</object>
+				</object>
+			</object>
+		</Replace>
+	</Replaces>
+</InfoReplace>
