@@ -6,6 +6,11 @@
 
 	Increases the XP requirements to gain skill points.
 
+	[b]IMPORTANT:[/b]
+	[list]
+	[*] This mod is [b]NOT[/b] co-op friendly, except in certain cases. If you have this mod installed, and you join the game of a player who does not have this installed, then you may experience significant skill point increases during the course of the coop session. This skill point acquisition causes non-revertable, game-breaking changes in your save file. Please refer to the 'Other Information' section to see the specific cases in which co-op play using this mod is possible.
+	[/list]
+
 	Changes made by this mod:
 	[list]
 	[*] The XP requirements to gain skill points have been increased.
@@ -23,7 +28,6 @@
 	[*] It is recommended to start a new game when installing this mod (or uninstalling it).
 	[*] This mod can be installed on an existing save game if the player has not gained [i]any[/i] skill points. They can have XP points, but not skill points.
 	[*] Once this mod is installed, it is [b]NOT[/b] recommended to uninstall it, or to change the selected Karma multiplier option for that particular save game. Doing so may cause problems to occur in your save.
-	[*] [color=red][b]IMPORTANT:[/b][/color]This mod is [b]NOT[/b] co-op friendly. If you have this mod installed, and you join the game of a player who does not have this installed, then you may experience significant skill point increases during the course of the coop session.
 	[*] Coop play using this mod may be possible, if and only if both players have this mod installed, and the XP increase set to the same option. However, further testing may be necessary to confirm this. If you obtain any evidence supporting or disproving this hypothesis, feel free to contact me on Nexus Mods(link below)/Discord. I go by the same name on both those platforms.
 	[/list]
 

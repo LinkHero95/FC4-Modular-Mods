@@ -1,1 +1,1 @@
-This file doesn't contain anything important. It's there so that the workshop folder is included in the Git repository.
+This file doesn't contain anything important. It's there so that the staging folder is included in the Git repository.
