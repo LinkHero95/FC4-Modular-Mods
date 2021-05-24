@@ -2,18 +2,51 @@
 <InfoReplace>
 	<DefaultInclude>false</DefaultInclude>
 
-	<Description>Bunker Opener You are able to go inside all bunkers / silos before mission start and even after regions are liberated.</Description>
+	<Description>Higher XP Requirements
 
-	<HeaderPicture1>bun1.jpg</HeaderPicture1>
-	<HeaderPicture2>bun2.jpg</HeaderPicture2>
+	Increases the XP requirements to gain skill points.
+
+	Changes made by this mod:
+	[list]
+	[*] The XP requirements to gain skill points have been increased.
+	[*] The amount of increase depends upon the option selected while installing the mod.
+	[/list]
+
+	Available Options:
+	[list]
+	[*] [b]More XP[/b]: XP requirements for each skill point are multiplied by 2.
+	[*] [b]Still More XP[/b]: XP requirements for each skill point are multiplied by 3.
+	[/list]
+
+	Other Information:
+	[list]
+	[*] It is recommended to start a new game when installing this mod (or uninstalling it).
+	[*] This mod can be installed on an existing save game if the player has not gained [i]any[/i] skill points. They can have XP points, but not skill points.
+	[*] Once this mod is installed, it is [b]NOT[/b] recommended to uninstall it, or to change the selected Karma multiplier option for that particular save game. Doing so may cause problems to occur in your save.
+	[*] [color=red][b]IMPORTANT:[/b][/color]This mod is [b]NOT[/b] co-op friendly. If you have this mod installed, and you join the game of a player who does not have this installed, then you may experience significant skill point increases during the course of the coop session.
+	[*] Coop play using this mod may be possible, if and only if both players have this mod installed, and the XP increase set to the same option. However, further testing may be necessary to confirm this. If you obtain any evidence supporting or disproving this hypothesis, feel free to contact me on Nexus Mods(link below)/Discord. I go by the same name on both those platforms.
+	[/list]
+
+	Credits:
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
+	</Description>
 
 	<Category>3</Category>
 
 	<Dependencies>
-		<Dependency Action="and">
-			<Package>Script Loader.a3</Package>
+		<Dependency Name="Templates" Action="or">
+			<Package>BP Templates.a3</Package>
 		</Dependency>
 	</Dependencies>
+
+	<Options>
+		<Option ID="XPMultiplier" name="XP Increase">
+			<option name="More XP (2x)" value="2"/>
+			<option name="Still More XP (3x)" value="3"/>
+		</Option>
+	</Options>
 
 	<Replaces>
 		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb" OptionXPMultiplier="2">
