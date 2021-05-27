@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <InfoReplace>
-	<DefaultInclude>true</DefaultInclude>
+	<DefaultInclude>false</DefaultInclude>
 	<Description>Fast Travel Disabled
 
 	Disables fast travel in the game.
@@ -21,7 +21,7 @@
 	[/list] 
 	</Description>
 
-	<Category>LH95 Test Temp</Category>
+	<Category>3</Category>
 
 	<Dependencies>
 		<Dependency Name="Control Mappings" Action="or">
