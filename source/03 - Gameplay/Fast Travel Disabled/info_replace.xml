@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<DefaultInclude>true</DefaultInclude>
+	<Description>Fast Travel Disabled
+
+	Disables fast travel in the game.
+
+	Changes made by this mod:
+	[list]
+	[*] Fast travel to any location is physically impossible.
+	[/list]
+
+	Other Information:
+	[list]
+	[*] This mod may be co-op friendly. I haven't run any tests yet.
+	[/list]
+
+	Credits:
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list] 
+	</Description>
+
+	<Category>LH95 Test Temp</Category>
+
+	<Dependencies>
+		<Dependency Name="Control Mappings" Action="or">
+			<Package>BP Control Mappings.a3</Package>
+		</Dependency>
+	</Dependencies>
+
+	<Replaces>
+		<Replace RequiredFile="actionmaps/hidinputmap.xml">
+			<Root>
+				<Binding primaryKey_signal="worldmap_fast_travel" removeParent="1"/>
+			</Root>
+		</Replace>
+	</Replaces>
+</InfoReplace>

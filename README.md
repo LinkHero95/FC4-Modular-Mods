@@ -32,8 +32,10 @@
 		1. BP Entitylibrary File
 		1. BP HUD Icon Display Files
 		1. BP Shop Files
+		1. BP Control Mappings
 	1. *Gameplay:*
 		1. Body Armour Durability Enhancement
+		1. Fast Travel Disabled
 		1. FC4 Open World - North Kyrat Unlock
 		1. FC4 Open World - Skills Unlock
 		1. Higher Karma Requirements
@@ -53,8 +55,6 @@
 	1. Vinh1998's alternate Golden Path outfits
 	1. Vinh1998's alternate Royal Army outfits
 	1. Vinh1998's alternate Royal Guard outfits
-	1. BP Control Mappings (Experimental)
-	1. Fast Travel Disable (Experimental)
 
 
 - **Mods to be started:**
