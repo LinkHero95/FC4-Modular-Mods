@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>Control Mappings
+	
+	This base package makes 1 file able to be modified by a3 packages:
+	[list]
+	[*] hidinputmap.xml: file for mapping all controls in the game.
+	[/list]
+
+	Other Information:
+	[list]
+	[*] [color=yellow]If a mod collides with this base package, then just simply disable this package, because a mod you want to use probably contains these files.[/color]
+	[/list]
+
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
+	</Description>
+
+	<Category>10</Category>
+
+	<Pairs>
+		<Pair>
+			<FromDatFile>patch.fat</FromDatFile>
+			<Source><![CDATA[actionmaps\hidinputmap.xml]]></Source>
+			<Target><![CDATA[actionmaps\hidinputmap.xml]]></Target>
+		</Pair>
+	</Pairs>
+</Info>
