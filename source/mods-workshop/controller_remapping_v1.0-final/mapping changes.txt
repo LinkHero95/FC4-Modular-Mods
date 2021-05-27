@@ -1,0 +1,8 @@
+<Binding signal="look"> look sensitivity
+<Binding input="KB_E" action="holdrepeat" signal="use" remapped="REMAPPABLE_CONTROL_KB_E"/>
+<Binding input="KB_L" action="press" signal="toggle_hud" remapped="REMAPPABLE_CONTROL_KB_L"/>
+<Binding input="KB_R" action="releaseafterhold" signal="close_inventory" remapped="REMAPPABLE_CONTROL_KB_R"/>
+<Binding input="KB_R" action="hold" signal="open_inventory_weapon" remapped="REMAPPABLE_CONTROL_KB_R"/>
+
+
+
