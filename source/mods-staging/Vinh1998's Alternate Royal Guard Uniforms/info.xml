@@ -142,15 +142,11 @@
 			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_torso_d_mip0.xbt]]></Target>
 		</Pair>
 
-		<!-- X-X-X-X-X-X-X-X-X-X-X-X -->
-
 		<Pair>
 			<Overwrite>true</Overwrite>
 			<Source><![CDATA[rogu_shar_gloves01.xbg]]></Source>
 			<Target><![CDATA[graphics\_common\characters\factions\royalguard\_share\rogu_shar_gloves01.xbg]]></Target>
 		</Pair>
-
-		<!-- X-X-X-X-X-X-X-X-X-X-X-X -->
 
 		<Pair>
 			<Overwrite>true</Overwrite>
@@ -247,8 +243,6 @@
 			<Source><![CDATA[npc_shar_maleshoes01.xbg]]></Source>
 			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_maleshoes01.xbg]]></Target>
 		</Pair>
-
-		<!-- X-X-X-X-X-X-X-X-X-X-X-X -->
 
 		<Pair>
 			<Overwrite>true</Overwrite>
