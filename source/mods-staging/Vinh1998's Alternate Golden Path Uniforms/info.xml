@@ -105,6 +105,12 @@
 
 		<Pair>
 			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
 			<Source><![CDATA[npc_shar_malehead03.xbg]]></Source>
 			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead03.xbg]]></Target>
 		</Pair>
