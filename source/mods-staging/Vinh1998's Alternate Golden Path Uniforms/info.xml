@@ -3,8 +3,31 @@
 	<DefaultInclude>false</DefaultInclude>
 
 	<Description>Vinh1998's Alternate Golden Path Uniforms
-	
-	Does crazy stuff.
+
+	Changes the outfits used by the Golden Path.
+
+	Changes made by this mod:
+	[list]
+	[*] The Golden Path's uniforms are darker. 
+	[/list]
+
+	Concept:
+	[img]gp-concept.jpg[/img]
+	[b]Disclaimer[/b]: the rebels in game are not equipped with P416s and Z93 sniper rifles. This mod does not change the rebels' weapons.
+
+	In-game look:
+	[img]gp-ingame1.png[/img]
+
+	Other Information: 
+	[list]
+	[*] This mod is co-op friendly. However, the other player will not see the altered colours unless they too have this mod installed.
+	[/list]
+
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://forums.ubisoft.com/member.php/1705641-vinh1998?s=82dc3755797fbdc651f8e0f1b7917617][b]vinh1998[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
 	</Description>
 
 	<OnlyOne>golden_path_outfits</OnlyOne>
