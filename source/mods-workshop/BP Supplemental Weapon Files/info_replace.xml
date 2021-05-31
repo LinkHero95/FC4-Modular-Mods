@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoReplace>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>Bunker Opener You are able to go inside all bunkers / silos before mission start and even after regions are liberated.</Description>
+
+	<HeaderPicture1>bun1.jpg</HeaderPicture1>
+	<HeaderPicture2>bun2.jpg</HeaderPicture2>
+
+	<Category>3</Category>
+
+	<Dependencies>
+		<Dependency Action="and">
+			<Package>Script Loader.a3</Package>
+		</Dependency>
+	</Dependencies>
+
+	<Replaces>
+		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb">
+			<!-- Put your replace here -->
+		</Replace>
+	</Replaces>
+</InfoReplace>
