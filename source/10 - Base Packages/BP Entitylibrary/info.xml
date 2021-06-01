@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Info>
-    <DefaultInclude>true</DefaultInclude>
+	<DefaultInclude>true</DefaultInclude>
 
- 	<Description>EntitylLibrary
+	<Description>EntitylLibrary
 
 	This base package makes 1 file able to be modified by a3 packages:
 	[list]
@@ -20,13 +20,13 @@
 	[/list]
 	</Description>
 
-    <Category>10</Category>
+	<Category>10</Category>
 
-    <Pairs>
-        <Pair>
-            <FromDatFile>patch.fat</FromDatFile>
-            <Source><![CDATA[generated\worlds\fcc_main\entitylibrary.fcb]]></Source>
-            <Target><![CDATA[generated\worlds\fcc_main\entitylibrary.fcb]]></Target>
-        </Pair>
-    </Pairs>
+	<Pairs>
+		<Pair>
+			<FromDatFile>patch.fat</FromDatFile>
+			<Source><![CDATA[generated\worlds\fcc_main\entitylibrary.fcb]]></Source>
+			<Target><![CDATA[generated\worlds\fcc_main\entitylibrary.fcb]]></Target>
+		</Pair>
+	</Pairs>
 </Info>
