@@ -7,7 +7,7 @@
 	<HeaderPicture1>bun1.jpg</HeaderPicture1>
 	<HeaderPicture2>bun2.jpg</HeaderPicture2>
 
-	<Category>3</Category>
+	<Category>10</Category>
 
 	<Dependencies>
 		<Dependency Action="and">

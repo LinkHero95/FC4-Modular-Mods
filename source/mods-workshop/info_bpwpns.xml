@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+  <DefaultInclude>true</DefaultInclude>
+  <Description>Weapon Files
+  This base package makes the weapon files from the entityarchetypeslibrary able to be modified by a3 packages.
+  
+  [color=yellow]If a mod collides with this base package, then just simply disable this package, because a mod you want to use probably contains these files.[/color]
+  
+  Schrotflinte[color=red]12[/color]</Description>
+  <Category>10</Category>
+  
+  <!-- ASSAULT RIFLES I BOWS_CROSSBOWS I LAUNCHERS I MACHINEGUNS I MACHINEPISTOLS I MELEE I NITROS I REPAIRTOOL I SHOTGUNS I SIDEARMS I SNIPERRIFLES I SPECIALS I GADGETS -->
+  
+  <!-- ASSAULT RIFLES -->
+  
+  <!-- Draws from multicommon because it has everything! THERE ARE NO BUGS, I GUARANTEE IT. -->
+  
+  <Pairs>
+    <Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AK47 -->
+      <Source><![CDATA[entityarchetypeslibrary\171144368018084255.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\171144368018084255.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AK47_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\180151567272825247.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\180151567272825247.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AK47.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\198165965782307231.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\198165965782307231.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AK47.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728317375094.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728317375094.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AK47_NPC.coop -->
+      <Source><![CDATA[entityarchetypeslibrary\7738359907897.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7738359907897.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AK47_SNOW -->
+      <Source><![CDATA[entityarchetypeslibrary\7805655308556.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7805655308556.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AK47.WARRIOR -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067590228.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067590228.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AK47.WARRIOR.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067596851.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067596851.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A52 -->
+      <Source><![CDATA[entityarchetypeslibrary\7681075852019.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7681075852019.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A52.MULTI -->
+      <Source><![CDATA[entityarchetypeslibrary\7681474243591.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7681474243591.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A52.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319134960.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319134960.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A52.ACE -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067643201.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067643201.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A52.ACE.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067649097.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067649097.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- F1 -->
+      <Source><![CDATA[entityarchetypeslibrary\7656527764316.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7656527764316.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- F1.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7656622988425.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7656622988425.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- F1.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728318856027.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728318856027.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MS16 -->
+      <Source><![CDATA[entityarchetypeslibrary\7662974066226.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7662974066226.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MS16.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7663354369826.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7663354369826.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MS16.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728320989532.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728320989532.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MS16.TROOPER -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067741932.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067741932.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MS16.TROOPER.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067749459.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067749459.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- P416 -->
+      <Source><![CDATA[entityarchetypeslibrary\7679076076980.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7679076076980.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- P416_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7679200497523.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7679200497523.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- P416.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7679600567425.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7679600567425.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- P416.Bushman -->
+      <Source><![CDATA[entityarchetypeslibrary\7713294073375.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7713294073375.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- P416.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728321841720.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728321841720.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- P416.Bushman_Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7730066155589.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7730066155589.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- P416.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856224622233.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856224622233.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- P416.E3STEALTH -->
+      <Source><![CDATA[entityarchetypeslibrary\7857701908232.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7857701908232.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- STG-90 -->
+      <Source><![CDATA[entityarchetypeslibrary\7598204997445.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7598204997445.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- STG-90.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7599062745174.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7599062745174.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- STG-90.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728322585757.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728322585757.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- BOWS & CROSSBOWS -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AUTOCROSS -->
+      <Source><![CDATA[entityarchetypeslibrary\7792906002066.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7792906002066.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AUTOCROSS.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7796390717471.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796390717471.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AUTOCROSS.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7796769482056.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796769482056.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AUTOCROSS_SNOW -->
+      <Source><![CDATA[entityarchetypeslibrary\7807052046907.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7807052046907.ark.fcb]]></Target>
+    </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AUTOCROSS.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856223166500.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856223166500.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW_NPC_Kalinag310_Default -->
+      <Source><![CDATA[entityarchetypeslibrary\7852198683296.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7852198683296.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW_NPC_Nazgul -->
+      <Source><![CDATA[entityarchetypeslibrary\7809677323346.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7809677323346.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW_Primitive -->
+      <Source><![CDATA[entityarchetypeslibrary\7815157587803.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7815157587803.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW_Primitive.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7815157638255.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7815157638255.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW_Primitive.multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7817199653796.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7817199653796.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW (Recurve starts here) -->
+      <Source><![CDATA[entityarchetypeslibrary\7677582326326.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7677582326326.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7677582326496.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7677582326496.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728318308489.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728318308489.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW.BOW_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7783083700635.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7783083700635.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW.BOW_NPC_Guard -->
+      <Source><![CDATA[entityarchetypeslibrary\7867382306977.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7867382306977.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW_SLA -->
+      <Source><![CDATA[entityarchetypeslibrary\7800413001056.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7800413001056.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW_NPC_SLA -->
+      <Source><![CDATA[entityarchetypeslibrary\7851802324569.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851802324569.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW_SLA.SPREAD -->
+      <Source><![CDATA[entityarchetypeslibrary\7849800424815.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7849800424815.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BOW_NPC_Kalinag310_Spread -->
+      <Source><![CDATA[entityarchetypeslibrary\7852198702422.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7852198702422.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- LAUNCHERS -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_79 -->
+      <Source><![CDATA[entityarchetypeslibrary\7809534609497.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7809534609497.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_79.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7815178371498.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7815178371498.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_79.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7848871484660.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848871484660.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_79.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856224283027.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856224283027.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_94 -->
+      <Source><![CDATA[entityarchetypeslibrary\7642716406677.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7642716406677.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_94.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7642947488554.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7642947488554.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_94.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319176533.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319176533.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_A87 -->
+      <Source><![CDATA[entityarchetypeslibrary\7791542266033.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7791542266033.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_A87.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7796390697617.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796390697617.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_A87.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7796769473557.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796769473557.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GL_A87.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856224386006.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856224386006.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- LGR-M -->
+      <Source><![CDATA[entityarchetypeslibrary\7811538543261.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7811538543261.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- LGR-M.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7848731645408.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848731645408.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- LGR-M.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7848871751352.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848871751352.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- RPG-7.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728322604738.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728322604738.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- RPG-7 -->
+      <Source><![CDATA[entityarchetypeslibrary\369302751622386079.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\369302751622386079.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- RPG-7_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\378309950877127071.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\378309950877127071.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- MachineGuns -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MG42 -->
+      <Source><![CDATA[entityarchetypeslibrary\7839487083342.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7839487083342.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MG42.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7839487130492.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7839487130492.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MG42.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7848871649554.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848871649554.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MG42.BUZZSAW -->
+      <Source><![CDATA[entityarchetypeslibrary\7850262406633.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7850262406633.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MG42.BUZZSAW.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7850262423344.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7850262423344.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MG42.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856224105260.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856224105260.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MKG -->
+      <Source><![CDATA[entityarchetypeslibrary\7677583371829.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7677583371829.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MKG.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7677583371990.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7677583371990.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MKG.Ripper -->
+      <Source><![CDATA[entityarchetypeslibrary\7713294093353.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7713294093353.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MKG.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319712318.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319712318.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MKG.Ripper_Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7730066188969.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7730066188969.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- PKM.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7592896485037.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7592896485037.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MKG.PKM_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7677583372211.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7677583372211.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- PKM.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728321892698.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728321892698.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- PKM.DRILLER -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067827567.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067827567.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- PKM.DRILLER.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067838271.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067838271.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- PKM -->
+      <Source><![CDATA[entityarchetypeslibrary\306252356839199135.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\306252356839199135.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- PKM_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\315259556093940127.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\315259556093940127.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- U100 -->
+      <Source><![CDATA[entityarchetypeslibrary\7656527615455.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7656527615455.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- U100.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7656623033574.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7656623033574.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- U100.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728322562081.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728322562081.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- MachinePistols -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A2000 -->
+      <Source><![CDATA[entityarchetypeslibrary\7639739152790.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7639739152790.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A2000.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7640917910709.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7640917910709.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A2000_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7666321880897.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7666321880897.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A2000.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728318218783.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728318218783.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BZ19 -->
+      <Source><![CDATA[entityarchetypeslibrary\7673158145219.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7673158145219.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BZ19.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7673158145441.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7673158145441.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BZ19_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7679082851354.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7679082851354.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BZ19.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728318629195.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728318629195.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- BZ19.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856224656895.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856224656895.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MP5 -->
+      <Source><![CDATA[entityarchetypeslibrary\7660420242520.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7660420242520.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MP5.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7661455543828.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7661455543828.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MP5.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728321144714.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728321144714.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MP34 -->
+      <Source><![CDATA[entityarchetypeslibrary\7839194524044.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7839194524044.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MP34.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7848724744853.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848724744853.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MP34.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7848871715080.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848871715080.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MP34.STORMER -->
+      <Source><![CDATA[entityarchetypeslibrary\7871878884816.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7871878884816.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MP34.STORMER.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7871878897200.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7871878897200.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- VECTOR_45ACP -->
+      <Source><![CDATA[entityarchetypeslibrary\7635867853162.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7635867853162.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- VECTOR_45ACP.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7639339893809.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7639339893809.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- VECTOR_45ACP.Shredder -->
+      <Source><![CDATA[entityarchetypeslibrary\7713294037541.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7713294037541.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- VECTOR_45ACP.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319315217.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319315217.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- VECTOR_45ACP.Shredder_Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7730066211730.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7730066211730.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- MELEE -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- KUKRI -->
+      <Source><![CDATA[entityarchetypeslibrary\7786592703501.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7786592703501.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- KUKRI.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7796390744878.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796390744878.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- KUKRI.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7797056437829.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7797056437829.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- KUKRI.KUKRI_SLA -->
+      <Source><![CDATA[entityarchetypeslibrary\7847932358368.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7847932358368.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- KUKRI_SLA_BLOODY -->
+      <Source><![CDATA[entityarchetypeslibrary\7853541436630.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7853541436630.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MACHETE_ARENA -->
+      <Source><![CDATA[entityarchetypeslibrary\7856240501161.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856240501161.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- NITROS -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 700_NITRO -->
+      <Source><![CDATA[entityarchetypeslibrary\7793086004470.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7793086004470.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 700_NITRO.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7796390732621.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796390732621.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 700_NITRO.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7796769500930.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796769500930.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 700_NITRO.ELEPHANTGUN -->
+      <Source><![CDATA[entityarchetypeslibrary\7852682656161.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7852682656161.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 700_NITRO.ELEPHANTGUN.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7852682876741.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7852682876741.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 700_NITRO.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856224437827.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856224437827.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- RepairTool -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- RepairTool -->
+      <Source><![CDATA[entityarchetypeslibrary\7669560304589.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7669560304589.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- RepairTool.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7671382046198.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7671382046198.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- RepairTool.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728322612397.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728322612397.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- Shotguns -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1887 -->
+      <Source><![CDATA[entityarchetypeslibrary\7679090354180.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7679090354180.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1887.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7679600051256.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7679600051256.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1887.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728318043645.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728318043645.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1887_SAWEDOFF -->
+      <Source><![CDATA[entityarchetypeslibrary\7788183303804.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7788183303804.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1887_SAWEDOFF.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7789138942938.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7789138942938.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1887_SAWEDOFF.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7796390239785.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796390239785.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- D2 -->
+      <Source><![CDATA[entityarchetypeslibrary\7793085898219.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7793085898219.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- D2.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7796390725296.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796390725296.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- D2.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7796769493989.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7796769493989.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- D2.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856224343696.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856224343696.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M133.Bull -->
+      <Source><![CDATA[entityarchetypeslibrary\7723508183868.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7723508183868.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M133.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319411870.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319411870.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M133.Bull_Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7730066232217.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7730066232217.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M133.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856225033169.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856225033169.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M133 -->
+      <Source><![CDATA[entityarchetypeslibrary\144122770253861279.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\144122770253861279.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M133_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\153129969508602271.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\153129969508602271.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M133.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\162137168763343263.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\162137168763343263.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SPAS12 -->
+      <Source><![CDATA[entityarchetypeslibrary\7663918632573.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7663918632573.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SPAS12.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7667253401981.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7667253401981.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SPAS12.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728322591823.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728322591823.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- HANDGUNS -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 6P9.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728318172012.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728318172012.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 6P9 -->
+      <Source><![CDATA[entityarchetypeslibrary\324266755348681119.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\324266755348681119.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 6P9.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\333273954603422111.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\333273954603422111.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 6P9_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\351288353112904095.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\351288353112904095.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 44MAGNUM -->
+      <Source><![CDATA[entityarchetypeslibrary\7659621595554.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7659621595554.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 44MAGNUM.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7661455530312.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7661455530312.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 44MAGNUM.Cannon -->
+      <Source><![CDATA[entityarchetypeslibrary\7713294023631.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7713294023631.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 44MAGNUM.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319211137.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319211137.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 44MAGNUM.Cannon_Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7737721470570.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7737721470570.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1911 -->
+      <Source><![CDATA[entityarchetypeslibrary\7602852762562.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7602852762562.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1911.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7639339883818.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7639339883818.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1911.Shadow -->
+      <Source><![CDATA[entityarchetypeslibrary\7713294004518.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7713294004518.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1911.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319345276.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319345276.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1911.Shadow_Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7730066200085.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7730066200085.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- 1911_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7842268398625.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7842268398625.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A99 -->
+      <Source><![CDATA[entityarchetypeslibrary\7811421726926.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7811421726926.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A99.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7815297319880.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7815297319880.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A99.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7848871382411.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848871382411.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A99.REBEL -->
+      <Source><![CDATA[entityarchetypeslibrary\7851031906021.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851031906021.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A99.REBEL.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7851031948779.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851031948779.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A99.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856223252584.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856223252584.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- A99.E3STEALTH -->
+      <Source><![CDATA[entityarchetypeslibrary\7857567918828.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7857567918828.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AJM9 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856262170644.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856262170644.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AJM9.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7856262187277.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856262187277.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- AJM9.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7865234389656.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7865234389656.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- D50 -->
+      <Source><![CDATA[entityarchetypeslibrary\7676525528817.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7676525528817.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- D50.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7676525528919.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7676525528919.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- D50.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728318820161.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728318820161.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- D50_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7817432037884.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7817432037884.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M712 -->
+      <Source><![CDATA[entityarchetypeslibrary\7843644073721.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7843644073721.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M712.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7848716475582.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848716475582.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M712.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7848871567305.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848871567305.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M712.HS77 -->
+      <Source><![CDATA[entityarchetypeslibrary\7871878938674.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7871878938674.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- HS77.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7871878945378.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7871878945378.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MK4 -->
+      <Source><![CDATA[entityarchetypeslibrary\7817179374877.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7817179374877.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MK4.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7848715515044.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848715515044.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MK4.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7848871676618.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848871676618.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MK4.SIXER -->
+      <Source><![CDATA[entityarchetypeslibrary\7871878908688.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7871878908688.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- MK4.SIXER.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7871878915033.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7871878915033.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SKORPION.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7592896504348.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7592896504348.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SKORPION.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728322501427.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728322501427.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SKORPION.STINGER -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067531510.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067531510.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SKORPION.STINGER.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7851067537494.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7851067537494.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SKORPION.DONOTUSE_MIS020 INTRO CHASE -->
+      <Source><![CDATA[entityarchetypeslibrary\7869998750829.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7869998750829.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SKORPION -->
+      <Source><![CDATA[entityarchetypeslibrary\387317150131868063.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\387317150131868063.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- SniperRifles -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M700.PREDATOR -->
+      <Source><![CDATA[entityarchetypeslibrary\7713294127018.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7713294127018.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M700.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728322652983.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728322652983.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M700_Predator_Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7737721626418.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7737721626418.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M700.PREDATOR.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7852682905404.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7852682905404.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M700 -->
+      <Source><![CDATA[entityarchetypeslibrary\99086773980156319.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\99086773980156319.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M700_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\108093973234897311.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\108093973234897311.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- M700.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\126108371744379295.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\126108371744379295.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SA50 -->
+      <Source><![CDATA[entityarchetypeslibrary\7845905710751.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7845905710751.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SA50.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7845910142597.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7845910142597.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SA50.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7848871772590.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848871772590.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SA50.E3 -->
+      <Source><![CDATA[entityarchetypeslibrary\7856224027808.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7856224027808.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SA50.E3STEALTH -->
+      <Source><![CDATA[entityarchetypeslibrary\7857569233280.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7857569233280.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SVD -->
+      <Source><![CDATA[entityarchetypeslibrary\7643219958677.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7643219958677.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SVD.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7644026289020.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7644026289020.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SVD_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7655438234589.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7655438234589.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SVD.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728322579623.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728322579623.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- Z93 -->
+      <Source><![CDATA[entityarchetypeslibrary\7671716477238.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7671716477238.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- Z93.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7672352334116.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7672352334116.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- Z93_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7679089646800.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7679089646800.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- Z93.AMR -->
+      <Source><![CDATA[entityarchetypeslibrary\7713294105562.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7713294105562.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- Z93.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728320890203.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728320890203.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- Z93.AMR_Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7730066174165.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7730066174165.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- SPECIALS -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- FLAMETHROWER.CitraFlamebreath -->
+      <Source><![CDATA[entityarchetypeslibrary\7704101070167.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7704101070167.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- FLAMETHROWER.LPO-50_NPC.LPO-50_NPC_ShangriLa -->
+      <Source><![CDATA[entityarchetypeslibrary\7810464493773.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7810464493773.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- SLA_NPC_FLAMETHROWER -->
+      <Source><![CDATA[entityarchetypeslibrary\7845367210768.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7845367210768.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- FLARE_GUN.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7639339585065.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7639339585065.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- FLARE_GUN.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728318954090.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728318954090.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- FLARE_GUN -->
+      <Source><![CDATA[entityarchetypeslibrary\207173165037048223.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\207173165037048223.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- HARPOON -->
+      <Source><![CDATA[entityarchetypeslibrary\7814515992012.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7814515992012.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- HARPOON.MENU -->
+      <Source><![CDATA[entityarchetypeslibrary\7815320320812.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7815320320812.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- HARPOON.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7848871521836.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7848871521836.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- FLAMETHROWER -->
+      <Source><![CDATA[entityarchetypeslibrary\7653034178114.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7653034178114.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- FLAMETHROWER.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7653034196518.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7653034196518.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- FLAMETHROWER.LPO-50_NPC -->
+      <Source><![CDATA[entityarchetypeslibrary\7655054762738.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7655054762738.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- FLAMETHROWER.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319379228.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319379228.ark.fcb]]></Target>
+	</Pair>
+	
+	<!-- GADGETS -->
+	
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- GPS -->
+      <Source><![CDATA[entityarchetypeslibrary\7703095657397.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7703095657397.ark.fcb]]></Target>
+	</Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- IED.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7639339867675.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7639339867675.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- IED_Remote.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7639339877426.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7639339877426.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- IED.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319254257.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319254257.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- IED_Remote.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728319277980.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728319277980.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- IED -->
+      <Source><![CDATA[entityarchetypeslibrary\216180364291789215.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\216180364291789215.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- IED_Remote -->
+      <Source><![CDATA[entityarchetypeslibrary\225187563546530207.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\225187563546530207.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- ProximityMine -->
+      <Source><![CDATA[entityarchetypeslibrary\7659593563479.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7659593563479.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- ProximityMineWeapon -->
+      <Source><![CDATA[entityarchetypeslibrary\7659594030846.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7659594030846.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- ProximityMine.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7661455551270.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7661455551270.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- ProximityMineWeapon.Multi -->
+      <Source><![CDATA[entityarchetypeslibrary\7662660109886.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7662660109886.ark.fcb]]></Target>
+	 </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- ProximityMine.Menu -->
+      <Source><![CDATA[entityarchetypeslibrary\7728322667565.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7728322667565.ark.fcb]]></Target>
+	  </Pair>
+	<Pair>
+      <FromDatFile>worlds\multicommon\multicommon.fat</FromDatFile> <!-- Rock_Equip -->
+      <Source><![CDATA[entityarchetypeslibrary\7678935406444.ark.fcb]]></Source>
+      <Target><![CDATA[entityarchetypeslibrary\7678935406444.ark.fcb]]></Target>
+	</Pair>
+  </Pairs>
+</Info>

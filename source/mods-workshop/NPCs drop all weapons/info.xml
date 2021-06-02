@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>NPCs drop all weapons
+	
+	Does crazy stuff.
+	</Description>
+
+	<!-- <Category>3</Category> -->
+	<OwnCategory>LH95 Test Temp</OwnCategory>
+
+	<Pairs>
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[entityarchetypeslibrary\7842268398625.ark.fcb]]></Source>
+			<Target><![CDATA[entityarchetypeslibrary\7842268398625.ark.fcb]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[entityarchetypeslibrary\540439538407021067.ark.fcb]]></Source>
+			<Target><![CDATA[entityarchetypeslibrary\540439538407021067.ark.fcb]]></Target>
+		</Pair>
+	</Pairs>
+</Info>
