@@ -39,12 +39,6 @@
 
 	<Category>3</Category>
 
-	<Dependencies>
-		<Dependency Name="Templates" Action="or">
-			<Package>BP Templates.a3</Package>
-		</Dependency>
-	</Dependencies>
-
 	<Options>
 		<Option ID="XPMultiplier" name="XP Increase">
 			<option name="More XP (2x)" value="2"/>

@@ -23,12 +23,6 @@
 
 	<Category>3</Category>
 
-	<Dependencies>
-		<Dependency Name="Control Mappings" Action="or">
-			<Package>BP Control Mappings.a3</Package>
-		</Dependency>
-	</Dependencies>
-
 	<Replaces>
 		<Replace RequiredFile="actionmaps/hidinputmap.xml">
 			<Root>

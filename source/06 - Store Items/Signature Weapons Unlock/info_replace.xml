@@ -2,7 +2,7 @@
 <InfoReplace>
 	<DefaultInclude>false</DefaultInclude>
 
-	<Description>FC4 Open World - Signature Weapons Unlock
+	<Description>Signature Weapons Unlock
 
 	Unlocks Signature Weapons in the shop
 
@@ -26,13 +26,7 @@
 	[/list]
 	</Description>
 
-	<Dependencies>
-		<Dependency Name="Templates" Action="or">
-			<Package>BP Templates.a3</Package>
-		</Dependency>
-	</Dependencies>
-
-	<Category>3</Category>
+	<Category>6</Category>
 
 	<Replaces>
 		<Replace RequiredFile="generated/nomadobjecttemplates_rt.fcb">

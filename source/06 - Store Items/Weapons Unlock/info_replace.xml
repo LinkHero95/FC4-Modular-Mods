@@ -2,7 +2,7 @@
 <InfoReplace>
 	<DefaultInclude>false</DefaultInclude>
 
-	<Description>FC4 Open World - Weapons Unlock
+	<Description>Weapons Unlock
 
 	Unlocks all weapons from the start.
 
@@ -27,16 +27,6 @@
 	[*] [size=1][color=lightgreen]Compatibility patches added by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]	
 	[/list]
 	</Description>
-
-	<Dependencies>
-		<Dependency Name="Shop files" Action="or">
-			<Package>BP Shop Files.a3</Package>
-		</Dependency>
-
-		<Dependency Name="Templates" Action="or">
-			<Package>BP Templates.a3</Package>
-		</Dependency>
-	</Dependencies>
 
 	<Category>6</Category>
 
