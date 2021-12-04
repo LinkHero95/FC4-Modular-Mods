@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>Alternate Royal Army Uniforms
+	
+	Changes the outfits used by the Royal Army.
+
+	Changes made by this mod:
+	[list]
+	[*] The Royal Army's uniforms are now in forest camouflage. 
+	[/list]
+
+	Concept:
+	[img]ra-concept.jpg[/img]
+
+	In-game look:
+	[img]ra-all.jpg[/img]
+	The commanders/lieutenants can be distinguished from their regular counterparts by the addition of a gold badge, and a gold band on their left arm.
+	[img]ra-commander-01.jpg[/img]
+	[img]ra-commander-02.jpg[/img]
+
+	Other Information: 
+	[list]
+	[*] This mod is co-op friendly. However, the other player will not see the altered colours unless they too have this mod installed.
+	[/list]
+
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://forums.ubisoft.com/member.php/1705641-vinh1998?s=82dc3755797fbdc651f8e0f1b7917617][b]vinh1998[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
+	</Description>
+
+	<Category>8</Category>
+
+	<Pairs>
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_assa_jacket_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_assa_jacket_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_assa_jacket_01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_assa_jacket_01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_assa_pant_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_assa_pant_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_assa_pant_01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_assa_pant_01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_assa_pant_01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_assa_pant_01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_assa_pant_01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_assa_pant_01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_behe_acce01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_behe_acce01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_behe_acce01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_behe_acce01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_behe_acce01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_behe_acce01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_behe_acce01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_behe_acce01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_bers_acc01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_bers_acc01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_bers_acc02_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_bers_acc02_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_bers_acc02_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_bers_acc02_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_bers_acc_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_bers_acc_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_bers_acc_01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_bers_acc_01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_bers_acc_02_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_bers_acc_02_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_bers_acc_02_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_bers_acc_02_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_bers_vest01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_bers_vest01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_bers_vest01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_bers_vest01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_defe_acce01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_defe_acce01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_defe_acce01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_defe_acce01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_defe_acce01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_defe_acce01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_defe_acce01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_defe_acce01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_defe_tors01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_defe_tors01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_defe_tors01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_defe_tors01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_defe_tors01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_defe_tors01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_defe_tors01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_defe_tors01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_heav_acce01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_heav_acce01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_heav_acce01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_heav_acce01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_heav_pant01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_heav_pant01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_heav_pant01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_heav_pant01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_hunt_acc01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_hunt_acc01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_hunt_acc01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_hunt_acc01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_hunt_jacket01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_hunt_jacket01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_hunt_jacket01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_hunt_jacket01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_acce_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_acce_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_acce_01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_acce_01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_acce_01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_acce_01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_acce_01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_acce_01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_jacket_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_jacket_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_jacket_01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_jacket_01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_jacket_01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_jacket_01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_jacket_01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_jacket_01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_merged_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_merged_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_merged_01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_merged_01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_merged_01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_merged_01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_molo_merged_01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_molo_merged_01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_patches_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_patches_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_patches_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_patches_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_patches_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_patches_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_patches_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_patches_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_rock_accessories01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_rock_accessories01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_rock_accessories01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_rock_accessories01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_rock_accessories01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_rock_accessories01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_rock_accessories01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_rock_accessories01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_accessories01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_shar_accessories01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_accessories01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_shar_accessories01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_kneepad01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_shar_kneepad01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_kneepad01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_shar_kneepad01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_tshirt01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_shar_tshirt01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_tshirt01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_shar_tshirt01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_tshirt01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_shar_tshirt01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_tshirt01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\army_shar_tshirt01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[cloth_rip_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\cloth_rip_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[cloth_rip_01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\cloth_rip_01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[cloth_rip_01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\cloth_rip_01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[cloth_rip_01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\cloth_rip_01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[fcc_sniper_mask_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\fcc_sniper_mask_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[fcc_sniper_mask_01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\fcc_sniper_mask_01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[fcc_sniper_mask_01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\fcc_sniper_mask_01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[fcc_sniper_mask_01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\fcc_sniper_mask_01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[fcc_sniper_pants_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\fcc_sniper_pants_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[fcc_sniper_pants_01_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\fcc_sniper_pants_01_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[fcc_sniper_pants_01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\fcc_sniper_pants_01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[fcc_sniper_pants_01_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\army\fcc_sniper_pants_01_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_boots01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\factions\army\_share\army_shar_boots01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_hand01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\factions\army\_share\army_shar_hand01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[army_shar_hand02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\factions\army\_share\army_shar_hand02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femarms01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femarms01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femarms02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femarms02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femhead_01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femhead_02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femhead_03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malearms01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malearms02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malearms03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead04.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead04.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead06.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead06.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead07.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead07.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malelhead01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malelhead01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malelhead05.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malelhead05.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_maleshoes01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_maleshoes01.xbg]]></Target>
+		</Pair>
+	</Pairs>
+</Info>

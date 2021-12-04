@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>Alternate Golden Path Uniforms
+
+	Changes the outfits used by the Golden Path.
+
+	Changes made by this mod:
+	[list]
+	[*] The Golden Path's uniforms are darker. 
+	[/list]
+
+	Concept:
+	[img]gp-concept.jpg[/img]
+	[b]Disclaimer[/b]: the rebels in game are not equipped with P416s and Z93 sniper rifles. This mod does not change the rebels' weapons.
+
+	In-game look:
+	[img]gp-ingame1.png[/img]
+
+	Other Information: 
+	[list]
+	[*] This mod is co-op friendly. However, the other player will not see the altered colours unless they too have this mod installed.
+	[/list]
+
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://forums.ubisoft.com/member.php/1705641-vinh1998?s=82dc3755797fbdc651f8e0f1b7917617][b]vinh1998[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
+	</Description>
+
+	<OnlyOne>golden_path_outfits</OnlyOne>
+
+	<Category>8</Category>
+
+	<Pairs>
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rebe_fass_maleshirt_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_fass_maleshirt_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rebe_fass_maleshirt_01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_fass_maleshirt_01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rebe_shar_femalepants_01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_femalepants_01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rebe_shar_jacket_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_jacket_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rebe_shar_jacket_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_jacket_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rebe_shar_shirtcollared01_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_shirtcollared01_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rebe_shar_shirtcollared01_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\rebels\rebe_shar_shirtcollared01_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femarms01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femarms01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femarms02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femarms02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femhead_01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femhead_02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femhead_03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malearms01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malearms02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malearms03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead04.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead04.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead06.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead06.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead07.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead07.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malelhead01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malelhead01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malelhead05.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malelhead05.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_maleshoes01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_maleshoes01.xbg]]></Target>
+		</Pair>
+	</Pairs>
+</Info>

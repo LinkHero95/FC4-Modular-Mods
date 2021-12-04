@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Info>
+	<DefaultInclude>false</DefaultInclude>
+
+	<Description>Alternate Royal Guard Uniforms
+	
+	Changes the outfits used by the Royal Guard.
+
+	Changes made by this mod:
+	[list]
+	[*] The Royal Guard now have black "special ops" uniforms. 
+	[/list]
+
+	Concept:
+	[img]rg-concept.jpg[/img]
+
+	In-game look:
+	[img]rg-all.jpg[/img]
+	The Royal Guard commanders/lieutenants look very similar to their regular counterparts. They can be differentiated by the addition of 2 gold stars somewhere on their uniforms. and a gold band around their left arm.
+	[img]rg-commander-01.jpg[/img]
+	[img]rg-commander-02.jpg[/img]
+
+	Other Information: 
+	[list]
+	[*] This mod is co-op friendly. However, the other player will not see the altered colours unless they too have this mod installed.
+	[/list]
+
+	Credits: 
+	[list]
+	[*] [size=1][color=lightgreen]Author: [/color][url=https://forums.ubisoft.com/member.php/1705641-vinh1998?s=82dc3755797fbdc651f8e0f1b7917617][b]vinh1998[/b][/url][/size]
+	[*] [size=1][color=lightgreen]Ported to the MI format by: [/color][url=https://www.nexusmods.com/users/32262030][b]LinkHero95[/b][/url][/size]
+	[/list]
+	</Description>
+
+	<Category>8</Category>
+
+	<Pairs>
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_headgear_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_headgear_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_headgear_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_headgear_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_headgear_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_headgear_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_headgear_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_headgear_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_heavy_headgear_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_heavy_headgear_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_heavy_headgear_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_heavy_headgear_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_heavy_torso_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_heavy_torso_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_heavy_torso_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_heavy_torso_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_heav_pants_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_heav_pants_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_heav_pants_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_heav_pants_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_heav_pants_flamer_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_heav_pants_flamer_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_heav_pants_flamer_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_heav_pants_flamer_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_hunt_gears_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_hunt_gears_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_hunt_gears_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_hunt_gears_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_pants_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_pants_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_pants_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_pants_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_pants_m.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_pants_m.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_pants_m_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_pants_m_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_rocket_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_rocket_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_rocket_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_rocket_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_torso_d.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_torso_d.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_torso_d_mip0.xbt]]></Source>
+			<Target><![CDATA[graphics\_common\_textures\characters\factions\royal_guards\rogu_torso_d_mip0.xbt]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[rogu_shar_gloves01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\factions\royalguard\_share\rogu_shar_gloves01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femarms01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femarms01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femarms02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femarms02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femhead_01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femhead_02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_femhead_03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_femhead_03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malearms01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malearms02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malearms03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malearms03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead02.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead02.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead03.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead03.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead04.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead04.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead06.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead06.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malehead07.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malehead07.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malelhead01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malelhead01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_malelhead05.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_malelhead05.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[npc_shar_maleshoes01.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\characters\npc_sharing\npc_shar_maleshoes01.xbg]]></Target>
+		</Pair>
+
+		<Pair>
+			<Overwrite>true</Overwrite>
+			<Source><![CDATA[heavygunner_mask.xbg]]></Source>
+			<Target><![CDATA[graphics\_common\props\equipment\heavygunner_visiere\heavygunner_mask.xbg]]></Target>
+		</Pair>
+	</Pairs>
+</Info>
